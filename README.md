@@ -5,8 +5,8 @@ Welcome to the **Hello World** project! This fun initiative is all about collect
 
 ## 🚀 GitHub Release Notes: New Languages Added
 
-**Version:** 1.0.0  
-**Release Date:** September 17, 2024
+**Version:** 2
+**For a list of changes, please refer to the [CHANGELOG.md](CHANGELOG.md).**
 
 ---
 
@@ -26,6 +26,7 @@ We've added support for the following programming languages:
 | **C--**           | Simplified version of C with fewer features.                 |
 | **Erlang**        | Functional language for distributed systems.                  |
 | **Elixir**        | Functional language for web applications and distributed systems. |
+| **F#**            | Functional-first language on the .NET platform, suitable for a variety of applications. |
 | **Go**            | Statically typed language for web servers and network applications. |
 | **Haskell**       | Pure functional language for research and specialized domains. |
 | **HTML**          | Markup language for creating web pages.                      |
