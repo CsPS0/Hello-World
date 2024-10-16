@@ -5,7 +5,7 @@ Welcome to the **Hello World** project! This fun initiative is all about collect
 
 ## 🚀 GitHub Release Notes: New Languages Added
 
-**[CHANGELOG](CHANGELOG.md).**
+**[CHANGELOG](CHANGELOG.md)**
 
 ---
 
