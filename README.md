@@ -5,16 +5,11 @@ Welcome to the **Hello World** project! This fun initiative is all about collect
 
 ## 🚀 GitHub Release Notes: New Languages Added
 
-**Version:** 2
-**For a list of changes, please refer to the [CHANGELOG.md](CHANGELOG.md).**
+**[CHANGELOG](CHANGELOG.md).**
 
 ---
 
-## 🌟 Highlights
-
-We are excited to announce the release of version **1.0.0**, featuring expanded language support and enhanced features to improve your development experience!
-
-## 🆕 New Languages Added
+## 🆕 Languages
 
 We've added support for the following programming languages:
 
