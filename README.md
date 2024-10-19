@@ -1,14 +1,6 @@
 # Hello World Project
 Welcome to the **Hello World** project! This fun initiative is all about collecting "Hello, World!" examples from various programming languages.
 
----
-
-## 🚀 GitHub Release Notes: New Languages Added
-
-**[CHANGELOG](CHANGELOG.md)**
-
----
-
 ## 🆕 Languages
 
 We've added support for the following programming languages:
