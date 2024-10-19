@@ -29,6 +29,9 @@ We've added support for the following programming languages:
 | **Ruby**          | Dynamic language for web development and scripting.           |
 | **Rust**          | Systems programming language known for safety and performance. |
 | **Swift**         | High-performance language for iOS, macOS, watchOS, and tvOS development. |
+| **Pascal**        | High-level procedural programming language, known for teaching programming concepts. |
+| **Brainfuck**     | Minimalistic esoteric programming language, known for its extreme simplicity. |
+| **WhiteSpace**    | An esoteric programming language that uses only whitespace characters. |
 
 ## ✨ Additional Features
 

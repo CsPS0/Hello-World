@@ -396,3 +396,40 @@ FodyWeavers.xsd
 
 # JetBrains Rider
 *.sln.iml
+
+# Ignore local files
+*.log                 # Log files
+*.tmp                 # Temporary files
+*.bak                 # Backup files
+*.swp                 # Swap files
+*.DS_Store            # macOS metadata files (if working cross-platform)
+Thumbs.db             # Windows thumbnail cache files
+Desktop.ini           # Windows desktop configuration files
+
+# Ignore configuration files
+config/local.json     # Local configuration files
+*.env                 # Environment variable files
+
+# Ignore personal scripts or files
+personal_script.sh    # Your personal scripts
+secret.txt            # Personal notes or secrets
+*.pem                 # SSL certificates or private keys
+
+# Ignore any file containing specific IP addresses
+*.local               # Files ending with .local
+my_config_192.168.1.* # Files related to specific IPs
+localhost.*           # Localhost specific files
+
+# Ignore directories
+node_modules/         # Node.js modules
+dist/                 # Build output
+out/                  # Another build output directory
+
+# Ignore Visual Studio specific files
+.vs/                  # Visual Studio workspace settings
+*.suo                 # Solution User Options
+*.user                # User-specific project settings
+
+# Ignore build artifacts
+*.exe                 # Executable files
+*.dll                 # Dynamic link library files
