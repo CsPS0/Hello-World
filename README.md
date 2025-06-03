@@ -3,7 +3,7 @@
 <div align="center">
   
 ![GitHub contributors](https://img.shields.io/badge/contributors-welcome-brightgreen)
-![Languages](https://img.shields.io/badge/languages-27-blue)
+![Languages](https://img.shields.io/badge/languages-29-blue)
 ![License](https://img.shields.io/badge/license-MIT-green)
 
 **A collection of "Hello, World!" examples from various programming languages**
@@ -16,7 +16,7 @@ The **Hello World Project** is a comprehensive collection of "Hello, World!" imp
 
 ## 🚀 Features
 
-- **Diverse Language Support**: 27 programming languages from low-level Assembly to modern Swift
+- **Diverse Language Support**: 29 programming languages from low-level Assembly to esoteric languages
 - **Well-Organized Examples**: Each example follows consistent formatting and best practices
 - **Educational Resource**: Perfect for learners exploring programming language syntax
 - **Continuously Growing**: New languages are regularly added to the collection
@@ -105,6 +105,11 @@ The **Hello World Project** is a comprehensive collection of "Hello, World!" imp
     <td><a href="/hello-word/hello.kt">hello.kt</a></td>
   </tr>
   <tr>
+    <td>LOLCODE</td>
+    <td>Humorous esoteric programming language</td>
+    <td><a href="/hello-word/hello.lol">hello.lol</a></td>
+  </tr>
+  <tr>
     <td>Haskell</td>
     <td>Pure functional language for research</td>
     <td><a href="/hello-word/hello.lhs">hello.lhs</a></td>
@@ -153,6 +158,11 @@ The **Hello World Project** is a comprehensive collection of "Hello, World!" imp
     <td>Rust</td>
     <td>Safe, high-performance systems language</td>
     <td><a href="/hello-word/hello.rs">hello.rs</a></td>
+  </tr>
+  <tr>
+    <td>Shakespeare</td>
+    <td>Programming language written in the style of Shakespeare plays</td>
+    <td><a href="/hello-word/hello.spl">hello.spl</a></td>
   </tr>
   <tr>
     <td>Swift</td>
