@@ -1,3 +1,3 @@
 //This is Holy C, or known as TempleOS.
 
-Print("Hello World!\n");
+Print("Hello, World!\n");

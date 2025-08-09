@@ -2,4 +2,4 @@
 -export([world/0]).
 
 world() ->
-    io:format("Hello World!~n").
+    io:format("Hello, World!~n").

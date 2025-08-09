@@ -1,0 +1,3 @@
+PUBLIC Sub Main()
+  Print "Hello, World!"
+End

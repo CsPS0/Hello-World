@@ -3,7 +3,7 @@
 <div align="center">
   
 ![GitHub contributors](https://img.shields.io/badge/contributors-welcome-brightgreen)
-![Languages](https://img.shields.io/badge/languages-29-blue)
+![Languages](https://img.shields.io/badge/languages-141+-blue)
 ![License](https://img.shields.io/badge/license-MIT-green)
 
 **A collection of "Hello, World!" examples from various programming languages**
@@ -16,7 +16,7 @@ The **Hello World Project** is a comprehensive collection of "Hello, World!" imp
 
 ## 🚀 Features
 
-- **Diverse Language Support**: 29 programming languages from low-level Assembly to esoteric languages
+- **Diverse Language Support**: Over 140 programming languages from low-level Assembly to esoteric languages
 - **Well-Organized Examples**: Each example follows consistent formatting and best practices
 - **Educational Resource**: Perfect for learners exploring programming language syntax
 - **Continuously Growing**: New languages are regularly added to the collection
@@ -175,6 +175,8 @@ The **Hello World Project** is a comprehensive collection of "Hello, World!" imp
     <td><a href="/hello-word/hello.ws">hello.ws</a></td>
   </tr>
 </table>
+
+**Note**: This table lists a subset of the supported languages. For a complete and up-to-date list, please refer to the `hello-word` directory.
 
 ## 📁 Project Structure
 
