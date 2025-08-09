@@ -1,3 +1,4 @@
+// Hack
 <?hh
 
-echo "Hello, World!\n";
+console.log("Hello, World!\n");

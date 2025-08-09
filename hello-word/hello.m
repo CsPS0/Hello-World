@@ -1,4 +1,4 @@
-//This is Objective-C
+// Objective-C
 
 #import <stdio.h>
 

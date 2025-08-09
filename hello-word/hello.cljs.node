@@ -1,1 +1,2 @@
+; ClojureScript (Node)
 (println "Hello, World!")

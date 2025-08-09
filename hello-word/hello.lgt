@@ -1,3 +1,4 @@
+% Logtalk
 :- object(hello_world).
 
     :- public(message/0).

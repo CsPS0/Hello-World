@@ -1,3 +1,4 @@
+// CIL
 .assembly extern mscorlib {}
 .assembly hello {}
 .method static void Main() cil managed

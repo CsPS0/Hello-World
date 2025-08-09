@@ -1,3 +1,4 @@
+-- Eiffel
 class
     HELLO_WORLD
 feature

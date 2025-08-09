@@ -1,3 +1,4 @@
+% Erlang (Script)
 #!/usr/bin/env escript
 %%
 %% Erlang script

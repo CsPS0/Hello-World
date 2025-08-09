@@ -1,3 +1,4 @@
+-- Ada
 with Ada.Text_IO;
 
 procedure Hello is

@@ -1,3 +1,4 @@
+; Assembly
 section .data
     hello db 'Hello, World!', 0x0A ; The string to print followed by a newline
 

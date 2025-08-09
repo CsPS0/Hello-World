@@ -1,3 +1,4 @@
+@ Assembly (ARM)
 .global _start
 
 .text

@@ -1,3 +1,4 @@
+% Erlang
 -module(hello).
 -export([world/0]).
 

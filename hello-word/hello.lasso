@@ -1,1 +1,2 @@
+// Lasso
 [stdout: 'Hello, World!']
