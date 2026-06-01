@@ -2,23 +2,26 @@ node_modules/
 
 dist/
 out/
+__pycache__/
+*.pyc
 
 *.log
 *.tmp
 *.bak
 *.swp
+*~
 
-.DS_Store      # macOS
-Thumbs.db      # Windows
-Desktop.ini    # Windows
+.DS_Store
+Thumbs.db
+Desktop.ini
 
 .vscode/
+.idea/
 *.code-workspace
+*.vs/
 
 .env
 .env.local
+.env.*.local
 
-*.bak
-*.txt
-
-*.vs
+.gemini/

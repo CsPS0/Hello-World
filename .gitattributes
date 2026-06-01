@@ -1,2 +1,9 @@
-# Auto detect text files and perform LF normalization
-* text=auto
+* text=auto eol=lf
+
+*.html linguist-documentation
+*.css linguist-documentation
+*.js linguist-documentation
+*.json linguist-documentation
+*.py linguist-documentation
+
+docs/hello-world/** linguist-vendored

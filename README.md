@@ -1,67 +1,97 @@
-# 🌎 Hello World Project
+# Hello World Project
 
 <div align="center">
 
-[![Visit Website](https://img.shields.io/badge/View_Interactive_Site-4F46E5?style=for-the-badge&logo=html5&logoColor=white)](https://csps0.github.io/Hello-World/) [![GitHub License](https://img.shields.io/badge/license-MIT-green?style=for-the-badge)](LICENSE) [![Languages](https://img.shields.io/badge/languages-140+-blue?style=for-the-badge)](docs/languages.json) [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen?style=for-the-badge)](http://makeapullrequest.com)
+[![View Interactive Site](https://img.shields.io/badge/View_Interactive_Site-4F46E5?style=for-the-badge&logo=html5&logoColor=white)](https://csps0.github.io/Hello-World/)
+[![MIT License](https://img.shields.io/badge/license-MIT-green?style=for-the-badge)](LICENSE)
+[![Languages](https://img.shields.io/badge/languages-142-blue?style=for-the-badge)](docs/languages.json)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen?style=for-the-badge)](CONTRIBUTING.md)
 
-**The ultimate collection of "Hello, World!" programs in 140+ languages.**
-<br>
-*Reference · Education · Preservation*
+**A comprehensive collection of "Hello, World!" programs in 142 programming languages.**
 
-[**Explore the Interactive Docs »**](https://solti-aks20xi.github.io/Hello-World/)
+[View the Interactive Documentation](https://csps0.github.io/Hello-World/)
 
 </div>
 
 ---
 
-## 📖 Overview
+## Overview
 
-The **Hello World Project** serves as a Rosetta Stone for programming languages. It compiles the universal first program—"Hello, World!"—across every conceivable language, from industry standards like **Python** and **Java** to esoteric wonders like **Brainfuck** and **Shakespeare**.
+The Hello World Project compiles the universal first program — `Hello, World!` — across 142 languages. It spans industry standards such as Python and Java, systems languages like Rust and C, and esoteric languages including Brainfuck and Shakespeare.
 
-Whether you're a seasoned developer comparing syntax or a student taking your first steps, this collection provides a consistent, standardized reference.
+The project serves three purposes: **reference** for developers comparing syntax across languages, **education** for students encountering new paradigms, and **preservation** of lesser-known programming languages.
 
-## 🚀 Features
+## Features
 
--   **📚 Comprehensive Library:** Over 140 languages represented, covering procedural, object-oriented, functional, and logic paradigms.
--   **✨ Interactive Website:** Browse, search, and copy code snippets instantly via our [new documentation site](https://solti-aks20xi.github.io/Hello-World/).
--   **🔍 Standardized Format:** consistent indentation and style for every file.
--   **🌱 Open Source:** Community-driven and continuously expanding.
+| Feature | Description |
+| :--- | :--- |
+| **Comprehensive Library** | 142 languages across procedural, OOP, functional, logic, scripting, esoteric, hardware, and markup paradigms. |
+| **Interactive Website** | Browse, search, filter by paradigm, and copy code snippets via the [documentation site](https://csps0.github.io/Hello-World/). |
+| **Fuzzy Search** | Instant language lookup powered by Fuse.js. |
+| **Paradigm Filtering** | Filter by tag: procedural, OOP, functional, scripting, esoteric, hardware, logic, markup. |
+| **Comparison View** | Select up to 3 languages and view their implementations side-by-side. |
+| **Dark and Light Mode** | Automatic theme detection with manual toggle. Persists across sessions. |
+| **Deep Linking** | Share direct links to any language via URL hash (e.g., `#python`). |
+| **CI/CD Pipeline** | Automated validation and deployment via GitHub Actions. |
 
-## 📂 Project Structure
-
-This repository is organized to be simple and navigable:
+## Project Structure
 
 ```text
-E:\REPOS\CSPS\Hello-World\
-├── docs/           # Source for the GitHub Pages website
-├── hello-word/     # Raw source code files for all languages
-├── LICENSE         # MIT License
-└── README.md       # This file
+Hello-World/
+├── docs/
+│   ├── hello-world/     Source code files for all 142 languages
+│   ├── index.html       Website entry point
+│   ├── style.css        Styles and theme system
+│   ├── app.js           Application logic
+│   ├── languages.json   Language manifest (auto-generated)
+│   └── build.py         Build script to regenerate the manifest
+├── .github/
+│   └── workflows/
+│       └── deploy.yml   CI/CD: validation and GitHub Pages deployment
+├── CONTRIBUTING.md      Contribution guidelines
+├── LICENSE              MIT License
+└── README.md
 ```
 
-## ⚡ Quick Links
+## Quick Reference
 
 | Language | File | Description |
 | :--- | :--- | :--- |
-| **Python** | [`hello.py`](docs/hello-word/hello.py) | High-level, readable, popular. |
-| **JavaScript** | [`hello.js`](docs/hello-word/hello.js) | The language of the web. |
-| **Rust** | [`hello.rs`](docs/hello-word/hello.rs) | Safe systems programming. |
-| **Go** | [`hello.go`](docs/hello-word/hello.go) | Simple, efficient concurrency. |
-| **C++** | [`hello.cpp`](docs/hello-word/hello.cpp) | High-performance compiled language. |
+| Python | [`hello.py`](docs/hello-world/hello.py) | High-level, general-purpose language. |
+| JavaScript | [`hello.js`](docs/hello-world/hello.js) | Primary language of the web platform. |
+| Rust | [`hello.rs`](docs/hello-world/hello.rs) | Memory-safe systems programming. |
+| Go | [`hello.go`](docs/hello-world/hello.go) | Statically typed with built-in concurrency. |
+| C++ | [`hello.cpp`](docs/hello-world/hello.cpp) | High-performance compiled language. |
+| Haskell | [`hello.hs`](docs/hello-world/hello.hs) | Purely functional programming. |
+| Java | [`hello.java`](docs/hello-world/hello.java) | Platform-independent OOP language. |
+| C | [`hello.c`](docs/hello-world/hello.c) | Foundation of systems programming. |
 
-> _**Note:** For the full list of supported languages, please visit the [Interactive Site](https://solti-aks20xi.github.io/Hello-World/) or browse the [`hello-word/`](docs/hello-word/) directory._
+For the full list, visit the [interactive site](https://csps0.github.io/Hello-World/) or browse the [`hello-world/`](docs/hello-world/) directory.
 
-## 🤝 Contributing
+## Build
 
-We love contributions! Have we missed your favorite language?
+Regenerate `languages.json` from the source files:
 
-1.  **Fork** the repository.
-2.  **Create** a branch: `git checkout -b feature/add-new-lang`.
-3.  **Add** your file to `hello-word/` (e.g., `hello.xyz`).
-4.  **Commit** your changes: `git commit -m 'Add Hello World in XYZ'`.
-5.  **Push** to the branch: `git push origin feature/add-new-lang`.
-6.  **Open** a Pull Request.
+```bash
+cd docs
+python build.py
+```
 
-## 📜 License
+The script scans `hello-world/`, maps file extensions to language metadata via internal dictionaries, and writes the manifest with paradigm tags.
 
-Distributed under the MIT License. See [`LICENSE`](LICENSE) for more information.
+## Contributing
+
+Contributions are welcome. See [CONTRIBUTING.md](CONTRIBUTING.md) for file naming conventions, paradigm tag definitions, and the pull request process.
+
+**Summary:**
+
+1. Fork the repository.
+2. Create a feature branch: `git checkout -b feature/add-language-name`.
+3. Add the source file to `docs/hello-world/`.
+4. Update the extension mapping in `docs/build.py`.
+5. Run `python docs/build.py` to regenerate the manifest.
+6. Commit, push, and open a pull request.
+
+## License
+
+Distributed under the MIT License. See [`LICENSE`](LICENSE) for the full text.

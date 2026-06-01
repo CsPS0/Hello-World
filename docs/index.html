@@ -1,60 +1,127 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="dark">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hello World Collection</title>
-    
-    <!-- Fonts -->
+    <title>Hello World Collection — Programs in 142+ Languages</title>
+    <meta name="description" content="Explore Hello World programs written in over 142 programming languages. Browse, search, compare, and copy source code instantly.">
+    <meta name="theme-color" content="#121212">
+    <meta property="og:title" content="Hello World Collection">
+    <meta property="og:description" content="Hello World programs in 142+ programming languages. Browse, search, compare, and copy code.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://csps0.github.io/Hello-World/">
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🌎</text></svg>">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
-    
-    <!-- Prism CSS (Tomorrow Night) -->
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism-tomorrow.min.css" rel="stylesheet" />
-    
-    <!-- Custom CSS -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism-tomorrow.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/devicon.min.css" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-    <header>
+    <header id="site-header">
         <div class="container">
-            <h1>Hello, World!</h1>
-            <p>A collection of simple programs in <span id="lang-count">140+</span> languages.</p>
-            
-            <div class="search-container">
-                <input type="text" id="search-input" placeholder="Search languages (e.g. Python, Rust, esoteric)...">
-                <div class="search-icon">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
+            <div class="header-top">
+                <div class="header-actions">
+                    <button id="theme-toggle" class="btn-icon" aria-label="Toggle theme">
+                        <svg id="icon-sun" class="theme-icon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"></circle><line x1="12" y1="1" x2="12" y2="3"></line><line x1="12" y1="21" x2="12" y2="23"></line><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line><line x1="1" y1="12" x2="3" y2="12"></line><line x1="21" y1="12" x2="23" y2="12"></line><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line></svg>
+                        <svg id="icon-moon" class="theme-icon hidden" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg>
+                    </button>
+                    <div id="github-stats" class="github-stats"></div>
                 </div>
+            </div>
+            <h1 class="hero-title">Hello, World!</h1>
+            <p class="hero-subtitle">A collection of simple programs in <span id="lang-count">142+</span> languages.</p>
+            <div class="header-controls">
+                <div class="search-container">
+                    <div class="search-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
+                    </div>
+                    <input type="text" id="search-input" placeholder="Search languages, tags, descriptions..." aria-label="Search languages">
+                </div>
+                <button id="compare-toggle" class="btn-compare" aria-label="Toggle compare mode">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="7" height="7"></rect><rect x="14" y="3" width="7" height="7"></rect><rect x="3" y="14" width="7" height="7"></rect><rect x="14" y="14" width="7" height="7"></rect></svg>
+                    <span>Compare</span>
+                </button>
+            </div>
+            <div id="filter-bar" class="filter-bar" role="tablist" aria-label="Filter by paradigm">
+                <button class="filter-chip active" data-tag="all" role="tab" aria-selected="true" tabindex="0">All</button>
+                <button class="filter-chip" data-tag="procedural" role="tab" aria-selected="false" tabindex="0">Procedural</button>
+                <button class="filter-chip" data-tag="oop" role="tab" aria-selected="false" tabindex="0">OOP</button>
+                <button class="filter-chip" data-tag="functional" role="tab" aria-selected="false" tabindex="0">Functional</button>
+                <button class="filter-chip" data-tag="scripting" role="tab" aria-selected="false" tabindex="0">Scripting</button>
+                <button class="filter-chip" data-tag="esoteric" role="tab" aria-selected="false" tabindex="0">Esoteric</button>
+                <button class="filter-chip" data-tag="hardware" role="tab" aria-selected="false" tabindex="0">Hardware</button>
+                <button class="filter-chip" data-tag="logic" role="tab" aria-selected="false" tabindex="0">Logic</button>
+                <button class="filter-chip" data-tag="markup" role="tab" aria-selected="false" tabindex="0">Markup</button>
             </div>
         </div>
     </header>
 
-    <main class="container">
-        <div id="languages-grid" class="grid">
-            <!-- Cards injected here -->
+    <section id="stats-bar" class="stats-bar">
+        <div class="container">
+            <button id="stats-toggle" class="stats-toggle" aria-expanded="false" aria-controls="stats-content">
+                <span>Statistics</span>
+                <svg class="stats-chevron" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg>
+            </button>
+            <div id="stats-content" class="stats-content">
+                <div id="stats-badges" class="stats-badges"></div>
+            </div>
         </div>
-        <div id="no-results" class="hidden">No languages found matching your search.</div>
+    </section>
+
+    <main class="container">
+        <div id="skeleton-loader" class="grid skeleton-grid">
+            <div class="skeleton-card"><div class="skeleton-line skeleton-title"></div><div class="skeleton-line skeleton-text"></div><div class="skeleton-line skeleton-text short"></div></div>
+            <div class="skeleton-card"><div class="skeleton-line skeleton-title"></div><div class="skeleton-line skeleton-text"></div><div class="skeleton-line skeleton-text short"></div></div>
+            <div class="skeleton-card"><div class="skeleton-line skeleton-title"></div><div class="skeleton-line skeleton-text"></div><div class="skeleton-line skeleton-text short"></div></div>
+            <div class="skeleton-card"><div class="skeleton-line skeleton-title"></div><div class="skeleton-line skeleton-text"></div><div class="skeleton-line skeleton-text short"></div></div>
+            <div class="skeleton-card"><div class="skeleton-line skeleton-title"></div><div class="skeleton-line skeleton-text"></div><div class="skeleton-line skeleton-text short"></div></div>
+            <div class="skeleton-card"><div class="skeleton-line skeleton-title"></div><div class="skeleton-line skeleton-text"></div><div class="skeleton-line skeleton-text short"></div></div>
+            <div class="skeleton-card"><div class="skeleton-line skeleton-title"></div><div class="skeleton-line skeleton-text"></div><div class="skeleton-line skeleton-text short"></div></div>
+            <div class="skeleton-card"><div class="skeleton-line skeleton-title"></div><div class="skeleton-line skeleton-text"></div><div class="skeleton-line skeleton-text short"></div></div>
+        </div>
+        <div id="languages-grid" class="grid"></div>
+        <div id="no-results" class="no-results hidden">
+            <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line><line x1="8" y1="11" x2="14" y2="11"></line></svg>
+            <p>No languages found matching your search.</p>
+        </div>
     </main>
 
-    <footer class="container">
-        <p>Built for the Hello World Project. <a href="https://github.com/CsPS0/Hello-World" target="_blank">View on GitHub</a></p>
-    </footer>
+    <div id="comparison-panel" class="comparison-panel hidden">
+        <div class="comparison-header">
+            <h3>Compare Languages</h3>
+            <div class="comparison-actions">
+                <button id="comparison-clear" class="btn-comparison-clear">Clear All</button>
+                <button id="comparison-close" class="btn-icon" aria-label="Close comparison">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+                </button>
+            </div>
+        </div>
+        <div id="comparison-columns" class="comparison-columns"></div>
+    </div>
 
-    <!-- Code Modal -->
-    <div id="code-modal" class="modal hidden">
+    <div id="code-modal" class="modal hidden" role="dialog" aria-modal="true" aria-labelledby="modal-title">
+        <div class="modal-backdrop"></div>
         <div class="modal-content">
             <div class="modal-header">
                 <h2 id="modal-title">Language</h2>
                 <div class="modal-actions">
-                    <button id="copy-btn" class="btn-icon" data-clipboard-target="#code-block">
-                        <span class="btn-text">Copy</span>
+                    <button id="copy-btn" class="btn-icon" aria-label="Copy code">
                         <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg>
+                        <span class="btn-text">Copy</span>
                     </button>
-                    <button id="close-modal" class="btn-icon">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+                    <button id="view-raw-btn" class="btn-icon" aria-label="View raw file">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
+                        <span class="btn-text">Raw</span>
+                    </button>
+                    <button id="download-btn" class="btn-icon" aria-label="Download file">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg>
+                        <span class="btn-text">Download</span>
+                    </button>
+                    <button id="close-modal" class="btn-icon" aria-label="Close modal">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
                     </button>
                 </div>
             </div>
@@ -64,14 +131,17 @@
         </div>
     </div>
 
-    <!-- Libraries -->
+    <footer>
+        <div class="container">
+            <p>Built for the <strong>Hello World</strong> project. <a href="https://github.com/CsPS0/Hello-World" target="_blank" rel="noopener noreferrer">View on GitHub</a></p>
+        </div>
+    </footer>
+
     <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/plugins/autoloader/prism-autoloader.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/6.6.2/fuse.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.11/clipboard.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js"></script>
-    
-    <!-- App Logic -->
     <script src="app.js"></script>
 </body>
 </html>

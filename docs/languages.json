@@ -1,712 +1,1178 @@
 [
   {
+    "name": "ActionScript",
+    "description": "Object-oriented language for Adobe Flash and AIR",
+    "path": "hello-world/hello.as",
+    "tags": [
+      "oop",
+      "scripting"
+    ]
+  },
+  {
     "name": "Ada",
     "description": "General-purpose, strongly typed language",
-    "path": "hello-word/hello.adb"
+    "path": "hello-world/hello.adb",
+    "tags": [
+      "procedural",
+      "oop"
+    ]
   },
   {
     "name": "Ada (Script)",
     "description": "Ada for scripting purposes",
-    "path": "hello-word/hello.ads"
-  },
-  {
-    "name": "ActionScript",
-    "description": "Object-oriented language for Adobe Flash and AIR",
-    "path": "hello-word/hello.as"
+    "path": "hello-world/hello.ads",
+    "tags": [
+      "procedural",
+      "oop"
+    ]
   },
   {
     "name": "ALGOL 68",
     "description": "High-level imperative programming language",
-    "path": "hello-word/hello.a68"
+    "path": "hello-world/hello.a68",
+    "tags": [
+      "procedural"
+    ]
   },
   {
     "name": "APL",
     "description": "Array-oriented programming language",
-    "path": "hello-word/hello.apl"
+    "path": "hello-world/hello.apl",
+    "tags": [
+      "functional"
+    ]
   },
   {
     "name": "AppleScript",
     "description": "Scripting language for macOS",
-    "path": "hello-word/hello.applescript"
+    "path": "hello-world/hello.applescript",
+    "tags": [
+      "scripting"
+    ]
   },
   {
     "name": "Arc",
     "description": "Lisp dialect for web applications",
-    "path": "hello-word/hello.arc"
+    "path": "hello-world/hello.arc",
+    "tags": [
+      "functional"
+    ]
   },
   {
     "name": "Assembly",
     "description": "Low-level language for direct hardware control",
-    "path": "hello-word/hello.asm"
+    "path": "hello-world/hello.asm",
+    "tags": [
+      "hardware"
+    ]
   },
   {
     "name": "Assembly (ARM)",
     "description": "Low-level language for ARM processors",
-    "path": "hello-word/hello.s"
+    "path": "hello-world/hello.s",
+    "tags": [
+      "hardware"
+    ]
   },
   {
     "name": "Assembly (x64)",
     "description": "Low-level language for x64 processors",
-    "path": "hello-word/hello.asm64"
+    "path": "hello-world/hello.asm64",
+    "tags": [
+      "hardware"
+    ]
   },
   {
     "name": "AutoHotkey",
     "description": "Free, open-source macro-creation and automation software",
-    "path": "hello-word/hello.ahk"
+    "path": "hello-world/hello.ahk",
+    "tags": [
+      "scripting"
+    ]
   },
   {
     "name": "AutoIt",
     "description": "Freeware automation language for Windows GUI",
-    "path": "hello-word/hello.au3"
+    "path": "hello-world/hello.au3",
+    "tags": [
+      "scripting"
+    ]
   },
   {
     "name": "Awk",
     "description": "Text processing language",
-    "path": "hello-word/hello.awk"
+    "path": "hello-world/hello.awk",
+    "tags": [
+      "scripting"
+    ]
   },
   {
     "name": "Ballerina",
     "description": "Cloud-native programming language",
-    "path": "hello-word/hello.bal"
+    "path": "hello-world/hello.bal",
+    "tags": [
+      "procedural",
+      "oop"
+    ]
   },
   {
     "name": "Bash",
     "description": "Unix shell and command language",
-    "path": "hello-word/hello.sh"
+    "path": "hello-world/hello.sh",
+    "tags": [
+      "scripting"
+    ]
   },
   {
     "name": "BASIC",
     "description": "Beginner's All-purpose Symbolic Instruction Code",
-    "path": "hello-word/hello.bas"
+    "path": "hello-world/hello.bas",
+    "tags": [
+      "procedural"
+    ]
   },
   {
     "name": "Batch (Windows)",
     "description": "Scripting language for Windows command prompt",
-    "path": "hello-word/hello.bat"
+    "path": "hello-world/hello.bat",
+    "tags": [
+      "scripting"
+    ]
   },
   {
     "name": "BeanShell",
     "description": "Lightweight Java scripting language",
-    "path": "hello-word/hello.bsh"
+    "path": "hello-world/hello.bsh",
+    "tags": [
+      "scripting",
+      "oop"
+    ]
   },
   {
     "name": "Boo",
     "description": "Object-oriented, statically typed programming language for .NET",
-    "path": "hello-word/hello.boo"
+    "path": "hello-world/hello.boo",
+    "tags": [
+      "oop"
+    ]
   },
   {
     "name": "Brainfuck",
     "description": "Minimalistic esoteric programming language",
-    "path": "hello-word/hello.bf"
+    "path": "hello-world/hello.bf",
+    "tags": [
+      "esoteric"
+    ]
   },
   {
     "name": "C",
     "description": "General-purpose language for systems programming",
-    "path": "hello-word/hello.c"
+    "path": "hello-world/hello.c",
+    "tags": [
+      "procedural"
+    ]
   },
   {
     "name": "C (Script)",
     "description": "C for scripting purposes",
-    "path": "hello-word/hello.csh"
-  },
-  {
-    "name": "C--",
-    "description": "Simplified version of C with fewer features",
-    "path": "hello-word/hello.cm"
+    "path": "hello-world/hello.csh",
+    "tags": [
+      "procedural",
+      "scripting"
+    ]
   },
   {
     "name": "C#",
     "description": "Modern, object-oriented language for .NET",
-    "path": "hello-word/hello.cs"
+    "path": "hello-world/hello.cs",
+    "tags": [
+      "oop"
+    ]
   },
   {
     "name": "C# Script",
     "description": "C# for scripting purposes",
-    "path": "hello-word/hello.csx"
+    "path": "hello-world/hello.csx",
+    "tags": [
+      "oop",
+      "scripting"
+    ]
   },
   {
     "name": "C++",
     "description": "Object-oriented extension of C",
-    "path": "hello-word/hello.cpp"
+    "path": "hello-world/hello.cpp",
+    "tags": [
+      "oop",
+      "procedural"
+    ]
   },
   {
     "name": "C++ (Script)",
     "description": "C++ for scripting purposes",
-    "path": "hello-word/hello.cppsh"
+    "path": "hello-world/hello.cppsh",
+    "tags": [
+      "oop",
+      "scripting"
+    ]
   },
   {
-    "name": "Cach\u00e9 Basic",
-    "description": "BASIC dialect for Cach\u00e9 database",
-    "path": "hello-word/hello.cbas"
+    "name": "C--",
+    "description": "Simplified version of C with fewer features",
+    "path": "hello-world/hello.cm",
+    "tags": [
+      "procedural"
+    ]
   },
   {
-    "name": "Cach\u00e9 MUMPS",
-    "description": "MUMPS dialect for Cach\u00e9 database",
-    "path": "hello-word/hello.cmumps"
+    "name": "Caché Basic",
+    "description": "Hello World in Caché Basic",
+    "path": "hello-world/hello.cbas",
+    "tags": [
+      "procedural"
+    ]
   },
   {
-    "name": "Cach\u00e9 ObjectScript",
-    "description": "Object-oriented language for Cach\u00e9 database",
-    "path": "hello-word/hello.mac"
+    "name": "Caché MUMPS",
+    "description": "Hello World in Caché MUMPS",
+    "path": "hello-world/hello.cmumps",
+    "tags": [
+      "procedural"
+    ]
   },
   {
-    "name": "Cach\u00e9 ObjectScript (Class)",
-    "description": "ObjectScript for Cach\u00e9 classes",
-    "path": "hello-word/hello.cls"
+    "name": "Caché ObjectScript",
+    "description": "Hello World in Caché ObjectScript",
+    "path": "hello-world/hello.mac",
+    "tags": [
+      "oop"
+    ]
+  },
+  {
+    "name": "Caché ObjectScript (Class)",
+    "description": "Hello World in Caché ObjectScript (Class)",
+    "path": "hello-world/hello.cls",
+    "tags": [
+      "oop"
+    ]
   },
   {
     "name": "Ceylon",
-    "description": "Object-oriented language for the JVM and JavaScript platforms",
-    "path": "hello-word/hello.ceylon"
+    "description": "Hello World in Ceylon",
+    "path": "hello-world/hello.ceylon",
+    "tags": [
+      "oop"
+    ]
   },
   {
     "name": "Chapel",
-    "description": "Parallel programming language",
-    "path": "hello-word/hello.chpl"
+    "description": "Hello World in Chapel",
+    "path": "hello-world/hello.chpl",
+    "tags": [
+      "procedural"
+    ]
   },
   {
     "name": "CIL",
-    "description": "Common Intermediate Language",
-    "path": "hello-word/hello.il"
+    "description": "Hello World in CIL",
+    "path": "hello-world/hello.il",
+    "tags": [
+      "hardware"
+    ]
   },
   {
     "name": "Clean",
-    "description": "Purely functional programming language",
-    "path": "hello-word/hello.icl"
+    "description": "Hello World in Clean",
+    "path": "hello-world/hello.icl",
+    "tags": [
+      "functional"
+    ]
   },
   {
     "name": "Clojure",
-    "description": "Dialect of Lisp for JVM",
-    "path": "hello-word/hello.clj"
+    "description": "Hello World in Clojure",
+    "path": "hello-world/hello.clj",
+    "tags": [
+      "functional"
+    ]
   },
   {
     "name": "ClojureScript",
-    "description": "Clojure to JavaScript compiler",
-    "path": "hello-word/hello.cljs"
+    "description": "Hello World in ClojureScript",
+    "path": "hello-world/hello.cljs",
+    "tags": [
+      "functional"
+    ]
   },
   {
     "name": "ClojureScript (Browser)",
-    "description": "ClojureScript for browsers",
-    "path": "hello-word/hello.cljs.browser"
+    "description": "Hello World in ClojureScript (Browser)",
+    "path": "hello-world/hello.cljs.browser",
+    "tags": [
+      "functional"
+    ]
   },
   {
     "name": "ClojureScript (Node)",
-    "description": "ClojureScript for Node.js",
-    "path": "hello-word/hello.cljs.node"
+    "description": "Hello World in ClojureScript (Node)",
+    "path": "hello-world/hello.cljs.node",
+    "tags": [
+      "functional"
+    ]
   },
   {
     "name": "COBOL",
-    "description": "Common Business-Oriented Language",
-    "path": "hello-word/hello.cbl"
+    "description": "Hello World in COBOL",
+    "path": "hello-world/hello.cbl",
+    "tags": [
+      "procedural"
+    ]
   },
   {
     "name": "COBOL (GnuCOBOL)",
-    "description": "COBOL for GnuCOBOL compiler",
-    "path": "hello-word/hello.cob"
+    "description": "Hello World in COBOL (GnuCOBOL)",
+    "path": "hello-world/hello.cob",
+    "tags": [
+      "procedural"
+    ]
+  },
+  {
+    "name": "Cobra",
+    "description": "Hello World in Cobra",
+    "path": "hello-world/hello.cobra",
+    "tags": [
+      "oop"
+    ]
   },
   {
     "name": "CoffeeScript",
-    "description": "Transpiles into JavaScript",
-    "path": "hello-word/hello.coffee"
+    "description": "Hello World in CoffeeScript",
+    "path": "hello-world/hello.coffee",
+    "tags": [
+      "scripting"
+    ]
   },
   {
     "name": "CoffeeScript (Literate)",
-    "description": "Literate programming for CoffeeScript",
-    "path": "hello-word/hello.litcoffee"
+    "description": "Hello World in CoffeeScript (Literate)",
+    "path": "hello-world/hello.litcoffee",
+    "tags": [
+      "scripting"
+    ]
   },
   {
     "name": "ColdFusion Markup",
-    "description": "Scripting language for web development",
-    "path": "hello-word/hello.cfm"
+    "description": "Hello World in ColdFusion Markup",
+    "path": "hello-world/hello.cfm",
+    "tags": [
+      "scripting",
+      "markup"
+    ]
   },
   {
     "name": "ColdFusion Script",
-    "description": "Scripting language for ColdFusion components",
-    "path": "hello-word/hello.cfc"
+    "description": "Hello World in ColdFusion Script",
+    "path": "hello-world/hello.cfc",
+    "tags": [
+      "scripting"
+    ]
   },
   {
     "name": "Common Lisp",
-    "description": "Multi-paradigm, dynamic programming language",
-    "path": "hello-word/hello.lisp"
+    "description": "Hello World in Common Lisp",
+    "path": "hello-world/hello.lisp",
+    "tags": [
+      "functional"
+    ]
   },
   {
     "name": "Common Lisp (CLISP)",
-    "description": "Common Lisp implementation",
-    "path": "hello-word/hello.clisp"
+    "description": "Hello World in Common Lisp (CLISP)",
+    "path": "hello-world/hello.clisp",
+    "tags": [
+      "functional"
+    ]
   },
   {
     "name": "Common Lisp (SBCL)",
-    "description": "SBCL implementation of Common Lisp",
-    "path": "hello-word/hello.sbcl"
+    "description": "Hello World in Common Lisp (SBCL)",
+    "path": "hello-world/hello.sbcl",
+    "tags": [
+      "functional"
+    ]
   },
   {
     "name": "Component Pascal",
-    "description": "Pascal dialect for component-based programming",
-    "path": "hello-word/hello.cp"
+    "description": "Hello World in Component Pascal",
+    "path": "hello-world/hello.cp",
+    "tags": [
+      "procedural",
+      "oop"
+    ]
   },
   {
     "name": "Component Pascal (BlackBox)",
-    "description": "Component Pascal for BlackBox Component Builder",
-    "path": "hello-word/hello.mod"
+    "description": "Hello World in Component Pascal (BlackBox)",
+    "path": "hello-world/hello.mod",
+    "tags": [
+      "procedural",
+      "oop"
+    ]
   },
   {
     "name": "Crystal",
-    "description": "Ruby-like language that compiles to native code",
-    "path": "hello-word/hello.cr"
+    "description": "Hello World in Crystal",
+    "path": "hello-world/hello.cr",
+    "tags": [
+      "oop"
+    ]
   },
   {
     "name": "Curl",
-    "description": "Object-oriented, reflective programming language",
-    "path": "hello-word/hello.curl"
+    "description": "Hello World in Curl",
+    "path": "hello-world/hello.curl",
+    "tags": [
+      "oop"
+    ]
   },
   {
     "name": "Cython",
-    "description": "Optimized Python with C extensions",
-    "path": "hello-word/hello.pyx"
+    "description": "Hello World in Cython",
+    "path": "hello-world/hello.pyx",
+    "tags": [
+      "procedural",
+      "scripting"
+    ]
   },
   {
     "name": "D",
-    "description": "Multi-paradigm system programming language",
-    "path": "hello-word/hello.d"
+    "description": "Hello World in D",
+    "path": "hello-world/hello.d",
+    "tags": [
+      "procedural",
+      "oop"
+    ]
   },
   {
     "name": "Dart",
-    "description": "Client-optimized language for fast apps on any platform",
-    "path": "hello-word/hello.dart"
+    "description": "Hello World in Dart",
+    "path": "hello-world/hello.dart",
+    "tags": [
+      "oop"
+    ]
   },
   {
     "name": "Datalog",
-    "description": "Declarative logic programming language",
-    "path": "hello-word/hello.dl"
+    "description": "Hello World in Datalog",
+    "path": "hello-world/hello.dl",
+    "tags": [
+      "logic"
+    ]
   },
   {
     "name": "Dylan",
-    "description": "Multi-paradigm functional and object-oriented language",
-    "path": "hello-word/hello.dylan"
+    "description": "Hello World in Dylan",
+    "path": "hello-world/hello.dylan",
+    "tags": [
+      "functional",
+      "oop"
+    ]
   },
   {
     "name": "Eiffel",
-    "description": "Object-oriented programming language",
-    "path": "hello-word/hello.e"
+    "description": "Hello World in Eiffel",
+    "path": "hello-world/hello.e",
+    "tags": [
+      "oop"
+    ]
   },
   {
     "name": "Elixir",
-    "description": "Functional language for web and distributed systems",
-    "path": "hello-word/hello.exs"
+    "description": "Hello World in Elixir",
+    "path": "hello-world/hello.exs",
+    "tags": [
+      "functional"
+    ]
   },
   {
     "name": "Elm",
-    "description": "Functional language for building web UIs",
-    "path": "hello-word/hello.elm"
+    "description": "Hello World in Elm",
+    "path": "hello-world/hello.elm",
+    "tags": [
+      "functional"
+    ]
   },
   {
     "name": "Erlang",
-    "description": "Functional language for distributed systems",
-    "path": "hello-word/hello.erl"
+    "description": "Hello World in Erlang",
+    "path": "hello-world/hello.erl",
+    "tags": [
+      "functional"
+    ]
   },
   {
     "name": "Erlang (Script)",
-    "description": "Erlang for scripting purposes",
-    "path": "hello-word/hello.escript"
-  },
-  {
-    "name": "Factor",
-    "description": "Concatenative, stack-based programming language",
-    "path": "hello-word/hello.factor"
-  },
-  {
-    "name": "Forth",
-    "description": "Stack-based, imperative programming language",
-    "path": "hello-word/hello.fth"
-  },
-  {
-    "name": "Fortran",
-    "description": "High-performance language for scientific computing",
-    "path": "hello-word/hello.f90"
-  },
-  {
-    "name": "Fortran (Fixed)",
-    "description": "Fixed-form Fortran",
-    "path": "hello-word/hello.f"
+    "description": "Hello World in Erlang (Script)",
+    "path": "hello-world/hello.escript",
+    "tags": [
+      "functional",
+      "scripting"
+    ]
   },
   {
     "name": "F#",
-    "description": "Functional-first language on the .NET platform",
-    "path": "hello-word/hello.fs"
+    "description": "Hello World in F#",
+    "path": "hello-world/hello.fs",
+    "tags": [
+      "functional"
+    ]
   },
   {
     "name": "F# (Script)",
-    "description": "F# for scripting purposes",
-    "path": "hello-word/hello.fsx"
+    "description": "Hello World in F# (Script)",
+    "path": "hello-world/hello.fsx",
+    "tags": [
+      "functional",
+      "scripting"
+    ]
+  },
+  {
+    "name": "Factor",
+    "description": "Hello World in Factor",
+    "path": "hello-world/hello.factor",
+    "tags": [
+      "functional"
+    ]
+  },
+  {
+    "name": "Forth",
+    "description": "Hello World in Forth",
+    "path": "hello-world/hello.fth",
+    "tags": [
+      "procedural"
+    ]
+  },
+  {
+    "name": "Fortran",
+    "description": "Hello World in Fortran",
+    "path": "hello-world/hello.f90",
+    "tags": [
+      "procedural"
+    ]
+  },
+  {
+    "name": "Fortran (Fixed)",
+    "description": "Hello World in Fortran (Fixed)",
+    "path": "hello-world/hello.f",
+    "tags": [
+      "procedural"
+    ]
   },
   {
     "name": "Gambas",
-    "description": "Object-oriented BASIC interpreter",
-    "path": "hello-word/hello.gambas"
+    "description": "Hello World in Gambas",
+    "path": "hello-world/hello.gambas",
+    "tags": [
+      "oop"
+    ]
   },
   {
     "name": "Genie",
-    "description": "Modern, object-oriented programming language",
-    "path": "hello-word/hello.gs"
+    "description": "Hello World in Genie",
+    "path": "hello-world/hello.gs",
+    "tags": [
+      "oop"
+    ]
   },
   {
     "name": "Go",
-    "description": "Statically typed language for network applications",
-    "path": "hello-word/hello.go"
+    "description": "Hello World in Go",
+    "path": "hello-world/hello.go",
+    "tags": [
+      "procedural"
+    ]
   },
   {
     "name": "Go (Script)",
     "description": "Go for scripting purposes",
-    "path": "hello-word/hello_script.go"
+    "path": "hello-world/hello_script.go",
+    "tags": [
+      "procedural",
+      "scripting"
+    ]
   },
   {
     "name": "Gosu",
-    "description": "JVM language with Ruby-like syntax",
-    "path": "hello-word/hello.gsp"
+    "description": "Hello World in Gosu",
+    "path": "hello-world/hello.gsp",
+    "tags": [
+      "oop"
+    ]
   },
   {
     "name": "Groovy",
-    "description": "Dynamic language for the JVM",
-    "path": "hello-word/hello.groovy"
+    "description": "Hello World in Groovy",
+    "path": "hello-world/hello.groovy",
+    "tags": [
+      "oop",
+      "scripting"
+    ]
   },
   {
     "name": "Hack",
-    "description": "PHP dialect for HHVM",
-    "path": "hello-word/hello.hh"
+    "description": "Hello World in Hack",
+    "path": "hello-world/hello.hh",
+    "tags": [
+      "oop"
+    ]
   },
   {
     "name": "Haskell",
-    "description": "Pure functional programming language",
-    "path": "hello-word/hello.hs"
+    "description": "Hello World in Haskell",
+    "path": "hello-world/hello.hs",
+    "tags": [
+      "functional"
+    ]
   },
   {
     "name": "Haskell (Literate)",
-    "description": "Pure functional language for research (Literate Haskell)",
-    "path": "hello-word/hello.lhs"
+    "description": "Hello World in Haskell (Literate)",
+    "path": "hello-world/hello.lhs",
+    "tags": [
+      "functional"
+    ]
   },
   {
     "name": "Haxe",
-    "description": "Open source high-level programming language",
-    "path": "hello-word/hello.hx"
+    "description": "Hello World in Haxe",
+    "path": "hello-world/hello.hx",
+    "tags": [
+      "oop"
+    ]
   },
   {
     "name": "Holy C",
-    "description": "A dialect of C with additional features",
-    "path": "hello-word/hello.HC"
+    "description": "Hello World in Holy C",
+    "path": "hello-world/hello.HC",
+    "tags": [
+      "procedural",
+      "esoteric"
+    ]
   },
   {
     "name": "HTML",
-    "description": "Markup language for web pages",
-    "path": "hello-word/hello.html"
+    "description": "Hello World in HTML",
+    "path": "hello-world/hello.html",
+    "tags": [
+      "markup"
+    ]
   },
   {
     "name": "Icon",
-    "description": "High-level, general-purpose programming language",
-    "path": "hello-word/hello.icn"
+    "description": "Hello World in Icon",
+    "path": "hello-world/hello.icn",
+    "tags": [
+      "procedural"
+    ]
   },
   {
     "name": "Inform 7",
-    "description": "Programming language for interactive fiction",
-    "path": "hello-word/hello.ni"
+    "description": "Hello World in Inform 7",
+    "path": "hello-world/hello.ni",
+    "tags": [
+      "esoteric"
+    ]
   },
   {
     "name": "Io",
-    "description": "Prototype-based programming language",
-    "path": "hello-word/hello.io"
+    "description": "Hello World in Io",
+    "path": "hello-world/hello.io",
+    "tags": [
+      "oop"
+    ]
   },
   {
     "name": "J",
-    "description": "Array programming language",
-    "path": "hello-word/hello.ijs"
+    "description": "Hello World in J",
+    "path": "hello-world/hello.ijs",
+    "tags": [
+      "functional"
+    ]
   },
   {
     "name": "Java",
-    "description": "General-purpose language for applications and Android",
-    "path": "hello-word/hello.java"
+    "description": "Hello World in Java",
+    "path": "hello-world/hello.java",
+    "tags": [
+      "oop"
+    ]
   },
   {
     "name": "JavaScript",
-    "description": "Language for interactive web pages",
-    "path": "hello-word/hello.js"
+    "description": "Hello World in JavaScript",
+    "path": "hello-world/hello.js",
+    "tags": [
+      "scripting",
+      "oop"
+    ]
   },
   {
     "name": "Julia",
-    "description": "High-level, high-performance language for technical computing",
-    "path": "hello-word/hello.jl"
+    "description": "Hello World in Julia",
+    "path": "hello-world/hello.jl",
+    "tags": [
+      "procedural",
+      "functional"
+    ]
   },
   {
     "name": "K",
-    "description": "Array processing language",
-    "path": "hello-word/hello.k"
+    "description": "Hello World in K",
+    "path": "hello-world/hello.k",
+    "tags": [
+      "functional"
+    ]
   },
   {
     "name": "Kotlin",
-    "description": "Modern JVM language, Android development",
-    "path": "hello-word/hello.kt"
+    "description": "Hello World in Kotlin",
+    "path": "hello-world/hello.kt",
+    "tags": [
+      "oop"
+    ]
   },
   {
     "name": "Kotlin (Script)",
-    "description": "Kotlin for scripting purposes",
-    "path": "hello-word/hello.kts"
+    "description": "Hello World in Kotlin (Script)",
+    "path": "hello-world/hello.kts",
+    "tags": [
+      "oop",
+      "scripting"
+    ]
   },
   {
     "name": "Lasso",
-    "description": "Dynamic, object-oriented scripting language",
-    "path": "hello-word/hello.lasso"
+    "description": "Hello World in Lasso",
+    "path": "hello-world/hello.lasso",
+    "tags": [
+      "scripting",
+      "oop"
+    ]
   },
   {
     "name": "Limbo",
-    "description": "Programming language for Inferno operating system",
-    "path": "hello-word/hello.b"
+    "description": "Hello World in Limbo",
+    "path": "hello-world/hello.b",
+    "tags": [
+      "procedural"
+    ]
   },
   {
     "name": "LiveScript",
-    "description": "Transpiles into JavaScript",
-    "path": "hello-word/hello.ls"
-  },
-  {
-    "name": "Logtalk",
-    "description": "Object-oriented logic programming language",
-    "path": "hello-word/hello.lgt"
-  },
-  {
-    "name": "LOLCODE",
-    "description": "Humorous esoteric programming language",
-    "path": "hello-word/hello.lol"
+    "description": "Hello World in LiveScript",
+    "path": "hello-world/hello.ls",
+    "tags": [
+      "functional",
+      "scripting"
+    ]
   },
   {
     "name": "Logo",
-    "description": "Educational programming language",
-    "path": "hello-word/hello.lgo"
+    "description": "Hello World in Logo",
+    "path": "hello-world/hello.lgo",
+    "tags": [
+      "procedural"
+    ]
+  },
+  {
+    "name": "Logtalk",
+    "description": "Hello World in Logtalk",
+    "path": "hello-world/hello.lgt",
+    "tags": [
+      "logic",
+      "oop"
+    ]
+  },
+  {
+    "name": "LOLCODE",
+    "description": "Hello World in LOLCODE",
+    "path": "hello-world/hello.lol",
+    "tags": [
+      "esoteric"
+    ]
   },
   {
     "name": "Lua",
-    "description": "Lightweight scripting language",
-    "path": "hello-word/hello.lua"
+    "description": "Hello World in Lua",
+    "path": "hello-world/hello.lua",
+    "tags": [
+      "scripting"
+    ]
   },
   {
     "name": "Maple",
-    "description": "Mathematical programming language",
-    "path": "hello-word/hello.mpl"
+    "description": "Hello World in Maple",
+    "path": "hello-world/hello.mpl",
+    "tags": [
+      "procedural"
+    ]
   },
   {
     "name": "MATLAB",
     "description": "Numerical computing environment and programming language",
-    "path": "hello-word/hello_matlab.m"
+    "path": "hello-world/hello_matlab.m",
+    "tags": [
+      "procedural"
+    ]
   },
   {
     "name": "Mercury",
     "description": "Purely declarative logic programming language",
-    "path": "hello-word/hello_mercury.m"
+    "path": "hello-world/hello_mercury.m",
+    "tags": [
+      "logic",
+      "functional"
+    ]
   },
   {
     "name": "Nim",
-    "description": "Statically typed, compiled systems programming language",
-    "path": "hello-word/hello.nim"
+    "description": "Hello World in Nim",
+    "path": "hello-world/hello.nim",
+    "tags": [
+      "procedural"
+    ]
   },
   {
     "name": "Objective-C",
-    "description": "Extension of C for Apple platforms",
-    "path": "hello-word/hello.m"
+    "description": "Hello World in Objective-C",
+    "path": "hello-world/hello.m",
+    "tags": [
+      "oop"
+    ]
   },
   {
     "name": "Objective-C++",
-    "description": "Objective-C with C++ features",
-    "path": "hello-word/hello.mm"
+    "description": "Hello World in Objective-C++",
+    "path": "hello-world/hello.mm",
+    "tags": [
+      "oop"
+    ]
   },
   {
     "name": "OCaml",
-    "description": "Functional, imperative, and object-oriented language",
-    "path": "hello-word/hello.ml"
+    "description": "Hello World in OCaml",
+    "path": "hello-world/hello.ml",
+    "tags": [
+      "functional",
+      "oop"
+    ]
   },
   {
     "name": "Octave",
     "description": "Open-source numerical computation language",
-    "path": "hello-word/hello_octave.m"
+    "path": "hello-world/hello_octave.m",
+    "tags": [
+      "procedural"
+    ]
   },
   {
     "name": "Pascal",
-    "description": "High-level procedural language",
-    "path": "hello-word/hello.pas"
+    "description": "Hello World in Pascal",
+    "path": "hello-world/hello.pas",
+    "tags": [
+      "procedural"
+    ]
   },
   {
     "name": "Perl",
-    "description": "Powerful text processing language",
-    "path": "hello-word/hello.pl"
+    "description": "Hello World in Perl",
+    "path": "hello-world/hello.pl",
+    "tags": [
+      "scripting"
+    ]
   },
   {
     "name": "Perl 5 (Script)",
-    "description": "Perl 5 for scripting purposes",
-    "path": "hello-word/hello.plx"
+    "description": "Hello World in Perl 5 (Script)",
+    "path": "hello-world/hello.plx",
+    "tags": [
+      "scripting"
+    ]
   },
   {
     "name": "PHP",
-    "description": "Scripting language for web development",
-    "path": "hello-word/hello.php"
+    "description": "Hello World in PHP",
+    "path": "hello-world/hello.php",
+    "tags": [
+      "scripting",
+      "oop"
+    ]
   },
   {
     "name": "PHP (Script)",
-    "description": "PHP for scripting purposes",
-    "path": "hello-word/hello.phps"
+    "description": "Hello World in PHP (Script)",
+    "path": "hello-world/hello.phps",
+    "tags": [
+      "scripting"
+    ]
   },
   {
     "name": "PowerShell",
-    "description": "Task automation and configuration management framework",
-    "path": "hello-word/hello.ps1"
+    "description": "Hello World in PowerShell",
+    "path": "hello-world/hello.ps1",
+    "tags": [
+      "scripting"
+    ]
   },
   {
     "name": "Prolog",
-    "description": "Logic programming language",
-    "path": "hello-word/hello.pro"
+    "description": "Hello World in Prolog",
+    "path": "hello-world/hello.pro",
+    "tags": [
+      "logic"
+    ]
   },
   {
     "name": "Python",
-    "description": "High-level language for many domains",
-    "path": "hello-word/hello.py"
+    "description": "Hello World in Python",
+    "path": "hello-world/hello.py",
+    "tags": [
+      "scripting",
+      "oop"
+    ]
   },
   {
     "name": "R",
-    "description": "Statistical computing and graphics",
-    "path": "hello-word/hello.r"
+    "description": "Hello World in R",
+    "path": "hello-world/hello.r",
+    "tags": [
+      "procedural",
+      "functional"
+    ]
   },
   {
     "name": "Racket",
-    "description": "Modern Lisp-family programming language",
-    "path": "hello-word/hello.rkt"
+    "description": "Hello World in Racket",
+    "path": "hello-world/hello.rkt",
+    "tags": [
+      "functional"
+    ]
   },
   {
     "name": "Raku",
-    "description": "Perl 6, a member of the Perl family of languages",
-    "path": "hello-word/hello.p6"
+    "description": "Hello World in Raku",
+    "path": "hello-world/hello.p6",
+    "tags": [
+      "scripting",
+      "functional"
+    ]
   },
   {
     "name": "Rexx",
-    "description": "Interpreted programming language",
-    "path": "hello-word/hello.rexx"
+    "description": "Hello World in Rexx",
+    "path": "hello-world/hello.rexx",
+    "tags": [
+      "procedural",
+      "scripting"
+    ]
   },
   {
     "name": "Ruby",
-    "description": "Dynamic language for web and scripting",
-    "path": "hello-word/hello.rb"
+    "description": "Hello World in Ruby",
+    "path": "hello-world/hello.rb",
+    "tags": [
+      "oop",
+      "scripting"
+    ]
   },
   {
     "name": "Ruby (Script)",
-    "description": "Ruby for scripting purposes",
-    "path": "hello-word/hello.rbw"
+    "description": "Hello World in Ruby (Script)",
+    "path": "hello-world/hello.rbw",
+    "tags": [
+      "oop",
+      "scripting"
+    ]
   },
   {
     "name": "Rust",
-    "description": "Safe, high-performance systems language",
-    "path": "hello-word/hello.rs"
+    "description": "Hello World in Rust",
+    "path": "hello-world/hello.rs",
+    "tags": [
+      "procedural"
+    ]
   },
   {
     "name": "Scala",
-    "description": "Combines functional and object-oriented programming",
-    "path": "hello-word/hello.scala"
+    "description": "Hello World in Scala",
+    "path": "hello-world/hello.scala",
+    "tags": [
+      "functional",
+      "oop"
+    ]
   },
   {
     "name": "Scheme",
-    "description": "Minimalist dialect of Lisp",
-    "path": "hello-word/hello.scm"
+    "description": "Hello World in Scheme",
+    "path": "hello-world/hello.scm",
+    "tags": [
+      "functional"
+    ]
   },
   {
     "name": "Scheme (Script)",
     "description": "Scheme for scripting purposes",
-    "path": "hello-word/hello_script.scm"
+    "path": "hello-world/hello_script.scm",
+    "tags": [
+      "functional",
+      "scripting"
+    ]
   },
   {
     "name": "Shakespeare",
-    "description": "Programming language written in the style of Shakespeare plays",
-    "path": "hello-word/hello.spl"
-  },
-  {
-    "name": "Shell",
-    "description": "Unix shell and command language",
-    "path": "hello-word/hello.sh"
+    "description": "Hello World in Shakespeare",
+    "path": "hello-world/hello.spl",
+    "tags": [
+      "esoteric"
+    ]
   },
   {
     "name": "Smalltalk",
-    "description": "Object-oriented, dynamically typed language",
-    "path": "hello-word/hello.st"
+    "description": "Hello World in Smalltalk",
+    "path": "hello-world/hello.st",
+    "tags": [
+      "oop"
+    ]
   },
   {
     "name": "SQL",
-    "description": "Domain-specific language for managing data",
-    "path": "hello-word/hello.sql"
+    "description": "Hello World in SQL",
+    "path": "hello-world/hello.sql",
+    "tags": [
+      "procedural"
+    ]
   },
   {
     "name": "Swift",
-    "description": "High-performance Apple language",
-    "path": "hello-word/hello.swift"
+    "description": "Hello World in Swift",
+    "path": "hello-world/hello.swift",
+    "tags": [
+      "oop"
+    ]
   },
   {
     "name": "Swift (Script)",
     "description": "Swift for scripting purposes",
-    "path": "hello-word/hello_script.swift"
+    "path": "hello-world/hello_script.swift",
+    "tags": [
+      "oop",
+      "scripting"
+    ]
   },
   {
     "name": "Tcl",
-    "description": "Dynamic programming language",
-    "path": "hello-word/hello.tcl"
+    "description": "Hello World in Tcl",
+    "path": "hello-world/hello.tcl",
+    "tags": [
+      "scripting"
+    ]
   },
   {
     "name": "TypeScript",
-    "description": "Superset of JavaScript that compiles to plain JavaScript",
-    "path": "hello-word/hello.ts"
+    "description": "Hello World in TypeScript",
+    "path": "hello-world/hello.ts",
+    "tags": [
+      "oop",
+      "scripting"
+    ]
   },
   {
     "name": "VBA",
-    "description": "Event-driven programming language for Microsoft Office applications",
-    "path": "hello-word/hello.vba"
+    "description": "Hello World in VBA",
+    "path": "hello-world/hello.vba",
+    "tags": [
+      "procedural",
+      "scripting"
+    ]
   },
   {
     "name": "VBScript",
-    "description": "ActiveX scripting language",
-    "path": "hello-word/hello.vbs"
+    "description": "Hello World in VBScript",
+    "path": "hello-world/hello.vbs",
+    "tags": [
+      "scripting"
+    ]
   },
   {
     "name": "Verilog",
-    "description": "Hardware description language",
-    "path": "hello-word/hello.v"
+    "description": "Hello World in Verilog",
+    "path": "hello-world/hello.v",
+    "tags": [
+      "hardware"
+    ]
   },
   {
     "name": "VHDL",
-    "description": "Hardware description language",
-    "path": "hello-word/hello.vhd"
+    "description": "Hello World in VHDL",
+    "path": "hello-world/hello.vhd",
+    "tags": [
+      "hardware"
+    ]
   },
   {
     "name": "Visual Basic .NET",
-    "description": "Multi-paradigm, object-oriented programming language",
-    "path": "hello-word/hello.vb"
+    "description": "Hello World in Visual Basic .NET",
+    "path": "hello-world/hello.vb",
+    "tags": [
+      "oop"
+    ]
   },
   {
     "name": "WebAssembly Text",
-    "description": "Text format for WebAssembly",
-    "path": "hello-word/hello.wat"
+    "description": "Hello World in WebAssembly Text",
+    "path": "hello-world/hello.wat",
+    "tags": [
+      "hardware"
+    ]
   },
   {
     "name": "Whitespace",
-    "description": "Esoteric language using only whitespace",
-    "path": "hello-word/hello.ws"
+    "description": "Hello World in Whitespace",
+    "path": "hello-world/hello.ws",
+    "tags": [
+      "esoteric"
+    ]
   },
   {
     "name": "Wolfram Language",
-    "description": "Multi-paradigm computational language",
-    "path": "hello-word/hello.wl"
+    "description": "Hello World in Wolfram Language",
+    "path": "hello-world/hello.wl",
+    "tags": [
+      "functional"
+    ]
   },
   {
     "name": "XQuery",
-    "description": "Query language for XML data",
-    "path": "hello-word/hello.xq"
+    "description": "Hello World in XQuery",
+    "path": "hello-world/hello.xq",
+    "tags": [
+      "functional"
+    ]
   },
   {
     "name": "YAML",
-    "description": "Human-friendly data serialization standard",
-    "path": "hello-word/hello.yaml"
+    "description": "Hello World in YAML",
+    "path": "hello-world/hello.yaml",
+    "tags": [
+      "markup"
+    ]
   },
   {
     "name": "Zig",
-    "description": "General-purpose programming language for maintaining robust, optimal, and reusable software",
-    "path": "hello-word/hello.zig"
+    "description": "Hello World in Zig",
+    "path": "hello-world/hello.zig",
+    "tags": [
+      "procedural"
+    ]
   }
 ]

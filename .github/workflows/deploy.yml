@@ -1,0 +1,101 @@
+name: Validate & Deploy
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Validate languages.json format
+        run: python -c "import json; json.load(open('docs/languages.json'))"
+
+      - name: Validate all paths resolve
+        run: |
+          python -c "
+          import json, os, sys
+          data = json.load(open('docs/languages.json'))
+          missing = []
+          for entry in data:
+              full_path = os.path.join('docs', entry['path'])
+              if not os.path.isfile(full_path):
+                  missing.append(f\"  {entry['name']}: {full_path}\")
+          if missing:
+              print('Missing files:')
+              print('\n'.join(missing))
+              sys.exit(1)
+          print(f'All {len(data)} paths verified.')
+          "
+
+      - name: Validate no duplicate entries
+        run: |
+          python -c "
+          import json, sys
+          data = json.load(open('docs/languages.json'))
+          names = [e['name'] for e in data]
+          dupes = [n for n in names if names.count(n) > 1]
+          if dupes:
+              print(f'Duplicate entries: {set(dupes)}')
+              sys.exit(1)
+          print(f'No duplicates among {len(data)} entries.')
+          "
+
+      - name: Validate required fields
+        run: |
+          python -c "
+          import json, sys
+          data = json.load(open('docs/languages.json'))
+          errors = []
+          for i, entry in enumerate(data):
+              for field in ['name', 'description', 'path', 'tags']:
+                  if field not in entry:
+                      errors.append(f'  Entry {i}: missing \"{field}\"')
+              if 'tags' in entry and not isinstance(entry['tags'], list):
+                  errors.append(f'  Entry {i}: tags must be a list')
+          if errors:
+              print('Validation errors:')
+              print('\n'.join(errors))
+              sys.exit(1)
+          print(f'All {len(data)} entries have required fields.')
+          "
+
+  deploy:
+    if: github.ref == 'refs/heads/main' && github.event_name == 'push'
+    needs: validate
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Setup Pages
+        uses: actions/configure-pages@v5
+
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: docs
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
