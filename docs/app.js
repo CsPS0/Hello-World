@@ -34,56 +34,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const filterBar = document.getElementById('filter-bar');
     const githubStats = document.getElementById('github-stats');
 
-    const DEVICON_MAP = {
-        'Python': 'devicon-python-plain',
-        'JavaScript': 'devicon-javascript-plain',
-        'Java': 'devicon-java-plain',
-        'C': 'devicon-c-plain',
-        'C++': 'devicon-cplusplus-plain',
-        'C#': 'devicon-csharp-plain',
-        'Ruby': 'devicon-ruby-plain',
-        'Go': 'devicon-go-plain',
-        'Rust': 'devicon-rust-plain',
-        'TypeScript': 'devicon-typescript-plain',
-        'Swift': 'devicon-swift-plain',
-        'Kotlin': 'devicon-kotlin-plain',
-        'PHP': 'devicon-php-plain',
-        'Perl': 'devicon-perl-plain',
-        'R': 'devicon-r-plain',
-        'Scala': 'devicon-scala-plain',
-        'Dart': 'devicon-dart-plain',
-        'Elixir': 'devicon-elixir-plain',
-        'Haskell': 'devicon-haskell-plain',
-        'Lua': 'devicon-lua-plain',
-        'OCaml': 'devicon-ocaml-plain',
-        'Clojure': 'devicon-clojure-plain',
-        'Erlang': 'devicon-erlang-plain',
-        'Julia': 'devicon-julia-plain',
-        'Fortran': 'devicon-fortran-plain',
-        'HTML': 'devicon-html5-plain',
-        'MATLAB': 'devicon-matlab-plain',
-        'Groovy': 'devicon-groovy-plain',
-        'Bash': 'devicon-bash-plain',
-        'Vim': 'devicon-vim-plain',
-        'CoffeeScript': 'devicon-coffeescript-original',
-        'F#': 'devicon-fsharp-plain',
-        'Crystal': 'devicon-crystal-original',
-        'Elm': 'devicon-elm-plain',
-        'Nim': 'devicon-nimble-original',
-        'Objective-C': 'devicon-objectivec-plain',
-        'Haxe': 'devicon-haxe-plain'
-    };
-
-    const TAG_COLORS = {
-        'procedural': '#3b82f6',
-        'oop': '#8b5cf6',
-        'functional': '#10b981',
-        'scripting': '#f59e0b',
-        'esoteric': '#ef4444',
-        'hardware': '#6366f1',
-        'logic': '#ec4899',
-        'markup': '#14b8a6'
-    };
+    const TAG_NAMES = ['procedural', 'oop', 'functional', 'scripting', 'esoteric', 'hardware', 'logic', 'markup'];
 
     const TAG_MAP = {
         'procedural': ['C', 'Pascal', 'Fortran', 'Fortran (Fixed)', 'COBOL', 'COBOL (GnuCOBOL)', 'BASIC', 'ALGOL 68', 'Ada', 'Ada (Script)', 'D', 'Zig', 'Nim', 'Go', 'Go (Script)', 'Crystal', 'Chapel', 'Forth', 'Assembly', 'Assembly (ARM)', 'Assembly (x64)'],
@@ -257,24 +208,7 @@ document.addEventListener('DOMContentLoaded', () => {
         return map[ext] || 'plaintext';
     }
 
-    function createDefaultIcon() {
-        const svg = document.createElementNS('http://www.w3.org/2000/svg', 'svg');
-        svg.setAttribute('width', '24');
-        svg.setAttribute('height', '24');
-        svg.setAttribute('viewBox', '0 0 24 24');
-        svg.setAttribute('fill', 'none');
-        svg.setAttribute('stroke', 'currentColor');
-        svg.setAttribute('stroke-width', '2');
-        svg.setAttribute('stroke-linecap', 'round');
-        svg.setAttribute('stroke-linejoin', 'round');
-        const polyline1 = document.createElementNS('http://www.w3.org/2000/svg', 'polyline');
-        polyline1.setAttribute('points', '16 18 22 12 16 6');
-        const polyline2 = document.createElementNS('http://www.w3.org/2000/svg', 'polyline');
-        polyline2.setAttribute('points', '8 6 2 12 8 18');
-        svg.appendChild(polyline1);
-        svg.appendChild(polyline2);
-        return svg;
-    }
+
 
     function initTheme() {
         const stored = localStorage.getItem('theme');
@@ -483,28 +417,9 @@ document.addEventListener('DOMContentLoaded', () => {
             checkDiv.appendChild(checkSvg);
             card.appendChild(checkDiv);
 
-            const titleRow = document.createElement('div');
-            titleRow.className = 'card-title-row';
-
-            const iconContainer = document.createElement('div');
-            iconContainer.className = 'card-icon';
-
-            const baseName = lang.name.replace(/\s*\(.*\)$/, '');
-            const deviconClass = DEVICON_MAP[baseName];
-            if (deviconClass) {
-                const iconEl = document.createElement('i');
-                iconEl.className = deviconClass;
-                iconContainer.appendChild(iconEl);
-            } else {
-                iconContainer.appendChild(createDefaultIcon());
-            }
-
             const h3 = document.createElement('h3');
             h3.textContent = lang.name;
-
-            titleRow.appendChild(iconContainer);
-            titleRow.appendChild(h3);
-            card.appendChild(titleRow);
+            card.appendChild(h3);
 
             const desc = document.createElement('p');
             desc.textContent = lang.description;
@@ -559,25 +474,21 @@ document.addEventListener('DOMContentLoaded', () => {
         totalCount.className = 'stat-count';
         totalCount.textContent = languages.length;
         const totalLabel = document.createElement('span');
-        totalLabel.textContent = 'Total';
+        totalLabel.textContent = 'total';
         totalBadge.appendChild(totalCount);
         totalBadge.appendChild(totalLabel);
         statsBadges.appendChild(totalBadge);
 
-        for (const [tag, color] of Object.entries(TAG_COLORS)) {
+        for (const tag of TAG_NAMES) {
             const count = languages.filter(l => l.tags && l.tags.includes(tag)).length;
             if (count === 0) continue;
             const badge = document.createElement('div');
             badge.className = 'stat-badge';
-            const dot = document.createElement('span');
-            dot.className = 'stat-dot';
-            dot.style.backgroundColor = color;
             const countEl = document.createElement('span');
             countEl.className = 'stat-count';
             countEl.textContent = count;
             const label = document.createElement('span');
             label.textContent = tag;
-            badge.appendChild(dot);
             badge.appendChild(countEl);
             badge.appendChild(label);
             statsBadges.appendChild(badge);

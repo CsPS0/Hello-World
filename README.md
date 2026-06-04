@@ -2,14 +2,14 @@
 
 <div align="center">
 
-[![View Interactive Site](https://img.shields.io/badge/View_Interactive_Site-4F46E5?style=for-the-badge&logo=html5&logoColor=white)](https://csps0.github.io/Hello-World/)
+[![View Interactive Site](https://img.shields.io/badge/View_Site-e05a2b?style=for-the-badge)](https://csps0.github.io/Hello-World/)
 [![MIT License](https://img.shields.io/badge/license-MIT-green?style=for-the-badge)](LICENSE)
 [![Languages](https://img.shields.io/badge/languages-142-blue?style=for-the-badge)](docs/languages.json)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen?style=for-the-badge)](CONTRIBUTING.md)
 
-**A comprehensive collection of "Hello, World!" programs in 142 programming languages.**
+**The same program, written in 142 different languages.**
 
-[View the Interactive Documentation](https://csps0.github.io/Hello-World/)
+[Browse all 142 languages](https://csps0.github.io/Hello-World/)
 
 </div>
 
@@ -17,22 +17,22 @@
 
 ## Overview
 
-The Hello World Project compiles the universal first program — `Hello, World!` — across 142 languages. It spans industry standards such as Python and Java, systems languages like Rust and C, and esoteric languages including Brainfuck and Shakespeare.
+This project collects `Hello, World!` in 142 programming languages — from Python and C to Brainfuck and Shakespeare. Every file prints the same string. The differences are in the syntax.
 
-The project serves three purposes: **reference** for developers comparing syntax across languages, **education** for students encountering new paradigms, and **preservation** of lesser-known programming languages.
+Use it to look up how a language works, compare two languages side by side, or find something you have not seen before.
 
 ## Features
 
-| Feature | Description |
+| What | Details |
 | :--- | :--- |
-| **Comprehensive Library** | 142 languages across procedural, OOP, functional, logic, scripting, esoteric, hardware, and markup paradigms. |
-| **Interactive Website** | Browse, search, filter by paradigm, and copy code snippets via the [documentation site](https://csps0.github.io/Hello-World/). |
-| **Fuzzy Search** | Instant language lookup powered by Fuse.js. |
-| **Paradigm Filtering** | Filter by tag: procedural, OOP, functional, scripting, esoteric, hardware, logic, markup. |
-| **Comparison View** | Select up to 3 languages and view their implementations side-by-side. |
-| **Dark and Light Mode** | Automatic theme detection with manual toggle. Persists across sessions. |
-| **Deep Linking** | Share direct links to any language via URL hash (e.g., `#python`). |
-| **CI/CD Pipeline** | Automated validation and deployment via GitHub Actions. |
+| **142 languages** | Procedural, OOP, functional, scripting, esoteric, hardware, logic, and markup. |
+| **Search** | Type a name, find the language. Fuzzy matching included. |
+| **Filter** | Click a paradigm tag to narrow the grid. |
+| **Compare** | Pick up to 3 languages and see their code side by side. |
+| **Copy and download** | One click to copy or download any source file. |
+| **Dark and light mode** | Follows your system preference. Manual toggle available. |
+| **Deep links** | Link directly to any language with a URL hash (e.g., `#python`). |
+| **CI/CD** | GitHub Actions validates the manifest and deploys to Pages on every push. |
 
 ## Project Structure
 
