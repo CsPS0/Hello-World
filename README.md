@@ -1,7 +1,5 @@
 # Hello World Project
 
-<div align="center">
-
 [![View Interactive Site](https://img.shields.io/badge/View_Site-e05a2b?style=for-the-badge)](https://csps0.github.io/Hello-World/)
 [![MIT License](https://img.shields.io/badge/license-MIT-green?style=for-the-badge)](LICENSE)
 [![Languages](https://img.shields.io/badge/languages-142-blue?style=for-the-badge)](docs/languages.json)
@@ -10,8 +8,6 @@
 **The same program, written in 142 different languages.**
 
 [Browse all 142 languages](https://csps0.github.io/Hello-World/)
-
-</div>
 
 ---
 
