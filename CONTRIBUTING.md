@@ -22,7 +22,7 @@ Each file should contain a minimal, idiomatic "Hello, World!" program in the tar
 - Use the simplest possible implementation for the language.
 - Include only what is necessary to compile/run the program.
 - Do not include comments.
-- Exception: languages that cannot contain the literal text (Brainfuck, Shakespeare, Whitespace) must print it when run.
+- Exception: languages that cannot contain the literal text (Brainfuck, Ook!, Befunge, Shakespeare, Whitespace) must print it when run.
 
 ### Updating the Manifest
 

@@ -2,18 +2,18 @@
 
 [![View Interactive Site](https://img.shields.io/badge/View_Site-e05a2b?style=for-the-badge)](https://csps0.github.io/Hello-World/)
 [![MIT License](https://img.shields.io/badge/license-MIT-green?style=for-the-badge)](LICENSE)
-[![Languages](https://img.shields.io/badge/languages-179-blue?style=for-the-badge)](docs/languages.json)
+[![Languages](https://img.shields.io/badge/languages-214-blue?style=for-the-badge)](docs/languages.json)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen?style=for-the-badge)](CONTRIBUTING.md)
 
-**The same program, written in 179 different languages.**
+**The same program, written in 214 different languages.**
 
-[Browse all 179 languages](https://csps0.github.io/Hello-World/)
+[Browse all 214 languages](https://csps0.github.io/Hello-World/)
 
 ---
 
 ## Overview
 
-This project collects `Hello, World!` in 179 programming languages — from Python and C to Brainfuck and Shakespeare. Every file prints the same string. The differences are in the syntax.
+This project collects `Hello, World!` in 214 programming languages — from Python and C to Brainfuck and Shakespeare. Every file prints the same string. The differences are in the syntax.
 
 Use it to look up how a language works, compare two languages side by side, or find something you have not seen before.
 
@@ -21,7 +21,7 @@ Use it to look up how a language works, compare two languages side by side, or f
 
 | What | Details |
 | :--- | :--- |
-| **179 languages** | Procedural, OOP, functional, scripting, esoteric, hardware, logic, and markup. |
+| **214 languages** | Procedural, OOP, functional, scripting, esoteric, hardware, logic, and markup. |
 | **Search** | Type a name, find the language. Fuzzy matching included. |
 | **Filter** | Click a paradigm tag to narrow the grid. |
 | **Compare** | Pick up to 3 languages and see their code side by side. |
@@ -35,7 +35,7 @@ Use it to look up how a language works, compare two languages side by side, or f
 ```text
 Hello-World/
 ├── docs/
-│   ├── hello-world/     Source code files for all 179 languages
+│   ├── hello-world/     Source code files for all 214 languages
 │   ├── index.html       Website entry point
 │   ├── style.css        Styles and theme system
 │   ├── app.js           Application logic

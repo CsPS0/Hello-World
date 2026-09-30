@@ -218,6 +218,31 @@
     }
   },
   {
+    "name": "Arduino",
+    "description": "C++ dialect for Arduino microcontrollers",
+    "path": "hello-world/hello.ino",
+    "tags": [
+      "procedural",
+      "hardware"
+    ],
+    "creator": "Massimo Banzi and David Cuartielles",
+    "year": 2005,
+    "history": "Arduino sketches are C++ programs wrapped by a simple framework, from the Interaction Design Institute Ivrea project started in 2005 by Massimo Banzi and colleagues.",
+    "famousProjects": [
+      "Arduino Uno sketches",
+      "Maker projects"
+    ],
+    "frameworks": {},
+    "quiz": {
+      "platforms": [
+        "embedded"
+      ],
+      "backend": false,
+      "typing": "static",
+      "speed": "high"
+    }
+  },
+  {
     "name": "ArnoldC",
     "description": "Esoteric language composed of Arnold Schwarzenegger quotes",
     "path": "hello-world/hello.arnoldc",
@@ -490,6 +515,30 @@
       "backend": false,
       "typing": "dynamic",
       "speed": "low"
+    }
+  },
+  {
+    "name": "BCPL",
+    "description": "Typeless ancestor of B and C",
+    "path": "hello-world/hello.bcpl",
+    "tags": [
+      "procedural"
+    ],
+    "creator": "Martin Richards",
+    "year": 1967,
+    "history": "BCPL was designed by Martin Richards at Cambridge in 1967. Its typeless design led to B and then C, and its original Hello World example is where the tradition began.",
+    "famousProjects": [
+      "Tripos",
+      "Early Xerox Alto software"
+    ],
+    "frameworks": {},
+    "quiz": {
+      "platforms": [
+        "systems"
+      ],
+      "backend": false,
+      "typing": "static",
+      "speed": "high"
     }
   },
   {
@@ -985,6 +1034,30 @@
     }
   },
   {
+    "name": "Cairo",
+    "description": "Provable programs language for StarkNet",
+    "path": "hello-world/hello.cairo",
+    "tags": [
+      "procedural"
+    ],
+    "creator": "StarkWare",
+    "year": 2020,
+    "history": "Cairo was developed by StarkWare to write provable programs for STARK proofs. Cairo 1, released in 2023, uses Rust-inspired syntax.",
+    "famousProjects": [
+      "StarkNet",
+      "Starknet Foundry"
+    ],
+    "frameworks": {},
+    "quiz": {
+      "platforms": [
+        "web-backend"
+      ],
+      "backend": true,
+      "typing": "static",
+      "speed": "high"
+    }
+  },
+  {
     "name": "Carbon",
     "description": "Experimental successor to C++",
     "path": "hello-world/hello.carbon",
@@ -1256,6 +1329,32 @@
       "backend": true,
       "typing": "dynamic",
       "speed": "high"
+    }
+  },
+  {
+    "name": "CMake",
+    "description": "Build system generator scripting language",
+    "path": "hello-world/hello.cmake",
+    "tags": [
+      "scripting"
+    ],
+    "creator": "Bill Hoffman and Kitware",
+    "year": 2000,
+    "history": "CMake was started by Kitware around 2000 for the Insight Segmentation and Registration Toolkit. Its scripting language describes cross-platform builds and generates native project files.",
+    "famousProjects": [
+      "LLVM",
+      "KDE",
+      "OpenCV"
+    ],
+    "frameworks": {},
+    "quiz": {
+      "platforms": [
+        "cli",
+        "systems"
+      ],
+      "backend": false,
+      "typing": "dynamic",
+      "speed": "moderate"
     }
   },
   {
@@ -1621,6 +1720,34 @@
     }
   },
   {
+    "name": "CUDA",
+    "description": "NVIDIA parallel computing platform and C++ dialect",
+    "path": "hello-world/hello.cu",
+    "tags": [
+      "procedural",
+      "oop"
+    ],
+    "creator": "NVIDIA",
+    "year": 2007,
+    "history": "CUDA was released by NVIDIA in 2007 to run general-purpose code on GPUs. It extends C++ with kernels that run across thousands of threads and underpins most deep learning frameworks.",
+    "famousProjects": [
+      "PyTorch kernels",
+      "cuDNN",
+      "Thrust"
+    ],
+    "frameworks": {},
+    "quiz": {
+      "platforms": [
+        "ai",
+        "data-science",
+        "systems"
+      ],
+      "backend": false,
+      "typing": "static",
+      "speed": "maximum"
+    }
+  },
+  {
     "name": "Curl",
     "description": "Hello World in Curl",
     "path": "hello-world/hello.curl",
@@ -1639,6 +1766,31 @@
       "platforms": [
         "web-frontend",
         "desktop"
+      ],
+      "backend": false,
+      "typing": "static",
+      "speed": "moderate"
+    }
+  },
+  {
+    "name": "Curry",
+    "description": "Functional logic language based on Haskell",
+    "path": "hello-world/hello.curry",
+    "tags": [
+      "functional",
+      "logic"
+    ],
+    "creator": "Michael Hanus",
+    "year": 1995,
+    "history": "Curry unifies functional and logic programming with Haskell-style syntax and non-deterministic search. It was designed by an international group led by Michael Hanus from 1995.",
+    "famousProjects": [
+      "PAKCS",
+      "KiCS2"
+    ],
+    "frameworks": {},
+    "quiz": {
+      "platforms": [
+        "cli"
       ],
       "backend": false,
       "typing": "static",
@@ -1765,6 +1917,83 @@
     }
   },
   {
+    "name": "Delphi",
+    "description": "Object Pascal IDE and language by Borland",
+    "path": "hello-world/hello.dpr",
+    "tags": [
+      "oop",
+      "procedural"
+    ],
+    "creator": "Anders Hejlsberg",
+    "year": 1995,
+    "history": "Delphi was released by Borland in 1995 with Anders Hejlsberg as chief architect. It pairs Object Pascal with a visual component library for fast Windows application development.",
+    "famousProjects": [
+      "Skype (original client)",
+      "Total Commander",
+      "Inno Setup"
+    ],
+    "frameworks": {},
+    "quiz": {
+      "platforms": [
+        "desktop"
+      ],
+      "backend": false,
+      "typing": "static",
+      "speed": "high"
+    }
+  },
+  {
+    "name": "Dhall",
+    "description": "Programmable configuration language",
+    "path": "hello-world/hello.dhall",
+    "tags": [
+      "functional",
+      "markup"
+    ],
+    "creator": "Gabriella Gonzalez",
+    "year": 2017,
+    "history": "Dhall is a non-Turing-complete, strongly typed configuration language created by Gabriella Gonzalez. It adds functions and imports to JSON while guaranteeing evaluation terminates.",
+    "famousProjects": [
+      "dhall-kubernetes",
+      "dhall-lang"
+    ],
+    "frameworks": {},
+    "quiz": {
+      "platforms": [
+        "cloud"
+      ],
+      "backend": false,
+      "typing": "static",
+      "speed": "moderate"
+    }
+  },
+  {
+    "name": "Dockerfile",
+    "description": "Container image build instructions",
+    "path": "hello-world/hello.dockerfile",
+    "tags": [
+      "scripting",
+      "markup"
+    ],
+    "creator": "Solomon Hykes",
+    "year": 2013,
+    "history": "The Dockerfile format was introduced with Docker in 2013 by Solomon Hykes and dotCloud. Each instruction adds a layer to a container image.",
+    "famousProjects": [
+      "Docker",
+      "Podman",
+      "Kubernetes images"
+    ],
+    "frameworks": {},
+    "quiz": {
+      "platforms": [
+        "cloud"
+      ],
+      "backend": false,
+      "typing": "dynamic",
+      "speed": "moderate"
+    }
+  },
+  {
     "name": "Dylan",
     "description": "Hello World in Dylan",
     "path": "hello-world/hello.dylan",
@@ -1874,6 +2103,29 @@
       ],
       "backend": false,
       "typing": "static",
+      "speed": "moderate"
+    }
+  },
+  {
+    "name": "Elvish",
+    "description": "Expressive shell with structured pipelines",
+    "path": "hello-world/hello.elv",
+    "tags": [
+      "scripting"
+    ],
+    "creator": "Qi Xiao",
+    "year": 2013,
+    "history": "Elvish is a shell with a real programming language behind it, written in Go by Qi Xiao from 2013. It passes structured values through pipelines instead of plain text.",
+    "famousProjects": [
+      "Elvish shell"
+    ],
+    "frameworks": {},
+    "quiz": {
+      "platforms": [
+        "cli"
+      ],
+      "backend": false,
+      "typing": "dynamic",
       "speed": "moderate"
     }
   },
@@ -2113,6 +2365,30 @@
       "backend": false,
       "typing": "dynamic",
       "speed": "moderate"
+    }
+  },
+  {
+    "name": "Flix",
+    "description": "Functional language with Datalog and effects",
+    "path": "hello-world/hello.flix",
+    "tags": [
+      "functional",
+      "logic"
+    ],
+    "creator": "Magnus Madsen",
+    "year": 2015,
+    "history": "Flix is a functional language for the JVM with first-class Datalog constraints and an effect system, led by Magnus Madsen at Aarhus University.",
+    "famousProjects": [
+      "Flix compiler"
+    ],
+    "frameworks": {},
+    "quiz": {
+      "platforms": [
+        "cli"
+      ],
+      "backend": false,
+      "typing": "static",
+      "speed": "high"
     }
   },
   {
@@ -2365,6 +2641,30 @@
       "backend": true,
       "typing": "static",
       "speed": "high"
+    }
+  },
+  {
+    "name": "GolfScript",
+    "description": "Stack-based language for code golf",
+    "path": "hello-world/hello_golfscript.gs",
+    "tags": [
+      "esoteric",
+      "scripting"
+    ],
+    "creator": "Darren Smith",
+    "year": 2007,
+    "history": "GolfScript was written by Darren Smith in 2007 for code golf. Programs are short stack scripts that print the stack on exit.",
+    "famousProjects": [
+      "Anarchy Golf entries"
+    ],
+    "frameworks": {},
+    "quiz": {
+      "platforms": [
+        "esoteric"
+      ],
+      "backend": false,
+      "typing": "dynamic",
+      "speed": "moderate"
     }
   },
   {
@@ -2876,6 +3176,29 @@
     }
   },
   {
+    "name": "Joy",
+    "description": "Concatenative functional language",
+    "path": "hello-world/hello.joy",
+    "tags": [
+      "functional"
+    ],
+    "creator": "Manfred von Thun",
+    "year": 2001,
+    "history": "Joy is a concatenative functional language by Manfred von Thun in which programs are built by composing quoted lists, influencing Factor and Cat.",
+    "famousProjects": [
+      "Joy interpreters"
+    ],
+    "frameworks": {},
+    "quiz": {
+      "platforms": [
+        "cli"
+      ],
+      "backend": false,
+      "typing": "dynamic",
+      "speed": "moderate"
+    }
+  },
+  {
     "name": "Jsonnet",
     "description": "Data templating language that extends JSON",
     "path": "hello-world/hello.jsonnet",
@@ -2955,6 +3278,31 @@
       ],
       "backend": true,
       "typing": "dynamic",
+      "speed": "high"
+    }
+  },
+  {
+    "name": "Koka",
+    "description": "Functional language with algebraic effects",
+    "path": "hello-world/hello.kk",
+    "tags": [
+      "functional"
+    ],
+    "creator": "Daan Leijen",
+    "year": 2012,
+    "history": "Koka is a research language by Daan Leijen at Microsoft Research. Its type system tracks side effects as algebraic effects, and it introduced the Perceus reference counting scheme.",
+    "famousProjects": [
+      "Koka compiler",
+      "Perceus reference counting"
+    ],
+    "frameworks": {},
+    "quiz": {
+      "platforms": [
+        "systems",
+        "cli"
+      ],
+      "backend": false,
+      "typing": "static",
       "speed": "high"
     }
   },
@@ -3051,6 +3399,31 @@
       ],
       "backend": true,
       "typing": "static",
+      "speed": "moderate"
+    }
+  },
+  {
+    "name": "LaTeX",
+    "description": "Document preparation system for typesetting",
+    "path": "hello-world/hello.tex",
+    "tags": [
+      "markup"
+    ],
+    "creator": "Leslie Lamport",
+    "year": 1984,
+    "history": "LaTeX was written by Leslie Lamport in 1984 as a macro package on top of Donald Knuth's TeX. It is the standard format for scientific and mathematical publishing.",
+    "famousProjects": [
+      "arXiv papers",
+      "Overleaf",
+      "Beamer"
+    ],
+    "frameworks": {},
+    "quiz": {
+      "platforms": [
+        "markup"
+      ],
+      "backend": false,
+      "typing": "dynamic",
       "speed": "moderate"
     }
   },
@@ -3237,6 +3610,31 @@
     }
   },
   {
+    "name": "Makefile",
+    "description": "Build rules for GNU Make",
+    "path": "hello-world/hello.mk",
+    "tags": [
+      "scripting"
+    ],
+    "creator": "Stuart Feldman",
+    "year": 1976,
+    "history": "Make was written by Stuart Feldman at Bell Labs in 1976. Makefiles declare targets and dependencies, and GNU Make is still the default build tool for many C projects.",
+    "famousProjects": [
+      "Linux kernel",
+      "GCC"
+    ],
+    "frameworks": {},
+    "quiz": {
+      "platforms": [
+        "cli",
+        "systems"
+      ],
+      "backend": false,
+      "typing": "dynamic",
+      "speed": "moderate"
+    }
+  },
+  {
     "name": "Maple",
     "description": "Hello World in Maple",
     "path": "hello-world/hello.mpl",
@@ -3312,6 +3710,31 @@
     }
   },
   {
+    "name": "Modula-3",
+    "description": "Modula-2 successor with objects and threads",
+    "path": "hello-world/hello.m3",
+    "tags": [
+      "procedural",
+      "oop"
+    ],
+    "creator": "DEC SRC and Olivetti",
+    "year": 1988,
+    "history": "Modula-3 was designed at DEC Systems Research Center and Olivetti in 1988 as a safer successor to Modula-2, adding objects, threads and garbage collection.",
+    "famousProjects": [
+      "SPIN operating system",
+      "CVSup"
+    ],
+    "frameworks": {},
+    "quiz": {
+      "platforms": [
+        "systems"
+      ],
+      "backend": false,
+      "typing": "static",
+      "speed": "high"
+    }
+  },
+  {
     "name": "Mojo",
     "description": "AI-oriented Python-compatible systems language",
     "path": "hello-world/hello.mojo",
@@ -3363,6 +3786,78 @@
         "game"
       ],
       "backend": true,
+      "typing": "dynamic",
+      "speed": "moderate"
+    }
+  },
+  {
+    "name": "Nelua",
+    "description": "Lua-like systems language that compiles to C",
+    "path": "hello-world/hello.nelua",
+    "tags": [
+      "procedural"
+    ],
+    "creator": "Eduardo Bart",
+    "year": 2019,
+    "history": "Nelua is a statically typed language with Lua syntax that compiles to C, created by Eduardo Bart in 2019 for game and systems work.",
+    "famousProjects": [
+      "Nelua compiler"
+    ],
+    "frameworks": {},
+    "quiz": {
+      "platforms": [
+        "systems",
+        "game"
+      ],
+      "backend": false,
+      "typing": "static",
+      "speed": "high"
+    }
+  },
+  {
+    "name": "Nemerle",
+    "description": ".NET language with macros",
+    "path": "hello-world/hello.n",
+    "tags": [
+      "oop",
+      "functional"
+    ],
+    "creator": "Michał Moskal and Kamil Skalski",
+    "year": 2003,
+    "history": "Nemerle is a .NET language blending object-oriented and functional styles with a hygienic macro system, created at the University of Wrocław in 2003.",
+    "famousProjects": [
+      "Nitra"
+    ],
+    "frameworks": {},
+    "quiz": {
+      "platforms": [
+        "desktop"
+      ],
+      "backend": false,
+      "typing": "static",
+      "speed": "high"
+    }
+  },
+  {
+    "name": "newLISP",
+    "description": "Lisp dialect for scripting",
+    "path": "hello-world/hello.lsp",
+    "tags": [
+      "functional",
+      "scripting"
+    ],
+    "creator": "Lutz Mueller",
+    "year": 1991,
+    "history": "newLISP is a scripting-oriented Lisp by Lutz Mueller, first released in 1991. It emphasizes small size, built-in networking and string handling.",
+    "famousProjects": [
+      "newLISP-GS"
+    ],
+    "frameworks": {},
+    "quiz": {
+      "platforms": [
+        "cli"
+      ],
+      "backend": false,
       "typing": "dynamic",
       "speed": "moderate"
     }
@@ -3451,6 +3946,31 @@
       "backend": false,
       "typing": "dynamic",
       "speed": "moderate"
+    }
+  },
+  {
+    "name": "Oberon",
+    "description": "Minimal successor to Modula-2 by Niklaus Wirth",
+    "path": "hello-world/hello.ob",
+    "tags": [
+      "procedural"
+    ],
+    "creator": "Niklaus Wirth",
+    "year": 1987,
+    "history": "Oberon is a small systems language designed by Niklaus Wirth and Jürg Gutknecht in 1987 to write the Oberon operating system. The language and OS fit in a few thousand lines.",
+    "famousProjects": [
+      "Oberon operating system",
+      "Project Oberon"
+    ],
+    "frameworks": {},
+    "quiz": {
+      "platforms": [
+        "systems",
+        "desktop"
+      ],
+      "backend": false,
+      "typing": "static",
+      "speed": "high"
     }
   },
   {
@@ -3629,6 +4149,31 @@
     }
   },
   {
+    "name": "Oz",
+    "description": "Multiparadigm language from the Mozart system",
+    "path": "hello-world/hello.oz",
+    "tags": [
+      "functional",
+      "logic",
+      "oop"
+    ],
+    "creator": "Gert Smolka",
+    "year": 1991,
+    "history": "Oz is a multiparadigm language designed by Gert Smolka's group in 1991. It is the language taught in the book Concepts, Techniques, and Models of Computer Programming.",
+    "famousProjects": [
+      "Mozart Programming System"
+    ],
+    "frameworks": {},
+    "quiz": {
+      "platforms": [
+        "cli"
+      ],
+      "backend": false,
+      "typing": "dynamic",
+      "speed": "moderate"
+    }
+  },
+  {
     "name": "Pascal",
     "description": "Hello World in Pascal",
     "path": "hello-world/hello.pas",
@@ -3654,6 +4199,32 @@
       "platforms": [
         "desktop",
         "systems"
+      ],
+      "backend": false,
+      "typing": "static",
+      "speed": "high"
+    }
+  },
+  {
+    "name": "Pawn",
+    "description": "Small embeddable C-like scripting language",
+    "path": "hello-world/hello.pwn",
+    "tags": [
+      "procedural",
+      "scripting"
+    ],
+    "creator": "Thiadmer Riemersma",
+    "year": 1998,
+    "history": "Pawn, formerly Small, was created by Thiadmer Riemersma around 1998 as an embeddable scripting language. It is best known for SA-MP and AMX Mod X game modding.",
+    "famousProjects": [
+      "San Andreas Multiplayer",
+      "AMX Mod X"
+    ],
+    "frameworks": {},
+    "quiz": {
+      "platforms": [
+        "game",
+        "embedded"
       ],
       "backend": false,
       "typing": "static",
@@ -3794,6 +4365,30 @@
     }
   },
   {
+    "name": "PicoLisp",
+    "description": "Minimal Lisp with built-in database",
+    "path": "hello-world/hello.l",
+    "tags": [
+      "functional"
+    ],
+    "creator": "Alexander Burger",
+    "year": 1988,
+    "history": "PicoLisp is a minimalist Lisp by Alexander Burger with an integrated database and GUI framework. Its interpreter is tiny and exposes very few primitives.",
+    "famousProjects": [
+      "PicoLisp applications"
+    ],
+    "frameworks": {},
+    "quiz": {
+      "platforms": [
+        "web-backend",
+        "cli"
+      ],
+      "backend": true,
+      "typing": "dynamic",
+      "speed": "moderate"
+    }
+  },
+  {
     "name": "Pike",
     "description": "Dynamic C-like language",
     "path": "hello-world/hello.pike",
@@ -3815,6 +4410,31 @@
       ],
       "backend": true,
       "typing": "dynamic",
+      "speed": "high"
+    }
+  },
+  {
+    "name": "PL/I",
+    "description": "IBM general-purpose language for business and science",
+    "path": "hello-world/hello.pli",
+    "tags": [
+      "procedural"
+    ],
+    "creator": "IBM and SHARE",
+    "year": 1964,
+    "history": "PL/I was developed by IBM and the SHARE user group from 1964 to combine FORTRAN, COBOL and ALGOL ideas. Much of Multics was written in it.",
+    "famousProjects": [
+      "Multics",
+      "IBM mainframe systems"
+    ],
+    "frameworks": {},
+    "quiz": {
+      "platforms": [
+        "systems",
+        "cli"
+      ],
+      "backend": false,
+      "typing": "static",
       "speed": "high"
     }
   },
@@ -3844,6 +4464,31 @@
     }
   },
   {
+    "name": "PostScript",
+    "description": "Stack-based page description language",
+    "path": "hello-world/hello.ps",
+    "tags": [
+      "procedural",
+      "functional"
+    ],
+    "creator": "John Warnock and Chuck Geschke",
+    "year": 1982,
+    "history": "PostScript was created at Adobe by John Warnock and Chuck Geschke in 1982. It is a Forth-like stack language that drives laser printers and formed the basis of desktop publishing.",
+    "famousProjects": [
+      "Adobe Illustrator",
+      "LaserWriter printers"
+    ],
+    "frameworks": {},
+    "quiz": {
+      "platforms": [
+        "desktop"
+      ],
+      "backend": false,
+      "typing": "dynamic",
+      "speed": "moderate"
+    }
+  },
+  {
     "name": "PowerShell",
     "description": "Hello World in PowerShell",
     "path": "hello-world/hello.ps1",
@@ -3865,6 +4510,31 @@
       ],
       "backend": false,
       "typing": "dynamic",
+      "speed": "moderate"
+    }
+  },
+  {
+    "name": "Processing",
+    "description": "Language and IDE for visual arts and learning",
+    "path": "hello-world/hello.pde",
+    "tags": [
+      "oop"
+    ],
+    "creator": "Ben Fry and Casey Reas",
+    "year": 2001,
+    "history": "Processing was created by Ben Fry and Casey Reas at the MIT Media Lab in 2001. It wraps Java in a simple sketchbook to teach programming through visual output.",
+    "famousProjects": [
+      "p5.js (port)",
+      "Generative art"
+    ],
+    "frameworks": {},
+    "quiz": {
+      "platforms": [
+        "game",
+        "desktop"
+      ],
+      "backend": false,
+      "typing": "static",
       "speed": "moderate"
     }
   },
@@ -4282,6 +4952,30 @@
     }
   },
   {
+    "name": "SAS",
+    "description": "Statistical analysis system language",
+    "path": "hello-world/hello.sas",
+    "tags": [
+      "procedural"
+    ],
+    "creator": "Anthony Barr and James Goodnight",
+    "year": 1966,
+    "history": "SAS began in 1966 at North Carolina State University as the Statistical Analysis System and became a company in 1976. Its data step language processes large tables.",
+    "famousProjects": [
+      "Clinical trial analysis",
+      "Banking analytics"
+    ],
+    "frameworks": {},
+    "quiz": {
+      "platforms": [
+        "data-science"
+      ],
+      "backend": false,
+      "typing": "dynamic",
+      "speed": "moderate"
+    }
+  },
+  {
     "name": "Scala",
     "description": "Hello World in Scala",
     "path": "hello-world/hello.scala",
@@ -4395,6 +5089,29 @@
     }
   },
   {
+    "name": "Simula",
+    "description": "First object-oriented language",
+    "path": "hello-world/hello.sim",
+    "tags": [
+      "oop"
+    ],
+    "creator": "Ole-Johan Dahl and Kristen Nygaard",
+    "year": 1967,
+    "history": "Simula 67, by Ole-Johan Dahl and Kristen Nygaard at the Norwegian Computing Center, introduced classes, objects, inheritance and virtual methods. It influenced Smalltalk and C++.",
+    "famousProjects": [
+      "Simula 67 compilers"
+    ],
+    "frameworks": {},
+    "quiz": {
+      "platforms": [
+        "systems"
+      ],
+      "backend": false,
+      "typing": "static",
+      "speed": "high"
+    }
+  },
+  {
     "name": "Smalltalk",
     "description": "Hello World in Smalltalk",
     "path": "hello-world/hello.st",
@@ -4417,6 +5134,30 @@
     "quiz": {
       "platforms": [
         "desktop"
+      ],
+      "backend": false,
+      "typing": "dynamic",
+      "speed": "moderate"
+    }
+  },
+  {
+    "name": "SNOBOL",
+    "description": "String-pattern matching language from Bell Labs",
+    "path": "hello-world/hello.sno",
+    "tags": [
+      "procedural"
+    ],
+    "creator": "David Farber, Ralph Griswold and Ivan Polonsky",
+    "year": 1962,
+    "history": "SNOBOL was created at Bell Labs in 1962 by David Farber, Ralph Griswold and Ivan Polonsky. Its pattern matching on strings inspired later text tools and the Icon language.",
+    "famousProjects": [
+      "SPITBOL",
+      "Icon (successor)"
+    ],
+    "frameworks": {},
+    "quiz": {
+      "platforms": [
+        "cli"
       ],
       "backend": false,
       "typing": "dynamic",
@@ -4511,6 +5252,83 @@
     }
   },
   {
+    "name": "Standard ML",
+    "description": "Statically typed functional language with modules",
+    "path": "hello-world/hello.sml",
+    "tags": [
+      "functional"
+    ],
+    "creator": "Robin Milner",
+    "year": 1983,
+    "history": "Standard ML grew out of the ML metalanguage that Robin Milner built for the LCF prover in the 1970s. It was standardized in 1990 and revised in 1997 with a formally specified type system.",
+    "famousProjects": [
+      "HOL theorem prover",
+      "MLton",
+      "Isabelle"
+    ],
+    "frameworks": {},
+    "quiz": {
+      "platforms": [
+        "systems",
+        "cli"
+      ],
+      "backend": false,
+      "typing": "static",
+      "speed": "high"
+    }
+  },
+  {
+    "name": "Starlark",
+    "description": "Python dialect for build configuration",
+    "path": "hello-world/hello.star",
+    "tags": [
+      "scripting"
+    ],
+    "creator": "Google",
+    "year": 2017,
+    "history": "Starlark is a deterministic Python-like language that came out of Bazel at Google. It is used to describe builds because evaluation is hermetic and parallel-safe.",
+    "famousProjects": [
+      "Bazel",
+      "Buck2",
+      "Tilt"
+    ],
+    "frameworks": {},
+    "quiz": {
+      "platforms": [
+        "cli",
+        "cloud"
+      ],
+      "backend": false,
+      "typing": "dynamic",
+      "speed": "moderate"
+    }
+  },
+  {
+    "name": "Stata",
+    "description": "Statistical analysis software scripting language",
+    "path": "hello-world/hello.do",
+    "tags": [
+      "procedural",
+      "scripting"
+    ],
+    "creator": "William Gould",
+    "year": 1985,
+    "history": "Stata is a statistics package created by William Gould at StataCorp, first released in 1985. Scripts are saved as do-files and are common in economics and epidemiology.",
+    "famousProjects": [
+      "Econometrics research",
+      "Do-files"
+    ],
+    "frameworks": {},
+    "quiz": {
+      "platforms": [
+        "data-science"
+      ],
+      "backend": false,
+      "typing": "dynamic",
+      "speed": "moderate"
+    }
+  },
+  {
     "name": "Swift",
     "description": "Hello World in Swift",
     "path": "hello-world/hello.swift",
@@ -4577,6 +5395,31 @@
         "mobile",
         "desktop",
         "systems"
+      ],
+      "backend": false,
+      "typing": "static",
+      "speed": "high"
+    }
+  },
+  {
+    "name": "SystemVerilog",
+    "description": "Hardware description and verification language",
+    "path": "hello-world/hello.sv",
+    "tags": [
+      "hardware"
+    ],
+    "creator": "Accellera",
+    "year": 2002,
+    "history": "SystemVerilog extends Verilog with verification features and was standardized as IEEE 1800 in 2005, growing from Accellera's 2002 work.",
+    "famousProjects": [
+      "UVM testbenches",
+      "RISC-V cores"
+    ],
+    "frameworks": {},
+    "quiz": {
+      "platforms": [
+        "hardware",
+        "embedded"
       ],
       "backend": false,
       "typing": "static",
@@ -4840,6 +5683,30 @@
     "quiz": {
       "platforms": [
         "desktop"
+      ],
+      "backend": true,
+      "typing": "static",
+      "speed": "moderate"
+    }
+  },
+  {
+    "name": "Vyper",
+    "description": "Pythonic smart contract language for the EVM",
+    "path": "hello-world/hello.vy",
+    "tags": [
+      "procedural"
+    ],
+    "creator": "Vitalik Buterin",
+    "year": 2017,
+    "history": "Vyper is a Python-like language for Ethereum smart contracts, started by Vitalik Buterin in 2017. It deliberately leaves out features such as inheritance to make audits easier.",
+    "famousProjects": [
+      "Curve Finance",
+      "Yearn Finance"
+    ],
+    "frameworks": {},
+    "quiz": {
+      "platforms": [
+        "web-backend"
       ],
       "backend": true,
       "typing": "static",

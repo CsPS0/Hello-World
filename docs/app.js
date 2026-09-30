@@ -184,7 +184,8 @@ document.addEventListener('DOMContentLoaded', () => {
             'tcl': 'tcl', 'ts': 'typescript', 'v': 'verilog', 'vb': 'visual-basic',
             'vba': 'visual-basic', 'vbs': 'visual-basic', 'vhd': 'vhdl', 'wat': 'wasm',
             'wl': 'wolfram', 'ws': 'plaintext', 'xq': 'xquery', 'yaml': 'yaml', 'zig': 'zig',
-            'odin': 'go', 'nix': 'nix', 'fish': 'bash', 'zsh': 'bash', 'el': 'lisp', 'gd': 'gdscript', 'purs': 'haskell', 'idr': 'haskell', 'lean': 'haskell', 'agda': 'haskell', 'hy': 'lisp', 'fnl': 'lisp', 'janet': 'lisp', 'vala': 'vala', 'res': 'reason', 'nu': 'bash', 'wren': 'javascript', 'nut': 'javascript', 'moon': 'lua', 'jsonnet': 'jsonnet', 'pike': 'c', 'ha': 'go', 'carbon': 'cpp'
+            'odin': 'go', 'nix': 'nix', 'fish': 'bash', 'zsh': 'bash', 'el': 'lisp', 'gd': 'gdscript', 'purs': 'haskell', 'idr': 'haskell', 'lean': 'haskell', 'agda': 'haskell', 'hy': 'lisp', 'fnl': 'lisp', 'janet': 'lisp', 'vala': 'vala', 'res': 'reason', 'nu': 'bash', 'wren': 'javascript', 'nut': 'javascript', 'moon': 'lua', 'jsonnet': 'jsonnet', 'pike': 'c', 'ha': 'go', 'carbon': 'cpp',
+            'sml': 'ocaml', 'm3': 'pascal', 'ob': 'pascal', 'dhall': 'dhall', 'cu': 'cpp', 'vy': 'python', 'tex': 'latex', 'cmake': 'cmake', 'sv': 'verilog', 'elv': 'bash', 'star': 'python', 'nelua': 'lua', 'n': 'csharp', 'dpr': 'pascal', 'curry': 'haskell', 'pwn': 'c', 'l': 'lisp', 'lsp': 'lisp', 'sas': 'sas', 'pde': 'java', 'ino': 'cpp', 'cairo': 'rust', 'dockerfile': 'docker', 'mk': 'makefile'
         };
         return map[ext] || 'plaintext';
     }

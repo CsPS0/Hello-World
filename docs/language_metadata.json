@@ -3917,5 +3917,646 @@
       "speed": "low"
     },
     "history": "Ook! was created by David Morgan-Mar in 2001 as a language for orangutans. It is a one-to-one encoding of Brainfuck using only the words Ook., Ook! and Ook?."
+  },
+  "Standard ML": {
+    "creator": "Robin Milner",
+    "year": 1983,
+    "famousProjects": [
+      "HOL theorem prover",
+      "MLton",
+      "Isabelle"
+    ],
+    "frameworks": {},
+    "quiz": {
+      "platforms": [
+        "systems",
+        "cli"
+      ],
+      "backend": false,
+      "typing": "static",
+      "speed": "high"
+    },
+    "history": "Standard ML grew out of the ML metalanguage that Robin Milner built for the LCF prover in the 1970s. It was standardized in 1990 and revised in 1997 with a formally specified type system."
+  },
+  "Modula-3": {
+    "creator": "DEC SRC and Olivetti",
+    "year": 1988,
+    "famousProjects": [
+      "SPIN operating system",
+      "CVSup"
+    ],
+    "frameworks": {},
+    "quiz": {
+      "platforms": [
+        "systems"
+      ],
+      "backend": false,
+      "typing": "static",
+      "speed": "high"
+    },
+    "history": "Modula-3 was designed at DEC Systems Research Center and Olivetti in 1988 as a safer successor to Modula-2, adding objects, threads and garbage collection."
+  },
+  "Oberon": {
+    "creator": "Niklaus Wirth",
+    "year": 1987,
+    "famousProjects": [
+      "Oberon operating system",
+      "Project Oberon"
+    ],
+    "frameworks": {},
+    "quiz": {
+      "platforms": [
+        "systems",
+        "desktop"
+      ],
+      "backend": false,
+      "typing": "static",
+      "speed": "high"
+    },
+    "history": "Oberon is a small systems language designed by Niklaus Wirth and Jürg Gutknecht in 1987 to write the Oberon operating system. The language and OS fit in a few thousand lines."
+  },
+  "PL/I": {
+    "creator": "IBM and SHARE",
+    "year": 1964,
+    "famousProjects": [
+      "Multics",
+      "IBM mainframe systems"
+    ],
+    "frameworks": {},
+    "quiz": {
+      "platforms": [
+        "systems",
+        "cli"
+      ],
+      "backend": false,
+      "typing": "static",
+      "speed": "high"
+    },
+    "history": "PL/I was developed by IBM and the SHARE user group from 1964 to combine FORTRAN, COBOL and ALGOL ideas. Much of Multics was written in it."
+  },
+  "SNOBOL": {
+    "creator": "David Farber, Ralph Griswold and Ivan Polonsky",
+    "year": 1962,
+    "famousProjects": [
+      "SPITBOL",
+      "Icon (successor)"
+    ],
+    "frameworks": {},
+    "quiz": {
+      "platforms": [
+        "cli"
+      ],
+      "backend": false,
+      "typing": "dynamic",
+      "speed": "moderate"
+    },
+    "history": "SNOBOL was created at Bell Labs in 1962 by David Farber, Ralph Griswold and Ivan Polonsky. Its pattern matching on strings inspired later text tools and the Icon language."
+  },
+  "Dhall": {
+    "creator": "Gabriella Gonzalez",
+    "year": 2017,
+    "famousProjects": [
+      "dhall-kubernetes",
+      "dhall-lang"
+    ],
+    "frameworks": {},
+    "quiz": {
+      "platforms": [
+        "cloud"
+      ],
+      "backend": false,
+      "typing": "static",
+      "speed": "moderate"
+    },
+    "history": "Dhall is a non-Turing-complete, strongly typed configuration language created by Gabriella Gonzalez. It adds functions and imports to JSON while guaranteeing evaluation terminates."
+  },
+  "CUDA": {
+    "creator": "NVIDIA",
+    "year": 2007,
+    "famousProjects": [
+      "PyTorch kernels",
+      "cuDNN",
+      "Thrust"
+    ],
+    "frameworks": {},
+    "quiz": {
+      "platforms": [
+        "ai",
+        "data-science",
+        "systems"
+      ],
+      "backend": false,
+      "typing": "static",
+      "speed": "maximum"
+    },
+    "history": "CUDA was released by NVIDIA in 2007 to run general-purpose code on GPUs. It extends C++ with kernels that run across thousands of threads and underpins most deep learning frameworks."
+  },
+  "Vyper": {
+    "creator": "Vitalik Buterin",
+    "year": 2017,
+    "famousProjects": [
+      "Curve Finance",
+      "Yearn Finance"
+    ],
+    "frameworks": {},
+    "quiz": {
+      "platforms": [
+        "web-backend"
+      ],
+      "backend": true,
+      "typing": "static",
+      "speed": "moderate"
+    },
+    "history": "Vyper is a Python-like language for Ethereum smart contracts, started by Vitalik Buterin in 2017. It deliberately leaves out features such as inheritance to make audits easier."
+  },
+  "LaTeX": {
+    "creator": "Leslie Lamport",
+    "year": 1984,
+    "famousProjects": [
+      "arXiv papers",
+      "Overleaf",
+      "Beamer"
+    ],
+    "frameworks": {},
+    "quiz": {
+      "platforms": [
+        "markup"
+      ],
+      "backend": false,
+      "typing": "dynamic",
+      "speed": "moderate"
+    },
+    "history": "LaTeX was written by Leslie Lamport in 1984 as a macro package on top of Donald Knuth's TeX. It is the standard format for scientific and mathematical publishing."
+  },
+  "PostScript": {
+    "creator": "John Warnock and Chuck Geschke",
+    "year": 1982,
+    "famousProjects": [
+      "Adobe Illustrator",
+      "LaserWriter printers"
+    ],
+    "frameworks": {},
+    "quiz": {
+      "platforms": [
+        "desktop"
+      ],
+      "backend": false,
+      "typing": "dynamic",
+      "speed": "moderate"
+    },
+    "history": "PostScript was created at Adobe by John Warnock and Chuck Geschke in 1982. It is a Forth-like stack language that drives laser printers and formed the basis of desktop publishing."
+  },
+  "CMake": {
+    "creator": "Bill Hoffman and Kitware",
+    "year": 2000,
+    "famousProjects": [
+      "LLVM",
+      "KDE",
+      "OpenCV"
+    ],
+    "frameworks": {},
+    "quiz": {
+      "platforms": [
+        "cli",
+        "systems"
+      ],
+      "backend": false,
+      "typing": "dynamic",
+      "speed": "moderate"
+    },
+    "history": "CMake was started by Kitware around 2000 for the Insight Segmentation and Registration Toolkit. Its scripting language describes cross-platform builds and generates native project files."
+  },
+  "SystemVerilog": {
+    "creator": "Accellera",
+    "year": 2002,
+    "famousProjects": [
+      "UVM testbenches",
+      "RISC-V cores"
+    ],
+    "frameworks": {},
+    "quiz": {
+      "platforms": [
+        "hardware",
+        "embedded"
+      ],
+      "backend": false,
+      "typing": "static",
+      "speed": "high"
+    },
+    "history": "SystemVerilog extends Verilog with verification features and was standardized as IEEE 1800 in 2005, growing from Accellera's 2002 work."
+  },
+  "Elvish": {
+    "creator": "Qi Xiao",
+    "year": 2013,
+    "famousProjects": [
+      "Elvish shell"
+    ],
+    "frameworks": {},
+    "quiz": {
+      "platforms": [
+        "cli"
+      ],
+      "backend": false,
+      "typing": "dynamic",
+      "speed": "moderate"
+    },
+    "history": "Elvish is a shell with a real programming language behind it, written in Go by Qi Xiao from 2013. It passes structured values through pipelines instead of plain text."
+  },
+  "Starlark": {
+    "creator": "Google",
+    "year": 2017,
+    "famousProjects": [
+      "Bazel",
+      "Buck2",
+      "Tilt"
+    ],
+    "frameworks": {},
+    "quiz": {
+      "platforms": [
+        "cli",
+        "cloud"
+      ],
+      "backend": false,
+      "typing": "dynamic",
+      "speed": "moderate"
+    },
+    "history": "Starlark is a deterministic Python-like language that came out of Bazel at Google. It is used to describe builds because evaluation is hermetic and parallel-safe."
+  },
+  "Nelua": {
+    "creator": "Eduardo Bart",
+    "year": 2019,
+    "famousProjects": [
+      "Nelua compiler"
+    ],
+    "frameworks": {},
+    "quiz": {
+      "platforms": [
+        "systems",
+        "game"
+      ],
+      "backend": false,
+      "typing": "static",
+      "speed": "high"
+    },
+    "history": "Nelua is a statically typed language with Lua syntax that compiles to C, created by Eduardo Bart in 2019 for game and systems work."
+  },
+  "Koka": {
+    "creator": "Daan Leijen",
+    "year": 2012,
+    "famousProjects": [
+      "Koka compiler",
+      "Perceus reference counting"
+    ],
+    "frameworks": {},
+    "quiz": {
+      "platforms": [
+        "systems",
+        "cli"
+      ],
+      "backend": false,
+      "typing": "static",
+      "speed": "high"
+    },
+    "history": "Koka is a research language by Daan Leijen at Microsoft Research. Its type system tracks side effects as algebraic effects, and it introduced the Perceus reference counting scheme."
+  },
+  "Flix": {
+    "creator": "Magnus Madsen",
+    "year": 2015,
+    "famousProjects": [
+      "Flix compiler"
+    ],
+    "frameworks": {},
+    "quiz": {
+      "platforms": [
+        "cli"
+      ],
+      "backend": false,
+      "typing": "static",
+      "speed": "high"
+    },
+    "history": "Flix is a functional language for the JVM with first-class Datalog constraints and an effect system, led by Magnus Madsen at Aarhus University."
+  },
+  "Oz": {
+    "creator": "Gert Smolka",
+    "year": 1991,
+    "famousProjects": [
+      "Mozart Programming System"
+    ],
+    "frameworks": {},
+    "quiz": {
+      "platforms": [
+        "cli"
+      ],
+      "backend": false,
+      "typing": "dynamic",
+      "speed": "moderate"
+    },
+    "history": "Oz is a multiparadigm language designed by Gert Smolka's group in 1991. It is the language taught in the book Concepts, Techniques, and Models of Computer Programming."
+  },
+  "Nemerle": {
+    "creator": "Michał Moskal and Kamil Skalski",
+    "year": 2003,
+    "famousProjects": [
+      "Nitra"
+    ],
+    "frameworks": {},
+    "quiz": {
+      "platforms": [
+        "desktop"
+      ],
+      "backend": false,
+      "typing": "static",
+      "speed": "high"
+    },
+    "history": "Nemerle is a .NET language blending object-oriented and functional styles with a hygienic macro system, created at the University of Wrocław in 2003."
+  },
+  "Delphi": {
+    "creator": "Anders Hejlsberg",
+    "year": 1995,
+    "famousProjects": [
+      "Skype (original client)",
+      "Total Commander",
+      "Inno Setup"
+    ],
+    "frameworks": {},
+    "quiz": {
+      "platforms": [
+        "desktop"
+      ],
+      "backend": false,
+      "typing": "static",
+      "speed": "high"
+    },
+    "history": "Delphi was released by Borland in 1995 with Anders Hejlsberg as chief architect. It pairs Object Pascal with a visual component library for fast Windows application development."
+  },
+  "Curry": {
+    "creator": "Michael Hanus",
+    "year": 1995,
+    "famousProjects": [
+      "PAKCS",
+      "KiCS2"
+    ],
+    "frameworks": {},
+    "quiz": {
+      "platforms": [
+        "cli"
+      ],
+      "backend": false,
+      "typing": "static",
+      "speed": "moderate"
+    },
+    "history": "Curry unifies functional and logic programming with Haskell-style syntax and non-deterministic search. It was designed by an international group led by Michael Hanus from 1995."
+  },
+  "Pawn": {
+    "creator": "Thiadmer Riemersma",
+    "year": 1998,
+    "famousProjects": [
+      "San Andreas Multiplayer",
+      "AMX Mod X"
+    ],
+    "frameworks": {},
+    "quiz": {
+      "platforms": [
+        "game",
+        "embedded"
+      ],
+      "backend": false,
+      "typing": "static",
+      "speed": "high"
+    },
+    "history": "Pawn, formerly Small, was created by Thiadmer Riemersma around 1998 as an embeddable scripting language. It is best known for SA-MP and AMX Mod X game modding."
+  },
+  "Simula": {
+    "creator": "Ole-Johan Dahl and Kristen Nygaard",
+    "year": 1967,
+    "famousProjects": [
+      "Simula 67 compilers"
+    ],
+    "frameworks": {},
+    "quiz": {
+      "platforms": [
+        "systems"
+      ],
+      "backend": false,
+      "typing": "static",
+      "speed": "high"
+    },
+    "history": "Simula 67, by Ole-Johan Dahl and Kristen Nygaard at the Norwegian Computing Center, introduced classes, objects, inheritance and virtual methods. It influenced Smalltalk and C++."
+  },
+  "BCPL": {
+    "creator": "Martin Richards",
+    "year": 1967,
+    "famousProjects": [
+      "Tripos",
+      "Early Xerox Alto software"
+    ],
+    "frameworks": {},
+    "quiz": {
+      "platforms": [
+        "systems"
+      ],
+      "backend": false,
+      "typing": "static",
+      "speed": "high"
+    },
+    "history": "BCPL was designed by Martin Richards at Cambridge in 1967. Its typeless design led to B and then C, and its original Hello World example is where the tradition began."
+  },
+  "PicoLisp": {
+    "creator": "Alexander Burger",
+    "year": 1988,
+    "famousProjects": [
+      "PicoLisp applications"
+    ],
+    "frameworks": {},
+    "quiz": {
+      "platforms": [
+        "web-backend",
+        "cli"
+      ],
+      "backend": true,
+      "typing": "dynamic",
+      "speed": "moderate"
+    },
+    "history": "PicoLisp is a minimalist Lisp by Alexander Burger with an integrated database and GUI framework. Its interpreter is tiny and exposes very few primitives."
+  },
+  "newLISP": {
+    "creator": "Lutz Mueller",
+    "year": 1991,
+    "famousProjects": [
+      "newLISP-GS"
+    ],
+    "frameworks": {},
+    "quiz": {
+      "platforms": [
+        "cli"
+      ],
+      "backend": false,
+      "typing": "dynamic",
+      "speed": "moderate"
+    },
+    "history": "newLISP is a scripting-oriented Lisp by Lutz Mueller, first released in 1991. It emphasizes small size, built-in networking and string handling."
+  },
+  "Stata": {
+    "creator": "William Gould",
+    "year": 1985,
+    "famousProjects": [
+      "Econometrics research",
+      "Do-files"
+    ],
+    "frameworks": {},
+    "quiz": {
+      "platforms": [
+        "data-science"
+      ],
+      "backend": false,
+      "typing": "dynamic",
+      "speed": "moderate"
+    },
+    "history": "Stata is a statistics package created by William Gould at StataCorp, first released in 1985. Scripts are saved as do-files and are common in economics and epidemiology."
+  },
+  "SAS": {
+    "creator": "Anthony Barr and James Goodnight",
+    "year": 1966,
+    "famousProjects": [
+      "Clinical trial analysis",
+      "Banking analytics"
+    ],
+    "frameworks": {},
+    "quiz": {
+      "platforms": [
+        "data-science"
+      ],
+      "backend": false,
+      "typing": "dynamic",
+      "speed": "moderate"
+    },
+    "history": "SAS began in 1966 at North Carolina State University as the Statistical Analysis System and became a company in 1976. Its data step language processes large tables."
+  },
+  "Processing": {
+    "creator": "Ben Fry and Casey Reas",
+    "year": 2001,
+    "famousProjects": [
+      "p5.js (port)",
+      "Generative art"
+    ],
+    "frameworks": {},
+    "quiz": {
+      "platforms": [
+        "game",
+        "desktop"
+      ],
+      "backend": false,
+      "typing": "static",
+      "speed": "moderate"
+    },
+    "history": "Processing was created by Ben Fry and Casey Reas at the MIT Media Lab in 2001. It wraps Java in a simple sketchbook to teach programming through visual output."
+  },
+  "Arduino": {
+    "creator": "Massimo Banzi and David Cuartielles",
+    "year": 2005,
+    "famousProjects": [
+      "Arduino Uno sketches",
+      "Maker projects"
+    ],
+    "frameworks": {},
+    "quiz": {
+      "platforms": [
+        "embedded"
+      ],
+      "backend": false,
+      "typing": "static",
+      "speed": "high"
+    },
+    "history": "Arduino sketches are C++ programs wrapped by a simple framework, from the Interaction Design Institute Ivrea project started in 2005 by Massimo Banzi and colleagues."
+  },
+  "Cairo": {
+    "creator": "StarkWare",
+    "year": 2020,
+    "famousProjects": [
+      "StarkNet",
+      "Starknet Foundry"
+    ],
+    "frameworks": {},
+    "quiz": {
+      "platforms": [
+        "web-backend"
+      ],
+      "backend": true,
+      "typing": "static",
+      "speed": "high"
+    },
+    "history": "Cairo was developed by StarkWare to write provable programs for STARK proofs. Cairo 1, released in 2023, uses Rust-inspired syntax."
+  },
+  "Dockerfile": {
+    "creator": "Solomon Hykes",
+    "year": 2013,
+    "famousProjects": [
+      "Docker",
+      "Podman",
+      "Kubernetes images"
+    ],
+    "frameworks": {},
+    "quiz": {
+      "platforms": [
+        "cloud"
+      ],
+      "backend": false,
+      "typing": "dynamic",
+      "speed": "moderate"
+    },
+    "history": "The Dockerfile format was introduced with Docker in 2013 by Solomon Hykes and dotCloud. Each instruction adds a layer to a container image."
+  },
+  "Makefile": {
+    "creator": "Stuart Feldman",
+    "year": 1976,
+    "famousProjects": [
+      "Linux kernel",
+      "GCC"
+    ],
+    "frameworks": {},
+    "quiz": {
+      "platforms": [
+        "cli",
+        "systems"
+      ],
+      "backend": false,
+      "typing": "dynamic",
+      "speed": "moderate"
+    },
+    "history": "Make was written by Stuart Feldman at Bell Labs in 1976. Makefiles declare targets and dependencies, and GNU Make is still the default build tool for many C projects."
+  },
+  "Joy": {
+    "creator": "Manfred von Thun",
+    "year": 2001,
+    "famousProjects": [
+      "Joy interpreters"
+    ],
+    "frameworks": {},
+    "quiz": {
+      "platforms": [
+        "cli"
+      ],
+      "backend": false,
+      "typing": "dynamic",
+      "speed": "moderate"
+    },
+    "history": "Joy is a concatenative functional language by Manfred von Thun in which programs are built by composing quoted lists, influencing Factor and Cat."
+  },
+  "GolfScript": {
+    "creator": "Darren Smith",
+    "year": 2007,
+    "famousProjects": [
+      "Anarchy Golf entries"
+    ],
+    "frameworks": {},
+    "quiz": {
+      "platforms": [
+        "esoteric"
+      ],
+      "backend": false,
+      "typing": "dynamic",
+      "speed": "moderate"
+    },
+    "history": "GolfScript was written by Darren Smith in 2007 for code golf. Programs are short stack scripts that print the stack on exit."
   }
 }
