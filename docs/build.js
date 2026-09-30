@@ -1,10 +1,11 @@
-import os
-import json
+const fs = require('fs');
+const path = require('path');
 
-SOURCE_DIR = os.path.join(os.path.dirname(__file__), "hello-world")
-OUTPUT_PATH = os.path.join(os.path.dirname(__file__), "languages.json")
+const SOURCE_DIR = path.join(__dirname, 'hello-world');
+const OUTPUT_PATH = path.join(__dirname, 'languages.json');
+const METADATA_PATH = path.join(__dirname, 'language_metadata.json');
 
-EXTENSION_MAP = {
+const EXTENSION_MAP = {
     ".adb":          {"name": "Ada",                            "tags": ["procedural", "oop"]},
     ".ads":          {"name": "Ada (Script)",                   "tags": ["procedural", "oop"]},
     ".as":           {"name": "ActionScript",                   "tags": ["oop", "scripting"]},
@@ -141,18 +142,55 @@ EXTENSION_MAP = {
     ".xq":           {"name": "XQuery",                         "tags": ["functional"]},
     ".yaml":         {"name": "YAML",                           "tags": ["markup"]},
     ".zig":          {"name": "Zig",                            "tags": ["procedural"]},
-}
+    ".gleam":        {"name": "Gleam",                          "tags": ["functional"]},
+    ".mojo":         {"name": "Mojo",                           "tags": ["procedural", "oop"]},
+    ".sol":          {"name": "Solidity",                       "tags": ["procedural", "oop"]},
+    ".qs":           {"name": "Q#",                             "tags": ["functional", "procedural"]},
+    ".befunge":      {"name": "Befunge",                        "tags": ["esoteric"]},
+    ".rockstar":     {"name": "Rockstar",                       "tags": ["esoteric"]},
+    ".chef":         {"name": "Chef",                           "tags": ["esoteric"]},
+    ".arnoldc":      {"name": "ArnoldC",                        "tags": ["esoteric"]},
+    ".odin": {"name": "Odin", "tags": ["procedural"]},
+    ".nix": {"name": "Nix", "tags": ["functional"]},
+    ".fish": {"name": "Fish", "tags": ["scripting"]},
+    ".zsh": {"name": "Zsh", "tags": ["scripting"]},
+    ".el": {"name": "Emacs Lisp", "tags": ["functional", "scripting"]},
+    ".gd": {"name": "GDScript", "tags": ["scripting", "oop"]},
+    ".purs": {"name": "PureScript", "tags": ["functional"]},
+    ".idr": {"name": "Idris", "tags": ["functional"]},
+    ".lean": {"name": "Lean", "tags": ["functional"]},
+    ".agda": {"name": "Agda", "tags": ["functional"]},
+    ".pony": {"name": "Pony", "tags": ["oop"]},
+    ".red": {"name": "Red", "tags": ["procedural", "scripting"]},
+    ".hy": {"name": "Hy", "tags": ["functional", "scripting"]},
+    ".fnl": {"name": "Fennel", "tags": ["functional", "scripting"]},
+    ".janet": {"name": "Janet", "tags": ["functional", "scripting"]},
+    ".vala": {"name": "Vala", "tags": ["oop"]},
+    ".res": {"name": "ReScript", "tags": ["functional"]},
+    ".nu": {"name": "Nushell", "tags": ["scripting"]},
+    ".wren": {"name": "Wren", "tags": ["oop", "scripting"]},
+    ".nut": {"name": "Squirrel", "tags": ["oop", "scripting"]},
+    ".moon": {"name": "MoonScript", "tags": ["scripting"]},
+    ".bqn": {"name": "BQN", "tags": ["functional"]},
+    ".jsonnet": {"name": "Jsonnet", "tags": ["functional", "markup"]},
+    ".pike": {"name": "Pike", "tags": ["oop", "scripting"]},
+    ".ha": {"name": "Hare", "tags": ["procedural"]},
+    ".carbon": {"name": "Carbon", "tags": ["procedural", "oop"]},
+    ".ua": {"name": "Uiua", "tags": ["functional"]},
+    ".ook": {"name": "Ook!", "tags": ["esoteric"]}
+};
 
-FILENAME_MAP = {
+const FILENAME_MAP = {
     "hello_matlab.m":       {"name": "MATLAB",              "description": "Numerical computing environment and programming language",   "tags": ["procedural"]},
     "hello_mercury.m":      {"name": "Mercury",             "description": "Purely declarative logic programming language",              "tags": ["logic", "functional"]},
     "hello_octave.m":       {"name": "Octave",              "description": "Open-source numerical computation language",                 "tags": ["procedural"]},
     "hello_script.go":      {"name": "Go (Script)",         "description": "Go for scripting purposes",                                 "tags": ["procedural", "scripting"]},
     "hello_script.scm":     {"name": "Scheme (Script)",     "description": "Scheme for scripting purposes",                             "tags": ["functional", "scripting"]},
     "hello_script.swift":   {"name": "Swift (Script)",      "description": "Swift for scripting purposes",                              "tags": ["oop", "scripting"]},
-}
+    "hello_v.v": {"name": "V", "description": "Simple, fast compiled language", "tags": ["procedural"]}
+};
 
-DESCRIPTION_DEFAULTS = {
+const DESCRIPTION_DEFAULTS = {
     "Ada":                          "General-purpose, strongly typed language",
     "Ada (Script)":                 "Ada for scripting purposes",
     "ActionScript":                 "Object-oriented language for Adobe Flash and AIR",
@@ -180,70 +218,149 @@ DESCRIPTION_DEFAULTS = {
     "C# Script":                    "C# for scripting purposes",
     "C++":                          "Object-oriented extension of C",
     "C++ (Script)":                 "C++ for scripting purposes",
+    "Gleam":                        "Friendly functional language for Erlang BEAM",
+    "Mojo":                         "AI-oriented Python-compatible systems language",
+    "Solidity":                     "Contract-oriented smart contract programming language",
+    "Q#":                           "Quantum programming language from Microsoft",
+    "Befunge":                      "Two-dimensional esoteric programming language",
+    "Rockstar":                     "Computer programming language designed for creating song lyrics",
+    "Chef":                         "Esoteric language where programs look like recipes",
+    "ArnoldC":                      "Esoteric language composed of Arnold Schwarzenegger quotes",
+    "Odin": "Data-oriented systems language, a C alternative",
+    "Nix": "Pure, lazy language for reproducible builds and NixOS",
+    "Fish": "Friendly interactive shell",
+    "Zsh": "Extended Bourne-style shell",
+    "Emacs Lisp": "Extension language of the Emacs editor",
+    "GDScript": "Python-like scripting language of the Godot engine",
+    "PureScript": "Strongly typed functional language compiling to JavaScript",
+    "Idris": "Dependently typed functional language",
+    "Lean": "Theorem prover and functional programming language",
+    "Agda": "Dependently typed proof assistant language",
+    "Pony": "Actor-model language with reference capabilities",
+    "Red": "Full-stack language inspired by Rebol",
+    "Hy": "Lisp embedded in Python",
+    "Fennel": "Lisp that compiles to Lua",
+    "Janet": "Embeddable Lisp-like scripting language",
+    "Vala": "GObject-based language compiled to C",
+    "ReScript": "Typed language that compiles to JavaScript",
+    "Nushell": "Shell that treats output as structured data",
+    "Wren": "Small, fast, class-based scripting language",
+    "Squirrel": "Lightweight scripting language for games",
+    "MoonScript": "Indentation-based language compiling to Lua",
+    "BQN": "Modern array programming language",
+    "Jsonnet": "Data templating language that extends JSON",
+    "Pike": "Dynamic C-like language",
+    "Hare": "Simple systems programming language",
+    "Carbon": "Experimental successor to C++",
+    "Uiua": "Stack-based array language",
+    "V": "Simple, fast compiled language",
+    "Ook!": "Brainfuck for orangutans"
+};
+
+function getExtension(filename) {
+    const parts = filename.split('.');
+    if (parts.length < 2) return '';
+    // Special multi-dot extension matching like .cljs.browser or .cljs.node
+    const ext2 = '.' + parts.slice(1).join('.');
+    if (EXTENSION_MAP[ext2]) return ext2;
+    return '.' + parts.pop();
 }
 
+function main() {
+    console.log(`Scanning ${SOURCE_DIR}...`);
+    
+    if (!fs.existsSync(SOURCE_DIR)) {
+        console.error(`Source directory not found: ${SOURCE_DIR}`);
+        process.exit(1);
+    }
 
-def get_extension(filename):
-    parts = filename.split(".", 1)
-    if len(parts) < 2:
-        return ""
-    return "." + parts[1]
+    const files = fs.readdirSync(SOURCE_DIR);
+    const langs = [];
 
+    files.forEach(filename => {
+        const filepath = path.join(SOURCE_DIR, filename);
+        if (!fs.statSync(filepath).isFile()) return;
 
-def scan_directory():
-    languages = []
+        const relPath = `hello-world/${filename}`;
 
-    if not os.path.isdir(SOURCE_DIR):
-        print(f"Source directory not found: {SOURCE_DIR}")
-        return languages
+        if (FILENAME_MAP[filename]) {
+            const entry = FILENAME_MAP[filename];
+            langs.push({
+                name: entry.name,
+                description: entry.description || `Hello World in ${entry.name}`,
+                path: relPath,
+                tags: entry.tags
+            });
+            return;
+        }
 
-    for filename in sorted(os.listdir(SOURCE_DIR)):
-        filepath = os.path.join(SOURCE_DIR, filename)
-        if not os.path.isfile(filepath):
-            continue
+        const ext = getExtension(filename);
+        if (EXTENSION_MAP[ext]) {
+            const meta = EXTENSION_MAP[ext];
+            const name = meta.name;
+            const desc = DESCRIPTION_DEFAULTS[name] || `Hello World in ${name}`;
+            langs.push({
+                name: name,
+                description: desc,
+                path: relPath,
+                tags: meta.tags
+            });
+        } else {
+            console.log(`Unknown extension for file: ${filename}`);
+        }
+    });
 
-        rel_path = f"hello-world/{filename}"
+    console.log(`Found ${langs.length} languages.`);
 
-        if filename in FILENAME_MAP:
-            entry = FILENAME_MAP[filename]
-            languages.append({
-                "name": entry["name"],
-                "description": entry.get("description", f"Hello World in {entry['name']}"),
-                "path": rel_path,
-                "tags": entry["tags"],
-            })
-            continue
+    // Load language_metadata.json if it exists
+    let metadata = {};
+    if (fs.existsSync(METADATA_PATH)) {
+        console.log(`Loading metadata from ${METADATA_PATH}...`);
+        try {
+            metadata = JSON.parse(fs.readFileSync(METADATA_PATH, 'utf-8'));
+        } catch (e) {
+            console.error(`Error loading metadata: ${e.message}`);
+        }
+    }
 
-        ext = get_extension(filename)
-        if ext in EXTENSION_MAP:
-            meta = EXTENSION_MAP[ext]
-            name = meta["name"]
-            desc = DESCRIPTION_DEFAULTS.get(name, f"Hello World in {name}")
-            languages.append({
-                "name": name,
-                "description": desc,
-                "path": rel_path,
-                "tags": meta["tags"],
-            })
-        else:
-            print(f"Unknown extension for file: {filename}")
+    // Merge metadata
+    langs.forEach(lang => {
+        const name = lang.name;
+        // Fallbacks
+        lang.creator = "Unknown";
+        lang.year = "N/A";
+        lang.history = "";
+        lang.famousProjects = [];
+        lang.frameworks = {};
+        lang.quiz = {
+            platforms: [],
+            backend: false,
+            typing: "dynamic",
+            speed: "moderate"
+        };
 
-    return languages
+        if (metadata[name]) {
+            const meta = metadata[name];
+            lang.creator = meta.creator || "Unknown";
+            lang.year = meta.year || "N/A";
+            lang.history = meta.history || "";
+            lang.famousProjects = meta.famousProjects || [];
+            lang.frameworks = meta.frameworks || {};
+            lang.quiz = meta.quiz || {
+                platforms: [],
+                backend: false,
+                typing: "dynamic",
+                speed: "moderate"
+            };
+        }
+    });
 
+    // Sort by name case-insensitive
+    langs.sort((a, b) => a.name.toLowerCase().localeCompare(b.name.toLowerCase()));
 
-def main():
-    print(f"Scanning {SOURCE_DIR}...")
-    langs = scan_directory()
-    print(f"Found {len(langs)} languages.")
+    console.log(`Writing ${OUTPUT_PATH}...`);
+    fs.writeFileSync(OUTPUT_PATH, JSON.stringify(langs, null, 2), 'utf-8');
+    console.log('Done.');
+}
 
-    langs.sort(key=lambda x: x["name"].lower())
-
-    print(f"Writing {OUTPUT_PATH}...")
-    with open(OUTPUT_PATH, "w", encoding="utf-8") as f:
-        json.dump(langs, f, indent=2, ensure_ascii=False)
-
-    print("Done.")
-
-
-if __name__ == "__main__":
-    main()
+main();

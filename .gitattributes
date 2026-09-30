@@ -4,6 +4,5 @@
 *.css linguist-documentation
 *.js linguist-documentation
 *.json linguist-documentation
-*.py linguist-documentation
 
 docs/hello-world/** linguist-vendored

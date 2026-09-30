@@ -1,4 +1,4 @@
- # Ez a whitespace nevezetú programozási nyelv a Hello World így néz ki ezalat a komment alatt (https://www.dcode.fr/whitespace-language)
+ # Hello World in the Whitespace programming language (https://www.dcode.fr/whitespace-language)
    	  	   
 	
      		  	 	

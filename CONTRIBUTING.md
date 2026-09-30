@@ -22,15 +22,16 @@ Each file should contain a minimal, idiomatic "Hello, World!" program in the tar
 - Use the simplest possible implementation for the language.
 - Include only what is necessary to compile/run the program.
 - Do not include comments.
+- Exception: languages that cannot contain the literal text (Brainfuck, Shakespeare, Whitespace) must print it when run.
 
 ### Updating the Manifest
 
 After adding your file, update the build script's extension mapping:
 
-1. Open `docs/build.py`.
+1. Open `docs/build.js`.
 2. Add your extension to `EXTENSION_MAP` with the language name and paradigm tags.
 3. If your file uses a disambiguated name, add it to `FILENAME_MAP` instead.
-4. Run `python docs/build.py` to regenerate `languages.json`.
+4. Run `bun run build` to regenerate `languages.json`.
 
 ### Paradigm Tags
 
@@ -51,8 +52,8 @@ Each language entry requires at least one paradigm tag:
 
 1. Fork the repository and create a feature branch.
 2. Add your `hello.<ext>` file to `docs/hello-world/`.
-3. Update `docs/build.py` with the extension mapping.
-4. Run `python docs/build.py` and verify `languages.json` was updated.
+3. Update `docs/build.js` with the extension mapping.
+4. Run `bun run build` and verify `languages.json` was updated.
 5. Commit all changed files.
 6. Open a Pull Request with the title: `Add Hello World in <Language Name>`.
 

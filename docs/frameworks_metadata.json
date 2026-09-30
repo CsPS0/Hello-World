@@ -1,0 +1,422 @@
+[
+  {
+    "name": "React",
+    "type": "Web Frontend",
+    "language": "JavaScript",
+    "description": "Component-based library for building user interfaces, developed by Meta.",
+    "famousProjects": ["Facebook", "Instagram", "Netflix", "Airbnb"]
+  },
+  {
+    "name": "Django",
+    "type": "Web Backend",
+    "language": "Python",
+    "description": "High-level web framework encouraging rapid development and clean design.",
+    "famousProjects": ["Instagram", "Pinterest", "Disqus", "Bitbucket"]
+  },
+  {
+    "name": "Unity",
+    "type": "Game Engine",
+    "language": "C#",
+    "description": "Cross-platform game engine used to create 2D, 3D, VR, and AR games.",
+    "famousProjects": ["Hollow Knight", "Genshin Impact", "Cuphead", "Monument Valley"]
+  },
+  {
+    "name": "Unreal Engine",
+    "type": "Game Engine",
+    "language": "C++",
+    "description": "Advanced real-time 3D creation tool for photorealistic visuals and games.",
+    "famousProjects": ["Fortnite", "Batman: Arkham Knight", "Gears of War", "The Matrix Awakens"]
+  },
+  {
+    "name": "Flutter",
+    "type": "Mobile SDK",
+    "language": "Dart",
+    "description": "Google's UI toolkit for compiling natively built applications from a single codebase.",
+    "famousProjects": ["Google Pay", "Google Ads", "eBay Motors", "Reflectly"]
+  },
+  {
+    "name": "Spring Boot",
+    "type": "Web Backend",
+    "language": "Java",
+    "description": "Enterprise-grade framework for building production-ready standalone Java apps.",
+    "famousProjects": ["Netflix", "Uber", "Airbnb", "LinkedIn"]
+  },
+  {
+    "name": "ASP.NET Core",
+    "type": "Web Backend",
+    "language": "C#",
+    "description": "Open-source, high-performance web framework developed by Microsoft.",
+    "famousProjects": ["Stack Overflow", "Microsoft Store", "DotNet Foundation"]
+  },
+  {
+    "name": "React Native",
+    "type": "Mobile SDK",
+    "language": "JavaScript",
+    "description": "Framework for building native mobile applications using React and JavaScript.",
+    "famousProjects": ["Facebook Mobile", "Instagram Mobile", "Shopify App", "Tesla App"]
+  },
+  {
+    "name": "Express",
+    "type": "Web Backend",
+    "language": "JavaScript",
+    "description": "Minimalist and flexible Node.js web application framework.",
+    "famousProjects": ["MySpace", "Ghost CMS", "Paypal Backends"]
+  },
+  {
+    "name": "FastAPI",
+    "type": "Web Backend",
+    "language": "Python",
+    "description": "Modern, high-performance web framework for building APIs with Python type hints.",
+    "famousProjects": ["Netflix API", "Uber Internal Tools", "Microsoft Teams backend"]
+  },
+  {
+    "name": "Vue",
+    "type": "Web Frontend",
+    "language": "JavaScript",
+    "description": "Progressive JavaScript framework for building elegant web user interfaces.",
+    "famousProjects": ["GitLab", "Zoom Web App", "Nintendo Online store"]
+  },
+  {
+    "name": "Angular",
+    "type": "Web Frontend",
+    "language": "TypeScript",
+    "description": "Google's component-based framework for building scalable web applications.",
+    "famousProjects": ["Google Marketing Platform", "Forbes website", "Xbox Dev Center"]
+  },
+  {
+    "name": "Laravel",
+    "type": "Web Backend",
+    "language": "PHP",
+    "description": "Web application framework with expressive, elegant syntax for PHP.",
+    "famousProjects": ["Fathom Analytics", "Cachet Status Page", "Laracasts"]
+  },
+  {
+    "name": "Ruby on Rails",
+    "type": "Web Backend",
+    "language": "Ruby",
+    "description": "Model-view-controller framework that provides default structures for databases.",
+    "famousProjects": ["GitHub", "Airbnb", "Basecamp", "Shopify"]
+  },
+  {
+    "name": "Phoenix",
+    "type": "Web Backend",
+    "language": "Elixir",
+    "description": "Web framework targeting high concurrency and real-time messaging using the Erlang VM.",
+    "famousProjects": ["Discord voice servers", "PagerDuty API", "PepsiCo online portal"]
+  },
+  {
+    "name": "Spring Framework",
+    "type": "Web Backend",
+    "language": "Java",
+    "description": "Comprehensive programming and configuration model for modern Java-based enterprise apps.",
+    "famousProjects": ["Alibaba", "Amazon Backend", "eBay"]
+  },
+  {
+    "name": "Vapor",
+    "type": "Web Backend",
+    "language": "Swift",
+    "description": "Server-side Swift web framework built on Apple's SwiftNIO.",
+    "famousProjects": ["Vapor Cloud", "Foodora Backend", "Nike Internal Tools"]
+  },
+  {
+    "name": "Ktor",
+    "type": "Web Backend",
+    "language": "Kotlin",
+    "description": "Framework for building asynchronous servers and clients in connected systems using coroutines.",
+    "famousProjects": ["JetBrains Space", "Adobe APIs", "Philips Hue platform"]
+  },
+  {
+    "name": "Kemal",
+    "type": "Web Backend",
+    "language": "Crystal",
+    "description": "Super fast, simple web framework for the Crystal language, inspired by Sinatra.",
+    "famousProjects": ["Mint Compiler backend", "Crystal-Lang official examples"]
+  },
+  {
+    "name": "Actix-web",
+    "type": "Web Backend",
+    "language": "Rust",
+    "description": "Powerful, pragmatic, and extremely fast web framework for Rust.",
+    "famousProjects": ["Microsoft security backends", "Rust crates.io index mirror"]
+  },
+  {
+    "name": "Axum",
+    "type": "Web Backend",
+    "language": "Rust",
+    "description": "Ergonomic web application framework that focuses on routing and state handling in Rust.",
+    "famousProjects": ["Deno deploy servers", "Linkerd control planes"]
+  },
+  {
+    "name": "Gin",
+    "type": "Web Backend",
+    "language": "Go",
+    "description": "HTTP web framework that features a martini-like API with much better performance.",
+    "famousProjects": ["Docker hub API", "Kubernetes metrics server"]
+  },
+  {
+    "name": "Pygame",
+    "type": "Game Library",
+    "language": "Python",
+    "description": "Set of Python modules designed for writing 2D video games.",
+    "famousProjects": ["Daftroid", "SuperPotatoBrush", "SolarWolf"]
+  },
+  {
+    "name": "Bevy",
+    "type": "Game Engine",
+    "language": "Rust",
+    "description": "Simple data-driven game engine built in Rust, featuring an ECS architecture.",
+    "famousProjects": ["Bevy Editor", "Space Ack-Ack", "Tantivy game"]
+  },
+  {
+    "name": "LÖVE (Love2D)",
+    "type": "Game Library",
+    "language": "Lua",
+    "description": "Framework to make 2D games in Lua, simple and powerful.",
+    "famousProjects": ["Mari0", "Move or Die", "Balatro (early prototypes)"]
+  },
+  {
+    "name": "Phaser",
+    "type": "Game Library",
+    "language": "JavaScript",
+    "description": "Fast, free, and fun open-source HTML5 game framework.",
+    "famousProjects": ["Venge.io", "Idle Breakout", "Shell Shockers"]
+  },
+  {
+    "name": "Raylib",
+    "type": "Game Library",
+    "language": "C",
+    "description": "Simple and easy-to-use library to learn videogames programming, with no external dependencies.",
+    "famousProjects": ["Wrestle Jump", "Floppy Bird", "Retro game clones"]
+  },
+  {
+    "name": "SDL",
+    "type": "Game Library",
+    "language": "C",
+    "description": "Low-level development library designed to provide direct access to audio, keyboard, mouse, and graphics.",
+    "famousProjects": ["Steam Client", "Dota 2", "Half-Life", "F1 2021"]
+  },
+  {
+    "name": "SFML",
+    "type": "Game Library",
+    "language": "C++",
+    "description": "Simple and Fast Multimedia Library providing a simple interface to ease game development.",
+    "famousProjects": ["FTL: Faster Than Light", "Zelda clone engines", "Crayon Physics Deluxe"]
+  },
+  {
+    "name": "MonoGame",
+    "type": "Game Engine",
+    "language": "C#",
+    "description": "Open-source implementation of Microsoft's XNA framework for cross-platform games.",
+    "famousProjects": ["Stardew Valley", "Celeste", "Terraria", "Fez"]
+  },
+  {
+    "name": "SwiftUI",
+    "type": "UI Framework",
+    "language": "Swift",
+    "description": "Apple's innovative API for building user interfaces across all Apple platforms.",
+    "famousProjects": ["Apple Maps UI", "Stocks App", "Weather App"]
+  },
+  {
+    "name": "Android Jetpack Compose",
+    "type": "UI Framework",
+    "language": "Kotlin",
+    "description": "Android's modern toolkit for building native UI, simplifying UI design.",
+    "famousProjects": ["Play Store UI", "Twitter App (Android)", "Airbnb App (Android)"]
+  },
+  {
+    "name": "Xamarin",
+    "type": "Mobile SDK",
+    "language": "C#",
+    "description": "Microsoft tool for writing native cross-platform mobile apps for Android and iOS.",
+    "famousProjects": ["UPS Mobile App", "Alaska Airlines App", "Olo platform"]
+  },
+  {
+    "name": "TensorFlow",
+    "type": "Data / AI Library",
+    "language": "Python",
+    "description": "Google's open-source machine learning platform for training neural networks.",
+    "famousProjects": ["Google Translate", "Gmail smart reply", "AlphaGo"]
+  },
+  {
+    "name": "PyTorch",
+    "type": "Data / AI Library",
+    "language": "Python",
+    "description": "Flexible and modular deep learning research library developed by Meta.",
+    "famousProjects": ["Tesla Autopilot", "ChatGPT training models", "Hugging Face"]
+  },
+  {
+    "name": "NumPy",
+    "type": "Data / AI Library",
+    "language": "Python",
+    "description": "Fundamental scientific computing package supporting massive multi-dimensional array calculations.",
+    "famousProjects": ["LIGO gravitational wave analysis", "Black Hole image processing (EHT)"]
+  },
+  {
+    "name": "Pandas",
+    "type": "Data / AI Library",
+    "language": "Python",
+    "description": "High-performance data analysis and manipulation library for data science.",
+    "famousProjects": ["Financial stock analysis systems", "Kaggle notebooks", "Jupyter analytics"]
+  },
+  {
+    "name": "Apache Spark",
+    "type": "Data / AI Library",
+    "language": "Scala",
+    "description": "Unified analytics engine for large-scale data processing and machine learning.",
+    "famousProjects": ["Netflix recommendations", "Yahoo web search data indexing"]
+  },
+  {
+    "name": "Shiny",
+    "type": "Data / AI Library",
+    "language": "R",
+    "description": "R package that makes it easy to build interactive web apps straight from R.",
+    "famousProjects": ["COVID-19 trackers", "University research dashboards"]
+  },
+  {
+    "name": "ggplot2",
+    "type": "Data / AI Library",
+    "language": "R",
+    "description": "System for declaratively creating graphics, based on The Grammar of Graphics.",
+    "famousProjects": ["New York Times chart assets", "FiveThirtyEight plots", "Academic papers"]
+  },
+  {
+    "name": "Svelte",
+    "type": "Web Frontend",
+    "language": "JavaScript",
+    "description": "Cybernetically enhanced web framework that compiles components down to tiny, framework-less vanilla JS.",
+    "famousProjects": ["New York Times", "Spotify website", "Svelte website"]
+  },
+  {
+    "name": "Next.js",
+    "type": "Web Frontend",
+    "language": "TypeScript",
+    "description": "React framework for production grade server-side rendered applications and static sites, developed by Vercel.",
+    "famousProjects": ["TikTok web", "Hulu", "Twitch landing", "Vercel dashboard"]
+  },
+  {
+    "name": "SvelteKit",
+    "type": "Web Backend",
+    "language": "JavaScript",
+    "description": "Application framework for Svelte, featuring file-based routing and server-side rendering.",
+    "famousProjects": ["Svelte official docs", "Decathlon online portal", "Plausible Analytics"]
+  },
+  {
+    "name": "Fastify",
+    "type": "Web Backend",
+    "language": "JavaScript",
+    "description": "Extremely fast and low overhead web framework for Node.js, focused on JSON schema validation.",
+    "famousProjects": ["Hotjar backends", "NearForm services"]
+  },
+  {
+    "name": "NestJS",
+    "type": "Web Backend",
+    "language": "TypeScript",
+    "description": "Progressive Node.js framework for building efficient, reliable, and scalable enterprise-grade server-side apps.",
+    "famousProjects": ["Adidas backends", "Decathlon internal tools", "Autodesk platform"]
+  },
+  {
+    "name": "Ember.js",
+    "type": "Web Frontend",
+    "language": "JavaScript",
+    "description": "Productive, battle-tested JavaScript framework for building modern web applications.",
+    "famousProjects": ["Apple Music web", "LinkedIn app", "Discourse forum platform"]
+  },
+  {
+    "name": "Qt",
+    "type": "UI Framework",
+    "language": "C++",
+    "description": "Cross-platform application development framework for creating native desktop and embedded graphical interfaces.",
+    "famousProjects": ["VLC Media Player", "Adobe Photoshop Album", "Autodesk Maya", "VirtualBox"]
+  },
+  {
+    "name": "Tkinter",
+    "type": "UI Framework",
+    "language": "Python",
+    "description": "Standard Python interface to the Tk GUI toolkit for building local desktop applications.",
+    "famousProjects": ["IDLE (Python IDE)", "Simple python utility interfaces"]
+  },
+  {
+    "name": "Kivy",
+    "type": "UI Framework",
+    "language": "Python",
+    "description": "Open-source Python library for rapid development of applications with innovative user interfaces (touchscreens).",
+    "famousProjects": ["Bida game", "Process control dashboards"]
+  },
+  {
+    "name": "Tauri",
+    "type": "UI Framework",
+    "language": "Rust",
+    "description": "Framework for building tiny, blazing fast, secure desktop applications using web technologies and Rust backends.",
+    "famousProjects": ["Loop desktop app", "Cursor IDE (some toolings)", "Tauri CLI"]
+  },
+  {
+    "name": "Electron",
+    "type": "UI Framework",
+    "language": "JavaScript",
+    "description": "Framework for building cross-platform desktop applications using Chromium and Node.js.",
+    "famousProjects": ["VS Code", "Slack desktop client", "Discord app", "GitHub Desktop"]
+  },
+  {
+    "name": "Godot Engine",
+    "type": "Game Engine",
+    "language": "C++",
+    "description": "Free, open-source 2D and 3D game engine featuring a node-based architecture.",
+    "famousProjects": ["Brotato", "Cassette Beasts", "Cruelty Squad", "Sonic Colors: Ultimate"]
+  },
+  {
+    "name": "Raylib-Go",
+    "type": "Game Library",
+    "language": "Go",
+    "description": "Go bindings for Raylib, a simple and easy-to-use library to learn video games programming.",
+    "famousProjects": ["Local retro clones", "Indie game prototypes"]
+  },
+  {
+    "name": "Scikit-learn",
+    "type": "Data / AI Library",
+    "language": "Python",
+    "description": "Simple and efficient tools for predictive data analysis, built on NumPy, SciPy, and matplotlib.",
+    "famousProjects": ["Spotify recommendation classifiers", "JPMorgan risk models"]
+  },
+  {
+    "name": "Hugging Face Transformers",
+    "type": "Data / AI Library",
+    "language": "Python",
+    "description": "State-of-the-art machine learning models for natural language processing, computer vision, and audio.",
+    "famousProjects": ["ChatGPT alternative models", "Stable Diffusion integrations"]
+  },
+  {
+    "name": "dplyr",
+    "type": "Data / AI Library",
+    "language": "R",
+    "description": "Grammar of data manipulation, providing a consistent set of verbs to solve data manipulation challenges.",
+    "famousProjects": ["Kaggle notebook cleansers", "Academic data preparations"]
+  },
+  {
+    "name": "Julia Flux",
+    "type": "Data / AI Library",
+    "language": "Julia",
+    "description": "Elegant, lightweight machine learning library written natively in the Julia language.",
+    "famousProjects": ["Scientific machine learning models", "Physics-informed neural networks"]
+  },
+  {
+    "name": "TensorFlow.js",
+    "type": "Data / AI Library",
+    "language": "JavaScript",
+    "description": "Library for developing and training ML models in JavaScript, and deploying in the browser or on Node.js.",
+    "famousProjects": ["Node-RED AI integrations", "In-browser facial landmark trackers"]
+  },
+  {
+    "name": "Lustre",
+    "type": "Web Frontend",
+    "language": "Gleam",
+    "description": "An Elm-inspired framework for building web frontends in Gleam, compiling to HTML or JavaScript.",
+    "famousProjects": ["Gleam official website", "Interactive browser interfaces"]
+  },
+  {
+    "name": "Hardhat",
+    "type": "UI Framework",
+    "language": "Solidity",
+    "description": "Ethereum development environment for professionals, enabling compilation, deployment, and testing of contracts.",
+    "famousProjects": ["Uniswap V3 test suites", "OpenZeppelin contract validations"]
+  }
+]

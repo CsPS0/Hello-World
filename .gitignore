@@ -25,3 +25,8 @@ Desktop.ini
 .env.*.local
 
 .gemini/
+
+# Exported chats
+antigravity-chats-export/
+# Serena
+.serena/

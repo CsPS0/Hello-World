@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Raw Code Viewer</title>
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='80' font-family='monospace' fill='%23e05a2b'>&gt;_</text></svg>">
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        body {
+            background-color: #000000;
+            color: #e0e0e0;
+            font-family: 'IBM Plex Mono', Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+            font-size: 14px;
+            line-height: 1.5;
+            padding: 20px;
+        }
+        pre {
+            white-space: pre-wrap;
+            word-break: break-all;
+        }
+    </style>
+</head>
+<body>
+    <pre id="code-content">Loading raw source code...</pre>
+    <script>
+        const params = new URLSearchParams(window.location.search);
+        const fileParam = params.get('file');
+        
+        if (fileParam) {
+            // Extract basename for security and fetch relative path
+            const filename = fileParam.split('/').pop();
+            const securePath = 'hello-world/' + filename;
+            
+            // Set page title to the file name
+            document.title = filename;
+
+            fetch(securePath)
+                .then(res => {
+                    if (!res.ok) throw new Error('File not found');
+                    return res.text();
+                })
+                .then(text => {
+                    document.getElementById('code-content').textContent = text;
+                })
+                .catch(err => {
+                    document.getElementById('code-content').textContent = '*** ERROR: FAILED TO FETCH RAW FILE: ' + err.message + ' ***';
+                    document.getElementById('code-content').style.color = '#e05a2b';
+                });
+        } else {
+            document.getElementById('code-content').textContent = '*** ERROR: NO TARGET SPECIFIED ***';
+            document.getElementById('code-content').style.color = '#e05a2b';
+        }
+    </script>
+</body>
+</html>

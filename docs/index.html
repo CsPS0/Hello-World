@@ -3,17 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hello World Collection — 142 Languages</title>
-    <meta name="description" content="The same program written in 142 different programming languages. Search, read, copy, and compare Hello World source code.">
-    <meta name="theme-color" content="#111111">
-    <meta property="og:title" content="Hello World Collection">
-    <meta property="og:description" content="Hello World written in 142 programming languages. Search, read, copy, and compare.">
+    <title>Hello World — 179 Languages (TUI Console)</title>
+    <meta name="description" content="The same program written in 179 different programming languages. Search, read, copy, and compare Hello World source code.">
+    <meta name="theme-color" content="#e05a2b">
+    <meta property="og:title" content="Hello World Collection — 179+ Languages (TUI Console)">
+    <meta property="og:description" content="A retro-inspired monospace terminal directory featuring 179 programming languages, complete historical manifests, popular frameworks catalog, side-by-side code comparison, and an interactive developer wizard for targeted LLM setups.">
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://csps0.github.io/Hello-World/">
-    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>></text></svg>">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Hello World Collection — 179+ Languages (TUI Console)">
+    <meta name="twitter:description" content="A retro-inspired monospace terminal directory featuring 179 programming languages, complete historical manifests, popular frameworks catalog, side-by-side code comparison, and an interactive developer wizard for targeted LLM setups.">
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='80' font-family='monospace' fill='%23e05a2b'>&gt;_</text></svg>">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600;700&display=swap" rel="stylesheet">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism-tomorrow.min.css" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
@@ -22,76 +25,175 @@
     <header id="site-header">
         <div class="container">
             <div class="header-top">
+                <span class="terminal-prompt">guest@helloworld:~$ ./show_header.sh</span>
                 <div class="header-actions">
-                    <button id="theme-toggle" class="btn-icon" aria-label="Toggle theme">
-                        <svg id="icon-sun" class="theme-icon" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"></circle><line x1="12" y1="1" x2="12" y2="3"></line><line x1="12" y1="21" x2="12" y2="23"></line><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line><line x1="1" y1="12" x2="3" y2="12"></line><line x1="21" y1="12" x2="23" y2="12"></line><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line></svg>
-                        <svg id="icon-moon" class="theme-icon hidden" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg>
+                    <button id="theme-toggle" class="btn-tui" aria-label="Toggle theme">
+                        [ THEME ]
                     </button>
-                    <div id="github-stats" class="github-stats"></div>
                 </div>
             </div>
             <h1 class="hero-title">Hello, World!</h1>
-            <p class="hero-subtitle">The same program, written in <span id="lang-count">142</span> different languages. Pick one, read the code, copy it.</p>
-            <div class="header-controls">
-                <div class="search-container">
-                    <div class="search-icon">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
-                    </div>
-                    <input type="text" id="search-input" placeholder="Type a language name..." aria-label="Search languages">
-                </div>
-                <button id="compare-toggle" class="btn-compare" aria-label="Toggle compare mode">
-                    <span>Compare</span>
+            <p class="hero-subtitle">The same program, written in <span id="lang-count">179</span> programming languages.</p>
+
+            <nav class="view-selector" role="tablist" aria-label="Navigation modes">
+                <button id="tab-languages" class="view-tab active" data-view="languages" role="tab" aria-selected="true">
+                    [ LANGUAGES ]
                 </button>
-            </div>
-            <div id="filter-bar" class="filter-bar" role="tablist" aria-label="Filter by paradigm">
-                <button class="filter-chip active" data-tag="all" role="tab" aria-selected="true" tabindex="0">All</button>
-                <button class="filter-chip" data-tag="procedural" role="tab" aria-selected="false" tabindex="0">Procedural</button>
-                <button class="filter-chip" data-tag="oop" role="tab" aria-selected="false" tabindex="0">OOP</button>
-                <button class="filter-chip" data-tag="functional" role="tab" aria-selected="false" tabindex="0">Functional</button>
-                <button class="filter-chip" data-tag="scripting" role="tab" aria-selected="false" tabindex="0">Scripting</button>
-                <button class="filter-chip" data-tag="esoteric" role="tab" aria-selected="false" tabindex="0">Esoteric</button>
-                <button class="filter-chip" data-tag="hardware" role="tab" aria-selected="false" tabindex="0">Hardware</button>
-                <button class="filter-chip" data-tag="logic" role="tab" aria-selected="false" tabindex="0">Logic</button>
-                <button class="filter-chip" data-tag="markup" role="tab" aria-selected="false" tabindex="0">Markup</button>
-            </div>
+                <button id="tab-frameworks" class="view-tab" data-view="frameworks" role="tab" aria-selected="false">
+                    [ FRAMEWORKS &amp; LIBRARIES ]
+                </button>
+                <button id="tab-wizard" class="view-tab" data-view="wizard" role="tab" aria-selected="false">
+                    [ LANGUAGE WIZARD ]
+                </button>
+            </nav>
         </div>
     </header>
 
-    <section id="stats-bar" class="stats-bar">
-        <div class="container">
-            <button id="stats-toggle" class="stats-toggle" aria-expanded="false" aria-controls="stats-content">
-                <span>Statistics</span>
-                <svg class="stats-chevron" xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg>
-            </button>
-            <div id="stats-content" class="stats-content">
-                <div id="stats-badges" class="stats-badges"></div>
-            </div>
-        </div>
-    </section>
+
 
     <main class="container">
-        <div id="skeleton-loader" class="grid skeleton-grid">
-            <div class="skeleton-card"><div class="skeleton-line skeleton-title"></div><div class="skeleton-line skeleton-text"></div><div class="skeleton-line skeleton-text short"></div></div>
-            <div class="skeleton-card"><div class="skeleton-line skeleton-title"></div><div class="skeleton-line skeleton-text"></div><div class="skeleton-line skeleton-text short"></div></div>
-            <div class="skeleton-card"><div class="skeleton-line skeleton-title"></div><div class="skeleton-line skeleton-text"></div><div class="skeleton-line skeleton-text short"></div></div>
-            <div class="skeleton-card"><div class="skeleton-line skeleton-title"></div><div class="skeleton-line skeleton-text"></div><div class="skeleton-line skeleton-text short"></div></div>
-            <div class="skeleton-card"><div class="skeleton-line skeleton-title"></div><div class="skeleton-line skeleton-text"></div><div class="skeleton-line skeleton-text short"></div></div>
-            <div class="skeleton-card"><div class="skeleton-line skeleton-title"></div><div class="skeleton-line skeleton-text"></div><div class="skeleton-line skeleton-text short"></div></div>
+        <!-- View 1: Languages Database -->
+        <div id="view-languages" class="tab-view active">
+            <div class="header-controls">
+                <div class="search-container">
+                    <span class="prompt-arrow">&gt; search:</span>
+                    <input type="text" id="search-input" placeholder="Type language name or tag..." aria-label="Search languages">
+                    <span class="search-shortcut">[ / ]</span>
+                    <button id="clear-search" class="clear-btn hidden" aria-label="Clear search">×</button>
+                </div>
+                <div class="control-actions">
+                    <button id="layout-toggle-btn" class="btn-tui" aria-label="Toggle layout view">
+                        [ VIEW: GALLERY ]
+                    </button>
+                    <button id="random-btn" class="btn-tui" aria-label="Select random language">
+                        [ RANDOM ]
+                    </button>
+                    <button id="compare-toggle" class="btn-tui" aria-label="Toggle compare mode">
+                        [ COMPARE: OFF ]
+                    </button>
+                </div>
+            </div>
+
+            <div id="filter-bar" class="filter-bar" role="tablist" aria-label="Filter by paradigm">
+                <button class="filter-chip active" data-tag="all" role="tab" aria-selected="true">ALL</button>
+                <button class="filter-chip" data-tag="procedural" role="tab" aria-selected="false">PROCEDURAL</button>
+                <button class="filter-chip" data-tag="oop" role="tab" aria-selected="false">OOP</button>
+                <button class="filter-chip" data-tag="functional" role="tab" aria-selected="false">FUNCTIONAL</button>
+                <button class="filter-chip" data-tag="scripting" role="tab" aria-selected="false">SCRIPTING</button>
+                <button class="filter-chip" data-tag="esoteric" role="tab" aria-selected="false">ESOTERIC</button>
+                <button class="filter-chip" data-tag="hardware" role="tab" aria-selected="false">HARDWARE</button>
+                <button class="filter-chip" data-tag="logic" role="tab" aria-selected="false">LOGIC</button>
+                <button class="filter-chip" data-tag="markup" role="tab" aria-selected="false">MARKUP</button>
+            </div>
+
+            <div id="skeleton-loader" class="grid skeleton-grid">
+                <div class="skeleton-card"><div class="skeleton-line skeleton-title"></div><div class="skeleton-line skeleton-text"></div></div>
+                <div class="skeleton-card"><div class="skeleton-line skeleton-title"></div><div class="skeleton-line skeleton-text"></div></div>
+                <div class="skeleton-card"><div class="skeleton-line skeleton-title"></div><div class="skeleton-line skeleton-text"></div></div>
+            </div>
+
+            <!-- Layout A: Cards Grid -->
+            <div id="languages-grid" class="grid"></div>
+
+            <!-- Layout B: Table List -->
+            <div id="languages-list" class="history-table-wrapper hidden">
+                <table class="history-table">
+                    <thead>
+                        <tr>
+                            <th class="sortable" data-sort="name">LANGUAGE <span class="sort-icon">▲</span></th>
+                            <th class="sortable" data-sort="creator">CREATOR <span class="sort-icon"></span></th>
+                            <th class="sortable" data-sort="year">YEAR <span class="sort-icon"></span></th>
+                            <th class="sortable" data-sort="famous">FAMOUS PROJECTS &amp; LIBRARIES <span class="sort-icon"></span></th>
+                        </tr>
+                    </thead>
+                    <tbody id="languages-table-body">
+                        <!-- Filled by JS -->
+                    </tbody>
+                </table>
+            </div>
         </div>
-        <div id="languages-grid" class="grid"></div>
+
+        <!-- View 2: Frameworks Catalog -->
+        <div id="view-frameworks" class="tab-view hidden">
+            <div class="header-controls">
+                <div class="search-container">
+                    <span class="prompt-arrow">&gt; search:</span>
+                    <input type="text" id="frameworks-search-input" placeholder="Type framework, category, or language..." aria-label="Search frameworks">
+                    <span class="search-shortcut">[ / ]</span>
+                    <button id="clear-frameworks-search" class="clear-btn hidden" aria-label="Clear search">×</button>
+                </div>
+                <div class="control-actions">
+                    <button id="frameworks-layout-toggle-btn" class="btn-tui" aria-label="Toggle frameworks layout view">
+                        [ VIEW: GALLERY ]
+                    </button>
+                    <button id="frameworks-random-btn" class="btn-tui" aria-label="Select random framework">
+                        [ RANDOM ]
+                    </button>
+                    <button id="frameworks-compare-toggle" class="btn-tui" aria-label="Toggle frameworks compare mode">
+                        [ COMPARE: OFF ]
+                    </button>
+                </div>
+            </div>
+
+            <div id="frameworks-filter-bar" class="filter-bar" role="tablist" aria-label="Filter by category">
+                <button class="filter-chip active" data-type="all" role="tab" aria-selected="true">ALL</button>
+                <button class="filter-chip" data-type="web" role="tab" aria-selected="false">WEB</button>
+                <button class="filter-chip" data-type="game" role="tab" aria-selected="false">GAME DEV</button>
+                <button class="filter-chip" data-type="mobile" role="tab" aria-selected="false">MOBILE</button>
+                <button class="filter-chip" data-type="data" role="tab" aria-selected="false">DATA &amp; AI</button>
+            </div>
+
+            <!-- Layout A: Cards Grid -->
+            <div id="frameworks-grid" class="grid"></div>
+
+            <!-- Layout B: Table List -->
+            <div id="frameworks-list" class="history-table-wrapper hidden">
+                <table class="history-table">
+                    <thead>
+                        <tr>
+                            <th class="sortable" data-sort="name">FRAMEWORK / LIBRARY <span class="sort-icon">▲</span></th>
+                            <th class="sortable" data-sort="type">CATEGORY <span class="sort-icon"></span></th>
+                            <th class="sortable" data-sort="language">TARGET LANGUAGE <span class="sort-icon"></span></th>
+                            <th class="sortable" data-sort="description">DESCRIPTION &amp; FAMOUS APPLICATIONS <span class="sort-icon"></span></th>
+                        </tr>
+                    </thead>
+                    <tbody id="frameworks-table-body">
+                        <!-- Filled by JS -->
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        <!-- View 3: Language Wizard -->
+        <div id="view-wizard" class="tab-view hidden">
+            <div class="wizard-container">
+                <div class="wizard-header">
+                    <span>LANG_FINDER.EXE - TARGET_SPECIFICATION</span>
+                </div>
+                <div class="wizard-body">
+                    <div id="wizard-step-container">
+                        <!-- Dynamic Steps -->
+                    </div>
+                </div>
+                <div class="wizard-footer">
+                    <button id="wizard-prev" class="btn-tui hidden">[ BACK ]</button>
+                    <button id="wizard-next" class="btn-tui">[ NEXT ]</button>
+                    <button id="wizard-reset" class="btn-tui hidden">[ RESET WIZARD ]</button>
+                </div>
+            </div>
+        </div>
+
         <div id="no-results" class="no-results hidden">
-            <p>No results. Try a different search term.</p>
+            <p>*** NO RESULTS RETURNED. TRY A DIFFERENT QUERY. ***</p>
         </div>
     </main>
 
     <div id="comparison-panel" class="comparison-panel hidden">
         <div class="comparison-header">
-            <h3>Side by side</h3>
+            <h3>[ SIDE-BY-SIDE COMPARE ]</h3>
             <div class="comparison-actions">
-                <button id="comparison-clear" class="btn-comparison-clear">Clear</button>
-                <button id="comparison-close" class="btn-icon" aria-label="Close comparison">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
-                </button>
+                <button id="comparison-clear" class="btn-tui">[ CLEAR ]</button>
+                <button id="comparison-close" class="btn-tui" aria-label="Close comparison">[ CLOSE ]</button>
             </div>
         </div>
         <div id="comparison-columns" class="comparison-columns"></div>
@@ -101,31 +203,47 @@
         <div class="modal-backdrop"></div>
         <div class="modal-content">
             <div class="modal-header">
-                <h2 id="modal-title">Language</h2>
+                <div class="modal-title-area">
+                    <span class="prompt-arrow">&gt;_</span>
+                    <h2 id="modal-title">Language</h2>
+                </div>
+                <div class="modal-tab-bar">
+                    <button class="modal-tab active" data-tab="code">[ CODE ]</button>
+                    <button class="modal-tab" data-tab="history">[ HISTORY &amp; ECOSYSTEM ]</button>
+                </div>
                 <div class="modal-actions">
-                    <button id="copy-btn" class="btn-icon" aria-label="Copy code">
-                        <span class="btn-text">Copy</span>
+                    <button id="copy-btn" class="btn-tui" aria-label="Copy code">
+                        [ <span class="btn-text">COPY</span> ]
                     </button>
-                    <button id="view-raw-btn" class="btn-icon" aria-label="View raw file">
-                        <span class="btn-text">Raw</span>
+                    <button id="raw-btn" class="btn-tui" aria-label="Open raw code in new tab">
+                        [ RAW ]
                     </button>
-                    <button id="download-btn" class="btn-icon" aria-label="Download file">
-                        <span class="btn-text">Download</span>
+                    <button id="download-btn" class="btn-tui" aria-label="Download file">
+                        [ DOWNLOAD ]
                     </button>
-                    <button id="close-modal" class="btn-icon" aria-label="Close modal">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+                    <button id="close-modal" class="btn-tui" aria-label="Close modal">
+                        [ CLOSE ]
                     </button>
                 </div>
             </div>
             <div class="modal-body">
-                <pre><code id="code-block" class="language-plaintext">Loading...</code></pre>
+                <!-- Tab 1: Code View -->
+                <div id="modal-tab-content-code" class="modal-tab-content active">
+                    <pre><code id="code-block" class="language-plaintext">Loading...</code></pre>
+                </div>
+                <!-- Tab 2: History & Ecosystem -->
+                <div id="modal-tab-content-history" class="modal-tab-content hidden">
+                    <div id="modal-history-content" class="terminal-output">
+                        <!-- Filled by JS -->
+                    </div>
+                </div>
             </div>
         </div>
     </div>
 
     <footer>
         <div class="container">
-            <p>142 languages. MIT license. <a href="https://github.com/CsPS0/Hello-World" target="_blank" rel="noopener noreferrer">Source on GitHub</a></p>
+            <p><span id="footer-lang-count">179</span> LANGUAGES COMPILED. MIT LICENSE. <a href="https://github.com/CsPS0/Hello-World" target="_blank" rel="noopener noreferrer">SOURCE_CODE_GITHUB</a></p>
         </div>
     </footer>
 
