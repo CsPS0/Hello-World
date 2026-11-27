@@ -450,7 +450,10 @@ const EXTENSION_MAP = {
     ".4dm": {"name": "4D", "tags": ["procedural","scripting"]},
     ".sra": {"name": "PowerBuilder", "tags": ["oop","procedural"]},
     ".lil": {"name": "Lil", "tags": ["scripting","functional"]},
-    ".toit": {"name": "Toit", "tags": ["oop","scripting"]}
+    ".toit": {"name": "Toit", "tags": ["oop","scripting"]},
+    ".sp": {"name": "SourcePawn", "tags": ["procedural","scripting"]},
+    ".uni": {"name": "Uniface", "tags": ["procedural"]},
+    ".clw": {"name": "Clarion", "tags": ["procedural"]}
 };
 
 const FILENAME_MAP = {
@@ -944,7 +947,10 @@ const PRISM_MAP = {
     "JScript": "javascript",
     "Toit": "python",
     "dBase": "basic",
-    "Visual FoxPro": "basic"
+    "Visual FoxPro": "basic",
+    "SourcePawn": "c",
+    "Uniface": "basic",
+    "Clarion": "basic"
 };
 
 const DESCRIPTION_DEFAULTS = {
@@ -1302,7 +1308,10 @@ const DESCRIPTION_DEFAULTS = {
     "JScript": "Microsoft's ECMAScript dialect for Internet Explorer and the Windows Script Host",
     "Toit": "Object-oriented, garbage-collected language for programming ESP32 microcontrollers and other connected devices",
     "dBase": "Early microcomputer database management system whose command language founded the xBase family",
-    "Visual FoxPro": "Microsoft's object-oriented xBase language and database development environment for Windows"
+    "Visual FoxPro": "Microsoft's object-oriented xBase language and database development environment for Windows",
+    "SourcePawn": "Pawn-derived scripting language for SourceMod plugins on Source engine game servers",
+    "Uniface": "Fourth-generation language and model-driven environment for building enterprise database applications",
+    "Clarion": "Fourth-generation business application language and IDE, originally for DOS and now for Windows"
 };
 
 function getExtension(filename) {

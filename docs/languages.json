@@ -2841,6 +2841,37 @@
     ]
   },
   {
+    "name": "Clarion",
+    "description": "Fourth-generation business application language and IDE, originally for DOS and now for Windows",
+    "path": "hello-world/hello.clw",
+    "tags": [
+      "procedural"
+    ],
+    "slug": "clarion",
+    "prism": "basic",
+    "icon": "icons/clarion.svg",
+    "creator": "Bruce Barrington",
+    "year": 1986,
+    "history": "Bruce Barrington, one of the founders of HBO & Company, created Clarion with a small team, and it was first released in April 1986. Development later moved through Jensen & Partners International, Clarion International and SoftVelocity, which sells the current Windows version. Statements are indented because column one is reserved for labels, and MESSAGE shows Hello, World! in a dialog box.",
+    "famousProjects": [],
+    "frameworks": {},
+    "quiz": {
+      "platforms": [
+        "desktop"
+      ],
+      "backend": true,
+      "typing": "static",
+      "speed": "high"
+    },
+    "website": "https://www.softvelocity.com/",
+    "released": "1986-04",
+    "releasedEvent": "Clarion first released for DOS",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Clarion_(programming_language)",
+      "https://pldb.io/concepts/clarion.html"
+    ]
+  },
+  {
     "name": "Clean",
     "description": "Hello World in Clean",
     "path": "hello-world/hello.icl",
@@ -14131,6 +14162,38 @@
     ]
   },
   {
+    "name": "SourcePawn",
+    "description": "Pawn-derived scripting language for SourceMod plugins on Source engine game servers",
+    "path": "hello-world/hello.sp",
+    "tags": [
+      "procedural",
+      "scripting"
+    ],
+    "slug": "sourcepawn",
+    "prism": "c",
+    "icon": "icons/sourcepawn.svg",
+    "creator": "AlliedModders",
+    "year": 2007,
+    "history": "SourcePawn is the language of SourceMod, the AlliedModders server modification for Valve's Source engine, and is derived from the Pawn embedded scripting language. AlliedModders lists its additions over Pawn as functions passed as objects, natively packed strings and dynamic local variables. Plugins are compiled to bytecode, and OnPluginStart runs when the plugin loads, printing Hello, World! to the server console.",
+    "famousProjects": [],
+    "frameworks": {},
+    "quiz": {
+      "platforms": [
+        "game"
+      ],
+      "backend": false,
+      "typing": "static",
+      "speed": "high"
+    },
+    "website": "https://github.com/alliedmodders/sourcepawn",
+    "released": "2007-03-16",
+    "releasedEvent": "First public SourceMod builds with SourcePawn scripting",
+    "sources": [
+      "https://wiki.alliedmods.net/SourceMod",
+      "https://wiki.alliedmods.net/Introduction_to_SourceMod_Plugins"
+    ]
+  },
+  {
     "name": "SPARQL",
     "description": "W3C query language for RDF graph data",
     "path": "hello-world/hello.rq",
@@ -15272,6 +15335,36 @@
     "sources": [
       "https://esolangs.org/wiki/Underload",
       "https://esolangs.org/w/index.php?title=Underload&action=history"
+    ]
+  },
+  {
+    "name": "Uniface",
+    "description": "Fourth-generation language and model-driven environment for building enterprise database applications",
+    "path": "hello-world/hello.uni",
+    "tags": [
+      "procedural"
+    ],
+    "slug": "uniface",
+    "prism": "basic",
+    "icon": "icons/uniface.svg",
+    "creator": "Inside Automation (Bodo Douqué, Frits Kress)",
+    "year": 1986,
+    "history": "Uniface began in the Netherlands in 1984 as UNIS, built by Inside Automation, a company headed by Bodo Douqué with Frits Kress as technical director. Product and company were renamed Uniface by 1986, and it later passed to Compuware in 1994 and Rocket Software in 2021. Proc code such as message runs inside triggers and shows Hello, World! in the message frame.",
+    "famousProjects": [],
+    "frameworks": {},
+    "quiz": {
+      "platforms": [
+        "desktop"
+      ],
+      "backend": true,
+      "typing": "dynamic",
+      "speed": "moderate"
+    },
+    "released": "1986",
+    "releasedEvent": "Uniface Version 3, the first public release",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Uniface_(programming_language)",
+      "https://rosettacode.org/wiki/Hello_world/Text#Uniface"
     ]
   },
   {
