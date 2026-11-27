@@ -415,7 +415,20 @@ const EXTENSION_MAP = {
     ".rego": {"name": "Rego", "tags": ["logic"]},
     ".ys": {"name": "Yacas", "tags": ["functional"]},
     ".exp": {"name": "Expect", "tags": ["scripting"]},
-    ".txi": {"name": "Taxi", "tags": ["esoteric"]}
+    ".txi": {"name": "Taxi", "tags": ["esoteric"]},
+    ".ur": {"name": "Ur/Web", "tags": ["functional"]},
+    ".uc": {"name": "UnrealScript", "tags": ["oop","scripting"]},
+    ".jack": {"name": "Jack", "tags": ["oop","procedural"]},
+    ".hla": {"name": "HLA", "tags": ["hardware","procedural"]},
+    ".cow": {"name": "Cowgol", "tags": ["procedural"]},
+    ".mdl": {"name": "MDL", "tags": ["functional"]},
+    ".sk": {"name": "Skew", "tags": ["oop","functional"]},
+    ".smali": {"name": "Smali", "tags": ["hardware"]},
+    ".jinja": {"name": "Jinja", "tags": ["markup","scripting"]},
+    ".xojo_code": {"name": "Xojo", "tags": ["oop","procedural"]},
+    ".rpl": {"name": "RPL", "tags": ["procedural","functional"]},
+    ".at": {"name": "AmbientTalk", "tags": ["oop","scripting"]},
+    ".avail": {"name": "Avail", "tags": ["oop","functional"]}
 };
 
 const FILENAME_MAP = {
@@ -450,7 +463,8 @@ const FILENAME_MAP = {
     "hello_amigae.e": {"name": "Amiga E", "description": "Fast-compiling Amiga language influenced by C++, Ada and Lisp", "tags": ["procedural","oop"]},
     "hello_ezhil.n": {"name": "Ezhil", "description": "Programming language with Tamil keywords, for teaching", "tags": ["procedural","scripting"]},
     "hello_islisp.lsp": {"name": "ISLISP", "description": "ISO-standard Lisp dialect", "tags": ["functional"]},
-    "hello_kcl.k": {"name": "KCL", "description": "Constraint-based configuration language from Ant Group", "tags": ["functional","markup"]}
+    "hello_kcl.k": {"name": "KCL", "description": "Constraint-based configuration language from Ant Group", "tags": ["functional","markup"]},
+    "hello_powerbasic.bas": {"name": "PowerBASIC", "description": "Bob Zale's compiled BASIC, successor of Turbo Basic", "tags": ["procedural"]}
 };
 
 // Prism grammar per language (variants fall back to their base name, "Ruby (Script)" -> "Ruby").
@@ -862,7 +876,21 @@ const PRISM_MAP = {
     "Yacas": "clike",
     "KCL": "python",
     "Expect": "tcl",
-    "Taxi": "taxi"
+    "Taxi": "taxi",
+    "Ur/Web": "sml",
+    "UnrealScript": "unrealscript",
+    "Jack": "java",
+    "HLA": "pascal",
+    "Cowgol": "ada",
+    "MDL": "lisp",
+    "Skew": "javascript",
+    "Smali": "smali",
+    "Jinja": "django",
+    "Xojo": "vbnet",
+    "RPL": "factor",
+    "AmbientTalk": "javascript",
+    "Avail": "clike",
+    "PowerBASIC": "basic"
 };
 
 const DESCRIPTION_DEFAULTS = {
@@ -1179,7 +1207,21 @@ const DESCRIPTION_DEFAULTS = {
     "Yacas": "Small computer algebra system with its own scripting language",
     "KCL": "Constraint-based configuration language from Ant Group",
     "Expect": "Tcl extension for automating interactive programs",
-    "Taxi": "Esoteric language in which a taxi drives values around a town map"
+    "Taxi": "Esoteric language in which a taxi drives values around a town map",
+    "Ur/Web": "Statically typed functional language for type-safe web applications",
+    "UnrealScript": "Scripting language of Unreal Engine 1 to 3",
+    "Jack": "Small object-based language of the Nand to Tetris course",
+    "HLA": "Randall Hyde's High Level Assembly for x86",
+    "Cowgol": "Ada-inspired, self-hosting language for 8-bit systems",
+    "MDL": "MIT's Lisp descendant in which the original Zork was written",
+    "Skew": "Web-first language with an optimizing compiler to JavaScript and C#",
+    "Smali": "Assembly language for Android's Dalvik bytecode",
+    "Jinja": "Python template engine used to render HTML and configuration files",
+    "Xojo": "Object-oriented BASIC with a cross-platform IDE, formerly REALbasic",
+    "RPL": "Stack language of HP graphing calculators",
+    "AmbientTalk": "Actor-based language for mobile devices in ad hoc networks",
+    "Avail": "Multi-paradigm language whose syntax comes from its library",
+    "PowerBASIC": "Bob Zale's compiled BASIC, successor of Turbo Basic"
 };
 
 function getExtension(filename) {

@@ -1,0 +1,6 @@
+Module "hello"
+Uses "Avail"
+Entries "Greet"
+Body
+
+Method "Greet" is [Print: "Hello, World!\n";];

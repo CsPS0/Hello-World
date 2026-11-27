@@ -11215,5 +11215,319 @@
       "https://bigzaphod.github.io/Taxi/",
       "https://esolangs.org/wiki/Taxi"
     ]
+  },
+  "Ur/Web": {
+    "creator": "Adam Chlipala",
+    "year": 2008,
+    "famousProjects": [],
+    "frameworks": {},
+    "quiz": {
+      "platforms": [
+        "web-backend"
+      ],
+      "backend": true,
+      "typing": "static",
+      "speed": "high"
+    },
+    "history": "Adam Chlipala made the first public release of Ur/Web in October 2008, built on Ur, his functional language in the tradition of ML and Haskell with a richer type system, plus a special standard library for web applications backed by SQL databases. Well-typed programs cannot suffer code injection, return invalid HTML or contain dead links inside the application, and the compiled server runs without garbage collection. main returns an XML page, so this program serves a page headed Hello, World!",
+    "website": "http://www.impredicative.com/ur/",
+    "released": "2008-10-25",
+    "releasedEvent": "Initial public release, urweb-20081025, an alpha under a BSD license",
+    "sources": [
+      "http://web.archive.org/web/20081029021705/http://www.impredicative.com:80/ur/",
+      "http://www.impredicative.com/ur/",
+      "https://github.com/urweb/urweb/blob/master/CHANGELOG"
+    ]
+  },
+  "UnrealScript": {
+    "creator": "Tim Sweeney (Epic Games)",
+    "year": 1998,
+    "famousProjects": [],
+    "frameworks": {},
+    "quiz": {
+      "platforms": [
+        "game"
+      ],
+      "backend": false,
+      "typing": "static",
+      "speed": "moderate"
+    },
+    "history": "Tim Sweeney created UnrealScript as the scripting language of the Unreal Engine, and it first shipped with the game Unreal in May 1998. It was object-oriented and similar to Java, and Epic carried it through three engine generations before announcing at the 2012 Game Developers Conference that Unreal Engine 4 would drop it in favor of C++. A commandlet is a small program run from the command line with ucc, and log writes the line to the log.",
+    "released": "1998-05",
+    "releasedEvent": "First appeared with Unreal Engine 1 and the game Unreal",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Unreal_Engine",
+      "https://web.archive.org/web/2010/http://udn.epicgames.com/Two/MakingACommandlet.html"
+    ]
+  },
+  "Jack": {
+    "creator": "Noam Nisan and Shimon Schocken",
+    "year": 2005,
+    "famousProjects": [],
+    "frameworks": {},
+    "quiz": {
+      "platforms": [
+        "systems"
+      ],
+      "backend": false,
+      "typing": "static",
+      "speed": "low"
+    },
+    "history": "Noam Nisan and Shimon Schocken designed Jack for The Elements of Computing Systems (MIT Press, 2005), the book behind the Nand to Tetris course, in which students build a whole computer starting from NAND gates. Jack is a simple object-based language with Java-like syntax, and students write the compiler that translates it to the course's virtual machine. Output.printString belongs to the small Jack operating system they also implement.",
+    "website": "https://www.nand2tetris.org/",
+    "released": "2005",
+    "releasedEvent": "Specified in The Elements of Computing Systems (MIT Press)",
+    "sources": [
+      "https://cris.huji.ac.il/en/publications/the-elements-of-computing-systems-building-a-modern-computer-from-2/",
+      "https://minnie.tuhs.org/Tecs/lectures/chapter09.pdf",
+      "https://www.nand2tetris.org/"
+    ]
+  },
+  "HLA": {
+    "creator": "Randall Hyde",
+    "year": 1999,
+    "famousProjects": [],
+    "frameworks": {},
+    "quiz": {
+      "platforms": [
+        "systems"
+      ],
+      "backend": false,
+      "typing": "static",
+      "speed": "maximum"
+    },
+    "history": "Randall Hyde began writing HLA (High Level Assembly) at UC Riverside in the fall of 1996 and released the first prototype, version 1.0, in September 1999. It adds high-level declarations and control structures to x86 assembly so that beginners can start from familiar ground, and it is the language of his book The Art of Assembly Language. stdout.put comes from the HLA Standard Library.",
+    "website": "https://www.plantation-productions.com/Webster/HighLevelAsm/index.html",
+    "released": "1999-09",
+    "releasedEvent": "First prototype of HLA released as version 1.0",
+    "sources": [
+      "https://www.linuxjournal.com/node/8408",
+      "https://en.wikipedia.org/wiki/High_Level_Assembly"
+    ]
+  },
+  "Cowgol": {
+    "creator": "David Given",
+    "year": 2017,
+    "famousProjects": [],
+    "frameworks": {},
+    "quiz": {
+      "platforms": [
+        "embedded",
+        "systems"
+      ],
+      "backend": false,
+      "typing": "static",
+      "speed": "high"
+    },
+    "history": "David Given started Cowgol as a type-safe, Ada-inspired language for very small systems such as the 6502 and Z80, with the goal of a compiler that can rebuild itself on an 8-bit micro. The first demo release in September 2017 came as a bootable disk image for a BBC Micro emulator. The current Cowgol 2.0 compiler is written in Cowgol and targets CP/M, the BBC Micro, Fuzix, DOS and Linux; this sample uses the current Cowgol 2.0 syntax.",
+    "website": "https://github.com/davidgiven/cowgol",
+    "released": "2017-09-08",
+    "releasedEvent": "Cowgol 0.0.1, the first demo release, on GitHub",
+    "sources": [
+      "https://github.com/davidgiven/cowgol/releases/tag/0.0.1",
+      "https://github.com/davidgiven/cowgol"
+    ]
+  },
+  "MDL": {
+    "creator": "Gerald Sussman, Carl Hewitt, Chris Reeve and Bruce Daniels (MIT)",
+    "year": 1971,
+    "famousProjects": [
+      "Zork"
+    ],
+    "frameworks": {},
+    "quiz": {
+      "platforms": [
+        "game"
+      ],
+      "backend": false,
+      "typing": "dynamic",
+      "speed": "moderate"
+    },
+    "history": "MDL, also called Muddle, was developed at MIT from 1971 by Gerald Sussman, Carl Hewitt, Chris Reeve, Bruce Daniels and others as a descendant of Lisp. The original Zork was written in MDL, and in 1980 Marc Blank and Joel Berez adapted a subset of it into ZIL, which Infocom used for its games. Calls use angle brackets, PRINC prints the string and CRLF ends the line.",
+    "released": "1971",
+    "releasedEvent": "First appeared at MIT",
+    "sources": [
+      "https://en.wikipedia.org/wiki/MDL_(programming_language)"
+    ]
+  },
+  "Skew": {
+    "creator": "Evan Wallace",
+    "year": 2014,
+    "famousProjects": [],
+    "frameworks": {},
+    "quiz": {
+      "platforms": [
+        "web-frontend"
+      ],
+      "backend": false,
+      "typing": "static",
+      "speed": "high"
+    },
+    "history": "Evan Wallace created Skew as a web-first, cross-platform language whose optimizing compiler emits readable JavaScript and C#. The compiler is bootstrapped, so it is written in Skew and compiles itself, and code compiles about as fast as a browser refresh. @entry marks the entry point, and dynamic gives untyped access to JavaScript globals such as console.",
+    "website": "https://evanw.github.io/skew-lang.org/",
+    "released": "2014-12-09",
+    "releasedEvent": "skew 0.1.0, the first npm release with the compiler (a 0.0.0 entry from April 2014 holds no compiler)",
+    "sources": [
+      "https://registry.npmjs.org/skew",
+      "https://github.com/evanw/skew",
+      "https://evanw.github.io/skew-lang.org/"
+    ]
+  },
+  "Smali": {
+    "creator": "Ben Gruver (JesusFreke)",
+    "year": 2009,
+    "famousProjects": [],
+    "frameworks": {},
+    "quiz": {
+      "platforms": [
+        "mobile"
+      ],
+      "backend": false,
+      "typing": "static",
+      "speed": "high"
+    },
+    "history": "Ben Gruver released smali, an assembler for the dex format of Android's Dalvik virtual machine, in June 2009, and its disassembler baksmali followed later that month; the names are Icelandic for assembler and disassembler. This program loads System.out into a register and calls println on it.",
+    "website": "https://github.com/JesusFreke/smali",
+    "released": "2009-06-07",
+    "releasedEvent": "First release of the smali assembler",
+    "sources": [
+      "https://www.github.com/JesusFreke/smali/wiki/Home/e63ff425d6832cacc7420265b69b38bad3cc16ae",
+      "https://github.com/JesusFreke/smali/blob/master/NOTICE",
+      "https://github.com/JesusFreke/smali/blob/master/examples/HelloWorld/HelloWorld.smali"
+    ]
+  },
+  "Jinja": {
+    "creator": "Armin Ronacher",
+    "year": 2006,
+    "famousProjects": [],
+    "frameworks": {},
+    "quiz": {
+      "platforms": [
+        "web-backend"
+      ],
+      "backend": true,
+      "typing": "dynamic",
+      "speed": "moderate"
+    },
+    "history": "Armin Ronacher published Jinja on PyPI in July 2006, and the rewritten Jinja2 2.0 followed in July 2008. It is now maintained by the Pallets project. Text between double braces is an expression whose value is printed, so this template renders Hello, World!",
+    "website": "https://jinja.palletsprojects.com/",
+    "released": "2006-07-06",
+    "releasedEvent": "Jinja 0.8, the earliest release on PyPI",
+    "sources": [
+      "https://pypi.org/project/Jinja/#history",
+      "https://pypi.org/project/Jinja2/#history",
+      "https://github.com/pallets/jinja/"
+    ]
+  },
+  "Xojo": {
+    "creator": "Andrew Barry (later Xojo, Inc.)",
+    "year": 1996,
+    "famousProjects": [],
+    "frameworks": {},
+    "quiz": {
+      "platforms": [
+        "desktop",
+        "web-backend",
+        "cli"
+      ],
+      "backend": false,
+      "typing": "static",
+      "speed": "high"
+    },
+    "history": "Andrew Barry marketed CrossBasic as shareware; Geoff Perlman's FYI Software bought it, a public beta was released in April 1996, the name became REALbasic because CrossBasic was trademarked elsewhere, and REALbasic 1.0 was introduced at Macworld Expo in 1998; the company and product were renamed Xojo on 4 June 2013. It is an object-oriented BASIC whose IDE builds desktop, web and console applications from one code base. This is the Run event of a console application, a project type of later versions (this form is documented for REALbasic 5.5): Print writes the line and Quit ends the program.",
+    "website": "https://www.xojo.com/",
+    "released": "1996-04",
+    "releasedEvent": "Public beta of the BASIC environment that became REALbasic and later Xojo",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Xojo",
+      "https://www.xojo.com/"
+    ]
+  },
+  "RPL": {
+    "creator": "Hewlett-Packard (William C. Wickes and others)",
+    "year": 1986,
+    "famousProjects": [],
+    "frameworks": {},
+    "quiz": {
+      "platforms": [
+        "embedded"
+      ],
+      "backend": false,
+      "typing": "dynamic",
+      "speed": "low"
+    },
+    "history": "RPL (Reverse Polish Lisp) originated at Hewlett-Packard's Corvallis, Oregon, facility in 1984, and the HP-28C of 1986 was the first calculator that let users program in it. It works on a stack in reverse Polish notation, and programs are written between « and ». MSGBOX, available on later models such as the HP 48gII, shows the string in a message box.",
+    "released": "1986",
+    "releasedEvent": "HP-28C, the first calculator programmable by users in RPL",
+    "sources": [
+      "https://en.wikipedia.org/wiki/RPL_(programming_language)",
+      "https://www.manualslib.com/manual/277138/Hp-48gii.html?page=75"
+    ]
+  },
+  "AmbientTalk": {
+    "creator": "Tom Van Cutsem, Stijn Mostinckx, Jessie Dedecker and Wolfgang De Meuter (Vrije Universiteit Brussel)",
+    "year": 2006,
+    "famousProjects": [],
+    "frameworks": {},
+    "quiz": {
+      "platforms": [
+        "mobile"
+      ],
+      "backend": false,
+      "typing": "dynamic",
+      "speed": "moderate"
+    },
+    "history": "Tom Van Cutsem, Stijn Mostinckx, Jessie Dedecker and Wolfgang De Meuter designed AmbientTalk at the Software Languages Lab of the Vrije Universiteit Brussel in 2006 for ambient-oriented programming, in which devices in a mobile ad hoc network find each other and cooperate. Its concurrency features, futures and event-loop concurrency, are founded on the actor model and were largely influenced by the E language. system.println writes to the console.",
+    "website": "http://soft.vub.ac.be/amop/",
+    "released": "2006",
+    "releasedEvent": "First appeared at the Software Languages Lab, Vrije Universiteit Brussel",
+    "sources": [
+      "https://en.wikipedia.org/wiki/AmbientTalk",
+      "http://soft.vub.ac.be/amop/"
+    ]
+  },
+  "Avail": {
+    "creator": "Mark van Gulik and Todd L Smith",
+    "year": 2014,
+    "famousProjects": [],
+    "frameworks": {},
+    "quiz": {
+      "platforms": [
+        "cli"
+      ],
+      "backend": false,
+      "typing": "static",
+      "speed": "moderate"
+    },
+    "history": "Mark van Gulik began Avail (Advanced Value And Identity Language) around 1993, Todd L Smith later joined him, and the first version was released on 28 April 2014. Without the standard library module Avail there is no syntax beyond module headers; types, arithmetic and control structures all come from the library. The module name must match the file name, and running the Greet entry point prints the greeting.",
+    "website": "https://www.availlang.org/",
+    "released": "2014-04-28",
+    "releasedEvent": "First released version, Avail 1.0.0 DEV 2014-04-28",
+    "sources": [
+      "https://www.availlang.org/about-avail/newsletters/E006.html",
+      "https://www.availlang.org/about-avail/history/index.html",
+      "https://www.availlang.org/about-avail/learn/tutorials/hello-world.html"
+    ]
+  },
+  "PowerBASIC": {
+    "creator": "Robert \"Bob\" Zale",
+    "year": 1990,
+    "famousProjects": [],
+    "frameworks": {},
+    "quiz": {
+      "platforms": [
+        "desktop",
+        "cli"
+      ],
+      "backend": false,
+      "typing": "static",
+      "speed": "high"
+    },
+    "history": "Robert \"Bob\" Zale designed BASIC/Z, which Borland sold as Turbo Basic from 1987, and the compiler returned under the name PowerBASIC in May 1990. Later versions, PB/CC for console programs and PB/Win for Windows, compile to native executables; this sample uses the PB/CC form, in which PBMain is the entry point, and Waitkey$ keeps the console window open until a key is pressed.",
+    "released": "1990-05",
+    "releasedEvent": "PowerBASIC 2.0, the initial release as successor to Borland's Turbo Basic 1.1",
+    "sources": [
+      "https://en.wikipedia.org/wiki/PowerBASIC"
+    ]
   }
 }
