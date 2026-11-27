@@ -445,7 +445,11 @@ const EXTENSION_MAP = {
     ".lat": {"name": "Latitude", "tags": ["oop","scripting"]},
     ".dots": {"name": "AsciiDots", "tags": ["esoteric"]},
     ".mint": {"name": "Mint", "tags": ["functional","markup"]},
-    ".hsh": {"name": "Hush", "tags": ["scripting","procedural"]}
+    ".hsh": {"name": "Hush", "tags": ["scripting","procedural"]},
+    ".fss": {"name": "Fortress", "tags": ["functional","oop"]},
+    ".4dm": {"name": "4D", "tags": ["procedural","scripting"]},
+    ".sra": {"name": "PowerBuilder", "tags": ["oop","procedural"]},
+    ".lil": {"name": "Lil", "tags": ["scripting","functional"]}
 };
 
 const FILENAME_MAP = {
@@ -482,7 +486,9 @@ const FILENAME_MAP = {
     "hello_islisp.lsp": {"name": "ISLISP", "description": "ISO-standard Lisp dialect", "tags": ["functional"]},
     "hello_kcl.k": {"name": "KCL", "description": "Constraint-based configuration language from Ant Group", "tags": ["functional","markup"]},
     "hello_powerbasic.bas": {"name": "PowerBASIC", "description": "Bob Zale's compiled BASIC, successor of Turbo Basic", "tags": ["procedural"]},
-    "hello_souffle.dl": {"name": "Soufflé", "description": "Datalog variant that compiles logic programs to parallel C++ for program analysis", "tags": ["logic"]}
+    "hello_souffle.dl": {"name": "Soufflé", "description": "Datalog variant that compiles logic programs to parallel C++ for program analysis", "tags": ["logic"]},
+    "hello_openedge.p": {"name": "OpenEdge ABL", "description": "Progress Software's business application language with an integrated database (formerly Progress 4GL)", "tags": ["procedural","scripting"]},
+    "hello_jscript.js": {"name": "JScript", "description": "Microsoft's ECMAScript dialect for Internet Explorer and the Windows Script Host", "tags": ["scripting","oop"]}
 };
 
 // Prism grammar per language (variants fall back to their base name, "Ruby (Script)" -> "Ruby").
@@ -926,7 +932,13 @@ const PRISM_MAP = {
     "AsciiDots": "golf",
     "Mint": "jsx",
     "Soufflé": "prolog",
-    "Hush": "lua"
+    "Hush": "lua",
+    "Fortress": "scala",
+    "4D": "basic",
+    "OpenEdge ABL": "basic",
+    "PowerBuilder": "basic",
+    "Lil": "clike",
+    "JScript": "javascript"
 };
 
 const DESCRIPTION_DEFAULTS = {
@@ -1275,7 +1287,13 @@ const DESCRIPTION_DEFAULTS = {
     "AsciiDots": "Esoteric language where dots travel along ASCII-art paths",
     "Mint": "Language for single-page web applications with built-in components and styling",
     "Soufflé": "Datalog variant that compiles logic programs to parallel C++ for program analysis",
-    "Hush": "Unix shell scripting language based on Lua"
+    "Hush": "Unix shell scripting language based on Lua",
+    "Fortress": "Sun Labs language for high-performance scientific computing with mathematical notation",
+    "4D": "Programming language of the 4D (4th Dimension) database application platform",
+    "OpenEdge ABL": "Progress Software's business application language with an integrated database (formerly Progress 4GL)",
+    "PowerBuilder": "Rapid application development tool whose PowerScript language drives database client applications",
+    "Lil": "Scripting language of the Decker multimedia sketchpad, with query and array features",
+    "JScript": "Microsoft's ECMAScript dialect for Internet Explorer and the Windows Script Host"
 };
 
 function getExtension(filename) {

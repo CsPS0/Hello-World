@@ -33,6 +33,39 @@
     ]
   },
   {
+    "name": "4D",
+    "description": "Programming language of the 4D (4th Dimension) database application platform",
+    "path": "hello-world/hello.4dm",
+    "tags": [
+      "procedural",
+      "scripting"
+    ],
+    "slug": "4d",
+    "prism": "basic",
+    "icon": "icons/4d.svg",
+    "creator": "Laurent Ribardière",
+    "year": 1987,
+    "history": "Laurent Ribardière created 4D, known as Silver Surfer during early development, in 1984; its public release for the Macintosh followed in 1987. The product is published by the French company 4D SAS and combines a database with its own programming language. ALERT shows Hello, World! in a dialog box with an OK button.",
+    "famousProjects": [],
+    "frameworks": {},
+    "quiz": {
+      "platforms": [
+        "desktop",
+        "web-backend"
+      ],
+      "backend": true,
+      "typing": "dynamic",
+      "speed": "moderate"
+    },
+    "website": "https://www.4d.com/",
+    "released": "1987",
+    "releasedEvent": "Official public release for the Macintosh",
+    "sources": [
+      "https://en.wikipedia.org/wiki/4th_Dimension_(software)",
+      "https://developer.4d.com/docs/commands/alert"
+    ]
+  },
+  {
     "name": "ABAP",
     "description": "SAP's business application language",
     "path": "hello-world/hello.abap",
@@ -5512,6 +5545,37 @@
     ]
   },
   {
+    "name": "Fortress",
+    "description": "Sun Labs language for high-performance scientific computing with mathematical notation",
+    "path": "hello-world/hello.fss",
+    "tags": [
+      "functional",
+      "oop"
+    ],
+    "slug": "fortress",
+    "prism": "scala",
+    "icon": "icons/fortress.svg",
+    "creator": "Guy L. Steele Jr. and others (Sun Labs)",
+    "year": 2006,
+    "history": "Fortress was developed at Sun Labs by a team that included Guy L. Steele Jr. Version 1.0 of the Fortress Language Specification was released in April 2008, and the last implementation release, 1.0_5033, is dated 7 September 2011. A program is a component that exports Executable, and its run function prints Hello, World!.",
+    "famousProjects": [],
+    "frameworks": {},
+    "quiz": {
+      "platforms": [
+        "systems",
+        "data-science"
+      ],
+      "backend": false,
+      "typing": "static",
+      "speed": "high"
+    },
+    "released": "2006",
+    "releasedEvent": "First appeared (Sun Labs)",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Fortress_(programming_language)"
+    ]
+  },
+  {
     "name": "FreeBASIC",
     "description": "Free QuickBASIC-compatible compiler",
     "path": "hello-world/hello_freebasic.bas",
@@ -7752,6 +7816,39 @@
     ]
   },
   {
+    "name": "JScript",
+    "description": "Microsoft's ECMAScript dialect for Internet Explorer and the Windows Script Host",
+    "path": "hello-world/hello_jscript.js",
+    "tags": [
+      "scripting",
+      "oop"
+    ],
+    "slug": "jscript",
+    "prism": "javascript",
+    "icon": "icons/jscript.svg",
+    "creator": "Microsoft",
+    "year": 1996,
+    "history": "JScript is Microsoft's dialect of JavaScript (ECMAScript), first supported in Internet Explorer 3.0, released in August 1996. Besides the browser, it runs under the Windows Script Host, where the WScript object is available. WScript.Echo prints Hello, World! to the console under cscript.exe and shows it in a message box under wscript.exe.",
+    "famousProjects": [],
+    "frameworks": {},
+    "quiz": {
+      "platforms": [
+        "desktop",
+        "cli",
+        "web-frontend"
+      ],
+      "backend": false,
+      "typing": "dynamic",
+      "speed": "moderate"
+    },
+    "released": "1996-08",
+    "releasedEvent": "First supported in Internet Explorer 3.0",
+    "sources": [
+      "https://en.wikipedia.org/wiki/JScript",
+      "https://learn.microsoft.com/en-us/previous-versions/windows/internet-explorer/ie-developer/windows-scripting/h8f603s7(v=vs.84)"
+    ]
+  },
+  {
     "name": "JSON",
     "description": "JavaScript Object Notation, a lightweight data interchange format",
     "path": "hello-world/hello.json",
@@ -8422,6 +8519,40 @@
       "https://en.wikipedia.org/wiki/LFE_(programming_language)",
       "https://github.com/lfe/lfe",
       "https://lfe.io"
+    ]
+  },
+  {
+    "name": "Lil",
+    "description": "Scripting language of the Decker multimedia sketchpad, with query and array features",
+    "path": "hello-world/hello.lil",
+    "tags": [
+      "scripting",
+      "functional"
+    ],
+    "slug": "lil",
+    "prism": "clike",
+    "icon": "icons/lil.svg",
+    "creator": "John Earnest",
+    "year": 2022,
+    "history": "John Earnest designed Lil as the scripting language of Decker, which its repository calls a multimedia sketchpad; Decker was first tagged as v1.0 on 28 October 2022. Lil statements are always expressions, and the language has built-in query statements (select, update, extract) for tables. Run with the Lilt command-line interpreter, print writes Hello, World! to standard output.",
+    "famousProjects": [],
+    "frameworks": {},
+    "quiz": {
+      "platforms": [
+        "desktop",
+        "cli"
+      ],
+      "backend": false,
+      "typing": "dynamic",
+      "speed": "low"
+    },
+    "website": "https://beyondloom.com/decker/lil.html",
+    "released": "2022-10-28",
+    "releasedEvent": "Decker v1.0 tagged (\"initial checkin for release\"), shipping Lil and the Lilt interpreter",
+    "sources": [
+      "https://github.com/JohnEarnest/Decker/releases/tag/v1.0",
+      "https://beyondloom.com/decker/lilt.html",
+      "https://github.com/JohnEarnest/Decker/blob/main/LICENSE.txt"
     ]
   },
   {
@@ -10682,6 +10813,39 @@
     ]
   },
   {
+    "name": "OpenEdge ABL",
+    "description": "Progress Software's business application language with an integrated database (formerly Progress 4GL)",
+    "path": "hello-world/hello_openedge.p",
+    "tags": [
+      "procedural",
+      "scripting"
+    ],
+    "slug": "openedge-abl",
+    "prism": "basic",
+    "icon": "icons/openedge-abl.svg",
+    "creator": "Data Language Corporation (now Progress Software)",
+    "year": 1984,
+    "history": "The language was designed in 1981 as an architecture-independent language with an integrated database system, and the company, then called Data Language, released its first commercial version of PROGRESS for Unix in 1984. It was called PROGRESS or Progress 4GL up to version 9 and was renamed OpenEdge Advanced Business Language in 2006. DISPLAY shows Hello, World! in a frame on the screen.",
+    "famousProjects": [],
+    "frameworks": {},
+    "quiz": {
+      "platforms": [
+        "web-backend",
+        "desktop"
+      ],
+      "backend": true,
+      "typing": "static",
+      "speed": "moderate"
+    },
+    "website": "https://www.progress.com/openedge",
+    "released": "1984",
+    "releasedEvent": "Data Language released the first commercial version of PROGRESS ADE for Unix",
+    "sources": [
+      "https://en.wikipedia.org/wiki/OpenEdge_Advanced_Business_Language",
+      "https://en.wikipedia.org/wiki/Progress_Software"
+    ]
+  },
+  {
     "name": "OpenSCAD",
     "description": "Script-based language for solid 3D CAD models",
     "path": "hello-world/hello.scad",
@@ -11554,6 +11718,38 @@
     "releasedEvent": "PowerBASIC 2.0, the initial release as successor to Borland's Turbo Basic 1.1",
     "sources": [
       "https://en.wikipedia.org/wiki/PowerBASIC"
+    ]
+  },
+  {
+    "name": "PowerBuilder",
+    "description": "Rapid application development tool whose PowerScript language drives database client applications",
+    "path": "hello-world/hello.sra",
+    "tags": [
+      "oop",
+      "procedural"
+    ],
+    "slug": "powerbuilder",
+    "prism": "basic",
+    "icon": "icons/powerbuilder.svg",
+    "creator": "Computer Solutions Inc. (later Powersoft)",
+    "year": 1991,
+    "history": "PowerBuilder was originated by Computer Solutions Inc., which renamed itself Powersoft in 1990, and version 1.0 was released in July 1991; it is now developed by Appeon. Applications are written in the PowerScript language together with the DataWindow component. Placed in an event script such as the application's Open event, this statement shows a message box titled Greeting containing Hello, World!.",
+    "famousProjects": [],
+    "frameworks": {},
+    "quiz": {
+      "platforms": [
+        "desktop"
+      ],
+      "backend": false,
+      "typing": "static",
+      "speed": "moderate"
+    },
+    "website": "https://www.appeon.com/products/powerbuilder",
+    "released": "1991-07",
+    "releasedEvent": "PowerBuilder 1.0 released",
+    "sources": [
+      "https://en.wikipedia.org/wiki/PowerBuilder",
+      "https://docs.appeon.com/pb2019/powerscript_reference/ch10s412.html"
     ]
   },
   {
