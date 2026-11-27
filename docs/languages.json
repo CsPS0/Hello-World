@@ -728,6 +728,37 @@
     ]
   },
   {
+    "name": "AsciiDots",
+    "description": "Esoteric language where dots travel along ASCII-art paths",
+    "path": "hello-world/hello.dots",
+    "tags": [
+      "esoteric"
+    ],
+    "slug": "asciidots",
+    "prism": "golf",
+    "icon": "icons/asciidots.svg",
+    "creator": "Aaron Janse",
+    "year": 2017,
+    "history": "Aaron Janse created AsciiDots in 2017 as an esoteric language based on ASCII art. Dots, written as periods, travel down ASCII-art paths and undergo operations along the way, and the project was featured on Hacker News and Motherboard. This one-line program from the project's samples prints Hello, World!.",
+    "famousProjects": [],
+    "frameworks": {},
+    "quiz": {
+      "platforms": [
+        "esoteric"
+      ],
+      "backend": false,
+      "typing": "dynamic",
+      "speed": "low"
+    },
+    "website": "https://github.com/aaronjanse/asciidots",
+    "released": "2017",
+    "releasedEvent": "GitHub repository created (listed under 2017 on esolangs.org)",
+    "sources": [
+      "https://esolangs.org/wiki/AsciiDots",
+      "https://github.com/aaronjanse/asciidots"
+    ]
+  },
+  {
     "name": "Assembly",
     "description": "Low-level language for direct hardware control",
     "path": "hello-world/hello.asm",
@@ -6692,6 +6723,39 @@
     ]
   },
   {
+    "name": "Hush",
+    "description": "Unix shell scripting language based on Lua",
+    "path": "hello-world/hello.hsh",
+    "tags": [
+      "scripting",
+      "procedural"
+    ],
+    "slug": "hush",
+    "prism": "lua",
+    "icon": "icons/hush.svg",
+    "creator": "Gabriel Bastos",
+    "year": 2022,
+    "history": "Gabriel Bastos created Hush, a Unix shell scripting language based on the Lua programming language. Its documentation describes it as closer to a general purpose programming language with first-class shell capabilities than to a traditional shell. Output goes through the standard library, so std.print writes Hello, World!.",
+    "famousProjects": [],
+    "frameworks": {},
+    "quiz": {
+      "platforms": [
+        "cli"
+      ],
+      "backend": false,
+      "typing": "dynamic",
+      "speed": "moderate"
+    },
+    "website": "https://hush-shell.github.io/",
+    "released": "2022-04-01",
+    "releasedEvent": "Hush v0.1.0-alpha released on GitHub",
+    "sources": [
+      "https://github.com/hush-shell/hush/releases/tag/v0.1.0-alpha",
+      "https://github.com/hush-shell/hush/blob/master/LICENSE",
+      "https://github.com/hush-shell/hush"
+    ]
+  },
+  {
     "name": "Hy",
     "description": "Lisp embedded in Python",
     "path": "hello-world/hello.hy",
@@ -7275,6 +7339,39 @@
       "https://cris.huji.ac.il/en/publications/the-elements-of-computing-systems-building-a-modern-computer-from-2/",
       "https://minnie.tuhs.org/Tecs/lectures/chapter09.pdf",
       "https://www.nand2tetris.org/"
+    ]
+  },
+  {
+    "name": "Jactl",
+    "description": "Secure embeddable scripting language for Java applications",
+    "path": "hello-world/hello.jactl",
+    "tags": [
+      "scripting",
+      "functional"
+    ],
+    "slug": "jactl",
+    "prism": "groovy",
+    "icon": "icons/jactl.svg",
+    "creator": "James Crawford",
+    "year": 2023,
+    "history": "James Crawford wrote Jactl for the JVM so that Java applications could let their users customise behaviour through a secure, locked-down scripting language; its syntax combines parts of Java, Groovy and Perl. A built-in suspend and resume mechanism based on continuations means a script never blocks the thread it runs on.",
+    "famousProjects": [],
+    "frameworks": {},
+    "quiz": {
+      "platforms": [
+        "web-backend",
+        "cli"
+      ],
+      "backend": true,
+      "typing": "dynamic",
+      "speed": "moderate"
+    },
+    "website": "https://jactl.io/",
+    "released": "2023-04-05",
+    "releasedEvent": "Jactl 1.0.0 published on GitHub (first GitHub release)",
+    "sources": [
+      "https://github.com/jaccomoc/jactl/releases",
+      "https://jactl.io/"
     ]
   },
   {
@@ -8188,6 +8285,38 @@
     "sources": [
       "https://en.wikipedia.org/wiki/LaTeX",
       "https://www.latex-project.org/publications/2001-CAR-LaTeX-legacy.pdf"
+    ]
+  },
+  {
+    "name": "Latitude",
+    "description": "Prototype-oriented language with first-class scopes and continuations",
+    "path": "hello-world/hello.lat",
+    "tags": [
+      "oop",
+      "scripting"
+    ],
+    "slug": "latitude",
+    "prism": "ruby",
+    "icon": "icons/latitude.svg",
+    "creator": "Silvio Mayolo",
+    "year": 2018,
+    "history": "Silvio Mayolo designed Latitude as a prototype-oriented language with no classes, only objects that are cloned from other objects. Its syntax borrows from Ruby, Smalltalk and Erlang, and statements end with a full stop. It also offers first-class scope objects and full continuations through callCC.",
+    "famousProjects": [],
+    "frameworks": {},
+    "quiz": {
+      "platforms": [
+        "cli"
+      ],
+      "backend": false,
+      "typing": "dynamic",
+      "speed": "moderate"
+    },
+    "website": "https://mercerenies.github.io/latitude/",
+    "released": "2018-08-12",
+    "releasedEvent": "Tag v0.1.0, \"Initial release of the Latitude language\"",
+    "sources": [
+      "https://github.com/Mercerenies/latitude/releases/tag/v0.1.0",
+      "https://github.com/Mercerenies/latitude/blob/master/LICENSE.txt"
     ]
   },
   {
@@ -9355,6 +9484,38 @@
     ]
   },
   {
+    "name": "Mint",
+    "description": "Language for single-page web applications with built-in components and styling",
+    "path": "hello-world/hello.mint",
+    "tags": [
+      "functional",
+      "markup"
+    ],
+    "slug": "mint",
+    "prism": "jsx",
+    "icon": "icons/mint.svg",
+    "creator": "Szikszai Gusztáv",
+    "year": 2018,
+    "history": "Szikszai Gusztáv created Mint, which its project describes as a refreshing programming language for the front-end web; version 0.0.0 appeared on GitHub on 18 March 2018. User interfaces are written as components whose render functions return HTML-like markup. The Main component is mounted on the page, so its render function shows Hello, World! in the browser.",
+    "famousProjects": [],
+    "frameworks": {},
+    "quiz": {
+      "platforms": [
+        "web-frontend"
+      ],
+      "backend": false,
+      "typing": "static",
+      "speed": "moderate"
+    },
+    "website": "https://mint-lang.com/",
+    "released": "2018-03-18",
+    "releasedEvent": "Mint 0.0.0 released on GitHub",
+    "sources": [
+      "https://github.com/mint-lang/mint/releases",
+      "https://github.com/mint-lang/mint/blob/master/shard.yml"
+    ]
+  },
+  {
     "name": "Miranda",
     "description": "Lazy functional language that inspired Haskell",
     "path": "hello-world/hello_miranda.m",
@@ -9702,6 +9863,38 @@
     "sources": [
       "https://archive.org/stream/byte-magazine-1979-07/1979_07_BYTE_04-07_Automating_Eclipses",
       "https://en.wikipedia.org/wiki/Mouse_(programming_language)"
+    ]
+  },
+  {
+    "name": "MQL4",
+    "description": "MetaQuotes Language 4 for MetaTrader 4 trading robots, indicators and scripts",
+    "path": "hello-world/hello.mq4",
+    "tags": [
+      "procedural",
+      "oop"
+    ],
+    "slug": "mql4",
+    "prism": "cpp",
+    "icon": "icons/mql4.svg",
+    "creator": "MetaQuotes Software",
+    "year": 2005,
+    "history": "MetaQuotes released MetaTrader 4 on 1 July 2005 after two years of development, together with the MQL4 IDE for writing automated trading strategies. The C-like language is used for expert advisors, custom indicators and scripts that run inside the trading terminal. In current MQL4, OnStart is the event handler of a script, and Print enters Hello, World! in the Expert Advisor log.",
+    "famousProjects": [],
+    "frameworks": {},
+    "quiz": {
+      "platforms": [
+        "desktop"
+      ],
+      "backend": false,
+      "typing": "static",
+      "speed": "high"
+    },
+    "website": "https://www.mql4.com/",
+    "released": "2005-07-01",
+    "releasedEvent": "MetaTrader 4 released with the MQL4 IDE",
+    "sources": [
+      "https://www.metatrader5.com/en/news/1348",
+      "https://docs.mql4.com/basis/function/events"
     ]
   },
   {
@@ -13678,6 +13871,39 @@
     ]
   },
   {
+    "name": "Soufflé",
+    "description": "Datalog variant that compiles logic programs to parallel C++ for program analysis",
+    "path": "hello-world/hello_souffle.dl",
+    "tags": [
+      "logic"
+    ],
+    "slug": "souffl",
+    "prism": "prolog",
+    "icon": "icons/souffl.svg",
+    "creator": "Oracle Labs",
+    "year": 2016,
+    "history": "Oracle Labs made Soufflé, a Datalog variant for static program analysis, open source on 8 March 2016; the 2016 paper Soufflé: On Synthesis of Program Analyzers is by Herbert Jordan, Bernhard Scholz and Pavle Subotić. It can interpret a program or synthesize a parallel C++ version of it, and the Doop Java pointer analysis was ported to it. The output directive with IO=stdout prints the greeting relation, whose only fact is Hello, World!, to the terminal.",
+    "famousProjects": [],
+    "frameworks": {},
+    "quiz": {
+      "platforms": [
+        "logic",
+        "cli"
+      ],
+      "backend": false,
+      "typing": "static",
+      "speed": "high"
+    },
+    "website": "https://souffle-lang.github.io/",
+    "released": "2016-03-08",
+    "releasedEvent": "Oracle Labs made Soufflé open source",
+    "sources": [
+      "https://souffle-lang.github.io/open-source",
+      "https://en.wikipedia.org/wiki/Souffl%C3%A9_(programming_language)",
+      "https://github.com/souffle-lang/souffle"
+    ]
+  },
+  {
     "name": "SPARQL",
     "description": "W3C query language for RDF graph data",
     "path": "hello-world/hello.rq",
@@ -15506,6 +15732,39 @@
     "sources": [
       "https://wren.io",
       "https://github.com/wren-lang/wren"
+    ]
+  },
+  {
+    "name": "X10",
+    "description": "IBM research language for parallel programming on high-performance systems",
+    "path": "hello-world/hello.x10",
+    "tags": [
+      "oop",
+      "procedural"
+    ],
+    "slug": "x10",
+    "prism": "java",
+    "icon": "icons/x10.svg",
+    "creator": "Kemal Ebcioğlu, Saravanan Arumugam, Vijay Saraswat and Vivek Sarkar (IBM)",
+    "year": 2004,
+    "history": "IBM developed X10 at the Thomas J. Watson Research Center as part of the PERCS project, funded by DARPA's High Productivity Computing Systems program. Its primary authors were Kemal Ebcioğlu, Saravanan Arumugam, Vijay Saraswat and Vivek Sarkar. The sample follows the X10 2.x style with def and Rail.",
+    "famousProjects": [],
+    "frameworks": {},
+    "quiz": {
+      "platforms": [
+        "systems",
+        "cli"
+      ],
+      "backend": false,
+      "typing": "static",
+      "speed": "high"
+    },
+    "website": "http://x10-lang.org/",
+    "released": "2004",
+    "releasedEvent": "First appeared at IBM's Thomas J. Watson Research Center",
+    "sources": [
+      "https://en.wikipedia.org/wiki/X10_(programming_language)",
+      "https://github.com/x10-lang/x10"
     ]
   },
   {
