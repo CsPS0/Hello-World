@@ -380,7 +380,26 @@ const EXTENSION_MAP = {
     ".p": {"name": "POP-11", "tags": ["procedural","functional"]},
     ".ndf": {"name": "Nial", "tags": ["functional"]},
     ".xpl": {"name": "XPL0", "tags": ["procedural"]},
-    ".monkey": {"name": "Monkey X", "tags": ["oop","procedural"]}
+    ".monkey": {"name": "Monkey X", "tags": ["oop","procedural"]},
+    ".svg": {"name": "SVG", "tags": ["markup"]},
+    ".rq": {"name": "SPARQL", "tags": ["logic"]},
+    ".tf": {"name": "Terraform", "tags": ["markup"]},
+    ".haml": {"name": "Haml", "tags": ["markup"]},
+    ".sass": {"name": "Sass", "tags": ["markup","scripting"]},
+    ".pug": {"name": "Pug", "tags": ["markup"]},
+    ".dot": {"name": "DOT", "tags": ["markup"]},
+    ".nls": {"name": "NetLogo", "tags": ["procedural","functional"]},
+    ".alw": {"name": "ALGOL W", "tags": ["procedural"]},
+    ".asy": {"name": "Asymptote", "tags": ["procedural"]},
+    ".mf": {"name": "Metafont", "tags": ["procedural"]},
+    ".cf": {"name": "CFEngine", "tags": ["markup"]},
+    ".ref": {"name": "Refal", "tags": ["functional"]},
+    ".v3": {"name": "Virgil", "tags": ["oop","functional"]},
+    ".dg": {"name": "Dialog", "tags": ["logic"]},
+    ".cue": {"name": "CUE", "tags": ["markup","logic"]},
+    ".ly": {"name": "LilyPond", "tags": ["markup"]},
+    ".aum": {"name": "Austral", "tags": ["procedural","functional"]},
+    ".rhm": {"name": "Rhombus", "tags": ["functional","oop"]}
 };
 
 const FILENAME_MAP = {
@@ -413,7 +432,8 @@ const FILENAME_MAP = {
     "hello_reduce.red": {"name": "REDUCE", "description": "Computer algebra system built on its own Lisp dialect", "tags": ["functional","procedural"]},
     "hello_autolisp.lsp": {"name": "AutoLISP", "description": "Lisp dialect for scripting AutoCAD", "tags": ["functional","scripting"]},
     "hello_amigae.e": {"name": "Amiga E", "description": "Fast-compiling Amiga language influenced by C++, Ada and Lisp", "tags": ["procedural","oop"]},
-    "hello_ezhil.n": {"name": "Ezhil", "description": "Programming language with Tamil keywords, for teaching", "tags": ["procedural","scripting"]}
+    "hello_ezhil.n": {"name": "Ezhil", "description": "Programming language with Tamil keywords, for teaching", "tags": ["procedural","scripting"]},
+    "hello_islisp.lsp": {"name": "ISLISP", "description": "ISO-standard Lisp dialect", "tags": ["functional"]}
 };
 
 // Prism grammar per language (variants fall back to their base name, "Ruby (Script)" -> "Ruby").
@@ -788,7 +808,27 @@ const PRISM_MAP = {
     "POP-11": "clike",
     "Nial": "apl",
     "XPL0": "pascal",
-    "Monkey X": "vbnet"
+    "Monkey X": "vbnet",
+    "SVG": "markup",
+    "SPARQL": "sparql",
+    "Terraform": "hcl",
+    "Haml": "haml",
+    "Sass": "sass",
+    "Pug": "pug",
+    "DOT": "dot",
+    "NetLogo": "logo",
+    "ALGOL W": "algol68",
+    "ISLISP": "lisp",
+    "Asymptote": "clike",
+    "Metafont": "metafont",
+    "CFEngine": "clike",
+    "Refal": "clike",
+    "Virgil": "clike",
+    "Dialog": "lisp",
+    "CUE": "go",
+    "LilyPond": "lilypond",
+    "Austral": "ada",
+    "Rhombus": "python"
 };
 
 const DESCRIPTION_DEFAULTS = {
@@ -1068,7 +1108,27 @@ const DESCRIPTION_DEFAULTS = {
     "POP-11": "Stack-based AI teaching language at the core of Poplog",
     "Nial": "Nested Interactive Array Language, an APL relative with words for operators",
     "XPL0": "Small block-structured language created for the 6502",
-    "Monkey X": "Blitz Research language that translates to many target platforms"
+    "Monkey X": "Blitz Research language that translates to many target platforms",
+    "SVG": "W3C XML language for two-dimensional vector graphics",
+    "SPARQL": "W3C query language for RDF graph data",
+    "Terraform": "HashiCorp's declarative infrastructure-as-code language (HCL)",
+    "Haml": "Indentation-based HTML templating language for Ruby",
+    "Sass": "Style sheet language that compiles to CSS",
+    "Pug": "Indentation-based HTML template engine for Node.js, formerly Jade",
+    "DOT": "Graphviz's plain-text graph description language",
+    "NetLogo": "Logo dialect for agent-based modelling",
+    "ALGOL W": "Wirth and Hoare's ALGOL 60 successor",
+    "ISLISP": "ISO-standard Lisp dialect",
+    "Asymptote": "Vector graphics language for technical drawing, inspired by MetaPost",
+    "Metafont": "Donald Knuth's language for designing typefaces",
+    "CFEngine": "Declarative policy language for configuration management",
+    "Refal": "Valentin Turchin's pattern-matching language for symbol manipulation",
+    "Virgil": "Lightweight compiled language from Ben Titzer",
+    "Dialog": "Interactive fiction language inspired by Inform 7 and Prolog",
+    "CUE": "Configuration and data validation language that unifies types and values",
+    "LilyPond": "Text-based music engraving language",
+    "Austral": "Systems language with linear types and capability-based security",
+    "Rhombus": "Racket-based language with conventional infix syntax and macros"
 };
 
 function getExtension(filename) {

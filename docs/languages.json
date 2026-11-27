@@ -291,6 +291,36 @@
     ]
   },
   {
+    "name": "ALGOL W",
+    "description": "Wirth and Hoare's ALGOL 60 successor",
+    "path": "hello-world/hello.alw",
+    "tags": [
+      "procedural"
+    ],
+    "slug": "algol-w",
+    "prism": "algol68",
+    "icon": "icons/algol-w.svg",
+    "creator": "Niklaus Wirth and Tony Hoare",
+    "year": 1966,
+    "history": "Niklaus Wirth and Tony Hoare based ALGOL W on their proposal for ALGOL X, the planned successor to ALGOL 60, and it first appeared in 1966. Wirth supervised a widely distributed compiler for the IBM System/360 at Stanford, written in his ALGOL-like PL360. write prints its arguments as a line; awe is a modern compiler for the language.",
+    "famousProjects": [],
+    "frameworks": {},
+    "quiz": {
+      "platforms": [
+        "cli"
+      ],
+      "backend": false,
+      "typing": "static",
+      "speed": "high"
+    },
+    "released": "1966",
+    "releasedEvent": "First appeared, based on Wirth and Hoare's proposal for ALGOL X",
+    "sources": [
+      "https://en.wikipedia.org/wiki/ALGOL_W",
+      "https://rosettacode.org/wiki/Hello_world/Text#ALGOL_W"
+    ]
+  },
+  {
     "name": "Amiga E",
     "description": "Fast-compiling Amiga language influenced by C++, Ada and Lisp",
     "path": "hello-world/hello_amigae.e",
@@ -771,6 +801,38 @@
     ]
   },
   {
+    "name": "Asymptote",
+    "description": "Vector graphics language for technical drawing, inspired by MetaPost",
+    "path": "hello-world/hello.asy",
+    "tags": [
+      "procedural"
+    ],
+    "slug": "asymptote",
+    "prism": "clike",
+    "icon": "icons/asymptote.svg",
+    "creator": "Andy Hammerlindl, John C. Bowman and Tom Prince",
+    "year": 2004,
+    "history": "Andy Hammerlindl, John C. Bowman and Tom Prince created Asymptote in 2004, a descriptive vector graphics language influenced by MetaPost that typesets its labels with LaTeX. It is used for mathematical and technical drawings, and later versions extended it to three dimensions. write prints its argument to the terminal.",
+    "famousProjects": [],
+    "frameworks": {},
+    "quiz": {
+      "platforms": [
+        "desktop",
+        "data-science"
+      ],
+      "backend": false,
+      "typing": "static",
+      "speed": "moderate"
+    },
+    "website": "https://asymptote.sourceforge.io/",
+    "released": "2004",
+    "releasedEvent": "First appeared; the SourceForge project was registered on 23 September 2004",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Asymptote_(vector_graphics_language)",
+      "https://sourceforge.net/projects/asymptote/"
+    ]
+  },
+  {
     "name": "ATS",
     "description": "Dependently typed language with linear types",
     "path": "hello-world/hello.dats",
@@ -800,6 +862,39 @@
     "releasedEvent": "First implementation, ATS/Proto (ATS0), released",
     "sources": [
       "https://en.wikipedia.org/wiki/ATS_(programming_language)"
+    ]
+  },
+  {
+    "name": "Austral",
+    "description": "Systems language with linear types and capability-based security",
+    "path": "hello-world/hello.aum",
+    "tags": [
+      "procedural",
+      "functional"
+    ],
+    "slug": "austral",
+    "prism": "ada",
+    "icon": "icons/austral.svg",
+    "creator": "Fernando Borretti",
+    "year": 2022,
+    "history": "Fernando Borretti introduced Austral in December 2022 as a small systems language with linear types and capability-based security, with a bootstrapping compiler in OCaml that emits C. Its syntax resembles Ada. The entry point is chosen on the command line with --entrypoint=Hello:main, and main returns an ExitCode.",
+    "famousProjects": [],
+    "frameworks": {},
+    "quiz": {
+      "platforms": [
+        "systems",
+        "cli"
+      ],
+      "backend": false,
+      "typing": "static",
+      "speed": "high"
+    },
+    "website": "https://austral-lang.org/",
+    "released": "2022-12-28",
+    "releasedEvent": "Introduced in Borretti's post \"Introducing Austral\"",
+    "sources": [
+      "https://borretti.me/article/introducing-austral",
+      "https://austral-lang.org/tutorial/hello-world"
     ]
   },
   {
@@ -2213,6 +2308,38 @@
     ]
   },
   {
+    "name": "CFEngine",
+    "description": "Declarative policy language for configuration management",
+    "path": "hello-world/hello.cf",
+    "tags": [
+      "markup"
+    ],
+    "slug": "cfengine",
+    "prism": "clike",
+    "icon": "icons/cfengine.svg",
+    "creator": "Mark Burgess (Oslo University)",
+    "year": 1993,
+    "history": "Mark Burgess wrote CFEngine in 1993 as a post-doctoral fellow at Oslo University to automate the workstations of a physics department, and his work on it led to promise theory. Policies declare desired states that cf-agent converges towards. This sample uses CFEngine 3 syntax, where a bundle named main runs by default and a reports promise prints R: Hello, World!",
+    "famousProjects": [],
+    "frameworks": {},
+    "quiz": {
+      "platforms": [
+        "cloud",
+        "systems"
+      ],
+      "backend": true,
+      "typing": "dynamic",
+      "speed": "high"
+    },
+    "website": "https://cfengine.com/",
+    "released": "1993",
+    "releasedEvent": "First version, written by Mark Burgess at Oslo University",
+    "sources": [
+      "https://en.wikipedia.org/wiki/CFEngine",
+      "https://docs.cfengine.com/docs/3.24/reference/language-concepts/bundles/"
+    ]
+  },
+  {
     "name": "ChaiScript",
     "description": "Header-only scripting language embedded in C++",
     "path": "hello-world/hello.chai",
@@ -3451,6 +3578,39 @@
     ]
   },
   {
+    "name": "CUE",
+    "description": "Configuration and data validation language that unifies types and values",
+    "path": "hello-world/hello.cue",
+    "tags": [
+      "markup",
+      "logic"
+    ],
+    "slug": "cue",
+    "prism": "go",
+    "icon": "icons/cue.svg",
+    "creator": "Marcel van Lohuizen",
+    "year": 2018,
+    "history": "Marcel van Lohuizen started CUE (Configure, Unify, Execute) as open source in 2018; its roots lie in GCL, the configuration language Google used for Borg, the predecessor of Kubernetes. It is a superset of JSON for validating and defining configuration. cue export prints it as JSON, an object whose greeting field is Hello, World!",
+    "famousProjects": [],
+    "frameworks": {},
+    "quiz": {
+      "platforms": [
+        "cloud",
+        "markup"
+      ],
+      "backend": false,
+      "typing": "static",
+      "speed": "high"
+    },
+    "website": "https://cuelang.org/",
+    "released": "2018-11-22",
+    "releasedEvent": "Initial commit of the open-source CUE repository",
+    "sources": [
+      "https://github.com/cue-lang/cue/commit/1ca41d79939fc27758f0deb28b5c31587e26d6bb",
+      "https://cuelang.org/docs/introduction/"
+    ]
+  },
+  {
     "name": "Curl",
     "description": "Hello World in Curl",
     "path": "hello-world/hello.curl",
@@ -3883,6 +4043,38 @@
     ]
   },
   {
+    "name": "Dialog",
+    "description": "Interactive fiction language inspired by Inform 7 and Prolog",
+    "path": "hello-world/hello.dg",
+    "tags": [
+      "logic"
+    ],
+    "slug": "dialog",
+    "prism": "lisp",
+    "icon": "icons/dialog.svg",
+    "creator": "Linus Åkesson",
+    "year": 2018,
+    "history": "Linus Åkesson announced Dialog in November 2018, a language for interactive fiction that combines the rule-based style of Prolog with ideas from Inform 7; his game Tethered was the first published with it. Stories compile to the Z-machine or to his own Å-machine. Execution starts at the (program entry point) rule, and plain text in a rule body is printed.",
+    "famousProjects": [],
+    "frameworks": {},
+    "quiz": {
+      "platforms": [
+        "game"
+      ],
+      "backend": false,
+      "typing": "dynamic",
+      "speed": "moderate"
+    },
+    "website": "https://linusakesson.net/dialog/",
+    "released": "2018-11-22",
+    "releasedEvent": "Announced on intfiction.org",
+    "sources": [
+      "https://www.linusakesson.net/dialog/",
+      "https://ifwiki.org/Dialog",
+      "https://linusakesson.net/dialog/docs/execution.html"
+    ]
+  },
+  {
     "name": "Dockerfile",
     "description": "Container image build instructions",
     "path": "hello-world/hello.dockerfile",
@@ -3916,6 +4108,37 @@
     "sources": [
       "https://github.com/moby/moby/blob/v1.13.0/CHANGELOG.md",
       "https://docs.docker.com/reference/dockerfile/"
+    ]
+  },
+  {
+    "name": "DOT",
+    "description": "Graphviz's plain-text graph description language",
+    "path": "hello-world/hello.dot",
+    "tags": [
+      "markup"
+    ],
+    "slug": "dot",
+    "prism": "dot",
+    "icon": "icons/dot.svg",
+    "creator": "Eleftherios Koutsofios and Stephen North (AT&T Bell Laboratories)",
+    "year": 1991,
+    "history": "DOT is the graph language of the dot layout program from AT&T Bell Laboratories, described in Eleftherios Koutsofios and Stephen North's 1991 report Drawing graphs with dot; dot succeeded an earlier program called dag. It is now the input format of the open-source Graphviz tools. Rendered with dot -Tsvg, this graph is a single node labelled Hello, World!",
+    "famousProjects": [],
+    "frameworks": {},
+    "quiz": {
+      "platforms": [
+        "markup"
+      ],
+      "backend": false,
+      "typing": "static",
+      "speed": "high"
+    },
+    "website": "https://graphviz.org/",
+    "released": "1991-09",
+    "releasedEvent": "Koutsofios and North publish the AT&T Bell Laboratories report \"Drawing graphs with dot\"",
+    "sources": [
+      "https://forum.graphviz.org/t/the-history-of-graphviz/765",
+      "https://en.wikipedia.org/wiki/Graphviz"
     ]
   },
   {
@@ -5691,6 +5914,38 @@
     ]
   },
   {
+    "name": "Haml",
+    "description": "Indentation-based HTML templating language for Ruby",
+    "path": "hello-world/hello.haml",
+    "tags": [
+      "markup"
+    ],
+    "slug": "haml",
+    "prism": "haml",
+    "icon": "icons/haml.svg",
+    "creator": "Hampton Catlin",
+    "year": 2006,
+    "history": "Hampton Catlin created Haml (HTML Abstraction Markup Language) in 2006 because he was tired of typing HTML templates by hand, and it was first used in production at Unspace Interactive. Indentation replaces closing tags, and a % sign starts an element. This template renders <p>Hello, World!</p>.",
+    "famousProjects": [],
+    "frameworks": {},
+    "quiz": {
+      "platforms": [
+        "web-backend",
+        "markup"
+      ],
+      "backend": true,
+      "typing": "dynamic",
+      "speed": "moderate"
+    },
+    "website": "https://haml.info/",
+    "released": "2006",
+    "releasedEvent": "Initial release",
+    "sources": [
+      "https://haml.info/about.html",
+      "https://en.wikipedia.org/wiki/Haml"
+    ]
+  },
+  {
     "name": "Harbour",
     "description": "Open-source xBase/Clipper compiler",
     "path": "hello-world/hello.prg",
@@ -6540,6 +6795,37 @@
     "releasedEvent": "Ioke 0, the first release, announced by Ola Bini",
     "sources": [
       "https://innoq.com/blog/st/2008/12/ioke-0-released"
+    ]
+  },
+  {
+    "name": "ISLISP",
+    "description": "ISO-standard Lisp dialect",
+    "path": "hello-world/hello_islisp.lsp",
+    "tags": [
+      "functional"
+    ],
+    "slug": "islisp",
+    "prism": "lisp",
+    "icon": "icons/islisp.svg",
+    "creator": "ISO/IEC JTC 1/SC 22/WG 16",
+    "year": 1997,
+    "history": "ISLISP was standardised by the ISO working group SC22/WG16 and published as ISO/IEC 13816:1997, with a revision in 2007. It aims to be a small core of what Lisp dialects agree on, and the text of its specification was dedicated to the public domain. format writes to the stream returned by (standard-output), and ~% outputs a newline.",
+    "famousProjects": [],
+    "frameworks": {},
+    "quiz": {
+      "platforms": [
+        "cli"
+      ],
+      "backend": false,
+      "typing": "dynamic",
+      "speed": "moderate"
+    },
+    "website": "https://www.islisp.info/",
+    "released": "1997",
+    "releasedEvent": "ISO/IEC 13816:1997 published",
+    "sources": [
+      "https://www.islisp.info/history.html",
+      "https://en.wikipedia.org/wiki/ISLISP"
     ]
   },
   {
@@ -7501,6 +7787,38 @@
     ]
   },
   {
+    "name": "LilyPond",
+    "description": "Text-based music engraving language",
+    "path": "hello-world/hello.ly",
+    "tags": [
+      "markup"
+    ],
+    "slug": "lilypond",
+    "prism": "lilypond",
+    "icon": "icons/lilypond.svg",
+    "creator": "Han-Wen Nienhuys and Jan Nieuwenhuizen",
+    "year": 1996,
+    "history": "Han-Wen Nienhuys and Jan Nieuwenhuizen started LilyPond in 1996 after abandoning MPP, their preprocessor for MusiXTeX, and version 1.0 in 1998 brought its own Feta music font. The name refers to the Rosegarden project and to a friend named Suzanne, a Hebrew name meaning lily. A top-level markup block typesets Hello, World! on a page of its own.",
+    "famousProjects": [],
+    "frameworks": {},
+    "quiz": {
+      "platforms": [
+        "desktop",
+        "markup"
+      ],
+      "backend": false,
+      "typing": "dynamic",
+      "speed": "moderate"
+    },
+    "website": "https://lilypond.org/",
+    "released": "1996-10",
+    "releasedEvent": "First 0.0.x releases (git history shows release 0.0.1 on 9 October 1996)",
+    "sources": [
+      "https://lists.gnu.org/archive/html/lilypond-user/2014-11/msg00009.html",
+      "https://en.wikipedia.org/wiki/LilyPond"
+    ]
+  },
+  {
     "name": "Limbo",
     "description": "Hello World in Limbo",
     "path": "hello-world/hello.b",
@@ -8299,6 +8617,36 @@
     ]
   },
   {
+    "name": "Metafont",
+    "description": "Donald Knuth's language for designing typefaces",
+    "path": "hello-world/hello.mf",
+    "tags": [
+      "procedural"
+    ],
+    "slug": "metafont",
+    "prism": "metafont",
+    "icon": "icons/metafont.svg",
+    "creator": "Donald Knuth",
+    "year": 1979,
+    "history": "Donald Knuth began work on Metafont in 1977 as the font companion to his TeX typesetting system, produced a first version in 1979 and replaced it with an entirely new system in 1984, the one still in use. Its programs describe the shapes of letters and are compiled to bitmap fonts for a given printer. Run with mf, message shows the text on the terminal after the program's banner.",
+    "famousProjects": [],
+    "frameworks": {},
+    "quiz": {
+      "platforms": [
+        "markup"
+      ],
+      "backend": false,
+      "typing": "dynamic",
+      "speed": "moderate"
+    },
+    "released": "1979",
+    "releasedEvent": "First version produced (rewritten as the current Metafont in 1984)",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Metafont",
+      "https://rosettacode.org/wiki/Hello_world/Text#Metafont"
+    ]
+  },
+  {
     "name": "min",
     "description": "Small concatenative language and shell written in Nim",
     "path": "hello-world/hello.min",
@@ -8821,6 +9169,39 @@
     "sources": [
       "https://mono.github.io/mail-archives/mono-list/2004-February/018379.html",
       "https://en.wikipedia.org/wiki/Nemerle"
+    ]
+  },
+  {
+    "name": "NetLogo",
+    "description": "Logo dialect for agent-based modelling",
+    "path": "hello-world/hello.nls",
+    "tags": [
+      "procedural",
+      "functional"
+    ],
+    "slug": "netlogo",
+    "prism": "logo",
+    "icon": "icons/netlogo.svg",
+    "creator": "Uri Wilensky (Northwestern University)",
+    "year": 1999,
+    "history": "Uri Wilensky wrote NetLogo in 1999, and it has been developed since at Northwestern University's Center for Connected Learning and Computer-Based Modeling. It follows Logo's low-threshold, no-ceiling idea, with turtles, patches and links acting as agents in simulations of natural and social systems. Typed in the Command Center, show prints the value with the agent in front: observer: \"Hello, World!\"",
+    "famousProjects": [],
+    "frameworks": {},
+    "quiz": {
+      "platforms": [
+        "desktop",
+        "data-science"
+      ],
+      "backend": false,
+      "typing": "dynamic",
+      "speed": "moderate"
+    },
+    "website": "https://www.netlogo.org/",
+    "released": "1999",
+    "releasedEvent": "First release by Uri Wilensky",
+    "sources": [
+      "https://docs.netlogo.org/copyright.html",
+      "https://en.wikipedia.org/wiki/NetLogo"
     ]
   },
   {
@@ -10322,6 +10703,38 @@
     ]
   },
   {
+    "name": "Pug",
+    "description": "Indentation-based HTML template engine for Node.js, formerly Jade",
+    "path": "hello-world/hello.pug",
+    "tags": [
+      "markup"
+    ],
+    "slug": "pug",
+    "prism": "pug",
+    "icon": "icons/pug.svg",
+    "creator": "TJ Holowaychuk",
+    "year": 2010,
+    "history": "TJ Holowaychuk started the Node.js template engine as Jade in 2010. It was renamed Pug for version 2 because Jade is a registered trademark. A line starts with a tag name and the rest is its text, so this template renders <p>Hello, World!</p>.",
+    "famousProjects": [],
+    "frameworks": {},
+    "quiz": {
+      "platforms": [
+        "web-backend",
+        "markup"
+      ],
+      "backend": true,
+      "typing": "dynamic",
+      "speed": "moderate"
+    },
+    "website": "https://pugjs.org/",
+    "released": "2010-06-23",
+    "releasedEvent": "Jade repository created on GitHub",
+    "sources": [
+      "https://github.com/pugjs/pug",
+      "https://github.com/pugjs/pug/blob/master/packages/pug/LICENSE"
+    ]
+  },
+  {
     "name": "Pure",
     "description": "Functional language based on term rewriting, JIT-compiled with LLVM",
     "path": "hello-world/hello.pure",
@@ -11015,6 +11428,37 @@
     ]
   },
   {
+    "name": "Refal",
+    "description": "Valentin Turchin's pattern-matching language for symbol manipulation",
+    "path": "hello-world/hello.ref",
+    "tags": [
+      "functional"
+    ],
+    "slug": "refal",
+    "prism": "clike",
+    "icon": "icons/refal.svg",
+    "creator": "Valentin Turchin",
+    "year": 1968,
+    "history": "Valentin Turchin conceived Refal in 1966 as a theoretical tool, and the first implementation appeared in 1968; later versions include Refal-2, Refal-5, Refal-6 and Refal+. Functions are defined by sentences that match patterns in their argument. In Refal-5, $ENTRY Go marks the entry point and Prout prints its argument and expands to nothing.",
+    "famousProjects": [],
+    "frameworks": {},
+    "quiz": {
+      "platforms": [
+        "cli",
+        "ai"
+      ],
+      "backend": false,
+      "typing": "dynamic",
+      "speed": "moderate"
+    },
+    "released": "1968",
+    "releasedEvent": "First implementation (conceived in 1966 as a theoretical tool)",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Refal",
+      "https://rosettacode.org/wiki/Hello_world/Text#Refal"
+    ]
+  },
+  {
     "name": "Ren'Py",
     "description": "Visual novel engine with a screenplay-like scripting language",
     "path": "hello-world/hello.rpy",
@@ -11181,6 +11625,39 @@
     "sources": [
       "https://rhai.rs/book/about/index.html",
       "https://github.com/rhaiscript/rhai"
+    ]
+  },
+  {
+    "name": "Rhombus",
+    "description": "Racket-based language with conventional infix syntax and macros",
+    "path": "hello-world/hello.rhm",
+    "tags": [
+      "functional",
+      "oop"
+    ],
+    "slug": "rhombus",
+    "prism": "python",
+    "icon": "icons/rhombus.svg",
+    "creator": "Racket team (Matthew Flatt, Robert Bruce Findler, Sam Tobin-Hochstadt and others)",
+    "year": 2026,
+    "history": "Rhombus is built on Racket by the Racket team, with Matthew Flatt among its major contributors, and reached version 1.0 in June 2026. It keeps Racket's macro system and extensibility but uses a conventional infix syntax instead of parentheses. The #lang rhombus line selects the language, and print writes the string without quotes.",
+    "famousProjects": [],
+    "frameworks": {},
+    "quiz": {
+      "platforms": [
+        "cli",
+        "web-backend"
+      ],
+      "backend": false,
+      "typing": "dynamic",
+      "speed": "high"
+    },
+    "website": "https://rhombus-lang.org/",
+    "released": "2026-06-22",
+    "releasedEvent": "Rhombus 1.0 released",
+    "sources": [
+      "https://blog.racket-lang.org/2026/06/rhombus-v1.0.html",
+      "https://docs.racket-lang.org/rhombus-guide/print.html"
     ]
   },
   {
@@ -11605,6 +12082,38 @@
     "sources": [
       "https://www.sas.com/en_us/company-information/history.html",
       "https://en.wikipedia.org/wiki/SAS_(software)"
+    ]
+  },
+  {
+    "name": "Sass",
+    "description": "Style sheet language that compiles to CSS",
+    "path": "hello-world/hello.sass",
+    "tags": [
+      "markup",
+      "scripting"
+    ],
+    "slug": "sass",
+    "prism": "sass",
+    "icon": "icons/sass.svg",
+    "creator": "Hampton Catlin; developed by Natalie Weizenbaum",
+    "year": 2006,
+    "history": "Sass was designed by Hampton Catlin and developed by Natalie Weizenbaum, first appearing in 2006 with an indented syntax similar to Haml; the brace-based SCSS syntax followed. It adds variables, nesting and mixins to CSS. This file uses the original indented syntax, and Dart Sass prints the message with a location prefix, like hello.sass:1 Debug: Hello, World!",
+    "famousProjects": [],
+    "frameworks": {},
+    "quiz": {
+      "platforms": [
+        "web-frontend"
+      ],
+      "backend": false,
+      "typing": "dynamic",
+      "speed": "moderate"
+    },
+    "website": "https://sass-lang.com/",
+    "released": "2006-11-28",
+    "releasedEvent": "First appeared",
+    "sources": [
+      "https://sass-lang.com/about/",
+      "https://en.wikipedia.org/wiki/Sass_(style_sheet_language)"
     ]
   },
   {
@@ -12184,6 +12693,38 @@
     ]
   },
   {
+    "name": "SPARQL",
+    "description": "W3C query language for RDF graph data",
+    "path": "hello-world/hello.rq",
+    "tags": [
+      "logic"
+    ],
+    "slug": "sparql",
+    "prism": "sparql",
+    "icon": "icons/sparql.svg",
+    "creator": "W3C RDF Data Access Working Group (editors Eric Prud'hommeaux and Andy Seaborne)",
+    "year": 2008,
+    "history": "SPARQL became a W3C Recommendation in January 2008 as the standard way to query RDF, the graph data model of the Semantic Web, by matching triple patterns. SPARQL 1.1 followed in 2013 and added expressions in the SELECT clause, which this query uses. With an empty pattern it returns one row whose greeting column holds Hello, World!",
+    "famousProjects": [],
+    "frameworks": {},
+    "quiz": {
+      "platforms": [
+        "web-backend",
+        "data-science"
+      ],
+      "backend": true,
+      "typing": "dynamic",
+      "speed": "moderate"
+    },
+    "website": "https://www.w3.org/TR/sparql11-query/",
+    "released": "2008-01-15",
+    "releasedEvent": "SPARQL Query Language for RDF published as a W3C Recommendation",
+    "sources": [
+      "https://www.w3.org/TR/rdf-sparql-query/",
+      "https://www.w3.org/TR/sparql11-query/"
+    ]
+  },
+  {
     "name": "SQL",
     "description": "Hello World in SQL",
     "path": "hello-world/hello.sql",
@@ -12396,6 +12937,38 @@
     "sources": [
       "https://supercollider.github.io/",
       "https://en.wikipedia.org/wiki/SuperCollider"
+    ]
+  },
+  {
+    "name": "SVG",
+    "description": "W3C XML language for two-dimensional vector graphics",
+    "path": "hello-world/hello.svg",
+    "tags": [
+      "markup"
+    ],
+    "slug": "svg",
+    "prism": "markup",
+    "icon": "icons/svg.svg",
+    "creator": "W3C SVG Working Group (editor Jon Ferraiolo)",
+    "year": 2001,
+    "history": "The W3C's SVG Working Group published Scalable Vector Graphics 1.0 as a Recommendation in September 2001, an XML vocabulary for shapes, paths and text. Every modern browser renders it directly, and it is also the format icon sets and many drawing programs export. Opened in a browser, this file draws Hello, World! as text on a 200 by 40 canvas.",
+    "famousProjects": [],
+    "frameworks": {},
+    "quiz": {
+      "platforms": [
+        "web-frontend",
+        "markup"
+      ],
+      "backend": false,
+      "typing": "static",
+      "speed": "high"
+    },
+    "website": "https://www.w3.org/Graphics/SVG/",
+    "released": "2001-09-04",
+    "releasedEvent": "SVG 1.0 published as a W3C Recommendation",
+    "sources": [
+      "https://www.w3.org/TR/2001/REC-SVG-20010904/",
+      "https://en.wikipedia.org/wiki/SVG"
     ]
   },
   {
@@ -12734,6 +13307,37 @@
     "sources": [
       "https://terralang.org/publications.html",
       "https://github.com/terralang/terra"
+    ]
+  },
+  {
+    "name": "Terraform",
+    "description": "HashiCorp's declarative infrastructure-as-code language (HCL)",
+    "path": "hello-world/hello.tf",
+    "tags": [
+      "markup"
+    ],
+    "slug": "terraform",
+    "prism": "hcl",
+    "icon": "icons/terraform.svg",
+    "creator": "Mitchell Hashimoto (HashiCorp)",
+    "year": 2014,
+    "history": "Mitchell Hashimoto announced Terraform at HashiCorp in July 2014 as a tool for describing infrastructure across many cloud providers as code. Configurations are written in the HashiCorp Configuration Language (HCL), and terraform plan previews changes before apply makes them. This configuration creates no resources; terraform apply lists the greeting output with the value Hello, World! after applying.",
+    "famousProjects": [],
+    "frameworks": {},
+    "quiz": {
+      "platforms": [
+        "cloud"
+      ],
+      "backend": true,
+      "typing": "static",
+      "speed": "moderate"
+    },
+    "website": "https://developer.hashicorp.com/terraform",
+    "released": "2014-07-28",
+    "releasedEvent": "Terraform announced and released by HashiCorp",
+    "sources": [
+      "https://www.hashicorp.com/blog/terraform-announcement",
+      "https://en.wikipedia.org/wiki/Terraform_(software)"
     ]
   },
   {
@@ -13397,6 +14001,38 @@
     "sources": [
       "https://www.vim.org/",
       "https://en.wikipedia.org/wiki/Vim_(text_editor)"
+    ]
+  },
+  {
+    "name": "Virgil",
+    "description": "Lightweight compiled language from Ben Titzer",
+    "path": "hello-world/hello.v3",
+    "tags": [
+      "oop",
+      "functional"
+    ],
+    "slug": "virgil",
+    "prism": "clike",
+    "icon": "icons/virgil.svg",
+    "creator": "Ben L. Titzer",
+    "year": 2006,
+    "history": "Ben L. Titzer introduced Virgil in a 2006 OOPSLA paper; it was first designed for embedded systems, particularly microcontrollers. Today it blends classes, functions, tuples, type parameters and algebraic data types, and compiles to native executables, JVM jar files and WebAssembly. The compiler and runtime are written in Virgil itself; System.puts writes the string.",
+    "famousProjects": [],
+    "frameworks": {},
+    "quiz": {
+      "platforms": [
+        "systems",
+        "embedded"
+      ],
+      "backend": false,
+      "typing": "static",
+      "speed": "high"
+    },
+    "website": "https://github.com/titzer/virgil",
+    "released": "2006",
+    "releasedEvent": "Introduced in Titzer's OOPSLA 2006 paper \"Virgil: Objects on the Head of a Pin\"",
+    "sources": [
+      "https://github.com/titzer/virgil"
     ]
   },
   {

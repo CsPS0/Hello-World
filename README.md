@@ -2,10 +2,10 @@
 
 [![View Interactive Site](https://img.shields.io/badge/View_Site-e05a2b?style=for-the-badge)](https://csps0.github.io/Hello-World/)
 [![MIT License](https://img.shields.io/badge/license-MIT-green?style=for-the-badge)](LICENSE)
-[![Languages](https://img.shields.io/badge/languages-392-blue?style=for-the-badge)](docs/languages.json)
+[![Languages](https://img.shields.io/badge/languages-412-blue?style=for-the-badge)](docs/languages.json)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen?style=for-the-badge)](CONTRIBUTING.md)
 
-**The same program, written in 392 different languages.**
+**The same program, written in 412 different languages.**
 
 [Browse the collection](https://csps0.github.io/Hello-World/)
 
