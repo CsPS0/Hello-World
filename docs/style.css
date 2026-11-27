@@ -1642,3 +1642,22 @@ footer a {
 #tree-input {
     min-width: 0;
 }
+
+.tree-toggle {
+    background: none;
+    border: none;
+    padding: 0 4px 0 0;
+    font: inherit;
+    color: var(--text-secondary);
+    cursor: pointer;
+}
+
+.tree-toggle:hover,
+.tree-toggle[aria-expanded="true"] {
+    color: var(--accent);
+}
+
+.tree-toggle:focus-visible {
+    outline: 1px solid var(--accent);
+    outline-offset: 0;
+}

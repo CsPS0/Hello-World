@@ -1247,6 +1247,14 @@ document.addEventListener('DOMContentLoaded', () => {
     const treeDepthGroup = document.getElementById('tree-depth');
     let treeDepth = '1';
     let treeCurrent = null;
+    const treeExpanded = new Set(); // roots unfolded in the overview
+    const treeOverviewBtn = document.getElementById('tree-roots');
+
+    // OVERVIEW is pressed while the overview is showing
+    function markOverview(on) {
+        treeOverviewBtn.setAttribute('aria-pressed', String(on));
+        treeOverviewBtn.classList.toggle('active', on);
+    }
 
     const isBase = l => !/\(.*\)$/.test(l.name) || !languages.some(o => o.name === l.name.replace(/\s*\(.*\)$/, ''));
     function treeLangs() { return languages.filter(isBase); }
@@ -1326,6 +1334,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     function showTree(lang) {
         treeCurrent = lang;
+        markOverview(false);
         if (activeView !== 'tree') setView('tree');
         treeInput.value = lang.name;
         setTreeUrl(lang);
@@ -1381,8 +1390,9 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     // Start screen: languages with no ancestor here, ranked by how many descend from them
-    function showTreeRoots() {
+    function showTreeRoots(focusRoot) {
         treeCurrent = null;
+        markOverview(true);
         treeInput.value = '';
         setTreeUrl(null);
         treeOutput.replaceChildren();
@@ -1403,15 +1413,37 @@ document.addEventListener('DOMContentLoaded', () => {
         head.className = 'tree-head';
         const t = document.createElement('span');
         t.className = 'tree-root';
-        t.textContent = 'ROOTS: languages with no ancestor on this site';
+        t.textContent = 'ROOTS: languages with no ancestor on this site ([+] unfolds descendants)';
         head.append(t);
         treeOutput.append(head);
         const body = document.createElement('div');
         body.className = 'tree-body';
         roots.forEach(({ l, n }, i) => {
-            body.append(treeLine(i === roots.length - 1 ? '└── ' : '├── ', l, `  → ${n} descendant${n === 1 ? '' : 's'}`));
+            const last = i === roots.length - 1;
+            const open = treeExpanded.has(l.name);
+            const line = treeLine(last ? '└── ' : '├── ', l, `  → ${n} descendant${n === 1 ? '' : 's'}`);
+            const toggle = document.createElement('button');
+            toggle.type = 'button';
+            toggle.className = 'tree-toggle';
+            toggle.textContent = open ? '[-]' : '[+]';
+            toggle.dataset.root = l.name;
+            toggle.setAttribute('aria-expanded', String(open));
+            toggle.setAttribute('aria-label', `${open ? 'Fold' : 'Unfold'} the descendants of ${l.name}`);
+            toggle.addEventListener('click', () => {
+                if (treeExpanded.has(l.name)) treeExpanded.delete(l.name); else treeExpanded.add(l.name);
+                showTreeRoots(l.name);
+            });
+            line.insertBefore(toggle, line.childNodes[1]);
+            body.append(line);
+            // unfolded: the root's descendants, all generations, each language expanded once
+            if (open) treeWalk(body, l, 'influenced', last ? '    ' : '│   ', new Set([l.name]), 0, Infinity);
         });
         treeOutput.append(body);
+        // keep keyboard focus on the toggle that was just used (the overview is re-rendered)
+        if (focusRoot) {
+            const again = [...treeOutput.querySelectorAll('.tree-toggle')].find(b => b.dataset.root === focusRoot);
+            if (again) again.focus({ preventScroll: true });
+        }
     }
 
     function initTree() {
@@ -1439,7 +1471,7 @@ document.addEventListener('DOMContentLoaded', () => {
             if (treeCurrent) showTree(treeCurrent);
         });
         treeDepthGroup.querySelector('[data-depth="1"]').classList.add('active');
-        document.getElementById('tree-roots').addEventListener('click', showTreeRoots);
+        treeOverviewBtn.addEventListener('click', () => showTreeRoots());
         document.getElementById('tree-random').addEventListener('click', () => {
             const pool = treeLangs().filter(l => (l.influencedBy || []).length || (l.influenced || []).length);
             if (pool.length) showTree(pool[Math.floor(Math.random() * pool.length)]);
