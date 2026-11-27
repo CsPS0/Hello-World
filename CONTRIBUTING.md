@@ -46,11 +46,14 @@ All of this lives in `docs/build.js` and `docs/language_metadata.json`:
      "website": "https://gleam.run/",
      "released": "2019-04-15",
      "releasedEvent": "Gleam v0.1 released",
-     "sources": ["https://gleam.run/news/", "https://github.com/gleam-lang/gleam"]
+     "sources": ["https://gleam.run/news/", "https://github.com/gleam-lang/gleam"],
+     "influencedBy": ["Elixir", "Elm", "Erlang", "Go", "JavaScript", "OCaml", "Rust"],
+     "influenceSources": ["https://en.wikipedia.org/wiki/Gleam_(programming_language)"]
    }
    ```
 
    - `released`: the first public release, as precise as a source states it: `YYYY-MM-DD`, `YYYY-MM` or `YYYY`. Never invent a day or month. `year` must match it. `releasedEvent` says what the date refers to (a release, an announcement, a paper, a first commit).
+   - `influencedBy` (optional): languages ON THIS SITE that directly influenced it, spelled exactly as their names here, with `influenceSources` backing them. Only influences that were released before the language; not compile targets, interop languages or mere similarity. The family tree and the reverse "influenced" lists are built from this; the build fails on unknown names.
    - `sources`: 1–3 URLs that support the date and creator, primary sources first (official site, creator's announcement, paper, repository), then Wikipedia. They are listed as links in the code view's history tab.
 
    - `quiz.platforms`: any of `web-frontend`, `web-backend`, `mobile`, `desktop`, `game`, `systems`, `embedded`, `cli`, `data-science`, `ai`, `cloud`, `esoteric`, `logic`, `hardware`, `markup`.

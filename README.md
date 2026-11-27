@@ -29,6 +29,7 @@ Use it to look up how a language works, compare languages side by side, find a s
 | **Grid and list views** | Cards or a sortable table; the choice is remembered. |
 | **Compare** | Pick up to 3 languages and see their code side by side. |
 | **Frameworks & libraries** | A catalog of popular frameworks with their target language, category and website. |
+| **Family tree** | A FAMILY TREE tab drawn like the `tree` command: pick a language to see the languages that influenced it and the ones it influenced, or start from the root languages. Influences are researched with sources and shown in each language's details too; links like `?tree=rust` open a tree directly. |
 | **Stack Finder** | Answer a few questions and get a recommended stack with reasons, setup commands, project layout, tooling and docs, plus a prompt to paste into an AI chat (or ask Chrome's on-device AI where available). |
 | **Deep links** | Link to any language with its slug, e.g. `#python`, `#csharp`, `#cplusplus`. The Back button closes the code view. |
 | **Copy, raw and download** | One click to copy, open or download any source file. |

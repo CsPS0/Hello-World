@@ -74,10 +74,12 @@ document.addEventListener('DOMContentLoaded', () => {
     const tabLanguages = document.getElementById('tab-languages');
     const tabFrameworks = document.getElementById('tab-frameworks');
     const tabWizard = document.getElementById('tab-wizard');
+    const tabTree = document.getElementById('tab-tree');
     
     const viewLanguages = document.getElementById('view-languages');
     const viewFrameworks = document.getElementById('view-frameworks');
     const viewWizard = document.getElementById('view-wizard');
+    const viewTree = document.getElementById('view-tree');
 
     // View sub-layouts
     const languagesGrid = document.getElementById('languages-grid');
@@ -194,6 +196,8 @@ document.addEventListener('DOMContentLoaded', () => {
         tabFrameworks.setAttribute('aria-selected', viewName === 'frameworks');
         tabWizard.classList.toggle('active', viewName === 'wizard');
         tabWizard.setAttribute('aria-selected', viewName === 'wizard');
+        tabTree.classList.toggle('active', viewName === 'tree');
+        tabTree.setAttribute('aria-selected', viewName === 'tree');
 
         // Update View container visibility
         viewLanguages.classList.toggle('active', viewName === 'languages');
@@ -202,6 +206,10 @@ document.addEventListener('DOMContentLoaded', () => {
         viewFrameworks.classList.toggle('hidden', viewName !== 'frameworks');
         viewWizard.classList.toggle('active', viewName === 'wizard');
         viewWizard.classList.toggle('hidden', viewName !== 'wizard');
+        viewTree.classList.toggle('active', viewName === 'tree');
+        viewTree.classList.toggle('hidden', viewName !== 'tree');
+        // the tree keeps ?tree= only while it is showing
+        if (viewName !== 'tree' && new URLSearchParams(location.search).has('tree')) setTreeUrl(null);
 
         if (viewName === 'languages') {
             applyFilters();
@@ -209,12 +217,16 @@ document.addEventListener('DOMContentLoaded', () => {
             renderFrameworksTable();
         } else if (viewName === 'wizard') {
             renderFinder();
+        } else if (viewName === 'tree') {
+            noResults.classList.add('hidden');
+            renderTreeView();
         }
     }
 
     tabLanguages.addEventListener('click', () => setView('languages'));
     tabFrameworks.addEventListener('click', () => setView('frameworks'));
     tabWizard.addEventListener('click', () => setView('wizard'));
+    tabTree.addEventListener('click', () => setView('tree'));
 
     // Theme Management
     function initTheme() {
@@ -299,8 +311,12 @@ document.addEventListener('DOMContentLoaded', () => {
 
             skeletonLoader.classList.add('hidden');
             restoreUrlState();
+            initTree();
             applyFilters();
             checkDeepLink();
+            const treeParam = new URLSearchParams(location.search).get('tree');
+            const treeStart = treeParam && languages.find(l => l.slug === treeParam);
+            if (treeStart) showTree(treeStart);
         });
 
     const loadFrameworks = fetch('frameworks_metadata.json')
@@ -1221,6 +1237,231 @@ document.addEventListener('DOMContentLoaded', () => {
 
     initFinder();
 
+    // ===== FAMILY TREE =====
+    // Drawn like the Unix `tree` command from influencedBy / influenced (built by build.js).
+    // Only base languages take part; "Ruby (Script)" etc. share their base's place.
+    const treeInput = document.getElementById('tree-input');
+    const treeList = document.getElementById('tree-langs');
+    const treeOutput = document.getElementById('tree-output');
+    const treeSummary = document.getElementById('tree-summary');
+    const treeDepthGroup = document.getElementById('tree-depth');
+    let treeDepth = '1';
+    let treeCurrent = null;
+
+    const isBase = l => !/\(.*\)$/.test(l.name) || !languages.some(o => o.name === l.name.replace(/\s*\(.*\)$/, ''));
+    function treeLangs() { return languages.filter(isBase); }
+    function treeFind(name) { return languages.find(l => l.name === name); }
+    function treeYear(l) { return l && l.year && l.year !== 'N/A' ? ` (${l.year})` : ''; }
+
+    function treeLink(lang) {
+        const a = document.createElement('a');
+        a.className = 'tree-node';
+        a.href = `?tree=${encodeURIComponent(lang.slug)}`;
+        a.textContent = lang.name;
+        a.addEventListener('click', (e) => {
+            if (e.ctrlKey || e.metaKey || e.shiftKey || e.button === 1) return; // let new-tab clicks through
+            e.preventDefault();
+            showTree(lang);
+        });
+        return a;
+    }
+
+    function treeLine(prefix, lang, suffix) {
+        const line = document.createElement('div');
+        line.className = 'tree-line';
+        line.append(document.createTextNode(prefix));
+        if (lang) {
+            line.append(treeLink(lang));
+            line.append(document.createTextNode(treeYear(lang)));
+        }
+        if (suffix) {
+            const s = document.createElement('span');
+            s.className = 'tree-note';
+            s.textContent = suffix;
+            line.append(s);
+        }
+        return line;
+    }
+
+    // Walk parents (dir = 'influencedBy') or children (dir = 'influenced'); each language is
+    // expanded once, later repeats are marked, so cycles and shared ancestors stay finite.
+    function treeWalk(out, lang, dir, prefix, seen, depth, maxDepth) {
+        const names = (lang[dir] || []).map(treeFind).filter(Boolean);
+        names.sort((a, b) => (parseInt(a.year) || 9999) - (parseInt(b.year) || 9999) || a.name.localeCompare(b.name));
+        names.forEach((child, i) => {
+            const last = i === names.length - 1;
+            const branch = prefix + (last ? '└── ' : '├── ');
+            const childPrefix = prefix + (last ? '    ' : '│   ');
+            if (seen.has(child.name)) {
+                out.append(treeLine(branch, child, '  ↑ shown above'));
+                return;
+            }
+            seen.add(child.name);
+            const more = (child[dir] || []).length;
+            const capped = maxDepth !== Infinity && depth + 1 >= maxDepth && more > 0;
+            out.append(treeLine(branch, child, capped ? `  +${more} more` : ''));
+            if (!capped) treeWalk(out, child, dir, childPrefix, seen, depth + 1, maxDepth);
+        });
+    }
+
+    function countDescendants(lang) {
+        const seen = new Set();
+        const stack = [...(lang.influenced || [])];
+        while (stack.length) {
+            const n = stack.pop();
+            if (seen.has(n)) continue;
+            seen.add(n);
+            const l = treeFind(n);
+            if (l) stack.push(...(l.influenced || []));
+        }
+        return seen.size;
+    }
+
+    function setTreeUrl(lang) {
+        const params = new URLSearchParams(location.search);
+        if (lang) params.set('tree', lang.slug); else params.delete('tree');
+        const qs = params.toString();
+        history.replaceState(history.state, '', location.pathname + (qs ? `?${qs}` : '') + location.hash);
+    }
+
+    function showTree(lang) {
+        treeCurrent = lang;
+        if (activeView !== 'tree') setView('tree');
+        treeInput.value = lang.name;
+        setTreeUrl(lang);
+        treeOutput.replaceChildren();
+
+        const head = document.createElement('div');
+        head.className = 'tree-head';
+        const name = document.createElement('span');
+        name.className = 'tree-root';
+        name.textContent = `${lang.name}${treeYear(lang)}`;
+        const code = document.createElement('button');
+        code.className = 'btn-tui tree-code';
+        code.type = 'button';
+        code.textContent = '[ VIEW CODE ]';
+        code.addEventListener('click', () => openModal(lang));
+        head.append(name, code);
+        treeOutput.append(head);
+
+        const parents = lang.influencedBy || [];
+        const kids = lang.influenced || [];
+        const body = document.createElement('div');
+        body.className = 'tree-body';
+
+        body.append(treeLine(kids.length ? '├── ' : '└── ', null, `influenced by${parents.length ? '' : ': no ancestors on this site'}`));
+        if (parents.length) {
+            const seen = new Set([lang.name]);
+            treeWalk(body, lang, 'influencedBy', kids.length ? '│   ' : '    ', seen, 0, Infinity);
+        }
+        body.append(treeLine('└── ', null, `influenced${kids.length ? '' : ': no descendants on this site'}`));
+        if (kids.length) {
+            const seen = new Set([lang.name]);
+            treeWalk(body, lang, 'influenced', '    ', seen, 0, treeDepth === 'all' ? Infinity : 1);
+        }
+        treeOutput.append(body);
+
+        const total = countDescendants(lang);
+        treeSummary.textContent = `> ${parents.length} direct influence${parents.length === 1 ? '' : 's'}  |  ${kids.length} direct descendant${kids.length === 1 ? '' : 's'}  |  ${total} in all generations`;
+        if (lang.influenceSources && lang.influenceSources.length) {
+            const src = document.createElement('div');
+            src.className = 'tree-sources';
+            src.append(document.createTextNode('sources: '));
+            lang.influenceSources.forEach((u, i) => {
+                const a = document.createElement('a');
+                a.href = u;
+                a.target = '_blank';
+                a.rel = 'noopener noreferrer';
+                try { a.textContent = new URL(u).hostname.replace(/^www\./, ''); } catch { a.textContent = u; }
+                if (i) src.append(document.createTextNode(', '));
+                src.append(a);
+            });
+            treeOutput.append(src);
+        }
+    }
+
+    // Start screen: languages with no ancestor here, ranked by how many descend from them
+    function showTreeRoots() {
+        treeCurrent = null;
+        treeInput.value = '';
+        setTreeUrl(null);
+        treeOutput.replaceChildren();
+        const roots = treeLangs()
+            .filter(l => !(l.influencedBy || []).length && (l.influenced || []).length)
+            .map(l => ({ l, n: countDescendants(l) }))
+            .sort((a, b) => b.n - a.n || (parseInt(a.l.year) || 9999) - (parseInt(b.l.year) || 9999));
+        const linked = treeLangs().filter(l => (l.influencedBy || []).length || (l.influenced || []).length).length;
+        treeSummary.textContent = `> ${roots.length} root languages  |  ${linked} of ${treeLangs().length} languages have family links on this site`;
+        if (!roots.length) {
+            const p = document.createElement('p');
+            p.className = 'tree-note';
+            p.textContent = 'No influence data yet.';
+            treeOutput.append(p);
+            return;
+        }
+        const head = document.createElement('div');
+        head.className = 'tree-head';
+        const t = document.createElement('span');
+        t.className = 'tree-root';
+        t.textContent = 'ROOTS: languages with no ancestor on this site';
+        head.append(t);
+        treeOutput.append(head);
+        const body = document.createElement('div');
+        body.className = 'tree-body';
+        roots.forEach(({ l, n }, i) => {
+            body.append(treeLine(i === roots.length - 1 ? '└── ' : '├── ', l, `  → ${n} descendant${n === 1 ? '' : 's'}`));
+        });
+        treeOutput.append(body);
+    }
+
+    function initTree() {
+        treeList.replaceChildren(...treeLangs().map(l => { const o = document.createElement('option'); o.value = l.name; return o; }));
+        const pick = () => {
+            const v = treeInput.value.trim().toLowerCase();
+            const hit = treeLangs().find(l => l.name.toLowerCase() === v);
+            if (hit) showTree(hit);
+        };
+        treeInput.addEventListener('change', pick);
+        treeInput.addEventListener('keydown', (e) => {
+            if (e.key !== 'Enter') return;
+            const v = treeInput.value.trim().toLowerCase();
+            const hit = treeLangs().find(l => l.name.toLowerCase() === v) || treeLangs().find(l => l.name.toLowerCase().startsWith(v));
+            if (hit) showTree(hit);
+        });
+        treeDepthGroup.addEventListener('click', (e) => {
+            const btn = e.target.closest('[data-depth]');
+            if (!btn) return;
+            treeDepth = btn.dataset.depth;
+            treeDepthGroup.querySelectorAll('[data-depth]').forEach(b => {
+                b.setAttribute('aria-pressed', String(b === btn));
+                b.classList.toggle('active', b === btn);
+            });
+            if (treeCurrent) showTree(treeCurrent);
+        });
+        treeDepthGroup.querySelector('[data-depth="1"]').classList.add('active');
+        document.getElementById('tree-roots').addEventListener('click', showTreeRoots);
+        document.getElementById('tree-random').addEventListener('click', () => {
+            const pool = treeLangs().filter(l => (l.influencedBy || []).length || (l.influenced || []).length);
+            if (pool.length) showTree(pool[Math.floor(Math.random() * pool.length)]);
+        });
+    }
+
+    function renderTreeView() {
+        if (treeCurrent) showTree(treeCurrent); else showTreeRoots();
+    }
+
+    // Lines for the code modal's history tab: names link to their family tree
+    function influenceHtml(lang) {
+        const link = n => {
+            const l = treeFind(n);
+            return l ? `<a href="?tree=${encodeURIComponent(l.slug)}" class="tree-modal-link" data-tree="${escapeHTML(l.name)}">${escapeHTML(l.name)}</a>` : escapeHTML(n);
+        };
+        let html = '';
+        if ((lang.influencedBy || []).length) html += `INFLUENCED BY : ${lang.influencedBy.map(link).join(', ')}\n`;
+        if ((lang.influenced || []).length) html += `INFLUENCED    : ${lang.influenced.map(link).join(', ')}\n`;
+        return html;
+    }
+
     // Modal Control & View Tabs
     // fromHistory: opened by a hash change (deep link, Back/Forward), so the URL is already right
     function openModal(lang, fromHistory = false) {
@@ -1303,7 +1544,8 @@ document.addEventListener('DOMContentLoaded', () => {
         } else {
             html += `LAUNCH YEAR   : ${escapeHTML(String(lang.year || 'N/A'))}\n`;
         }
-        html += `FILE PARADIGM : ${lang.tags.map(t => escapeHTML(t.toUpperCase())).join(', ')}\n\n`;
+        html += `FILE PARADIGM : ${lang.tags.map(t => escapeHTML(t.toUpperCase())).join(', ')}\n`;
+        html += influenceHtml(lang) + '\n';
 
         if (lang.history) {
             html += `<div class="terminal-section-title">HISTORICAL ORIGIN & BACKGROUND:</div>`;
@@ -1333,6 +1575,13 @@ document.addEventListener('DOMContentLoaded', () => {
         }
 
         hContent.innerHTML = html;
+        hContent.querySelectorAll('.tree-modal-link').forEach(a => a.addEventListener('click', (e) => {
+            if (e.ctrlKey || e.metaKey || e.shiftKey) return;
+            e.preventDefault();
+            const target = languages.find(l => l.name === a.dataset.tree);
+            closeModal();
+            if (target) setTimeout(() => showTree(target), 60);
+        }));
     }
 
     function setModalTab(tabName) {
@@ -1480,6 +1729,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 e.preventDefault();
                 if (activeView === 'languages') searchInput.focus();
                 if (activeView === 'frameworks') frameworksSearchInput.focus();
+                if (activeView === 'tree') treeInput.focus();
             }
         }
     });

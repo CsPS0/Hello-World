@@ -44,6 +44,9 @@
                 <button id="tab-wizard" class="view-tab" data-view="wizard" role="tab" aria-selected="false">
                     [ STACK FINDER ]
                 </button>
+                <button id="tab-tree" class="view-tab" data-view="tree" role="tab" aria-selected="false">
+                    [ FAMILY TREE ]
+                </button>
             </nav>
         </div>
     </header>
@@ -182,6 +185,25 @@
                 </form>
                 <section id="finder-results" class="finder-results" aria-live="polite" aria-label="Recommendation"></section>
             </div>
+        </div>
+
+        <div id="view-tree" class="tab-view hidden">
+            <div class="header-controls">
+                <div class="search-container">
+                    <span class="prompt-arrow">&gt; family-tree --lang</span>
+                    <input type="text" id="tree-input" list="tree-langs" placeholder="Type a language, e.g. Rust" aria-label="Show the family tree of a language" autocomplete="off">
+                    <datalist id="tree-langs"></datalist>
+                </div>
+                <div class="control-actions">
+                    <div id="tree-depth" class="segmented" role="group" aria-label="Descendants to show">
+                        <button class="btn-tui" data-depth="1" aria-pressed="true">[ DIRECT ]</button><button class="btn-tui" data-depth="all" aria-pressed="false">[ ALL GENERATIONS ]</button>
+                    </div>
+                    <button id="tree-roots" class="btn-tui">[ ROOTS ]</button>
+                    <button id="tree-random" class="btn-tui">[ RANDOM ]</button>
+                </div>
+            </div>
+            <p id="tree-summary" class="result-count" aria-live="polite"></p>
+            <div id="tree-output" class="tree-output"></div>
         </div>
 
         <div id="no-results" class="no-results hidden">

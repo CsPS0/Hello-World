@@ -1457,6 +1457,41 @@ function main() {
             }
             lang.sources = sources;
         }
+
+        // Influences (family tree): names of base languages on the site; variants inherit
+        const influencedBy = own.influencedBy || (baseMeta && baseMeta.influencedBy);
+        if (influencedBy && influencedBy.length) {
+            lang.influencedBy = influencedBy;
+            const influenceSources = own.influenceSources || (baseMeta && baseMeta.influenceSources) || [];
+            if (influenceSources.some(u => !/^https?:\/\//.test(u))) {
+                console.error(`influenceSources for "${name}" must be http(s) URLs`);
+                process.exit(1);
+            }
+            if (influenceSources.length) lang.influenceSources = influenceSources;
+        }
+    });
+
+    // Every influence must name a base language on the site; then derive the reverse
+    // "influenced" lists so the family tree can walk in both directions
+    const baseNames = new Set(langs.map(l => l.name.replace(/\s*\(.*\)$/, '')));
+    const influenced = {};
+    langs.forEach(lang => {
+        (lang.influencedBy || []).forEach(parent => {
+            if (!baseNames.has(parent)) {
+                console.error(`"${lang.name}" lists unknown influence "${parent}" (must be a base language name on the site)`);
+                process.exit(1);
+            }
+            if (parent === lang.name.replace(/\s*\(.*\)$/, '')) {
+                console.error(`"${lang.name}" lists itself as an influence`);
+                process.exit(1);
+            }
+            const base = lang.name.replace(/\s*\(.*\)$/, '');
+            if (base === lang.name) (influenced[parent] ??= new Set()).add(base);
+        });
+    });
+    langs.forEach(lang => {
+        const kids = influenced[lang.name.replace(/\s*\(.*\)$/, '')];
+        if (kids) lang.influenced = [...kids].sort((a, b) => a.toLowerCase().localeCompare(b.toLowerCase()));
     });
 
     // Slugs are deep-link ids, so two languages must never share one

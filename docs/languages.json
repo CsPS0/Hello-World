@@ -102,6 +102,12 @@
     "releasedEvent": "First appearance as the report language of SAP R/2",
     "sources": [
       "https://en.wikipedia.org/wiki/ABAP"
+    ],
+    "influencedBy": [
+      "COBOL"
+    ],
+    "influenceSources": [
+      "https://en.wikipedia.org/wiki/ABAP"
     ]
   },
   {
@@ -133,6 +139,16 @@
     "sources": [
       "https://homepages.cwi.nl/~steven/abc/",
       "https://en.wikipedia.org/wiki/ABC_(programming_language)"
+    ],
+    "influencedBy": [
+      "ALGOL 68",
+      "SETL"
+    ],
+    "influenceSources": [
+      "https://en.wikipedia.org/wiki/ABC_(programming_language)"
+    ],
+    "influenced": [
+      "Python"
     ]
   },
   {
@@ -173,6 +189,17 @@
     "releasedEvent": "Flash 5 released, first version to call its scripting language ActionScript",
     "sources": [
       "https://en.wikipedia.org/wiki/ActionScript"
+    ],
+    "influencedBy": [
+      "HyperTalk",
+      "Java",
+      "JavaScript"
+    ],
+    "influenceSources": [
+      "https://en.wikipedia.org/wiki/ActionScript"
+    ],
+    "influenced": [
+      "Haxe"
     ]
   },
   {
@@ -214,6 +241,33 @@
     "sources": [
       "https://en.wikipedia.org/wiki/Ada_(programming_language)",
       "https://www.cs.uni.edu/~mccormic/AdaEssentials/history.htm"
+    ],
+    "influencedBy": [
+      "ALGOL 68",
+      "Modula-2",
+      "Pascal",
+      "Simula",
+      "Smalltalk"
+    ],
+    "influenceSources": [
+      "https://en.wikipedia.org/wiki/Ada_(programming_language)"
+    ],
+    "influenced": [
+      "Amiga E",
+      "Austral",
+      "C++",
+      "Chapel",
+      "Cowgol",
+      "Eiffel",
+      "HLA",
+      "Java",
+      "Nim",
+      "ParaSail",
+      "PL/pgSQL",
+      "Ruby",
+      "Seed7",
+      "Verilog",
+      "VHDL"
     ]
   },
   {
@@ -255,6 +309,33 @@
     "sources": [
       "https://en.wikipedia.org/wiki/Ada_(programming_language)",
       "https://www.cs.uni.edu/~mccormic/AdaEssentials/history.htm"
+    ],
+    "influencedBy": [
+      "ALGOL 68",
+      "Modula-2",
+      "Pascal",
+      "Simula",
+      "Smalltalk"
+    ],
+    "influenceSources": [
+      "https://en.wikipedia.org/wiki/Ada_(programming_language)"
+    ],
+    "influenced": [
+      "Amiga E",
+      "Austral",
+      "C++",
+      "Chapel",
+      "Cowgol",
+      "Eiffel",
+      "HLA",
+      "Java",
+      "Nim",
+      "ParaSail",
+      "PL/pgSQL",
+      "Ruby",
+      "Seed7",
+      "Verilog",
+      "VHDL"
     ]
   },
   {
@@ -289,6 +370,16 @@
     "sources": [
       "https://en.wikipedia.org/wiki/Agda_(programming_language)",
       "https://hackage.haskell.org/package/Agda-2.2.0"
+    ],
+    "influencedBy": [
+      "Haskell",
+      "Rocq"
+    ],
+    "influenceSources": [
+      "https://en.wikipedia.org/wiki/Agda_(programming_language)"
+    ],
+    "influenced": [
+      "Idris"
     ]
   },
   {
@@ -321,6 +412,13 @@
     "releasedEvent": "Final Report adopted by IFIP Working Group 2.1 in Munich",
     "sources": [
       "https://en.wikipedia.org/wiki/ALGOL_68"
+    ],
+    "influenced": [
+      "ABC",
+      "Ada",
+      "C",
+      "C++",
+      "Seed7"
     ]
   },
   {
@@ -351,6 +449,10 @@
     "sources": [
       "https://en.wikipedia.org/wiki/ALGOL_W",
       "https://rosettacode.org/wiki/Hello_world/Text#ALGOL_W"
+    ],
+    "influenced": [
+      "Modula-2",
+      "Pascal"
     ]
   },
   {
@@ -383,6 +485,14 @@
     "sources": [
       "https://en.wikipedia.org/wiki/AmbientTalk",
       "http://soft.vub.ac.be/amop/"
+    ],
+    "influencedBy": [
+      "Scheme",
+      "Self",
+      "Smalltalk"
+    ],
+    "influenceSources": [
+      "https://en.wikipedia.org/wiki/AmbientTalk"
     ]
   },
   {
@@ -417,6 +527,14 @@
     "sources": [
       "https://strlen.com/amiga-e/",
       "https://en.wikipedia.org/wiki/Amiga_E"
+    ],
+    "influencedBy": [
+      "Ada",
+      "C++"
+    ],
+    "influenceSources": [
+      "https://www.strlen.com/amiga-e/",
+      "https://en.wikipedia.org/wiki/Amiga_E"
     ]
   },
   {
@@ -447,6 +565,13 @@
     "releasedEvent": "AMPL designed and implemented at Bell Laboratories",
     "sources": [
       "https://ampl.com/about-us/",
+      "https://en.wikipedia.org/wiki/AMPL"
+    ],
+    "influencedBy": [
+      "Awk",
+      "C"
+    ],
+    "influenceSources": [
       "https://en.wikipedia.org/wiki/AMPL"
     ]
   },
@@ -491,6 +616,12 @@
       "https://www.angelcode.com/angelscript/changes.php?ver=0",
       "https://angelcode.com/angelscript/sdk/docs/manual/doc_versions.html",
       "https://en.wikipedia.org/wiki/AngelScript"
+    ],
+    "influencedBy": [
+      "C++"
+    ],
+    "influenceSources": [
+      "https://en.wikipedia.org/wiki/AngelScript"
     ]
   },
   {
@@ -521,6 +652,12 @@
     "releasedEvent": "Apex announced and previewed at Dreamforce 2006; generally available with the Summer '07 release",
     "sources": [
       "https://www.computerworld.com/article/1643381/salesforce-com-to-roll-out-apex-programming-language.html",
+      "https://en.wikipedia.org/wiki/Salesforce"
+    ],
+    "influencedBy": [
+      "Java"
+    ],
+    "influenceSources": [
       "https://en.wikipedia.org/wiki/Salesforce"
     ]
   },
@@ -554,6 +691,19 @@
     "releasedEvent": "APL\\360, the first implementation using APL symbols, completed at IBM",
     "sources": [
       "https://en.wikipedia.org/wiki/APL_(programming_language)"
+    ],
+    "influenced": [
+      "BQN",
+      "Forth",
+      "J",
+      "K",
+      "Lil",
+      "MATLAB",
+      "Nial",
+      "Q",
+      "Self",
+      "Uiua",
+      "Wolfram Language"
     ]
   },
   {
@@ -587,6 +737,12 @@
     "releasedEvent": "AppleScript 1.0 Developer's Toolkit shipped",
     "sources": [
       "https://pdos.csail.mit.edu/6.828/2007/readings/applescript.pdf",
+      "https://en.wikipedia.org/wiki/AppleScript"
+    ],
+    "influencedBy": [
+      "HyperTalk"
+    ],
+    "influenceSources": [
       "https://en.wikipedia.org/wiki/AppleScript"
     ]
   },
@@ -626,6 +782,12 @@
     "sources": [
       "http://www.paulgraham.com/arc0.html",
       "https://en.wikipedia.org/wiki/Arc_(programming_language)"
+    ],
+    "influencedBy": [
+      "Scheme"
+    ],
+    "influenceSources": [
+      "https://en.wikipedia.org/wiki/Arc_(programming_language)"
     ]
   },
   {
@@ -659,6 +821,14 @@
     "released": "2005",
     "releasedEvent": "Arduino project started at the Interaction Design Institute Ivrea as a fork of Wiring",
     "sources": [
+      "https://en.wikipedia.org/wiki/Arduino"
+    ],
+    "influencedBy": [
+      "C",
+      "C++",
+      "Processing"
+    ],
+    "influenceSources": [
       "https://en.wikipedia.org/wiki/Arduino"
     ]
   },
@@ -728,6 +898,13 @@
     "sources": [
       "https://github.com/arturo-lang/arturo",
       "https://pldb.io/concepts/arturo.html"
+    ],
+    "influencedBy": [
+      "Rebol"
+    ],
+    "influenceSources": [
+      "https://github.com/arturo-lang/arturo",
+      "https://github.com/arturo-lang/arturo/discussions/471"
     ]
   },
   {
@@ -822,6 +999,9 @@
     "releasedEvent": "\"Coding for A.R.C.\" by Kathleen Booth and Andrew Donald Booth",
     "sources": [
       "https://en.wikipedia.org/wiki/Assembly_language"
+    ],
+    "influenced": [
+      "HLA"
     ]
   },
   {
@@ -856,6 +1036,9 @@
     "sources": [
       "https://www.computinghistory.org.uk/det/5440/First-ARM-Processor-Powered-Up/",
       "https://spectrum.ieee.org/chip-hall-of-fame-acorn-computers-arm1-processor"
+    ],
+    "influenced": [
+      "HLA"
     ]
   },
   {
@@ -888,7 +1071,10 @@
       "speed": "maximum"
     },
     "released": "1985",
-    "sources": []
+    "sources": [],
+    "influenced": [
+      "HLA"
+    ]
   },
   {
     "name": "Assembly (RISC-V)",
@@ -921,7 +1107,10 @@
     },
     "website": "https://riscv.org/",
     "released": "2010",
-    "sources": []
+    "sources": [],
+    "influenced": [
+      "HLA"
+    ]
   },
   {
     "name": "Assembly (x64)",
@@ -955,6 +1144,9 @@
     "sources": [
       "https://www.computing.co.uk/analysis/2262870/amd-opteron-first-64bit-x86-platform-launched-10-years-ago-today",
       "https://en.wikichip.org/wiki/Opteron"
+    ],
+    "influenced": [
+      "HLA"
     ]
   },
   {
@@ -987,6 +1179,13 @@
     "sources": [
       "https://en.wikipedia.org/wiki/Asymptote_(vector_graphics_language)",
       "https://sourceforge.net/projects/asymptote/"
+    ],
+    "influencedBy": [
+      "C++"
+    ],
+    "influenceSources": [
+      "https://asymptote.sourceforge.io/",
+      "https://en.wikipedia.org/wiki/Asymptote_(vector_graphics_language)"
     ]
   },
   {
@@ -1018,6 +1217,13 @@
     "released": "2006",
     "releasedEvent": "First implementation, ATS/Proto (ATS0), released",
     "sources": [
+      "https://en.wikipedia.org/wiki/ATS_(programming_language)"
+    ],
+    "influencedBy": [
+      "C++",
+      "OCaml"
+    ],
+    "influenceSources": [
       "https://en.wikipedia.org/wiki/ATS_(programming_language)"
     ]
   },
@@ -1052,6 +1258,15 @@
     "sources": [
       "https://borretti.me/article/introducing-austral",
       "https://austral-lang.org/tutorial/hello-world"
+    ],
+    "influencedBy": [
+      "Ada",
+      "Modula-2",
+      "Rust",
+      "Standard ML"
+    ],
+    "influenceSources": [
+      "https://austral-lang.org/spec/spec.html"
     ]
   },
   {
@@ -1084,6 +1299,12 @@
     "released": "2003-11-10",
     "releasedEvent": "First public beta of AutoHotkey released",
     "sources": [
+      "https://en.wikipedia.org/wiki/AutoHotkey"
+    ],
+    "influencedBy": [
+      "AutoIt"
+    ],
+    "influenceSources": [
       "https://en.wikipedia.org/wiki/AutoHotkey"
     ]
   },
@@ -1118,6 +1339,15 @@
     "releasedEvent": "AutoIt 1.0 released",
     "sources": [
       "https://en.wikipedia.org/wiki/AutoIt"
+    ],
+    "influencedBy": [
+      "BASIC"
+    ],
+    "influenceSources": [
+      "https://en.wikipedia.org/wiki/AutoIt"
+    ],
+    "influenced": [
+      "AutoHotkey"
     ]
   },
   {
@@ -1182,6 +1412,12 @@
       "https://www.availlang.org/about-avail/newsletters/E006.html",
       "https://www.availlang.org/about-avail/history/index.html",
       "https://www.availlang.org/about-avail/learn/tutorials/hello-world.html"
+    ],
+    "influencedBy": [
+      "Smalltalk"
+    ],
+    "influenceSources": [
+      "https://www.availlang.org/about-avail/history/index.html"
     ]
   },
   {
@@ -1215,6 +1451,20 @@
     "releasedEvent": "Written at Bell Labs; later distributed with Version 7 Unix",
     "sources": [
       "https://en.wikipedia.org/wiki/AWK"
+    ],
+    "influencedBy": [
+      "C",
+      "SNOBOL"
+    ],
+    "influenceSources": [
+      "https://en.wikipedia.org/wiki/AWK"
+    ],
+    "influenced": [
+      "AMPL",
+      "JavaScript",
+      "Perl",
+      "Tcl",
+      "YSH"
     ]
   },
   {
@@ -1247,6 +1497,17 @@
     "sources": [
       "https://www.nokia.com/bell-labs/about/dennis-m-ritchie/chist.html",
       "https://www.nokia.com/bell-labs/about/dennis-m-ritchie/btut.html"
+    ],
+    "influencedBy": [
+      "BCPL",
+      "Fortran",
+      "PL/I"
+    ],
+    "influenceSources": [
+      "https://en.wikipedia.org/wiki/B_(programming_language)"
+    ],
+    "influenced": [
+      "C"
     ]
   },
   {
@@ -1287,6 +1548,16 @@
     "sources": [
       "https://choreolabs.com/library/conference/2017/2/wso2con-usa-2017-introducing-ballerina/",
       "https://en.wikipedia.org/wiki/Ballerina_(programming_language)"
+    ],
+    "influencedBy": [
+      "C#",
+      "Go",
+      "Java",
+      "JavaScript",
+      "Rust"
+    ],
+    "influenceSources": [
+      "https://en.wikipedia.org/wiki/Ballerina_(programming_language)"
     ]
   },
   {
@@ -1322,6 +1593,18 @@
     "sources": [
       "https://en.wikipedia.org/wiki/Bash_(Unix_shell)",
       "https://tiswww.case.edu/php/chet/bash/bashtop.html"
+    ],
+    "influencedBy": [
+      "KornShell",
+      "tcsh"
+    ],
+    "influenceSources": [
+      "https://en.wikipedia.org/wiki/Bash_(Unix_shell)"
+    ],
+    "influenced": [
+      "Civet",
+      "Nushell",
+      "YSH"
     ]
   },
   {
@@ -1356,6 +1639,38 @@
     "sources": [
       "https://www.dartmouth.edu/basicfifty/basic.html",
       "https://en.wikipedia.org/wiki/Dartmouth_BASIC"
+    ],
+    "influencedBy": [
+      "Fortran"
+    ],
+    "influenceSources": [
+      "https://en.wikipedia.org/wiki/BASIC"
+    ],
+    "influenced": [
+      "AutoIt",
+      "BBC BASIC",
+      "BlitzMax",
+      "Caché Basic",
+      "COMAL",
+      "D",
+      "Euphoria",
+      "Ezhil",
+      "FreeBASIC",
+      "Gambas",
+      "OPL",
+      "Perl",
+      "PowerBASIC",
+      "Processing",
+      "PureBasic",
+      "Ring",
+      "Ruby",
+      "Small Basic",
+      "TI-BASIC",
+      "VBA",
+      "VBScript",
+      "Visual Basic .NET",
+      "Xojo",
+      "Yabasic"
     ]
   },
   {
@@ -1423,6 +1738,12 @@
     "sources": [
       "https://en.wikipedia.org/wiki/BBC_BASIC",
       "https://www.bbcbasic.co.uk/bbcbasic.html"
+    ],
+    "influencedBy": [
+      "BASIC"
+    ],
+    "influenceSources": [
+      "https://en.wikipedia.org/wiki/BBC_BASIC"
     ]
   },
   {
@@ -1457,6 +1778,12 @@
     "sources": [
       "https://en.wikipedia.org/wiki/Bc_(programming_language)",
       "https://people.freebsd.org/~bapt/pdfdocs/usd/BC_%E2%88%92_An_Arbitrary_Precision_Desk-Calculator_Language.pdf"
+    ],
+    "influencedBy": [
+      "C"
+    ],
+    "influenceSources": [
+      "https://en.wikipedia.org/wiki/Bc_(programming_language)"
     ]
   },
   {
@@ -1491,6 +1818,11 @@
     "sources": [
       "https://www.cl.cam.ac.uk/~mr10/BCPL.html",
       "https://en.wikipedia.org/wiki/BCPL"
+    ],
+    "influenced": [
+      "B",
+      "C",
+      "C++"
     ]
   },
   {
@@ -1526,6 +1858,14 @@
     "sources": [
       "https://en.wikipedia.org/wiki/BeanShell",
       "https://beanshell.org/"
+    ],
+    "influencedBy": [
+      "Java",
+      "JavaScript",
+      "Perl"
+    ],
+    "influenceSources": [
+      "https://en.wikipedia.org/wiki/BeanShell"
     ]
   },
   {
@@ -1563,6 +1903,16 @@
       "https://github.com/beefytech/Beef",
       "https://gamefromscratch.com/beef-programming-language/",
       "https://en.wikipedia.org/wiki/PopCap_Games"
+    ],
+    "influencedBy": [
+      "C",
+      "C#",
+      "Go",
+      "Rust",
+      "Swift"
+    ],
+    "influenceSources": [
+      "https://github.com/beefytech/Beef"
     ]
   },
   {
@@ -1597,6 +1947,18 @@
     "sources": [
       "https://catseye.tc/article/Languages#befunge-93",
       "https://esolangs.org/wiki/Befunge"
+    ],
+    "influencedBy": [
+      "FALSE",
+      "Forth"
+    ],
+    "influenceSources": [
+      "https://en.wikipedia.org/wiki/Befunge",
+      "https://esolangs.org/wiki/Befunge"
+    ],
+    "influenced": [
+      "Hexagony",
+      "Malbolge"
     ]
   },
   {
@@ -1631,6 +1993,12 @@
       "https://github.com/berry-lang/berry",
       "https://raw.githubusercontent.com/berry-lang/berry/master/README.md",
       "https://tasmota.github.io/docs/Berry/"
+    ],
+    "influencedBy": [
+      "Lua"
+    ],
+    "influenceSources": [
+      "https://github.com/berry-lang/berry"
     ]
   },
   {
@@ -1704,6 +2072,15 @@
       "https://developers.slashdot.org/story/04/12/16/1533219/blitzmax-released-for-mac-os-x",
       "https://en.wikipedia.org/wiki/BlitzMax",
       "https://github.com/bmx-ng/bmx-ng"
+    ],
+    "influencedBy": [
+      "BASIC"
+    ],
+    "influenceSources": [
+      "https://en.wikipedia.org/wiki/Blitz_BASIC"
+    ],
+    "influenced": [
+      "Monkey X"
     ]
   },
   {
@@ -1738,6 +2115,12 @@
     "sources": [
       "https://woset-workshop.github.io/PDFs/2021/a02.pdf",
       "https://github.com/B-Lang-org/bsc",
+      "https://en.wikipedia.org/wiki/Bluespec"
+    ],
+    "influencedBy": [
+      "Haskell"
+    ],
+    "influenceSources": [
       "https://en.wikipedia.org/wiki/Bluespec"
     ]
   },
@@ -1774,6 +2157,18 @@
     "sources": [
       "https://lwn.net/Articles/234688/",
       "https://en.wikipedia.org/wiki/Boo_(programming_language)"
+    ],
+    "influencedBy": [
+      "C#",
+      "Python"
+    ],
+    "influenceSources": [
+      "https://en.wikipedia.org/wiki/Boo_(programming_language)",
+      "https://boo-language.github.io/"
+    ],
+    "influenced": [
+      "Genie",
+      "Vala"
     ]
   },
   {
@@ -1808,6 +2203,16 @@
     "sources": [
       "https://mlochbaum.github.io/BQN/commentary/history.html",
       "https://github.com/mlochbaum/BQN"
+    ],
+    "influencedBy": [
+      "APL",
+      "J"
+    ],
+    "influenceSources": [
+      "https://mlochbaum.github.io/BQN/commentary/history.html"
+    ],
+    "influenced": [
+      "Uiua"
     ]
   },
   {
@@ -1839,6 +2244,12 @@
     "released": "2015-08",
     "releasedEvent": "Brachylog repository published on GitHub (initial commit 2015-08-26)",
     "sources": [
+      "https://github.com/JCumin/Brachylog"
+    ],
+    "influencedBy": [
+      "Prolog"
+    ],
+    "influenceSources": [
       "https://github.com/JCumin/Brachylog"
     ]
   },
@@ -1875,6 +2286,16 @@
       "https://aminet.net/package/dev/lang/brainfuck-2",
       "https://esolangs.org/wiki/Brainfuck",
       "https://en.wikipedia.org/wiki/Brainfuck"
+    ],
+    "influencedBy": [
+      "FALSE"
+    ],
+    "influenceSources": [
+      "https://en.wikipedia.org/wiki/Brainfuck"
+    ],
+    "influenced": [
+      "Malbolge",
+      "Ook!"
     ]
   },
   {
@@ -1921,6 +2342,65 @@
     "releasedEvent": "Ritchie's new compiler and the language renamed C at Bell Labs",
     "sources": [
       "https://en.wikipedia.org/wiki/C_(programming_language)"
+    ],
+    "influencedBy": [
+      "ALGOL 68",
+      "B",
+      "BCPL",
+      "Fortran",
+      "PL/I"
+    ],
+    "influenceSources": [
+      "https://en.wikipedia.org/wiki/C_(programming_language)"
+    ],
+    "influenced": [
+      "AMPL",
+      "Arduino",
+      "Awk",
+      "bc",
+      "Beef",
+      "C--",
+      "C#",
+      "C++",
+      "C3",
+      "Chapel",
+      "CUDA",
+      "Cython",
+      "D",
+      "Dart",
+      "FreeBASIC",
+      "Go",
+      "Hare",
+      "Holy C",
+      "IDL",
+      "Inform 6",
+      "Java",
+      "JavaScript",
+      "Jule",
+      "Limbo",
+      "Linden Scripting Language",
+      "Lobster",
+      "newLISP",
+      "Nickle",
+      "Objective-C",
+      "OCaml",
+      "Odin",
+      "Pawn",
+      "Perl",
+      "PHP",
+      "Pike",
+      "Python",
+      "Ring",
+      "S-Lang",
+      "Seed7",
+      "TADS 3",
+      "Terra",
+      "Vala",
+      "Verilog",
+      "Wolfram Language",
+      "YAML",
+      "Zeek",
+      "Zig"
     ]
   },
   {
@@ -1968,6 +2448,65 @@
     "releasedEvent": "Ritchie's new compiler and the language renamed C at Bell Labs",
     "sources": [
       "https://en.wikipedia.org/wiki/C_(programming_language)"
+    ],
+    "influencedBy": [
+      "ALGOL 68",
+      "B",
+      "BCPL",
+      "Fortran",
+      "PL/I"
+    ],
+    "influenceSources": [
+      "https://en.wikipedia.org/wiki/C_(programming_language)"
+    ],
+    "influenced": [
+      "AMPL",
+      "Arduino",
+      "Awk",
+      "bc",
+      "Beef",
+      "C--",
+      "C#",
+      "C++",
+      "C3",
+      "Chapel",
+      "CUDA",
+      "Cython",
+      "D",
+      "Dart",
+      "FreeBASIC",
+      "Go",
+      "Hare",
+      "Holy C",
+      "IDL",
+      "Inform 6",
+      "Java",
+      "JavaScript",
+      "Jule",
+      "Limbo",
+      "Linden Scripting Language",
+      "Lobster",
+      "newLISP",
+      "Nickle",
+      "Objective-C",
+      "OCaml",
+      "Odin",
+      "Pawn",
+      "Perl",
+      "PHP",
+      "Pike",
+      "Python",
+      "Ring",
+      "S-Lang",
+      "Seed7",
+      "TADS 3",
+      "Terra",
+      "Vala",
+      "Verilog",
+      "Wolfram Language",
+      "YAML",
+      "Zeek",
+      "Zig"
     ]
   },
   {
@@ -2001,6 +2540,12 @@
     "releasedEvent": "Paper 'C--: a portable assembly language' (Peyton Jones, Nordin, Oliva), Implementing Functional Languages 1997",
     "sources": [
       "https://www.cs.tufts.edu/~nr/c--/papers.html",
+      "https://en.wikipedia.org/wiki/C--"
+    ],
+    "influencedBy": [
+      "C"
+    ],
+    "influenceSources": [
       "https://en.wikipedia.org/wiki/C--"
     ]
   },
@@ -2055,6 +2600,50 @@
     "sources": [
       "https://en.wikipedia.org/wiki/C_Sharp_(programming_language)",
       "https://learn.microsoft.com/en-us/dotnet/csharp/whats-new/csharp-version-history"
+    ],
+    "influencedBy": [
+      "C",
+      "C++",
+      "Delphi",
+      "Eiffel",
+      "Haskell",
+      "Icon",
+      "Java",
+      "JavaScript",
+      "Modula-3"
+    ],
+    "influenceSources": [
+      "https://en.wikipedia.org/wiki/C_Sharp_(programming_language)",
+      "https://learn.microsoft.com/en-us/dotnet/csharp/tour-of-csharp/overview"
+    ],
+    "influenced": [
+      "Ballerina",
+      "Beef",
+      "Boo",
+      "C# Script",
+      "Chapel",
+      "Cobra",
+      "D",
+      "Dafny",
+      "Dart",
+      "Ecstasy",
+      "F#",
+      "Fantom",
+      "Gosu",
+      "Hack",
+      "Kotlin",
+      "MiniScript",
+      "Motoko",
+      "Nemerle",
+      "Oxygene",
+      "PowerShell",
+      "Q#",
+      "Ring",
+      "Rust",
+      "Skew",
+      "Swift",
+      "TypeScript",
+      "Vala"
     ]
   },
   {
@@ -2109,6 +2698,12 @@
     "sources": [
       "https://www.infoq.com/news/2013/04/ScriptCS",
       "https://www.red-gate.com/simple-talk/development/dotnet-development/going-interactive-c/"
+    ],
+    "influencedBy": [
+      "C#"
+    ],
+    "influenceSources": [
+      "https://learn.microsoft.com/en-us/dotnet/csharp/tour-of-csharp/overview"
     ]
   },
   {
@@ -2161,6 +2756,59 @@
     "sources": [
       "https://www.stroustrup.com/hopl2.pdf",
       "https://en.wikipedia.org/wiki/C%2B%2B"
+    ],
+    "influencedBy": [
+      "Ada",
+      "ALGOL 68",
+      "BCPL",
+      "C",
+      "CLU",
+      "Modula-2",
+      "Simula",
+      "Smalltalk"
+    ],
+    "influenceSources": [
+      "https://en.wikipedia.org/wiki/C%2B%2B"
+    ],
+    "influenced": [
+      "Amiga E",
+      "AngelScript",
+      "Arduino",
+      "Asymptote",
+      "ATS",
+      "C#",
+      "Carbon",
+      "Chapel",
+      "Cpp2",
+      "CUDA",
+      "D",
+      "Dart",
+      "ECL",
+      "Haxe",
+      "HLA",
+      "Holy C",
+      "Hylo",
+      "Java",
+      "Lua",
+      "Mojo",
+      "MQL4",
+      "Nim",
+      "Objective-C++",
+      "Perl",
+      "PHP",
+      "Pike",
+      "Ruby",
+      "Rust",
+      "Seed7",
+      "Solidity",
+      "Squirrel",
+      "SystemVerilog",
+      "TADS 3",
+      "UnrealScript",
+      "Vala",
+      "Wolfram Language",
+      "X10",
+      "Zig"
     ]
   },
   {
@@ -2213,6 +2861,59 @@
     "sources": [
       "https://www.stroustrup.com/hopl2.pdf",
       "https://en.wikipedia.org/wiki/C%2B%2B"
+    ],
+    "influencedBy": [
+      "Ada",
+      "ALGOL 68",
+      "BCPL",
+      "C",
+      "CLU",
+      "Modula-2",
+      "Simula",
+      "Smalltalk"
+    ],
+    "influenceSources": [
+      "https://en.wikipedia.org/wiki/C%2B%2B"
+    ],
+    "influenced": [
+      "Amiga E",
+      "AngelScript",
+      "Arduino",
+      "Asymptote",
+      "ATS",
+      "C#",
+      "Carbon",
+      "Chapel",
+      "Cpp2",
+      "CUDA",
+      "D",
+      "Dart",
+      "ECL",
+      "Haxe",
+      "HLA",
+      "Holy C",
+      "Hylo",
+      "Java",
+      "Lua",
+      "Mojo",
+      "MQL4",
+      "Nim",
+      "Objective-C++",
+      "Perl",
+      "PHP",
+      "Pike",
+      "Ruby",
+      "Rust",
+      "Seed7",
+      "Solidity",
+      "Squirrel",
+      "SystemVerilog",
+      "TADS 3",
+      "UnrealScript",
+      "Vala",
+      "Wolfram Language",
+      "X10",
+      "Zig"
     ]
   },
   {
@@ -2248,6 +2949,12 @@
       "https://c3-lang.org/getting-started/design-goals/",
       "https://github.com/c3lang/c3c",
       "https://github.com/lerno/c3-old"
+    ],
+    "influencedBy": [
+      "C"
+    ],
+    "influenceSources": [
+      "https://c3-lang.org/"
     ]
   },
   {
@@ -2282,6 +2989,13 @@
     "sources": [
       "https://docs.intersystems.com/latest/csp/docbook/Doc.View.cls?KEY=GBAS",
       "https://en.wikipedia.org/wiki/InterSystems_Caché"
+    ],
+    "influencedBy": [
+      "BASIC",
+      "VBScript"
+    ],
+    "influenceSources": [
+      "https://docs.intersystems.com/latest/csp/docbook/DocBook.UI.Page.cls?KEY=GBAS_intro"
     ]
   },
   {
@@ -2316,6 +3030,9 @@
     "sources": [
       "https://en.wikipedia.org/wiki/InterSystems_Caché",
       "https://en.wikipedia.org/wiki/Caché_ObjectScript"
+    ],
+    "influenced": [
+      "Caché ObjectScript"
     ]
   },
   {
@@ -2350,6 +3067,12 @@
     "sources": [
       "https://en.wikipedia.org/wiki/Caché_ObjectScript",
       "https://en.wikipedia.org/wiki/InterSystems_Caché"
+    ],
+    "influencedBy": [
+      "Caché MUMPS"
+    ],
+    "influenceSources": [
+      "https://en.wikipedia.org/wiki/MUMPS"
     ]
   },
   {
@@ -2384,6 +3107,12 @@
     "sources": [
       "https://en.wikipedia.org/wiki/Caché_ObjectScript",
       "https://en.wikipedia.org/wiki/InterSystems_Caché"
+    ],
+    "influencedBy": [
+      "Caché MUMPS"
+    ],
+    "influenceSources": [
+      "https://en.wikipedia.org/wiki/MUMPS"
     ]
   },
   {
@@ -2419,6 +3148,12 @@
       "https://www.cairo-lang.org/blog/cairo-welcome-on-board/",
       "https://eprint.iacr.org/2021/1063",
       "https://www.cairo-lang.org/blog/cairo-1-0/"
+    ],
+    "influencedBy": [
+      "Rust"
+    ],
+    "influenceSources": [
+      "https://www.cairo-lang.org/"
     ]
   },
   {
@@ -2453,6 +3188,18 @@
     "sources": [
       "https://en.wikipedia.org/wiki/Carbon_(programming_language)",
       "https://github.com/carbon-language/carbon-lang"
+    ],
+    "influencedBy": [
+      "C++",
+      "Haskell",
+      "Kotlin",
+      "Rust",
+      "Swift",
+      "Zig"
+    ],
+    "influenceSources": [
+      "https://en.wikipedia.org/wiki/Carbon_(programming_language)",
+      "https://github.com/carbon-language/carbon-lang/blob/trunk/README.md"
     ]
   },
   {
@@ -2491,6 +3238,13 @@
     "sources": [
       "https://www.eriksvedang.com/carp",
       "https://github.com/carp-lang/Carp"
+    ],
+    "influencedBy": [
+      "Clojure"
+    ],
+    "influenceSources": [
+      "https://github.com/carp-lang/Carp/blob/master/docs/LanguageGuide.md",
+      "https://github.com/carp-lang/Carp/blob/master/README.md"
     ]
   },
   {
@@ -2526,6 +3280,14 @@
     "sources": [
       "https://in.relation.to/2011/12/20/ceylon-m-1-newton-released/",
       "https://www.theregister.com/2011/04/13/red_hat_unveils_project_ceylon",
+      "https://en.wikipedia.org/wiki/Ceylon_(programming_language)"
+    ],
+    "influencedBy": [
+      "Java",
+      "Scala",
+      "Smalltalk"
+    ],
+    "influenceSources": [
       "https://en.wikipedia.org/wiki/Ceylon_(programming_language)"
     ]
   },
@@ -2594,6 +3356,9 @@
     "sources": [
       "https://articles.emptycrate.com/2009/07/13/chaiscript_easy_c_scripting.html",
       "https://chaiscript.com/"
+    ],
+    "influenced": [
+      "Rhai"
     ]
   },
   {
@@ -2628,6 +3393,17 @@
     "releasedEvent": "First public release (version 0.8) alongside the first Chapel tutorial at SC08",
     "sources": [
       "https://cug.org/proceedings/cug2013_proceedings/includes/files/pap136.pdf",
+      "https://en.wikipedia.org/wiki/Chapel_(programming_language)"
+    ],
+    "influencedBy": [
+      "Ada",
+      "C",
+      "C#",
+      "C++",
+      "Fortran",
+      "Java"
+    ],
+    "influenceSources": [
       "https://en.wikipedia.org/wiki/Chapel_(programming_language)"
     ]
   },
@@ -2804,6 +3580,24 @@
       "https://registry.npmjs.org/@danielx%2Fcivet",
       "https://github.com/DanielXMoore/Civet",
       "https://civet.dev/"
+    ],
+    "influencedBy": [
+      "Bash",
+      "CoffeeScript",
+      "Crystal",
+      "Elixir",
+      "Elm",
+      "Erlang",
+      "Haskell",
+      "LiveScript",
+      "Perl",
+      "Python",
+      "Ruby",
+      "TypeScript"
+    ],
+    "influenceSources": [
+      "https://civet.dev/philosophy",
+      "https://github.com/DanielXMoore/Civet/blob/main/README.md"
     ]
   },
   {
@@ -2838,6 +3632,12 @@
       "https://sourceforge.net/projects/cjam/",
       "https://sourceforge.net/projects/cjam/files/",
       "https://esolangs.org/wiki/CJam"
+    ],
+    "influencedBy": [
+      "GolfScript"
+    ],
+    "influenceSources": [
+      "https://esolangs.org/wiki/CJam"
     ]
   },
   {
@@ -2869,6 +3669,9 @@
     "sources": [
       "https://en.wikipedia.org/wiki/Clarion_(programming_language)",
       "https://pldb.io/concepts/clarion.html"
+    ],
+    "influenced": [
+      "ECL"
     ]
   },
   {
@@ -2904,6 +3707,16 @@
       "https://researchr.org/publication/BrusELP87",
       "https://en.wikipedia.org/wiki/Clean_(programming_language)",
       "https://clean.cs.ru.nl/Clean"
+    ],
+    "influencedBy": [
+      "Miranda"
+    ],
+    "influenceSources": [
+      "https://en.wikipedia.org/wiki/Clean_(programming_language)"
+    ],
+    "influenced": [
+      "Haskell",
+      "Idris"
     ]
   },
   {
@@ -2978,6 +3791,26 @@
     "sources": [
       "https://en.wikipedia.org/wiki/Clojure",
       "https://groups.google.com/g/jvm-languages/c/KoSkgTCondU"
+    ],
+    "influencedBy": [
+      "Common Lisp",
+      "Erlang",
+      "Haskell",
+      "Java",
+      "Scheme"
+    ],
+    "influenceSources": [
+      "https://clojure.org/about/rationale",
+      "https://en.wikipedia.org/wiki/Clojure"
+    ],
+    "influenced": [
+      "Carp",
+      "ClojureScript",
+      "Elixir",
+      "Fennel",
+      "Hy",
+      "Janet",
+      "LFE"
     ]
   },
   {
@@ -3020,6 +3853,12 @@
     "sources": [
       "https://clojure.org/news/2011/07/22/introducing-clojurescript",
       "https://news.ycombinator.com/item?id=2787851"
+    ],
+    "influencedBy": [
+      "Clojure"
+    ],
+    "influenceSources": [
+      "https://clojurescript.org/about/rationale"
     ]
   },
   {
@@ -3062,6 +3901,12 @@
     "sources": [
       "https://clojure.org/news/2011/07/22/introducing-clojurescript",
       "https://news.ycombinator.com/item?id=2787851"
+    ],
+    "influencedBy": [
+      "Clojure"
+    ],
+    "influenceSources": [
+      "https://clojurescript.org/about/rationale"
     ]
   },
   {
@@ -3104,6 +3949,12 @@
     "sources": [
       "https://clojure.org/news/2011/07/22/introducing-clojurescript",
       "https://news.ycombinator.com/item?id=2787851"
+    ],
+    "influencedBy": [
+      "Clojure"
+    ],
+    "influenceSources": [
+      "https://clojurescript.org/about/rationale"
     ]
   },
   {
@@ -3135,6 +3986,22 @@
     "sources": [
       "https://www.cs.tufts.edu/~nr/cs257/archive/barbara-liskov/clu-history.pdf",
       "https://en.wikipedia.org/wiki/CLU_(programming_language)"
+    ],
+    "influencedBy": [
+      "Simula"
+    ],
+    "influenceSources": [
+      "https://en.wikipedia.org/wiki/CLU_(programming_language)"
+    ],
+    "influenced": [
+      "C++",
+      "Dafny",
+      "Java",
+      "Lua",
+      "Ruby",
+      "Rust",
+      "Sather",
+      "Swift"
     ]
   },
   {
@@ -3204,6 +4071,11 @@
     "releasedEvent": "CODASYL executive committee approved the COBOL 60 specification (printed April 1960)",
     "sources": [
       "https://en.wikipedia.org/wiki/COBOL"
+    ],
+    "influenced": [
+      "ABAP",
+      "LDPL",
+      "PL/I"
     ]
   },
   {
@@ -3237,6 +4109,11 @@
     "releasedEvent": "CODASYL executive committee approved the COBOL 60 specification (printed April 1960)",
     "sources": [
       "https://en.wikipedia.org/wiki/COBOL"
+    ],
+    "influenced": [
+      "ABAP",
+      "LDPL",
+      "PL/I"
     ]
   },
   {
@@ -3271,6 +4148,15 @@
     "sources": [
       "https://en.wikipedia.org/wiki/Cobra_(programming_language)",
       "https://www.computerworld.com/article/1582754/cobra-language-slithering-to-open-source.html"
+    ],
+    "influencedBy": [
+      "C#",
+      "Eiffel",
+      "Objective-C",
+      "Python"
+    ],
+    "influenceSources": [
+      "https://en.wikipedia.org/wiki/Cobra_(programming_language)"
     ]
   },
   {
@@ -3306,6 +4192,17 @@
     "sources": [
       "https://pypi.org/project/coconut/#history",
       "https://coconut-lang.org/"
+    ],
+    "influencedBy": [
+      "CoffeeScript",
+      "F#",
+      "Haskell",
+      "Julia",
+      "Python"
+    ],
+    "influenceSources": [
+      "https://github.com/evhub/coconut/blob/master/DOCS.md",
+      "https://github.com/evhub/coconut/blob/master/README.rst"
     ]
   },
   {
@@ -3342,6 +4239,25 @@
       "https://coffeescript.org/#changelog",
       "https://github.com/jashkenas/coffeescript",
       "https://en.wikipedia.org/wiki/CoffeeScript"
+    ],
+    "influencedBy": [
+      "Haskell",
+      "JavaScript",
+      "Perl",
+      "Python",
+      "Ruby",
+      "YAML"
+    ],
+    "influenceSources": [
+      "https://en.wikipedia.org/wiki/CoffeeScript",
+      "https://coffeescript.org/"
+    ],
+    "influenced": [
+      "Civet",
+      "Coconut",
+      "Koto",
+      "LiveScript",
+      "MoonScript"
     ]
   },
   {
@@ -3378,6 +4294,25 @@
       "https://coffeescript.org/#changelog",
       "https://github.com/jashkenas/coffeescript",
       "https://en.wikipedia.org/wiki/CoffeeScript"
+    ],
+    "influencedBy": [
+      "Haskell",
+      "JavaScript",
+      "Perl",
+      "Python",
+      "Ruby",
+      "YAML"
+    ],
+    "influenceSources": [
+      "https://en.wikipedia.org/wiki/CoffeeScript",
+      "https://coffeescript.org/"
+    ],
+    "influenced": [
+      "Civet",
+      "Coconut",
+      "Koto",
+      "LiveScript",
+      "MoonScript"
     ]
   },
   {
@@ -3419,6 +4354,9 @@
       "https://coldfusion.adobe.com/2015/07/twenty-years-of-making-web-happen-happy-birthday-coldfusion/",
       "https://cfdocs.org/coldfusion-versions",
       "https://en.wikipedia.org/wiki/ColdFusion_Markup_Language"
+    ],
+    "influenced": [
+      "ColdFusion Script"
     ]
   },
   {
@@ -3458,6 +4396,12 @@
     "sources": [
       "https://cfdocs.org/coldfusion-versions",
       "https://www.oreilly.com/library/view/programming-coldfusion-mx/0596003803/ch19.html"
+    ],
+    "influencedBy": [
+      "ColdFusion Markup"
+    ],
+    "influenceSources": [
+      "https://en.wikipedia.org/wiki/ColdFusion_Markup_Language"
     ]
   },
   {
@@ -3486,6 +4430,13 @@
     "released": "1975",
     "releasedEvent": "Original release",
     "sources": [
+      "https://en.wikipedia.org/wiki/COMAL"
+    ],
+    "influencedBy": [
+      "BASIC",
+      "Pascal"
+    ],
+    "influenceSources": [
       "https://en.wikipedia.org/wiki/COMAL"
     ]
   },
@@ -3529,6 +4480,25 @@
     "sources": [
       "https://en.wikipedia.org/wiki/Common_Lisp",
       "https://www.cs.cmu.edu/Groups/AI/html/cltl/clm/node2.html"
+    ],
+    "influencedBy": [
+      "Scheme"
+    ],
+    "influenceSources": [
+      "https://en.wikipedia.org/wiki/Common_Lisp"
+    ],
+    "influenced": [
+      "Clojure",
+      "Curl",
+      "Dylan",
+      "Emacs Lisp",
+      "Hy",
+      "Ioke",
+      "ISLISP",
+      "LFE",
+      "newLISP",
+      "Sather",
+      "Scala"
     ]
   },
   {
@@ -3571,6 +4541,25 @@
     "sources": [
       "https://en.wikipedia.org/wiki/Common_Lisp",
       "https://www.cs.cmu.edu/Groups/AI/html/cltl/clm/node2.html"
+    ],
+    "influencedBy": [
+      "Scheme"
+    ],
+    "influenceSources": [
+      "https://en.wikipedia.org/wiki/Common_Lisp"
+    ],
+    "influenced": [
+      "Clojure",
+      "Curl",
+      "Dylan",
+      "Emacs Lisp",
+      "Hy",
+      "Ioke",
+      "ISLISP",
+      "LFE",
+      "newLISP",
+      "Sather",
+      "Scala"
     ]
   },
   {
@@ -3613,6 +4602,25 @@
     "sources": [
       "https://en.wikipedia.org/wiki/Common_Lisp",
       "https://www.cs.cmu.edu/Groups/AI/html/cltl/clm/node2.html"
+    ],
+    "influencedBy": [
+      "Scheme"
+    ],
+    "influenceSources": [
+      "https://en.wikipedia.org/wiki/Common_Lisp"
+    ],
+    "influenced": [
+      "Clojure",
+      "Curl",
+      "Dylan",
+      "Emacs Lisp",
+      "Hy",
+      "Ioke",
+      "ISLISP",
+      "LFE",
+      "newLISP",
+      "Sather",
+      "Scala"
     ]
   },
   {
@@ -3647,6 +4655,13 @@
     "released": "1997",
     "releasedEvent": "Component Pascal (originally Oberon/L) first appeared with Oberon microsystems' BlackBox Component Builder",
     "sources": [
+      "https://en.wikipedia.org/wiki/Component_Pascal"
+    ],
+    "influencedBy": [
+      "Oberon",
+      "Pascal"
+    ],
+    "influenceSources": [
       "https://en.wikipedia.org/wiki/Component_Pascal"
     ]
   },
@@ -3683,6 +4698,13 @@
     "releasedEvent": "Component Pascal (originally Oberon/L) first appeared with Oberon microsystems' BlackBox Component Builder",
     "sources": [
       "https://en.wikipedia.org/wiki/Component_Pascal"
+    ],
+    "influencedBy": [
+      "Oberon",
+      "Pascal"
+    ],
+    "influenceSources": [
+      "https://en.wikipedia.org/wiki/Component_Pascal"
     ]
   },
   {
@@ -3715,6 +4737,12 @@
     "sources": [
       "https://github.com/davidgiven/cowgol/releases/tag/0.0.1",
       "https://github.com/davidgiven/cowgol"
+    ],
+    "influencedBy": [
+      "Ada"
+    ],
+    "influenceSources": [
+      "https://github.com/davidgiven/cowgol/blob/master/README.md"
     ]
   },
   {
@@ -3749,6 +4777,12 @@
     "sources": [
       "https://isocpp.org/blog/2022/09/cppcon-2022-endnote-video-posted-can-cpp-be-10x-simpler-and-safer-...-herb",
       "https://github.com/hsutter/cppfront"
+    ],
+    "influencedBy": [
+      "C++"
+    ],
+    "influenceSources": [
+      "https://github.com/hsutter/cppfront/blob/main/README.md"
     ]
   },
   {
@@ -3790,6 +4824,17 @@
     "sources": [
       "https://crystal-lang.org/2014/06/19/crystal-0.1.0-released/",
       "https://en.wikipedia.org/wiki/Crystal_(programming_language)"
+    ],
+    "influencedBy": [
+      "Go",
+      "Ruby"
+    ],
+    "influenceSources": [
+      "https://en.wikipedia.org/wiki/Crystal_(programming_language)",
+      "https://crystal-lang.org/"
+    ],
+    "influenced": [
+      "Civet"
     ]
   },
   {
@@ -3860,6 +4905,13 @@
     "sources": [
       "https://developer.download.nvidia.com/compute/cuda/1.0/CUDA_Release_Notes_linux_1.0.txt",
       "https://en.wikipedia.org/wiki/CUDA"
+    ],
+    "influencedBy": [
+      "C",
+      "C++"
+    ],
+    "influenceSources": [
+      "https://en.wikipedia.org/wiki/CUDA"
     ]
   },
   {
@@ -3892,6 +4944,15 @@
     "releasedEvent": "Initial commit of the open-source CUE repository",
     "sources": [
       "https://github.com/cue-lang/cue/commit/1ca41d79939fc27758f0deb28b5c31587e26d6bb",
+      "https://cuelang.org/docs/introduction/"
+    ],
+    "influencedBy": [
+      "JSON",
+      "TypeScript"
+    ],
+    "influenceSources": [
+      "https://cuelang.org/docs/tour/basics/json-superset/",
+      "https://cuelang.org/docs/concept/the-logic-of-cue/",
       "https://cuelang.org/docs/introduction/"
     ]
   },
@@ -3929,6 +4990,17 @@
       "https://groups.csail.mit.edu/cag/curl/toplevel.html",
       "https://en.wikipedia.org/wiki/Curl_(programming_language)",
       "https://adtmag.com/articles/2001/04/09/curling-up-with-hot-technology-transfer.aspx?p=1"
+    ],
+    "influencedBy": [
+      "Common Lisp",
+      "HTML",
+      "JavaScript",
+      "Scheme",
+      "TeX"
+    ],
+    "influenceSources": [
+      "https://en.wikipedia.org/wiki/Curl_(programming_language)",
+      "https://secure.curl.com/products/whitepaper/content-language.pdf"
     ]
   },
   {
@@ -3965,6 +5037,13 @@
       "https://michaelhanus.de/papers/ILPS95.html",
       "https://www.curry-lang.org/",
       "https://en.wikipedia.org/wiki/Curry_(programming_language)"
+    ],
+    "influencedBy": [
+      "Haskell",
+      "Prolog"
+    ],
+    "influenceSources": [
+      "https://en.wikipedia.org/wiki/Curry_(programming_language)"
     ]
   },
   {
@@ -3997,6 +5076,16 @@
     "sources": [
       "https://neo4j.com/blog/news/kiruna-stol-1-4-milestone-4/",
       "https://en.wikipedia.org/wiki/Cypher_(query_language)"
+    ],
+    "influencedBy": [
+      "Haskell",
+      "Python",
+      "SPARQL",
+      "SQL"
+    ],
+    "influenceSources": [
+      "https://neo4j.com/docs/cypher-manual/3.5/introduction/",
+      "https://neo4j.com/docs/cypher-manual/current/introduction/cypher-overview/"
     ]
   },
   {
@@ -4032,6 +5121,13 @@
     "releasedEvent": "First official Cython release (0.9) announced on python-announce",
     "sources": [
       "https://mail.python.org/pipermail/python-announce-list/2007-July/006018.html",
+      "https://en.wikipedia.org/wiki/Cython"
+    ],
+    "influencedBy": [
+      "C",
+      "Python"
+    ],
+    "influenceSources": [
       "https://en.wikipedia.org/wiki/Cython"
     ]
   },
@@ -4075,6 +5171,25 @@
     "sources": [
       "https://en.wikipedia.org/wiki/D_(programming_language)",
       "https://hopl4.sigplan.org/details/hopl-4-papers/17/Origins-of-the-D-Programming-Language"
+    ],
+    "influencedBy": [
+      "BASIC",
+      "C",
+      "C#",
+      "C++",
+      "Eiffel",
+      "Java",
+      "Python",
+      "Ruby"
+    ],
+    "influenceSources": [
+      "https://en.wikipedia.org/wiki/D_(programming_language)",
+      "https://dlang.org/overview.html"
+    ],
+    "influenced": [
+      "Genie",
+      "Swift",
+      "Vala"
     ]
   },
   {
@@ -4107,6 +5222,21 @@
     "sources": [
       "https://www.microsoft.com/en-us/research/project/dafny-a-language-and-program-verifier-for-functional-correctness/",
       "https://en.wikipedia.org/wiki/Dafny"
+    ],
+    "influencedBy": [
+      "C#",
+      "CLU",
+      "Eiffel",
+      "Java",
+      "Rocq",
+      "Scala"
+    ],
+    "influenceSources": [
+      "https://github.com/dafny-lang/dafny",
+      "https://en.wikipedia.org/wiki/Dafny"
+    ],
+    "influenced": [
+      "F*"
     ]
   },
   {
@@ -4153,6 +5283,19 @@
     "releasedEvent": "Dart unveiled at the GOTO conference in Aarhus and announced on the Google blog",
     "sources": [
       "https://developers.googleblog.com/2011/10/dart-language-for-structured-web.html",
+      "https://en.wikipedia.org/wiki/Dart_(programming_language)"
+    ],
+    "influencedBy": [
+      "C",
+      "C#",
+      "C++",
+      "Erlang",
+      "Java",
+      "JavaScript",
+      "Ruby",
+      "Smalltalk"
+    ],
+    "influenceSources": [
       "https://en.wikipedia.org/wiki/Dart_(programming_language)"
     ]
   },
@@ -4220,6 +5363,17 @@
     "releasedEvent": "Logic and databases workshop in Toulouse organised by Hervé Gallaire and Jack Minker",
     "sources": [
       "https://en.wikipedia.org/wiki/Datalog"
+    ],
+    "influencedBy": [
+      "Prolog"
+    ],
+    "influenceSources": [
+      "https://en.wikipedia.org/wiki/Datalog"
+    ],
+    "influenced": [
+      "Flix",
+      "Rego",
+      "Soufflé"
     ]
   },
   {
@@ -4251,6 +5405,10 @@
     "sources": [
       "https://en.wikipedia.org/wiki/DBase",
       "https://pic.hallikainen.org/techref/language/dbase/commands.htm"
+    ],
+    "influenced": [
+      "Harbour",
+      "Visual FoxPro"
     ]
   },
   {
@@ -4321,6 +5479,18 @@
     "sources": [
       "https://blogs.embarcadero.com/celebrating-the-30th-anniversary-of-delphi-version-1-0s-launch/amp/",
       "https://www.theregister.com/2020/02/14/25_years_delphi_programming/"
+    ],
+    "influencedBy": [
+      "Pascal"
+    ],
+    "influenceSources": [
+      "https://en.wikipedia.org/wiki/Delphi_(software)"
+    ],
+    "influenced": [
+      "C#",
+      "Genie",
+      "Nim",
+      "Oxygene"
     ]
   },
   {
@@ -4356,6 +5526,13 @@
     "sources": [
       "https://www.haskellforall.com/2016/12/dhall-non-turing-complete-configuration.html",
       "https://dhall-lang.org/"
+    ],
+    "influencedBy": [
+      "JSON"
+    ],
+    "influenceSources": [
+      "https://github.com/dhall-lang/dhall-lang",
+      "https://hackage.haskell.org/package/dhall-1.0.0"
     ]
   },
   {
@@ -4388,6 +5565,13 @@
       "https://www.linusakesson.net/dialog/",
       "https://ifwiki.org/Dialog",
       "https://linusakesson.net/dialog/docs/execution.html"
+    ],
+    "influencedBy": [
+      "Inform 7",
+      "Prolog"
+    ],
+    "influenceSources": [
+      "https://linusakesson.net/dialog/"
     ]
   },
   {
@@ -4491,6 +5675,18 @@
     "sources": [
       "https://en.wikipedia.org/wiki/Dylan_(programming_language)",
       "https://opendylan.org/history/index.html"
+    ],
+    "influencedBy": [
+      "Common Lisp",
+      "Scheme"
+    ],
+    "influenceSources": [
+      "https://en.wikipedia.org/wiki/Dylan_(programming_language)"
+    ],
+    "influenced": [
+      "Julia",
+      "Lasso",
+      "Ruby"
     ]
   },
   {
@@ -4521,6 +5717,13 @@
     "released": "2016-01-23",
     "releasedEvent": "Dyon repository created under PistonDevelopers on GitHub",
     "sources": [
+      "https://github.com/PistonDevelopers/dyon"
+    ],
+    "influencedBy": [
+      "Go",
+      "Rust"
+    ],
+    "influenceSources": [
       "https://github.com/PistonDevelopers/dyon"
     ]
   },
@@ -4553,6 +5756,17 @@
     "releasedEvent": "LexisNexis announces HPCC Systems and ECL as open source",
     "sources": [
       "https://www.kdnuggets.com/2011/06/lexis-nexis-open-sources-hadoop-killer.html",
+      "https://en.wikipedia.org/wiki/ECL_(data-centric_programming_language)"
+    ],
+    "influencedBy": [
+      "C++",
+      "Clarion",
+      "Pascal",
+      "Prolog",
+      "SNOBOL",
+      "SQL"
+    ],
+    "influenceSources": [
       "https://en.wikipedia.org/wiki/ECL_(data-centric_programming_language)"
     ]
   },
@@ -4587,6 +5801,15 @@
       "https://xtclang.blogspot.com/2019/04/signs-of-spring.html",
       "https://www.infoq.com/articles/xtc-lang/",
       "https://github.com/xtclang/xvm"
+    ],
+    "influencedBy": [
+      "C#",
+      "Erlang",
+      "Java",
+      "Smalltalk"
+    ],
+    "influenceSources": [
+      "https://www.infoq.com/articles/xtc-lang/"
     ]
   },
   {
@@ -4621,6 +5844,12 @@
       "https://github.com/effekt-lang/effekt",
       "https://effekt-lang.org/",
       "https://ps.informatik.uni-tuebingen.de/publications/brachthaeuser20effects/"
+    ],
+    "influencedBy": [
+      "Scala"
+    ],
+    "influenceSources": [
+      "https://effekt-lang.org/docs/introduction"
     ]
   },
   {
@@ -4689,6 +5918,25 @@
       "https://en.wikipedia.org/wiki/Eiffel_(programming_language)",
       "https://www.ecma-international.org/wp-content/uploads/ECMA-367_1st_edition_june_2005.pdf",
       "https://cacm.acm.org/opinion/qa-object-lessons"
+    ],
+    "influencedBy": [
+      "Ada",
+      "Simula"
+    ],
+    "influenceSources": [
+      "https://en.wikipedia.org/wiki/Eiffel_(programming_language)"
+    ],
+    "influenced": [
+      "C#",
+      "Cobra",
+      "D",
+      "Dafny",
+      "Java",
+      "Kotlin",
+      "Racket",
+      "Ruby",
+      "Sather",
+      "Scala"
     ]
   },
   {
@@ -4767,6 +6015,18 @@
       "https://elixir-lang.org/blog/2012/05/25/elixir-v0-5-0-released/",
       "https://github.com/elixir-lang/elixir",
       "https://en.wikipedia.org/wiki/Elixir_(programming_language)"
+    ],
+    "influencedBy": [
+      "Clojure",
+      "Erlang",
+      "Ruby"
+    ],
+    "influenceSources": [
+      "https://en.wikipedia.org/wiki/Elixir_(programming_language)"
+    ],
+    "influenced": [
+      "Civet",
+      "Gleam"
     ]
   },
   {
@@ -4805,6 +6065,20 @@
     "sources": [
       "https://elm-lang.org/assets/papers/concurrent-frp.pdf",
       "https://en.wikipedia.org/wiki/Elm_(programming_language)"
+    ],
+    "influencedBy": [
+      "F#",
+      "Haskell",
+      "OCaml",
+      "Standard ML"
+    ],
+    "influenceSources": [
+      "https://en.wikipedia.org/wiki/Elm_(programming_language)"
+    ],
+    "influenced": [
+      "Civet",
+      "Gleam",
+      "Rust"
     ]
   },
   {
@@ -4838,6 +6112,14 @@
     "sources": [
       "https://github.com/elves/elvish",
       "https://archive.fosdem.org/2015/schedule/event/elvish/"
+    ],
+    "influencedBy": [
+      "Fish",
+      "Zsh"
+    ],
+    "influenceSources": [
+      "https://github.com/grafov/elvish",
+      "https://elv.sh/learn/faq.html"
     ]
   },
   {
@@ -4875,6 +6157,12 @@
     "sources": [
       "https://www.gnu.org/software/emacs/history.html",
       "https://www.gnu.org/software/emacs/manual/html_node/elisp/Lisp-History.html",
+      "https://en.wikipedia.org/wiki/Emacs_Lisp"
+    ],
+    "influencedBy": [
+      "Common Lisp"
+    ],
+    "influenceSources": [
       "https://en.wikipedia.org/wiki/Emacs_Lisp"
     ]
   },
@@ -4955,6 +6243,31 @@
     "sources": [
       "https://en.wikipedia.org/wiki/Erlang_(programming_language)",
       "https://www.erlang.org/about"
+    ],
+    "influencedBy": [
+      "Prolog",
+      "Smalltalk"
+    ],
+    "influenceSources": [
+      "https://www.erlang.org/faq/academic",
+      "https://en.wikipedia.org/wiki/Erlang_(programming_language)"
+    ],
+    "influenced": [
+      "Civet",
+      "Clojure",
+      "Dart",
+      "Ecstasy",
+      "Elixir",
+      "F#",
+      "Fantom",
+      "Gleam",
+      "Inko",
+      "Latitude",
+      "LFE",
+      "Oz",
+      "Rust",
+      "Scala",
+      "Wren"
     ]
   },
   {
@@ -5000,6 +6313,31 @@
     "sources": [
       "https://en.wikipedia.org/wiki/Erlang_(programming_language)",
       "https://www.erlang.org/about"
+    ],
+    "influencedBy": [
+      "Prolog",
+      "Smalltalk"
+    ],
+    "influenceSources": [
+      "https://www.erlang.org/faq/academic",
+      "https://en.wikipedia.org/wiki/Erlang_(programming_language)"
+    ],
+    "influenced": [
+      "Civet",
+      "Clojure",
+      "Dart",
+      "Ecstasy",
+      "Elixir",
+      "F#",
+      "Fantom",
+      "Gleam",
+      "Inko",
+      "Latitude",
+      "LFE",
+      "Oz",
+      "Rust",
+      "Scala",
+      "Wren"
     ]
   },
   {
@@ -5040,6 +6378,12 @@
     "releasedEvent": "Euphoria 1.0 released for MS-DOS",
     "sources": [
       "https://en.wikipedia.org/wiki/Euphoria_(programming_language)"
+    ],
+    "influencedBy": [
+      "BASIC"
+    ],
+    "influenceSources": [
+      "https://en.wikipedia.org/wiki/Euphoria_(programming_language)"
     ]
   },
   {
@@ -5070,6 +6414,12 @@
     "releasedEvent": "Libes presents \"Expect: Curing Those Uncontrollable Fits of Interaction\" at the Summer 1990 USENIX Conference",
     "sources": [
       "https://www.nist.gov/services-resources/software/expect",
+      "https://en.wikipedia.org/wiki/Expect"
+    ],
+    "influencedBy": [
+      "Tcl"
+    ],
+    "influenceSources": [
       "https://en.wikipedia.org/wiki/Expect"
     ]
   },
@@ -5103,6 +6453,14 @@
     "sources": [
       "https://en.wikipedia.org/wiki/Ezhil_(programming_language)",
       "https://github.com/Ezhil-Language-Foundation/Ezhil-Lang"
+    ],
+    "influencedBy": [
+      "BASIC",
+      "Logo",
+      "Python"
+    ],
+    "influenceSources": [
+      "https://en.wikipedia.org/wiki/Ezhil_(programming_language)"
     ]
   },
   {
@@ -5137,6 +6495,16 @@
     "sources": [
       "https://en.wikipedia.org/wiki/F*_(programming_language)",
       "https://www.fstar-lang.org/"
+    ],
+    "influencedBy": [
+      "Dafny",
+      "F#",
+      "OCaml",
+      "Rocq",
+      "Standard ML"
+    ],
+    "influenceSources": [
+      "https://en.wikipedia.org/wiki/F*_(programming_language)"
     ]
   },
   {
@@ -5180,6 +6548,24 @@
     "sources": [
       "https://fsharp.org/history/hopl-final/hopl-fsharp.pdf",
       "https://en.wikipedia.org/wiki/F_Sharp_(programming_language)"
+    ],
+    "influencedBy": [
+      "C#",
+      "Erlang",
+      "Haskell",
+      "OCaml",
+      "Python"
+    ],
+    "influenceSources": [
+      "https://en.wikipedia.org/wiki/F_Sharp_(programming_language)"
+    ],
+    "influenced": [
+      "Coconut",
+      "Elm",
+      "F*",
+      "LiveScript",
+      "Q#",
+      "TypeScript"
     ]
   },
   {
@@ -5224,6 +6610,24 @@
     "sources": [
       "https://fsharp.org/history/hopl-final/hopl-fsharp.pdf",
       "https://en.wikipedia.org/wiki/F_Sharp_(programming_language)"
+    ],
+    "influencedBy": [
+      "C#",
+      "Erlang",
+      "Haskell",
+      "OCaml",
+      "Python"
+    ],
+    "influenceSources": [
+      "https://en.wikipedia.org/wiki/F_Sharp_(programming_language)"
+    ],
+    "influenced": [
+      "Coconut",
+      "Elm",
+      "F*",
+      "LiveScript",
+      "Q#",
+      "TypeScript"
     ]
   },
   {
@@ -5259,6 +6663,17 @@
       "https://concatenative.org/wiki/view/Factor",
       "https://concatenative.org/wiki/view/Factor/History",
       "https://en.wikipedia.org/wiki/Factor_(programming_language)"
+    ],
+    "influencedBy": [
+      "Forth",
+      "Joy",
+      "Self"
+    ],
+    "influenceSources": [
+      "https://en.wikipedia.org/wiki/Factor_(programming_language)"
+    ],
+    "influenced": [
+      "min"
     ]
   },
   {
@@ -5292,6 +6707,10 @@
     "sources": [
       "https://strlen.com/false-language/",
       "https://esolangs.org/wiki/FALSE"
+    ],
+    "influenced": [
+      "Befunge",
+      "Brainfuck"
     ]
   },
   {
@@ -5333,6 +6752,16 @@
     "sources": [
       "https://fantom.org/forum/topic/588",
       "https://fantom.org/doc/docIntro/WhyFantom",
+      "https://en.wikipedia.org/wiki/Fantom_(programming_language)"
+    ],
+    "influencedBy": [
+      "C#",
+      "Erlang",
+      "Java",
+      "Ruby",
+      "Scala"
+    ],
+    "influenceSources": [
       "https://en.wikipedia.org/wiki/Fantom_(programming_language)"
     ]
   },
@@ -5404,6 +6833,14 @@
     "sources": [
       "https://github.com/bakpakin/Fennel",
       "https://fennel-lang.org/"
+    ],
+    "influencedBy": [
+      "Clojure",
+      "Lua"
+    ],
+    "influenceSources": [
+      "https://fennel-lang.org/from-clojure",
+      "https://fennel-lang.org/rationale"
     ]
   },
   {
@@ -5437,6 +6874,9 @@
     "releasedEvent": "Initial release of fish",
     "sources": [
       "https://en.wikipedia.org/wiki/Fish_(Unix_shell)"
+    ],
+    "influenced": [
+      "Elvish"
     ]
   },
   {
@@ -5471,6 +6911,17 @@
     "sources": [
       "https://pldi16.sigplan.org/details/pldi-2016-papers/41/From-Datalog-to-Flix-A-Declarative-Language-for-Fixed-Points-on-Lattices",
       "https://github.com/flix/flix",
+      "https://flix.dev/"
+    ],
+    "influencedBy": [
+      "Datalog",
+      "Haskell",
+      "OCaml",
+      "Rust",
+      "Scala"
+    ],
+    "influenceSources": [
+      "https://flix.dev/faq/",
       "https://flix.dev/"
     ]
   },
@@ -5536,6 +6987,23 @@
     "sources": [
       "https://www.forth.com/resources/forth-programming-language/",
       "https://en.wikipedia.org/wiki/Forth_(programming_language)"
+    ],
+    "influencedBy": [
+      "APL"
+    ],
+    "influenceSources": [
+      "https://colorforth.github.io/HOPL.html"
+    ],
+    "influenced": [
+      "Befunge",
+      "Factor",
+      "Joy",
+      "min",
+      "PostScript",
+      "Quackery",
+      "Rebol",
+      "Retro",
+      "RPL"
     ]
   },
   {
@@ -5570,6 +7038,18 @@
     "releasedEvent": "First FORTRAN compiler delivered for the IBM 704",
     "sources": [
       "https://en.wikipedia.org/wiki/Fortran"
+    ],
+    "influenced": [
+      "B",
+      "BASIC",
+      "C",
+      "Chapel",
+      "Fortress",
+      "IDL",
+      "MATLAB",
+      "PL/I",
+      "Verilog",
+      "Wolfram Language"
     ]
   },
   {
@@ -5604,6 +7084,18 @@
     "releasedEvent": "First FORTRAN compiler delivered for the IBM 704",
     "sources": [
       "https://en.wikipedia.org/wiki/Fortran"
+    ],
+    "influenced": [
+      "B",
+      "BASIC",
+      "C",
+      "Chapel",
+      "Fortress",
+      "IDL",
+      "MATLAB",
+      "PL/I",
+      "Verilog",
+      "Wolfram Language"
     ]
   },
   {
@@ -5635,6 +7127,17 @@
     "releasedEvent": "First appeared (Sun Labs)",
     "sources": [
       "https://en.wikipedia.org/wiki/Fortress_(programming_language)"
+    ],
+    "influencedBy": [
+      "Fortran",
+      "Haskell",
+      "Scala"
+    ],
+    "influenceSources": [
+      "https://en.wikipedia.org/wiki/Fortress_(programming_language)"
+    ],
+    "influenced": [
+      "Julia"
     ]
   },
   {
@@ -5668,6 +7171,13 @@
     "releasedEvent": "First compiler versions (work began late summer 2004)",
     "sources": [
       "https://www.freebasic.net/wiki/CompilerQB",
+      "https://en.wikipedia.org/wiki/FreeBASIC"
+    ],
+    "influencedBy": [
+      "BASIC",
+      "C"
+    ],
+    "influenceSources": [
       "https://en.wikipedia.org/wiki/FreeBASIC"
     ]
   },
@@ -5703,6 +7213,12 @@
     "sources": [
       "https://www.infoq.com/news/2015/08/frege-haskell-for-jvm/",
       "https://github.com/Frege/frege"
+    ],
+    "influencedBy": [
+      "Haskell"
+    ],
+    "influenceSources": [
+      "https://github.com/Frege/frege"
     ]
   },
   {
@@ -5735,6 +7251,12 @@
     "releasedEvent": "First appearance",
     "sources": [
       "https://frinklang.org/",
+      "https://en.wikipedia.org/wiki/Frink_(programming_language)"
+    ],
+    "influencedBy": [
+      "Java"
+    ],
+    "influenceSources": [
       "https://en.wikipedia.org/wiki/Frink_(programming_language)"
     ]
   },
@@ -5770,6 +7292,13 @@
     "sources": [
       "https://en.wikipedia.org/wiki/Gambas",
       "https://gambaswiki.org/edit/doc/intro"
+    ],
+    "influencedBy": [
+      "BASIC",
+      "Java"
+    ],
+    "influenceSources": [
+      "https://en.wikipedia.org/wiki/Gambas"
     ]
   },
   {
@@ -5910,6 +7439,16 @@
     "sources": [
       "https://wiki.gnome.org/Projects/Genie/TutorialsBlogsExamples",
       "https://en.wikipedia.org/wiki/Genie_(programming_language)"
+    ],
+    "influencedBy": [
+      "Boo",
+      "D",
+      "Delphi",
+      "Python",
+      "Vala"
+    ],
+    "influenceSources": [
+      "https://wiki.gnome.org/Projects/Genie"
     ]
   },
   {
@@ -5983,6 +7522,18 @@
       "https://gleam.run/news/hello-gleam/",
       "https://gleam.run/news/",
       "https://github.com/gleam-lang/gleam"
+    ],
+    "influencedBy": [
+      "Elixir",
+      "Elm",
+      "Erlang",
+      "Go",
+      "JavaScript",
+      "OCaml",
+      "Rust"
+    ],
+    "influenceSources": [
+      "https://en.wikipedia.org/wiki/Gleam_(programming_language)"
     ]
   },
   {
@@ -6016,6 +7567,14 @@
     "sources": [
       "https://github.com/gluon-lang/gluon",
       "https://crates.io/crates/gluon/versions"
+    ],
+    "influencedBy": [
+      "Haskell",
+      "Lua",
+      "OCaml"
+    ],
+    "influenceSources": [
+      "https://github.com/gluon-lang/gluon"
     ]
   },
   {
@@ -6094,6 +7653,35 @@
     "sources": [
       "https://opensource.googleblog.com/2009/11/hey-ho-lets-go.html",
       "https://go.dev/doc/faq"
+    ],
+    "influencedBy": [
+      "C",
+      "Limbo",
+      "Modula-2",
+      "Oberon",
+      "Pascal",
+      "Smalltalk"
+    ],
+    "influenceSources": [
+      "https://go.dev/doc/faq",
+      "https://go.dev/talks/2015/gophercon-goevolution.slide",
+      "https://en.wikipedia.org/wiki/Go_(programming_language)"
+    ],
+    "influenced": [
+      "Ballerina",
+      "Beef",
+      "Crystal",
+      "Dyon",
+      "Gleam",
+      "Jule",
+      "KCL",
+      "MoonBit",
+      "Odin",
+      "Tengo",
+      "Umka",
+      "V",
+      "YSH",
+      "Zig"
     ]
   },
   {
@@ -6141,6 +7729,35 @@
     "sources": [
       "https://opensource.googleblog.com/2009/11/hey-ho-lets-go.html",
       "https://go.dev/doc/faq"
+    ],
+    "influencedBy": [
+      "C",
+      "Limbo",
+      "Modula-2",
+      "Oberon",
+      "Pascal",
+      "Smalltalk"
+    ],
+    "influenceSources": [
+      "https://go.dev/doc/faq",
+      "https://go.dev/talks/2015/gophercon-goevolution.slide",
+      "https://en.wikipedia.org/wiki/Go_(programming_language)"
+    ],
+    "influenced": [
+      "Ballerina",
+      "Beef",
+      "Crystal",
+      "Dyon",
+      "Gleam",
+      "Jule",
+      "KCL",
+      "MoonBit",
+      "Odin",
+      "Tengo",
+      "Umka",
+      "V",
+      "YSH",
+      "Zig"
     ]
   },
   {
@@ -6175,6 +7792,15 @@
     "sources": [
       "http://www.golfscript.com/golfscript/",
       "https://github.com/darrenks/golfscript"
+    ],
+    "influencedBy": [
+      "Ruby"
+    ],
+    "influenceSources": [
+      "https://esolangs.org/wiki/GolfScript"
+    ],
+    "influenced": [
+      "CJam"
     ]
   },
   {
@@ -6245,6 +7871,16 @@
     "sources": [
       "https://en.wikipedia.org/wiki/Gosu_(programming_language)",
       "https://developers.slashdot.org/story/10/11/09/0510258/gosu-programming-language-released-to-public"
+    ],
+    "influencedBy": [
+      "C#",
+      "Java"
+    ],
+    "influenceSources": [
+      "https://en.wikipedia.org/wiki/Gosu_(programming_language)"
+    ],
+    "influenced": [
+      "Kotlin"
     ]
   },
   {
@@ -6314,6 +7950,14 @@
     "sources": [
       "https://github.com/marcobambini/gravity",
       "https://www.lemondeinformatique.fr/actualites/lireamp-gravity-un-langage-de-plus-pour-ios-et-android-67616.html"
+    ],
+    "influencedBy": [
+      "Lua",
+      "Swift",
+      "Wren"
+    ],
+    "influenceSources": [
+      "https://github.com/marcobambini/gravity"
     ]
   },
   {
@@ -6346,6 +7990,14 @@
     "sources": [
       "https://en.wikipedia.org/wiki/Gremlin_(query_language)",
       "https://tinkerpop.apache.org/docs/current/reference/"
+    ],
+    "influencedBy": [
+      "Java",
+      "SPARQL",
+      "SQL"
+    ],
+    "influenceSources": [
+      "https://en.wikipedia.org/wiki/Gremlin_(query_language)"
     ]
   },
   {
@@ -6385,6 +8037,21 @@
     "releasedEvent": "James Strachan's blog post \"Groovy - the birth of a new dynamic language for the Java platform\"",
     "sources": [
       "https://en.wikipedia.org/wiki/Apache_Groovy"
+    ],
+    "influencedBy": [
+      "Java",
+      "Perl",
+      "Python",
+      "Ruby",
+      "Smalltalk"
+    ],
+    "influenceSources": [
+      "https://en.wikipedia.org/wiki/Apache_Groovy"
+    ],
+    "influenced": [
+      "Jactl",
+      "Kotlin",
+      "Xtend"
     ]
   },
   {
@@ -6418,6 +8085,17 @@
     "releasedEvent": "Hack announced and open-sourced by Facebook",
     "sources": [
       "https://engineering.fb.com/2014/03/20/developer-tools/hack-a-new-programming-language-for-hhvm/"
+    ],
+    "influencedBy": [
+      "C#",
+      "Haskell",
+      "Java",
+      "OCaml",
+      "PHP",
+      "Scala"
+    ],
+    "influenceSources": [
+      "https://en.wikipedia.org/wiki/Hack_(programming_language)"
     ]
   },
   {
@@ -6450,6 +8128,10 @@
     "sources": [
       "https://haml.info/about.html",
       "https://en.wikipedia.org/wiki/Haml"
+    ],
+    "influenced": [
+      "Pug",
+      "Sass"
     ]
   },
   {
@@ -6490,6 +8172,12 @@
     "sources": [
       "https://en.wikipedia.org/wiki/Harbour_(programming_language)",
       "https://harbour.github.io/"
+    ],
+    "influencedBy": [
+      "dBase"
+    ],
+    "influenceSources": [
+      "https://en.wikipedia.org/wiki/Harbour_(programming_language)"
     ]
   },
   {
@@ -6522,6 +8210,12 @@
     "released": "2022-04-25",
     "releasedEvent": "Public announcement on harelang.org",
     "sources": [
+      "https://harelang.org/blog/2022-04-25-announcing-hare/"
+    ],
+    "influencedBy": [
+      "C"
+    ],
+    "influenceSources": [
       "https://harelang.org/blog/2022-04-25-announcing-hare/"
     ]
   },
@@ -6566,6 +8260,50 @@
     "sources": [
       "https://www.microsoft.com/en-us/research/wp-content/uploads/2016/07/history.pdf",
       "https://www.haskell.org"
+    ],
+    "influencedBy": [
+      "Clean",
+      "Miranda",
+      "Scheme",
+      "Standard ML"
+    ],
+    "influenceSources": [
+      "https://en.wikipedia.org/wiki/Haskell"
+    ],
+    "influenced": [
+      "Agda",
+      "Bluespec",
+      "C#",
+      "Carbon",
+      "Civet",
+      "Clojure",
+      "Coconut",
+      "CoffeeScript",
+      "Curry",
+      "Cypher",
+      "Elm",
+      "F#",
+      "Flix",
+      "Fortress",
+      "Frege",
+      "Gluon",
+      "Hack",
+      "Idris",
+      "Koka",
+      "Lean",
+      "LiveScript",
+      "Mercury",
+      "Motoko",
+      "Pure",
+      "PureScript",
+      "Python",
+      "Raku",
+      "Rust",
+      "Scala",
+      "Swift",
+      "Unison",
+      "Ur/Web",
+      "YSH"
     ]
   },
   {
@@ -6609,6 +8347,50 @@
     "sources": [
       "https://www.microsoft.com/en-us/research/wp-content/uploads/2016/07/history.pdf",
       "https://www.haskell.org"
+    ],
+    "influencedBy": [
+      "Clean",
+      "Miranda",
+      "Scheme",
+      "Standard ML"
+    ],
+    "influenceSources": [
+      "https://en.wikipedia.org/wiki/Haskell"
+    ],
+    "influenced": [
+      "Agda",
+      "Bluespec",
+      "C#",
+      "Carbon",
+      "Civet",
+      "Clojure",
+      "Coconut",
+      "CoffeeScript",
+      "Curry",
+      "Cypher",
+      "Elm",
+      "F#",
+      "Flix",
+      "Fortress",
+      "Frege",
+      "Gluon",
+      "Hack",
+      "Idris",
+      "Koka",
+      "Lean",
+      "LiveScript",
+      "Mercury",
+      "Motoko",
+      "Pure",
+      "PureScript",
+      "Python",
+      "Raku",
+      "Rust",
+      "Scala",
+      "Swift",
+      "Unison",
+      "Ur/Web",
+      "YSH"
     ]
   },
   {
@@ -6650,6 +8432,18 @@
     "releasedEvent": "haXe beta released (targets AVM bytecode and Neko)",
     "sources": [
       "https://haxe.org/manual/introduction-haxe-history.html"
+    ],
+    "influencedBy": [
+      "ActionScript",
+      "C++",
+      "Java",
+      "JavaScript",
+      "OCaml"
+    ],
+    "influenceSources": [
+      "https://haxe.org/manual/introduction-haxe-history.html",
+      "https://haxe.org/manual/introduction-what-is-haxe.html",
+      "https://en.wikipedia.org/wiki/Haxe"
     ]
   },
   {
@@ -6682,6 +8476,12 @@
     "sources": [
       "https://www.hedy.org/research/Hedy_A_Gradual_Language_for_Programming_Education_2020.pdf",
       "https://www.hedy.org/"
+    ],
+    "influencedBy": [
+      "Python"
+    ],
+    "influenceSources": [
+      "https://github.com/hedyorg/hedy"
     ]
   },
   {
@@ -6711,6 +8511,13 @@
     "released": "2015-09-09",
     "releasedEvent": "Reference interpreter repository created on GitHub",
     "sources": [
+      "https://github.com/m-ender/hexagony",
+      "https://esolangs.org/wiki/Hexagony"
+    ],
+    "influencedBy": [
+      "Befunge"
+    ],
+    "influenceSources": [
       "https://github.com/m-ender/hexagony",
       "https://esolangs.org/wiki/Hexagony"
     ]
@@ -6744,6 +8551,16 @@
     "releasedEvent": "First prototype of HLA released as version 1.0",
     "sources": [
       "https://www.linuxjournal.com/node/8408",
+      "https://en.wikipedia.org/wiki/High_Level_Assembly"
+    ],
+    "influencedBy": [
+      "Ada",
+      "Assembly",
+      "C++",
+      "Modula-2",
+      "Pascal"
+    ],
+    "influenceSources": [
       "https://en.wikipedia.org/wiki/High_Level_Assembly"
     ]
   },
@@ -6781,6 +8598,13 @@
     "sources": [
       "https://en.wikipedia.org/wiki/TempleOS",
       "https://templeos.org/"
+    ],
+    "influencedBy": [
+      "C",
+      "C++"
+    ],
+    "influenceSources": [
+      "https://en.wikipedia.org/wiki/TempleOS"
     ]
   },
   {
@@ -6846,6 +8670,10 @@
     "sources": [
       "https://www.w3.org/History/19921103-hypertext/hypertext/WWW/MarkUp/Tags.html",
       "https://en.wikipedia.org/wiki/HTML"
+    ],
+    "influenced": [
+      "Curl",
+      "YAML"
     ]
   },
   {
@@ -6878,6 +8706,12 @@
     "sources": [
       "https://github.com/hush-shell/hush/releases/tag/v0.1.0-alpha",
       "https://github.com/hush-shell/hush/blob/master/LICENSE",
+      "https://github.com/hush-shell/hush"
+    ],
+    "influencedBy": [
+      "Lua"
+    ],
+    "influenceSources": [
       "https://github.com/hush-shell/hush"
     ]
   },
@@ -6916,6 +8750,15 @@
       "https://github.com/hylang/hy",
       "https://pypi.org/project/hy/#history",
       "https://en.wikipedia.org/wiki/Hy_(programming_language)"
+    ],
+    "influencedBy": [
+      "Clojure",
+      "Common Lisp",
+      "Python"
+    ],
+    "influenceSources": [
+      "https://hylang.org/hy/doc/v1.1.0/whyhy",
+      "https://en.wikipedia.org/wiki/Hy_(programming_language)"
     ]
   },
   {
@@ -6950,6 +8793,15 @@
     "sources": [
       "https://hylo-lang.org/",
       "https://www.open-std.org/Jtc1/sc22/wg21/docs/papers/2022/p2676r0.pdf"
+    ],
+    "influencedBy": [
+      "C++",
+      "Rust",
+      "Swift"
+    ],
+    "influenceSources": [
+      "https://github.com/hylo-lang/hylo-lang.github.io/blob/main/src/pages/introduction.mdx",
+      "https://github.com/hylo-lang/hylo-lang.github.io/blob/main/src/content/docs/docs/contributing/community.mdx"
     ]
   },
   {
@@ -6980,6 +8832,18 @@
     "sources": [
       "https://en.wikipedia.org/wiki/HyperTalk",
       "https://en.wikipedia.org/wiki/HyperCard"
+    ],
+    "influencedBy": [
+      "Pascal"
+    ],
+    "influenceSources": [
+      "https://en.wikipedia.org/wiki/HyperTalk"
+    ],
+    "influenced": [
+      "ActionScript",
+      "AppleScript",
+      "JavaScript",
+      "Lingo"
     ]
   },
   {
@@ -7014,6 +8878,16 @@
     "sources": [
       "https://www2.cs.arizona.edu/icon/",
       "https://en.wikipedia.org/wiki/Icon_(programming_language)"
+    ],
+    "influencedBy": [
+      "SNOBOL"
+    ],
+    "influenceSources": [
+      "https://en.wikipedia.org/wiki/Icon_(programming_language)"
+    ],
+    "influenced": [
+      "C#",
+      "Python"
     ]
   },
   {
@@ -7049,6 +8923,13 @@
     "sources": [
       "https://en.wikipedia.org/wiki/IDL_(programming_language)",
       "https://www.nv5geospatialsoftware.com/Products/IDL"
+    ],
+    "influencedBy": [
+      "C",
+      "Fortran"
+    ],
+    "influenceSources": [
+      "https://en.wikipedia.org/wiki/IDL_(programming_language)"
     ]
   },
   {
@@ -7083,6 +8964,16 @@
     "sources": [
       "https://en.wikipedia.org/wiki/Idris_(programming_language)",
       "https://hackage.haskell.org/package/idris-0.1.3"
+    ],
+    "influencedBy": [
+      "Agda",
+      "Clean",
+      "Haskell",
+      "Rocq"
+    ],
+    "influenceSources": [
+      "https://en.wikipedia.org/wiki/Idris_(programming_language)",
+      "http://docs.idris-lang.org/en/latest/reference/uniqueness-types.html"
     ]
   },
   {
@@ -7122,6 +9013,13 @@
     "sources": [
       "https://www.npmjs.com/package/imba?activeTab=versions",
       "https://scrimba.com/articles/how-scrimba-came-to-be/"
+    ],
+    "influencedBy": [
+      "Ruby"
+    ],
+    "influenceSources": [
+      "https://imba.github.io/imba-guide/lvl0/about",
+      "https://github.com/rubyzhang/imba"
     ]
   },
   {
@@ -7158,6 +9056,16 @@
     "sources": [
       "https://inform-fiction.org/source/tm/chapter13.txt",
       "https://en.wikipedia.org/wiki/Inform"
+    ],
+    "influencedBy": [
+      "C"
+    ],
+    "influenceSources": [
+      "https://en.wikipedia.org/wiki/Inform",
+      "https://www.inform-fiction.org/manual/html/s1.html"
+    ],
+    "influenced": [
+      "Inform 7"
     ]
   },
   {
@@ -7192,6 +9100,15 @@
     "sources": [
       "https://ifwiki.org/Inform_7",
       "https://en.wikipedia.org/wiki/Inform"
+    ],
+    "influencedBy": [
+      "Inform 6"
+    ],
+    "influenceSources": [
+      "https://en.wikipedia.org/wiki/Inform"
+    ],
+    "influenced": [
+      "Dialog"
     ]
   },
   {
@@ -7268,6 +9185,15 @@
     "sources": [
       "https://inko-lang.org/news/",
       "https://github.com/inko-lang/inko"
+    ],
+    "influencedBy": [
+      "Erlang",
+      "Ruby",
+      "Rust",
+      "Smalltalk"
+    ],
+    "influenceSources": [
+      "https://yorickpeterse.com/articles/a-decade-of-developing-a-programming-language"
     ]
   },
   {
@@ -7302,6 +9228,9 @@
     "sources": [
       "https://esolangs.org/wiki/INTERCAL",
       "https://en.wikipedia.org/wiki/INTERCAL"
+    ],
+    "influenced": [
+      "Malbolge"
     ]
   },
   {
@@ -7336,6 +9265,20 @@
     "sources": [
       "https://iolanguage.org/Timeline/index.html",
       "https://iolanguage.org/"
+    ],
+    "influencedBy": [
+      "Lua",
+      "Python",
+      "Self",
+      "Smalltalk"
+    ],
+    "influenceSources": [
+      "https://iolanguage.org/docs/Guide/index.html",
+      "https://en.wikipedia.org/wiki/Io_(programming_language)"
+    ],
+    "influenced": [
+      "Ioke",
+      "Potion"
     ]
   },
   {
@@ -7367,6 +9310,17 @@
     "releasedEvent": "Ioke 0, the first release, announced by Ola Bini",
     "sources": [
       "https://innoq.com/blog/st/2008/12/ioke-0-released"
+    ],
+    "influencedBy": [
+      "Common Lisp",
+      "Io",
+      "Ruby",
+      "Self",
+      "Smalltalk"
+    ],
+    "influenceSources": [
+      "https://www.infoq.com/news/2008/11/ioke",
+      "https://github.com/olabini/ioke"
     ]
   },
   {
@@ -7397,6 +9351,13 @@
     "releasedEvent": "ISO/IEC 13816:1997 published",
     "sources": [
       "https://www.islisp.info/history.html",
+      "https://en.wikipedia.org/wiki/ISLISP"
+    ],
+    "influencedBy": [
+      "Common Lisp",
+      "Scheme"
+    ],
+    "influenceSources": [
       "https://en.wikipedia.org/wiki/ISLISP"
     ]
   },
@@ -7432,6 +9393,18 @@
     "sources": [
       "https://en.wikipedia.org/wiki/J_(programming_language)",
       "https://www.jsoftware.com/"
+    ],
+    "influencedBy": [
+      "APL"
+    ],
+    "influenceSources": [
+      "https://en.wikipedia.org/wiki/J_(programming_language)"
+    ],
+    "influenced": [
+      "BQN",
+      "Jelly",
+      "Lil",
+      "Uiua"
     ]
   },
   {
@@ -7465,6 +9438,12 @@
       "https://cris.huji.ac.il/en/publications/the-elements-of-computing-systems-building-a-modern-computer-from-2/",
       "https://minnie.tuhs.org/Tecs/lectures/chapter09.pdf",
       "https://www.nand2tetris.org/"
+    ],
+    "influencedBy": [
+      "Java"
+    ],
+    "influenceSources": [
+      "https://www.nand2tetris.org/project09"
     ]
   },
   {
@@ -7497,6 +9476,14 @@
     "releasedEvent": "Jactl 1.0.0 published on GitHub (first GitHub release)",
     "sources": [
       "https://github.com/jaccomoc/jactl/releases",
+      "https://jactl.io/"
+    ],
+    "influencedBy": [
+      "Groovy",
+      "Java",
+      "Perl"
+    ],
+    "influenceSources": [
       "https://jactl.io/"
     ]
   },
@@ -7534,6 +9521,13 @@
       "https://github.com/SerenityOS/jakt",
       "https://keyholesoftware.com/first-look-the-jakt-programming-language",
       "https://pldb.io/concepts/jakt.html"
+    ],
+    "influencedBy": [
+      "Rust"
+    ],
+    "influenceSources": [
+      "https://keyholesoftware.com/first-look-the-jakt-programming-language",
+      "https://github.com/SerenityOS/jakt"
     ]
   },
   {
@@ -7570,6 +9564,12 @@
       "https://github.com/janet-lang/janet",
       "https://janet-lang.org/",
       "https://pldb.io/blog/josefPospisilInterview.html"
+    ],
+    "influencedBy": [
+      "Clojure"
+    ],
+    "influenceSources": [
+      "https://github.com/janet-lang/janet"
     ]
   },
   {
@@ -7600,6 +9600,12 @@
     "released": "2015-11",
     "releasedEvent": "Japt repository published on GitHub (2015-11-18); release v1.3 tagged 2015-11-23",
     "sources": [
+      "https://github.com/ETHproductions/japt"
+    ],
+    "influencedBy": [
+      "JavaScript"
+    ],
+    "influenceSources": [
       "https://github.com/ETHproductions/japt"
     ]
   },
@@ -7634,6 +9640,9 @@
     "sources": [
       "https://jasmin.sourceforge.net/about.html",
       "https://jasmin.sourceforge.net/"
+    ],
+    "influenced": [
+      "Smali"
     ]
   },
   {
@@ -7683,6 +9692,65 @@
     "sources": [
       "https://en.wikipedia.org/wiki/Java_(programming_language)",
       "https://www.theregister.co.uk/2015/05/22/celebrating_20_years_of_java_but_dont_mention_android/"
+    ],
+    "influencedBy": [
+      "Ada",
+      "C",
+      "C++",
+      "CLU",
+      "Eiffel",
+      "Modula-3",
+      "Oberon",
+      "Objective-C",
+      "Simula",
+      "Smalltalk"
+    ],
+    "influenceSources": [
+      "https://docs.oracle.com/javase/specs/jls/se21/html/jls-1.html",
+      "https://en.wikipedia.org/wiki/Java_(programming_language)"
+    ],
+    "influenced": [
+      "ActionScript",
+      "Apex",
+      "Ballerina",
+      "BeanShell",
+      "C#",
+      "Ceylon",
+      "Chapel",
+      "Clojure",
+      "D",
+      "Dafny",
+      "Dart",
+      "Ecstasy",
+      "Fantom",
+      "Frink",
+      "Gambas",
+      "Gosu",
+      "Gremlin",
+      "Groovy",
+      "Hack",
+      "Haxe",
+      "Jack",
+      "Jactl",
+      "JavaScript",
+      "Kotlin",
+      "Linden Scripting Language",
+      "Motoko",
+      "NetRexx",
+      "Nickle",
+      "Objeck",
+      "ooc",
+      "PHP",
+      "Processing",
+      "Scala",
+      "Seed7",
+      "SystemVerilog",
+      "TADS 3",
+      "TypeScript",
+      "UnrealScript",
+      "Vala",
+      "X10",
+      "Xtend"
     ]
   },
   {
@@ -7740,6 +9808,46 @@
     "sources": [
       "https://en.wikipedia.org/wiki/JavaScript",
       "https://www.theregister.com/2020/12/05/javascript_25_anniversary/"
+    ],
+    "influencedBy": [
+      "Awk",
+      "C",
+      "HyperTalk",
+      "Java",
+      "Perl",
+      "Scheme",
+      "Self"
+    ],
+    "influenceSources": [
+      "https://brendaneich.com/2008/04/popularity/",
+      "https://en.wikipedia.org/wiki/JavaScript",
+      "https://tc39.es/ecma262/2024/"
+    ],
+    "influenced": [
+      "ActionScript",
+      "Ballerina",
+      "BeanShell",
+      "C#",
+      "CoffeeScript",
+      "Curl",
+      "Dart",
+      "Gleam",
+      "Haxe",
+      "Japt",
+      "JScript",
+      "JSON",
+      "Koka",
+      "Kotlin",
+      "LiveScript",
+      "Motoko",
+      "QML",
+      "Raku",
+      "Reason",
+      "ReScript",
+      "Solidity",
+      "Squirrel",
+      "TypeScript",
+      "YSH"
     ]
   },
   {
@@ -7775,6 +9883,12 @@
     "sources": [
       "https://github.com/DennisMitchell/jellylanguage",
       "https://esolangs.org/wiki/Jelly"
+    ],
+    "influencedBy": [
+      "J"
+    ],
+    "influenceSources": [
+      "https://esolangs.org/wiki/Jelly"
     ]
   },
   {
@@ -7808,6 +9922,13 @@
       "https://pypi.org/project/Jinja/#history",
       "https://pypi.org/project/Jinja2/#history",
       "https://github.com/pallets/jinja/"
+    ],
+    "influencedBy": [
+      "Python"
+    ],
+    "influenceSources": [
+      "https://jinja.palletsprojects.com/en/stable/intro/",
+      "https://en.wikipedia.org/wiki/Jinja_(template_engine)"
     ]
   },
   {
@@ -7840,6 +9961,19 @@
     "sources": [
       "https://en.wikipedia.org/wiki/Joy_(programming_language)",
       "https://concatenative.org/wiki/view/Joy"
+    ],
+    "influencedBy": [
+      "Forth",
+      "Scheme"
+    ],
+    "influenceSources": [
+      "https://en.wikipedia.org/wiki/Joy_(programming_language)",
+      "https://www.nsl.com/papers/interview.htm"
+    ],
+    "influenced": [
+      "Factor",
+      "min",
+      "Retro"
     ]
   },
   {
@@ -7908,6 +10042,12 @@
     "sources": [
       "https://en.wikipedia.org/wiki/JScript",
       "https://learn.microsoft.com/en-us/previous-versions/windows/internet-explorer/ie-developer/windows-scripting/h8f603s7(v=vs.84)"
+    ],
+    "influencedBy": [
+      "JavaScript"
+    ],
+    "influenceSources": [
+      "https://en.wikipedia.org/wiki/JScript"
     ]
   },
   {
@@ -7938,6 +10078,19 @@
     "releasedEvent": "JSON.org website launched; the first JSON message was sent in April 2001",
     "sources": [
       "https://en.wikipedia.org/wiki/JSON"
+    ],
+    "influencedBy": [
+      "JavaScript"
+    ],
+    "influenceSources": [
+      "https://www.json.org/fatfree.html",
+      "https://en.wikipedia.org/wiki/JSON"
+    ],
+    "influenced": [
+      "CUE",
+      "Dhall",
+      "Jsonnet",
+      "QML"
     ]
   },
   {
@@ -7975,6 +10128,13 @@
       "https://github.com/google/jsonnet",
       "https://opensource.googleblog.com/2015/04/jsonnet-more-elegant-language-for.html",
       "https://jsonnet.org/"
+    ],
+    "influencedBy": [
+      "JSON",
+      "Python"
+    ],
+    "influenceSources": [
+      "https://jsonnet.org/articles/design.html"
     ]
   },
   {
@@ -8009,6 +10169,14 @@
     "sources": [
       "https://github.com/julelang/jule",
       "https://jule.dev/"
+    ],
+    "influencedBy": [
+      "C",
+      "Go",
+      "Rust"
+    ],
+    "influenceSources": [
+      "https://github.com/julelang/jule"
     ]
   },
   {
@@ -8051,6 +10219,27 @@
     "releasedEvent": "'Why We Created Julia' blog post announcing the language",
     "sources": [
       "https://julialang.org/blog/2012/02/why-we-created-julia/"
+    ],
+    "influencedBy": [
+      "Dylan",
+      "Fortress",
+      "Lua",
+      "MATLAB",
+      "Perl",
+      "Python",
+      "R",
+      "Ruby",
+      "Scheme",
+      "Wolfram Language"
+    ],
+    "influenceSources": [
+      "https://docs.julialang.org/en/v1/",
+      "https://julialang.org/blog/2012/02/why-we-created-julia/",
+      "https://en.wikipedia.org/wiki/Julia_(programming_language)"
+    ],
+    "influenced": [
+      "Coconut",
+      "YSH"
     ]
   },
   {
@@ -8085,6 +10274,17 @@
     "sources": [
       "https://en.wikipedia.org/wiki/K_(programming_language)",
       "https://kx.com/"
+    ],
+    "influencedBy": [
+      "APL",
+      "Scheme"
+    ],
+    "influenceSources": [
+      "https://en.wikipedia.org/wiki/K_(programming_language)"
+    ],
+    "influenced": [
+      "Lil",
+      "Q"
     ]
   },
   {
@@ -8117,6 +10317,13 @@
     "sources": [
       "https://kcl-lang.io/blog/2023-09-19-kcl-joining-cncf-sandbox/",
       "https://github.com/kcl-lang/kcl/releases"
+    ],
+    "influencedBy": [
+      "Go",
+      "Python"
+    ],
+    "influenceSources": [
+      "https://www.kcl-lang.io/docs/user_docs/getting-started/intro"
     ]
   },
   {
@@ -8185,6 +10392,14 @@
       "https://koka-lang.github.io/",
       "https://github.com/koka-lang/koka",
       "https://www.microsoft.com/en-us/research/publication/koka-programming-with-row-polymorphic-effect-types/"
+    ],
+    "influencedBy": [
+      "Haskell",
+      "JavaScript"
+    ],
+    "influenceSources": [
+      "https://www.microsoft.com/en-us/research/wp-content/uploads/2016/02/koka-2012-overviewkoka.pdf",
+      "https://koka-lang.github.io/koka/doc/book.html"
     ]
   },
   {
@@ -8219,6 +10434,12 @@
     "sources": [
       "https://en.wikipedia.org/wiki/KornShell",
       "https://kornshell.com/"
+    ],
+    "influenced": [
+      "Bash",
+      "PowerShell",
+      "YSH",
+      "Zsh"
     ]
   },
   {
@@ -8264,6 +10485,23 @@
     "sources": [
       "https://en.wikipedia.org/wiki/Kotlin_(programming_language)",
       "https://kotlinlang.org/"
+    ],
+    "influencedBy": [
+      "C#",
+      "Eiffel",
+      "Gosu",
+      "Groovy",
+      "Java",
+      "JavaScript",
+      "Scala"
+    ],
+    "influenceSources": [
+      "https://kotlinlang.org/docs/faq.html",
+      "https://en.wikipedia.org/wiki/Kotlin"
+    ],
+    "influenced": [
+      "Carbon",
+      "V"
     ]
   },
   {
@@ -8310,6 +10548,23 @@
     "sources": [
       "https://en.wikipedia.org/wiki/Kotlin_(programming_language)",
       "https://kotlinlang.org/"
+    ],
+    "influencedBy": [
+      "C#",
+      "Eiffel",
+      "Gosu",
+      "Groovy",
+      "Java",
+      "JavaScript",
+      "Scala"
+    ],
+    "influenceSources": [
+      "https://kotlinlang.org/docs/faq.html",
+      "https://en.wikipedia.org/wiki/Kotlin"
+    ],
+    "influenced": [
+      "Carbon",
+      "V"
     ]
   },
   {
@@ -8345,6 +10600,15 @@
     "sources": [
       "https://koto.dev/about/",
       "https://github.com/koto-lang/koto"
+    ],
+    "influencedBy": [
+      "CoffeeScript",
+      "Lua",
+      "MoonScript",
+      "Rust"
+    ],
+    "influenceSources": [
+      "https://koto.dev/about/"
     ]
   },
   {
@@ -8409,6 +10673,13 @@
     "releasedEvent": "Lasso 0.1, a FileMaker Pro CGI by Vince Bonfanti; Lasso 1.0 released 1996-09-27",
     "sources": [
       "https://en.wikipedia.org/wiki/Lasso_(programming_language)"
+    ],
+    "influencedBy": [
+      "Dylan",
+      "Smalltalk"
+    ],
+    "influenceSources": [
+      "https://en.wikipedia.org/wiki/Lasso_(programming_language)"
     ]
   },
   {
@@ -8444,6 +10715,15 @@
     "sources": [
       "https://en.wikipedia.org/wiki/LaTeX",
       "https://www.latex-project.org/publications/2001-CAR-LaTeX-legacy.pdf"
+    ],
+    "influencedBy": [
+      "TeX"
+    ],
+    "influenceSources": [
+      "https://en.wikipedia.org/wiki/LaTeX"
+    ],
+    "influenced": [
+      "Typst"
     ]
   },
   {
@@ -8476,6 +10756,14 @@
     "sources": [
       "https://github.com/Mercerenies/latitude/releases/tag/v0.1.0",
       "https://github.com/Mercerenies/latitude/blob/master/LICENSE.txt"
+    ],
+    "influencedBy": [
+      "Erlang",
+      "Ruby",
+      "Smalltalk"
+    ],
+    "influenceSources": [
+      "https://rosettacode.org/wiki/Category:Latitude"
     ]
   },
   {
@@ -8506,6 +10794,12 @@
     "releasedEvent": "LDPL 1.0.0 released on GitHub",
     "sources": [
       "https://github.com/Lartu/ldpl/releases",
+      "https://www.ldpl-lang.org/"
+    ],
+    "influencedBy": [
+      "COBOL"
+    ],
+    "influenceSources": [
       "https://www.ldpl-lang.org/"
     ]
   },
@@ -8542,6 +10836,13 @@
       "https://github.com/leanprover/lean",
       "https://en.wikipedia.org/wiki/Lean_(proof_assistant)",
       "https://lean-lang.org"
+    ],
+    "influencedBy": [
+      "Haskell",
+      "Rocq"
+    ],
+    "influenceSources": [
+      "https://en.wikipedia.org/wiki/Lean_(proof_assistant)"
     ]
   },
   {
@@ -8581,6 +10882,16 @@
       "https://en.wikipedia.org/wiki/LFE_(programming_language)",
       "https://github.com/lfe/lfe",
       "https://lfe.io"
+    ],
+    "influencedBy": [
+      "Clojure",
+      "Common Lisp",
+      "Erlang",
+      "Scheme"
+    ],
+    "influenceSources": [
+      "https://en.wikipedia.org/wiki/LFE_(programming_language)",
+      "https://lfe.io/"
     ]
   },
   {
@@ -8615,6 +10926,16 @@
       "https://github.com/JohnEarnest/Decker/releases/tag/v1.0",
       "https://beyondloom.com/decker/lilt.html",
       "https://github.com/JohnEarnest/Decker/blob/main/LICENSE.txt"
+    ],
+    "influencedBy": [
+      "APL",
+      "J",
+      "K",
+      "Q",
+      "SQL"
+    ],
+    "influenceSources": [
+      "https://beyondloom.com/decker/lil.html"
     ]
   },
   {
@@ -8680,6 +11001,13 @@
     "sources": [
       "https://lists.gnu.org/archive/html/lilypond-user/2014-11/msg00009.html",
       "https://en.wikipedia.org/wiki/LilyPond"
+    ],
+    "influencedBy": [
+      "Scheme"
+    ],
+    "influenceSources": [
+      "https://lilypond.org/doc/v2.24/Documentation/extending/scheme-tutorial",
+      "https://en.wikipedia.org/wiki/LilyPond"
     ]
   },
   {
@@ -8714,6 +11042,17 @@
     "sources": [
       "https://www.vitanuova.com/inferno/limbo.html",
       "https://en.wikipedia.org/wiki/Limbo_(programming_language)"
+    ],
+    "influencedBy": [
+      "C",
+      "Pascal"
+    ],
+    "influenceSources": [
+      "https://en.wikipedia.org/wiki/Limbo_(programming_language)"
+    ],
+    "influenced": [
+      "Go",
+      "Rust"
     ]
   },
   {
@@ -8745,6 +11084,13 @@
     "sources": [
       "https://wiki.secondlife.com/wiki/LSL_Portal",
       "https://en.wikipedia.org/wiki/Second_Life"
+    ],
+    "influencedBy": [
+      "C",
+      "Java"
+    ],
+    "influenceSources": [
+      "https://wiki.secondlife.com/wiki/Getting_Started_In_LSL"
     ]
   },
   {
@@ -8775,6 +11121,12 @@
     "released": "1989",
     "releasedEvent": "First released with MacroMind Director 2.2",
     "sources": [
+      "https://en.wikipedia.org/wiki/Lingo_(programming_language)"
+    ],
+    "influencedBy": [
+      "HyperTalk"
+    ],
+    "influenceSources": [
       "https://en.wikipedia.org/wiki/Lingo_(programming_language)"
     ]
   },
@@ -8813,6 +11165,18 @@
       "https://livescript.net/",
       "https://github.com/gkz/LiveScript",
       "https://en.wikipedia.org/wiki/LiveScript_(programming_language)"
+    ],
+    "influencedBy": [
+      "CoffeeScript",
+      "F#",
+      "Haskell",
+      "JavaScript"
+    ],
+    "influenceSources": [
+      "https://en.wikipedia.org/wiki/LiveScript_(programming_language)"
+    ],
+    "influenced": [
+      "Civet"
     ]
   },
   {
@@ -8852,6 +11216,9 @@
     "sources": [
       "https://lists.llvm.org/pipermail/llvm-announce/2003-October/000002.html",
       "https://en.wikipedia.org/wiki/LLVM"
+    ],
+    "influenced": [
+      "Zig"
     ]
   },
   {
@@ -8891,6 +11258,14 @@
       "https://github.com/aardappel/lobster",
       "https://strlen.com/lobster/",
       "https://siliconangle.com/2013/06/20/lobster-a-new-open-source-cross-platform-game-programming-language"
+    ],
+    "influencedBy": [
+      "C",
+      "Python"
+    ],
+    "influenceSources": [
+      "https://aardappel.github.io/lobster/language_reference.html",
+      "https://github.com/aardappel/lobster"
     ]
   },
   {
@@ -8923,6 +11298,14 @@
     "releasedEvent": "Created at Bolt, Beranek and Newman (BBN); first implementation 'Ghost' in Lisp on a PDP-1",
     "sources": [
       "https://en.wikipedia.org/wiki/Logo_(programming_language)"
+    ],
+    "influenced": [
+      "Ezhil",
+      "NetLogo",
+      "Processing",
+      "Rebol",
+      "Small Basic",
+      "Smalltalk"
     ]
   },
   {
@@ -8958,6 +11341,14 @@
     "releasedEvent": "First public beta of Logtalk 2 (alpha for registered users in July 1998; first stable 2.0 on 1999-02-09)",
     "sources": [
       "https://github.com/LogtalkDotOrg/logtalk3/blob/master/docs/handbook/sources/faq/general.rst",
+      "https://en.wikipedia.org/wiki/Logtalk"
+    ],
+    "influencedBy": [
+      "Objective-C",
+      "Prolog",
+      "Smalltalk"
+    ],
+    "influenceSources": [
       "https://en.wikipedia.org/wiki/Logtalk"
     ]
   },
@@ -9037,6 +11428,41 @@
     "sources": [
       "https://www.lua.org/versions.html",
       "https://www.lua.org/history.html"
+    ],
+    "influencedBy": [
+      "C++",
+      "CLU",
+      "Modula-2",
+      "Scheme",
+      "SNOBOL"
+    ],
+    "influenceSources": [
+      "https://www.lua.org/history.html",
+      "https://en.wikipedia.org/wiki/Lua"
+    ],
+    "influenced": [
+      "Berry",
+      "Fennel",
+      "Gluon",
+      "Gravity",
+      "Hush",
+      "Io",
+      "Julia",
+      "Koto",
+      "Luau",
+      "MiniScript",
+      "MoonScript",
+      "Nelua",
+      "Potion",
+      "Red",
+      "Ring",
+      "Rune",
+      "Squirrel",
+      "Teal",
+      "Terra",
+      "Umka",
+      "Wren",
+      "YueScript"
     ]
   },
   {
@@ -9076,6 +11502,14 @@
       "https://en.wikipedia.org/wiki/Luau_(programming_language)",
       "https://devforum.roblox.com/t/faster-lua-vm-released/339587",
       "https://luau.org/news/2021-11-03-luau-goes-open-source"
+    ],
+    "influencedBy": [
+      "Lua",
+      "Python",
+      "TypeScript"
+    ],
+    "influenceSources": [
+      "https://en.wikipedia.org/wiki/Luau_(programming_language)"
     ]
   },
   {
@@ -9241,6 +11675,14 @@
     "sources": [
       "https://esolangs.org/wiki/Malbolge",
       "https://en.wikipedia.org/wiki/Malbolge"
+    ],
+    "influencedBy": [
+      "Befunge",
+      "Brainfuck",
+      "INTERCAL"
+    ],
+    "influenceSources": [
+      "https://en.wikipedia.org/wiki/Malbolge"
     ]
   },
   {
@@ -9306,6 +11748,17 @@
       "https://web.archive.org/web/20040311230924/https://daringfireball.net/projects/markdown/index.text",
       "https://daringfireball.net/projects/markdown/",
       "https://en.wikipedia.org/wiki/Markdown"
+    ],
+    "influencedBy": [
+      "reStructuredText",
+      "Textile"
+    ],
+    "influenceSources": [
+      "https://daringfireball.net/projects/markdown/syntax",
+      "https://en.wikipedia.org/wiki/Markdown"
+    ],
+    "influenced": [
+      "Typst"
     ]
   },
   {
@@ -9340,6 +11793,19 @@
     "releasedEvent": "PC-MATLAB, the first commercial MATLAB, debuted at the IEEE Conference on Decision and Control in Las Vegas",
     "sources": [
       "https://www.mathworks.com/company/technical-articles/a-brief-history-of-matlab.html"
+    ],
+    "influencedBy": [
+      "APL",
+      "Fortran"
+    ],
+    "influenceSources": [
+      "https://en.wikipedia.org/wiki/MATLAB"
+    ],
+    "influenced": [
+      "Julia",
+      "Octave",
+      "Pure",
+      "Scilab"
     ]
   },
   {
@@ -9439,6 +11905,9 @@
     "releasedEvent": "First appeared at MIT",
     "sources": [
       "https://en.wikipedia.org/wiki/MDL_(programming_language)"
+    ],
+    "influenced": [
+      "Scheme"
     ]
   },
   {
@@ -9469,6 +11938,14 @@
     "sources": [
       "https://en.wikipedia.org/wiki/Autodesk_Maya",
       "https://en.wikipedia.org/wiki/Maya_Embedded_Language"
+    ],
+    "influencedBy": [
+      "Tcl"
+    ],
+    "influenceSources": [
+      "https://en.wikipedia.org/wiki/Autodesk_Maya",
+      "https://wiki.tcl-lang.org/10636",
+      "https://download.autodesk.com/us/maya/2011help/files/Background_MEL_for_programmers.htm"
     ]
   },
   {
@@ -9506,6 +11983,13 @@
       "https://en.wikipedia.org/wiki/Mercury_(programming_language)",
       "https://mercurylang.org/news.html",
       "https://mercurylang.org/about.html"
+    ],
+    "influencedBy": [
+      "Haskell",
+      "Prolog"
+    ],
+    "influenceSources": [
+      "https://en.wikipedia.org/wiki/Mercury_(programming_language)"
     ]
   },
   {
@@ -9543,6 +12027,13 @@
       "https://github.com/mesonbuild/meson/releases/tag/0.1.0",
       "https://en.wikipedia.org/wiki/Meson_(software)",
       "https://mesonbuild.com/"
+    ],
+    "influencedBy": [
+      "Python"
+    ],
+    "influenceSources": [
+      "https://en.wikipedia.org/wiki/Meson_(software)",
+      "https://mesonbuild.com/Syntax.html"
     ]
   },
   {
@@ -9606,6 +12097,14 @@
       "https://min-lang.org/",
       "https://news.ycombinator.com/item?id=14886936",
       "https://github.com/h3rald/min"
+    ],
+    "influencedBy": [
+      "Factor",
+      "Forth",
+      "Joy"
+    ],
+    "influenceSources": [
+      "https://h3rald.com/min/Min_DeveloperGuide.htm"
     ]
   },
   {
@@ -9641,6 +12140,15 @@
     "sources": [
       "https://miniscript.org/",
       "https://discussions.unity.com/t/miniscript-lightweight-scripting-language-for-your-game/608954"
+    ],
+    "influencedBy": [
+      "C#",
+      "Lua",
+      "Python",
+      "Xojo"
+    ],
+    "influenceSources": [
+      "https://dev.to/joestrout/is-miniscript-a-dialect-of-basic-fia"
     ]
   },
   {
@@ -9740,6 +12248,10 @@
     "sources": [
       "https://www.cs.kent.ac.uk/people/staff/dat/miranda/",
       "https://en.wikipedia.org/wiki/Miranda_(programming_language)"
+    ],
+    "influenced": [
+      "Clean",
+      "Haskell"
     ]
   },
   {
@@ -9806,6 +12318,24 @@
     "sources": [
       "https://kronos.ru/node/34",
       "https://en.wikipedia.org/wiki/Modula-2"
+    ],
+    "influencedBy": [
+      "ALGOL W",
+      "Pascal"
+    ],
+    "influenceSources": [
+      "https://en.wikipedia.org/wiki/Modula-2"
+    ],
+    "influenced": [
+      "Ada",
+      "Austral",
+      "C++",
+      "Go",
+      "HLA",
+      "Lua",
+      "Modula-3",
+      "Oberon",
+      "Seed7"
     ]
   },
   {
@@ -9841,6 +12371,22 @@
     "sources": [
       "https://en.wikipedia.org/wiki/Modula-3",
       "https://modula3.github.io/cm3/"
+    ],
+    "influencedBy": [
+      "Modula-2",
+      "Oberon",
+      "Pascal"
+    ],
+    "influenceSources": [
+      "https://en.wikipedia.org/wiki/Modula-3"
+    ],
+    "influenced": [
+      "C#",
+      "Java",
+      "Nickle",
+      "Nim",
+      "OCaml",
+      "Python"
     ]
   },
   {
@@ -9882,6 +12428,17 @@
     "sources": [
       "https://www.modular.com/blog/a-unified-extensible-platform-to-superpower-your-ai",
       "https://en.wikipedia.org/wiki/Mojo_(programming_language)"
+    ],
+    "influencedBy": [
+      "C++",
+      "Python",
+      "Rust",
+      "Swift",
+      "Zig"
+    ],
+    "influenceSources": [
+      "https://mojolang.org/docs/vision/",
+      "https://en.wikipedia.org/wiki/Mojo_(programming_language)"
     ]
   },
   {
@@ -9916,6 +12473,12 @@
     "sources": [
       "https://en.wikipedia.org/wiki/Blitz_BASIC",
       "https://github.com/blitz-research/monkey"
+    ],
+    "influencedBy": [
+      "BlitzMax"
+    ],
+    "influenceSources": [
+      "https://en.wikipedia.org/wiki/Blitz_BASIC"
     ]
   },
   {
@@ -9952,6 +12515,13 @@
     "sources": [
       "https://www.moonbitlang.com/blog/first-announce",
       "https://www.moonbitlang.com/about-us"
+    ],
+    "influencedBy": [
+      "Go",
+      "Rust"
+    ],
+    "influenceSources": [
+      "https://www.moonbitlang.com/blog/first-announce"
     ]
   },
   {
@@ -9987,6 +12557,18 @@
     "sources": [
       "https://github.com/leafo/moonscript",
       "https://moonscript.org/"
+    ],
+    "influencedBy": [
+      "CoffeeScript",
+      "Lua"
+    ],
+    "influenceSources": [
+      "https://moonscript.org/",
+      "https://en.wikipedia.org/wiki/Lua"
+    ],
+    "influenced": [
+      "Koto",
+      "YueScript"
     ]
   },
   {
@@ -10026,6 +12608,17 @@
     "sources": [
       "https://stackoverflow.blog/2020/08/24/motoko-the-language-that-turns-the-web-into-a-computer/",
       "https://github.com/dfinity/motoko"
+    ],
+    "influencedBy": [
+      "C#",
+      "Haskell",
+      "Java",
+      "JavaScript",
+      "Pony",
+      "Swift"
+    ],
+    "influenceSources": [
+      "https://github.com/dfinity/motoko/blob/master/doc/overview-slides.md"
     ]
   },
   {
@@ -10088,6 +12681,12 @@
     "sources": [
       "https://www.metatrader5.com/en/news/1348",
       "https://docs.mql4.com/basis/function/events"
+    ],
+    "influencedBy": [
+      "C++"
+    ],
+    "influenceSources": [
+      "https://docs.mql4.com/basis"
     ]
   },
   {
@@ -10159,6 +12758,12 @@
     "sources": [
       "https://github.com/edubart/nelua-lang",
       "https://nelua.io/"
+    ],
+    "influencedBy": [
+      "Lua"
+    ],
+    "influenceSources": [
+      "https://github.com/edubart/nelua-lang"
     ]
   },
   {
@@ -10193,6 +12798,12 @@
     "sources": [
       "https://mono.github.io/mail-archives/mono-list/2004-February/018379.html",
       "https://en.wikipedia.org/wiki/Nemerle"
+    ],
+    "influencedBy": [
+      "C#"
+    ],
+    "influenceSources": [
+      "https://en.wikipedia.org/wiki/Nemerle"
     ]
   },
   {
@@ -10225,6 +12836,12 @@
     "releasedEvent": "First release by Uri Wilensky",
     "sources": [
       "https://docs.netlogo.org/copyright.html",
+      "https://en.wikipedia.org/wiki/NetLogo"
+    ],
+    "influencedBy": [
+      "Logo"
+    ],
+    "influenceSources": [
       "https://en.wikipedia.org/wiki/NetLogo"
     ]
   },
@@ -10261,6 +12878,14 @@
     "sources": [
       "https://speleotrove.com/rexxhist/rexxhistory.html",
       "https://en.wikipedia.org/wiki/NetRexx"
+    ],
+    "influencedBy": [
+      "Java",
+      "PL/I",
+      "Rexx"
+    ],
+    "influenceSources": [
+      "https://en.wikipedia.org/wiki/NetRexx"
     ]
   },
   {
@@ -10292,6 +12917,15 @@
     "released": "1991",
     "releasedEvent": "First version developed on a Sun-4 workstation",
     "sources": [
+      "https://en.wikipedia.org/wiki/NewLISP"
+    ],
+    "influencedBy": [
+      "C",
+      "Common Lisp",
+      "Perl",
+      "Scheme"
+    ],
+    "influenceSources": [
       "https://en.wikipedia.org/wiki/NewLISP"
     ]
   },
@@ -10325,6 +12959,12 @@
     "sources": [
       "https://en.wikipedia.org/wiki/Nial",
       "https://www.nial-array-language.org/"
+    ],
+    "influencedBy": [
+      "APL"
+    ],
+    "influenceSources": [
+      "https://en.wikipedia.org/wiki/Nial"
     ]
   },
   {
@@ -10357,6 +12997,14 @@
     "sources": [
       "https://nickle.org/",
       "https://nickle.org/usenix-nickle.pdf"
+    ],
+    "influencedBy": [
+      "C",
+      "Java",
+      "Modula-3"
+    ],
+    "influenceSources": [
+      "https://nickle.org/"
     ]
   },
   {
@@ -10402,6 +13050,18 @@
     "releasedEvent": "Nimrod 0.6.0 released, the first version of the compiler able to compile itself",
     "sources": [
       "https://web.mit.edu/nim-lang_v0.16.0/nim-0.16.0/web/news.rst",
+      "https://en.wikipedia.org/wiki/Nim_(programming_language)"
+    ],
+    "influencedBy": [
+      "Ada",
+      "C++",
+      "Delphi",
+      "Modula-3",
+      "Oberon",
+      "Python"
+    ],
+    "influenceSources": [
+      "https://nim-lang.org/faq.html",
       "https://en.wikipedia.org/wiki/Nim_(programming_language)"
     ]
   },
@@ -10505,6 +13165,14 @@
     "releasedEvent": "\"Introducing nushell\" announcement post on nushell.sh",
     "sources": [
       "https://www.nushell.sh/blog/2019-08-23-introducing-nushell.html"
+    ],
+    "influencedBy": [
+      "Bash",
+      "PowerShell",
+      "TypeScript"
+    ],
+    "influenceSources": [
+      "https://www.nushell.sh/book/"
     ]
   },
   {
@@ -10540,6 +13208,22 @@
     "sources": [
       "https://en.wikipedia.org/wiki/Oberon_(programming_language)",
       "https://www.projectoberon.net/"
+    ],
+    "influencedBy": [
+      "Modula-2"
+    ],
+    "influenceSources": [
+      "https://en.wikipedia.org/wiki/Oberon_(programming_language)"
+    ],
+    "influenced": [
+      "Component Pascal",
+      "Go",
+      "Java",
+      "Modula-3",
+      "Nim",
+      "Odin",
+      "Umka",
+      "V"
     ]
   },
   {
@@ -10576,6 +13260,13 @@
     "sources": [
       "https://github.com/objeck/objeck-lang/commit/b8b80399a949c6e968d75787b6edd8b31525e7da",
       "https://github.com/objeck/objeck-lang"
+    ],
+    "influencedBy": [
+      "Java",
+      "Scheme"
+    ],
+    "influenceSources": [
+      "https://rosettacode.org/wiki/Objeck"
     ]
   },
   {
@@ -10620,6 +13311,20 @@
     "releasedEvent": "First release by Productivity Products International (later Stepstone)",
     "sources": [
       "https://en.wikipedia.org/wiki/Objective-C"
+    ],
+    "influencedBy": [
+      "C",
+      "Smalltalk"
+    ],
+    "influenceSources": [
+      "https://en.wikipedia.org/wiki/Objective-C"
+    ],
+    "influenced": [
+      "Cobra",
+      "Java",
+      "Logtalk",
+      "Objective-C++",
+      "Swift"
     ]
   },
   {
@@ -10663,6 +13368,13 @@
     "releasedEvent": "Developed at NeXT for Lotus Development's Improv",
     "sources": [
       "https://en.wikipedia.org/wiki/Objective-C"
+    ],
+    "influencedBy": [
+      "C++",
+      "Objective-C"
+    ],
+    "influenceSources": [
+      "https://en.wikipedia.org/wiki/Objective-C#Objective-C++"
     ]
   },
   {
@@ -10707,6 +13419,30 @@
       "https://discuss.ocaml.org/t/25-years-of-ocaml/7813",
       "https://compilers.iecc.com/comparch/article/96-05-079",
       "https://ocaml.org/history"
+    ],
+    "influencedBy": [
+      "C",
+      "Modula-3",
+      "Pascal",
+      "Standard ML"
+    ],
+    "influenceSources": [
+      "https://en.wikipedia.org/wiki/OCaml"
+    ],
+    "influenced": [
+      "ATS",
+      "Elm",
+      "F*",
+      "F#",
+      "Flix",
+      "Gleam",
+      "Gluon",
+      "Hack",
+      "Haxe",
+      "Reason",
+      "ReScript",
+      "Rust",
+      "Scala"
     ]
   },
   {
@@ -10771,6 +13507,12 @@
     "sources": [
       "https://octave.org/about",
       "https://en.wikipedia.org/wiki/GNU_Octave"
+    ],
+    "influencedBy": [
+      "MATLAB"
+    ],
+    "influenceSources": [
+      "https://en.wikipedia.org/wiki/GNU_Octave"
     ]
   },
   {
@@ -10806,6 +13548,15 @@
     "sources": [
       "https://odin-lang.org/docs/faq/",
       "https://www.gingerbill.org/article/2024/04/04/video-that-inspired-odin/"
+    ],
+    "influencedBy": [
+      "C",
+      "Go",
+      "Oberon",
+      "Pascal"
+    ],
+    "influenceSources": [
+      "https://odin-lang.org/docs/faq/"
     ]
   },
   {
@@ -10839,6 +13590,13 @@
     "sources": [
       "https://ooc-lang.github.io/about/",
       "https://github.com/ooc-lang/rock"
+    ],
+    "influencedBy": [
+      "Java"
+    ],
+    "influenceSources": [
+      "https://ooc-lang.github.io/about",
+      "https://archive.lists.launchpad.net/ooc-dev/msg00015.html"
     ]
   },
   {
@@ -10871,6 +13629,12 @@
     "releasedEvent": "Published on David Morgan-Mar's esoteric languages site",
     "sources": [
       "https://www.dangermouse.net/esoteric/ook.html",
+      "https://esolangs.org/wiki/Ook!"
+    ],
+    "influencedBy": [
+      "Brainfuck"
+    ],
+    "influenceSources": [
       "https://esolangs.org/wiki/Ook!"
     ]
   },
@@ -10971,6 +13735,12 @@
     "releasedEvent": "First implementation on the original Psion Organiser",
     "sources": [
       "https://en.wikipedia.org/wiki/Open_Programming_Language"
+    ],
+    "influencedBy": [
+      "BASIC"
+    ],
+    "influenceSources": [
+      "https://en.wikipedia.org/wiki/Open_Programming_Language"
     ]
   },
   {
@@ -11035,6 +13805,13 @@
     "sources": [
       "https://www.remobjects.com/elements/oxygene/history",
       "https://en.wikipedia.org/wiki/Oxygene_(programming_language)"
+    ],
+    "influencedBy": [
+      "C#",
+      "Delphi"
+    ],
+    "influenceSources": [
+      "https://en.wikipedia.org/wiki/Oxygene_(programming_language)"
     ]
   },
   {
@@ -11070,6 +13847,16 @@
     "sources": [
       "https://en.wikipedia.org/wiki/Oz_(programming_language)",
       "https://mozart.github.io/"
+    ],
+    "influencedBy": [
+      "Erlang",
+      "Prolog"
+    ],
+    "influenceSources": [
+      "https://en.wikipedia.org/wiki/Oz_(programming_language)"
+    ],
+    "influenced": [
+      "Scala"
     ]
   },
   {
@@ -11102,6 +13889,13 @@
     "releasedEvent": "Alpha release of the ParaSail compiler and virtual machine announced",
     "sources": [
       "https://parasail-programming-language.blogspot.com/2011/10/",
+      "https://en.wikipedia.org/wiki/ParaSail_(programming_language)"
+    ],
+    "influencedBy": [
+      "Ada",
+      "Pascal"
+    ],
+    "influenceSources": [
       "https://en.wikipedia.org/wiki/ParaSail_(programming_language)"
     ]
   },
@@ -11178,6 +13972,36 @@
     "releasedEvent": "First compiler operational at ETH Zurich and language published",
     "sources": [
       "https://en.wikipedia.org/wiki/Pascal_(programming_language)"
+    ],
+    "influencedBy": [
+      "ALGOL W",
+      "Simula"
+    ],
+    "influenceSources": [
+      "https://en.wikipedia.org/wiki/Pascal_(programming_language)"
+    ],
+    "influenced": [
+      "Ada",
+      "COMAL",
+      "Component Pascal",
+      "Delphi",
+      "ECL",
+      "Go",
+      "HLA",
+      "HyperTalk",
+      "Limbo",
+      "Modula-2",
+      "Modula-3",
+      "OCaml",
+      "Odin",
+      "ParaSail",
+      "Seed7",
+      "Standard ML",
+      "Turing",
+      "Umka",
+      "Verilog",
+      "VHDL",
+      "Wolfram Language"
     ]
   },
   {
@@ -11213,6 +14037,16 @@
     "releasedEvent": "First public release, under the name Small",
     "sources": [
       "https://www.compuphase.com/pawn/pawn.htm"
+    ],
+    "influencedBy": [
+      "C"
+    ],
+    "influenceSources": [
+      "https://archive.retro.co.za/CDROMs/DrDobbs/CD%20Release%2012/articles/1999/9910/9910f/9910f.htm",
+      "https://www.compuphase.com/pawn/pawn.htm"
+    ],
+    "influenced": [
+      "SourcePawn"
     ]
   },
   {
@@ -11256,6 +14090,33 @@
     "sources": [
       "https://perldoc.perl.org/perlhist",
       "https://en.wikipedia.org/wiki/Perl"
+    ],
+    "influencedBy": [
+      "Awk",
+      "BASIC",
+      "C",
+      "C++"
+    ],
+    "influenceSources": [
+      "https://en.wikipedia.org/wiki/Perl"
+    ],
+    "influenced": [
+      "BeanShell",
+      "Civet",
+      "CoffeeScript",
+      "Groovy",
+      "Jactl",
+      "JavaScript",
+      "Julia",
+      "newLISP",
+      "PHP",
+      "PowerShell",
+      "Python",
+      "Raku",
+      "Ruby",
+      "Sidef",
+      "YAML",
+      "YSH"
     ]
   },
   {
@@ -11299,6 +14160,12 @@
     "sources": [
       "https://perldoc.perl.org/perlhist",
       "https://en.wikipedia.org/wiki/Perl"
+    ],
+    "influencedBy": [
+      "Perl"
+    ],
+    "influenceSources": [
+      "https://en.wikipedia.org/wiki/Perl#Perl_5"
     ]
   },
   {
@@ -11342,6 +14209,19 @@
     "releasedEvent": "Rasmus Lerdorf publicly released the source of Personal Home Page Tools",
     "sources": [
       "https://www.php.net/manual/en/history.php.php"
+    ],
+    "influencedBy": [
+      "C",
+      "C++",
+      "Java",
+      "Perl",
+      "Tcl"
+    ],
+    "influenceSources": [
+      "https://en.wikipedia.org/wiki/PHP"
+    ],
+    "influenced": [
+      "Hack"
     ]
   },
   {
@@ -11384,6 +14264,19 @@
     "releasedEvent": "Rasmus Lerdorf publicly released the source of Personal Home Page Tools",
     "sources": [
       "https://www.php.net/manual/en/history.php.php"
+    ],
+    "influencedBy": [
+      "C",
+      "C++",
+      "Java",
+      "Perl",
+      "Tcl"
+    ],
+    "influenceSources": [
+      "https://en.wikipedia.org/wiki/PHP"
+    ],
+    "influenced": [
+      "Hack"
     ]
   },
   {
@@ -11420,6 +14313,13 @@
     "sources": [
       "https://picat-lang.org/download/picat_guide_html/picat_guide.html",
       "https://picat-lang.org/"
+    ],
+    "influencedBy": [
+      "Prolog"
+    ],
+    "influenceSources": [
+      "https://picat-lang.org/download/picat_guide_html/picat_guide.html",
+      "https://ar5iv.labs.arxiv.org/html/1405.2538"
     ]
   },
   {
@@ -11488,6 +14388,13 @@
     "releasedEvent": "µLPC, Pike's predecessor, begun and released under the GPL",
     "sources": [
       "https://pike.lysator.liu.se/about/history/"
+    ],
+    "influencedBy": [
+      "C",
+      "C++"
+    ],
+    "influenceSources": [
+      "https://en.wikipedia.org/wiki/Pike_(programming_language)"
     ]
   },
   {
@@ -11586,6 +14493,19 @@
     "releasedEvent": "First compiler, PL/I F Release 1 for OS/360, shipped (first definition as NPL in April 1964)",
     "sources": [
       "https://en.wikipedia.org/wiki/PL/I"
+    ],
+    "influencedBy": [
+      "COBOL",
+      "Fortran"
+    ],
+    "influenceSources": [
+      "https://en.wikipedia.org/wiki/PL/I"
+    ],
+    "influenced": [
+      "B",
+      "C",
+      "NetRexx",
+      "Rexx"
     ]
   },
   {
@@ -11617,6 +14537,13 @@
     "sources": [
       "https://www.postgresql.org/docs/release/6.4.0/",
       "https://www.postgresql.org/docs/current/plpgsql.html"
+    ],
+    "influencedBy": [
+      "Ada",
+      "SQL"
+    ],
+    "influenceSources": [
+      "https://en.wikipedia.org/wiki/PL/pgSQL"
     ]
   },
   {
@@ -11652,6 +14579,9 @@
     "sources": [
       "https://www.ponylang.io/blog/2017/05/an-early-history-of-pony/",
       "https://en.wikipedia.org/wiki/Pony_(programming_language)"
+    ],
+    "influenced": [
+      "Motoko"
     ]
   },
   {
@@ -11718,6 +14648,15 @@
     "sources": [
       "https://computerhistory.org/blog/postscript-a-digital-printing-press/",
       "https://en.wikipedia.org/wiki/PostScript"
+    ],
+    "influencedBy": [
+      "Forth"
+    ],
+    "influenceSources": [
+      "https://en.wikipedia.org/wiki/PostScript"
+    ],
+    "influenced": [
+      "S-Lang"
     ]
   },
   {
@@ -11750,6 +14689,14 @@
     "sources": [
       "https://github.com/perl11/potion",
       "https://github.com/perl11/potion/blob/master/README.md"
+    ],
+    "influencedBy": [
+      "Io",
+      "Lua",
+      "Ruby"
+    ],
+    "influenceSources": [
+      "https://github.com/perl11/potion"
     ]
   },
   {
@@ -11779,6 +14726,12 @@
     "released": "1990-05",
     "releasedEvent": "PowerBASIC 2.0, the initial release as successor to Borland's Turbo Basic 1.1",
     "sources": [
+      "https://en.wikipedia.org/wiki/PowerBASIC"
+    ],
+    "influencedBy": [
+      "BASIC"
+    ],
+    "influenceSources": [
       "https://en.wikipedia.org/wiki/PowerBASIC"
     ]
   },
@@ -11846,6 +14799,21 @@
     "releasedEvent": "Windows PowerShell 1.0 released to the web",
     "sources": [
       "https://en.wikipedia.org/wiki/PowerShell"
+    ],
+    "influencedBy": [
+      "C#",
+      "KornShell",
+      "Perl",
+      "Python",
+      "SQL",
+      "Tcl"
+    ],
+    "influenceSources": [
+      "https://en.wikipedia.org/wiki/PowerShell",
+      "https://www.oreilly.com/library/view/monad-aka-powershell/0596100094/pr02.html"
+    ],
+    "influenced": [
+      "Nushell"
     ]
   },
   {
@@ -11880,6 +14848,18 @@
     "releasedEvent": "Project begun and first released at the MIT Media Lab",
     "sources": [
       "https://en.wikipedia.org/wiki/Processing"
+    ],
+    "influencedBy": [
+      "BASIC",
+      "Java",
+      "Logo"
+    ],
+    "influenceSources": [
+      "https://processing.org/overview",
+      "https://en.wikipedia.org/wiki/Processing"
+    ],
+    "influenced": [
+      "Arduino"
     ]
   },
   {
@@ -11915,6 +14895,20 @@
     "releasedEvent": "First Prolog system built in Marseille",
     "sources": [
       "https://en.wikipedia.org/wiki/Prolog"
+    ],
+    "influenced": [
+      "Brachylog",
+      "Curry",
+      "Datalog",
+      "Dialog",
+      "ECL",
+      "Erlang",
+      "Logtalk",
+      "Mercury",
+      "Oz",
+      "Picat",
+      "Shen",
+      "Wolfram Language"
     ]
   },
   {
@@ -11979,6 +14973,12 @@
     "sources": [
       "https://github.com/pugjs/pug",
       "https://github.com/pugjs/pug/blob/master/packages/pug/LICENSE"
+    ],
+    "influencedBy": [
+      "Haml"
+    ],
+    "influenceSources": [
+      "https://github.com/pugjs/pug"
     ]
   },
   {
@@ -12011,6 +15011,13 @@
     "sources": [
       "https://github.com/agraef/pure-lang/blob/master/pure/NEWS",
       "https://agraef.github.io/pure-lang/",
+      "https://en.wikipedia.org/wiki/Pure_(programming_language)"
+    ],
+    "influencedBy": [
+      "Haskell",
+      "MATLAB"
+    ],
+    "influenceSources": [
       "https://en.wikipedia.org/wiki/Pure_(programming_language)"
     ]
   },
@@ -12049,6 +15056,12 @@
     "releasedEvent": "First commercial version released for the Amiga",
     "sources": [
       "https://en.wikipedia.org/wiki/PureBasic"
+    ],
+    "influencedBy": [
+      "BASIC"
+    ],
+    "influenceSources": [
+      "https://en.wikipedia.org/wiki/PureBasic"
     ]
   },
   {
@@ -12085,6 +15098,12 @@
     "sources": [
       "https://github.com/purescript/purescript",
       "https://en.wikipedia.org/wiki/PureScript"
+    ],
+    "influencedBy": [
+      "Haskell"
+    ],
+    "influenceSources": [
+      "https://en.wikipedia.org/wiki/PureScript"
     ]
   },
   {
@@ -12120,6 +15139,13 @@
     "sources": [
       "https://www.pyret.org/crew/",
       "https://github.com/brownplt/pyret-lang"
+    ],
+    "influencedBy": [
+      "Racket"
+    ],
+    "influenceSources": [
+      "https://pyret.org/pyret-code/",
+      "https://www.pyret.org/"
     ]
   },
   {
@@ -12155,6 +15181,12 @@
       "https://github.com/isaacg1/pyth",
       "https://esolangs.org/wiki/Pyth",
       "https://pldb.io/concepts/pyth.html"
+    ],
+    "influencedBy": [
+      "Python"
+    ],
+    "influenceSources": [
+      "https://esolangs.org/wiki/Pyth"
     ]
   },
   {
@@ -12206,6 +15238,63 @@
     "sources": [
       "https://python-history.blogspot.com/2009/01/brief-timeline-of-python.html",
       "https://en.wikipedia.org/wiki/Python_(programming_language)"
+    ],
+    "influencedBy": [
+      "ABC",
+      "C",
+      "Haskell",
+      "Icon",
+      "Modula-3",
+      "Perl",
+      "Standard ML"
+    ],
+    "influenceSources": [
+      "https://docs.python.org/3/faq/general.html",
+      "https://en.wikipedia.org/wiki/Python_(programming_language)"
+    ],
+    "influenced": [
+      "Boo",
+      "Civet",
+      "Cobra",
+      "Coconut",
+      "CoffeeScript",
+      "Cypher",
+      "Cython",
+      "D",
+      "Ezhil",
+      "F#",
+      "Genie",
+      "Groovy",
+      "Hedy",
+      "Hy",
+      "Io",
+      "Jinja",
+      "Jsonnet",
+      "Julia",
+      "KCL",
+      "Lobster",
+      "Luau",
+      "Meson",
+      "MiniScript",
+      "Mojo",
+      "Nim",
+      "PowerShell",
+      "Pyth",
+      "Q#",
+      "Ren'Py",
+      "Ring",
+      "Ruby",
+      "Rune",
+      "SageMath",
+      "Solidity",
+      "Squirrel",
+      "Starlark",
+      "Swift",
+      "V",
+      "Vyper",
+      "Xonsh",
+      "YAML",
+      "YSH"
     ]
   },
   {
@@ -12245,6 +15334,17 @@
     "sources": [
       "https://code.kx.com/q4m3/0_Overview/",
       "https://en.wikipedia.org/wiki/Q_(programming_language_from_Kx_Systems)"
+    ],
+    "influencedBy": [
+      "APL",
+      "K",
+      "Scheme"
+    ],
+    "influenceSources": [
+      "https://en.wikipedia.org/wiki/Q_(programming_language_from_Kx_Systems)"
+    ],
+    "influenced": [
+      "Lil"
     ]
   },
   {
@@ -12283,6 +15383,14 @@
     "released": "2017-12-11",
     "releasedEvent": "Released in the preview of the Microsoft Quantum Development Kit (announced at Ignite on 2017-09-26)",
     "sources": [
+      "https://en.wikipedia.org/wiki/Q_Sharp"
+    ],
+    "influencedBy": [
+      "C#",
+      "F#",
+      "Python"
+    ],
+    "influenceSources": [
       "https://en.wikipedia.org/wiki/Q_Sharp"
     ]
   },
@@ -12352,6 +15460,16 @@
     "sources": [
       "https://www.linux-magazine.com/Online/News/LinuxTag-2009-GUIs-of-the-Future-with-QML",
       "https://en.wikipedia.org/wiki/QML"
+    ],
+    "influencedBy": [
+      "JavaScript",
+      "JSON"
+    ],
+    "influenceSources": [
+      "https://en.wikipedia.org/wiki/QML"
+    ],
+    "influenced": [
+      "Ring"
     ]
   },
   {
@@ -12382,6 +15500,12 @@
     "released": "2020-12",
     "releasedEvent": "Quackery repository published on GitHub (initial commit 2020-12-01)",
     "sources": [
+      "https://github.com/GordonCharlton/Quackery"
+    ],
+    "influencedBy": [
+      "Forth"
+    ],
+    "influenceSources": [
       "https://github.com/GordonCharlton/Quackery"
     ]
   },
@@ -12423,6 +15547,16 @@
     "releasedEvent": "Binary posted to StatLib and announced on the s-news mailing list",
     "sources": [
       "https://en.wikipedia.org/wiki/R_(programming_language)"
+    ],
+    "influencedBy": [
+      "Scheme"
+    ],
+    "influenceSources": [
+      "https://cran.r-project.org/doc/FAQ/R-FAQ.html",
+      "https://en.wikipedia.org/wiki/R_(programming_language)"
+    ],
+    "influenced": [
+      "Julia"
     ]
   },
   {
@@ -12459,6 +15593,17 @@
     "sources": [
       "https://blog.racket-lang.org/2020/05/racket-is-25.html",
       "https://en.wikipedia.org/wiki/Racket_(programming_language)"
+    ],
+    "influencedBy": [
+      "Eiffel",
+      "Scheme"
+    ],
+    "influenceSources": [
+      "https://en.wikipedia.org/wiki/Racket_(programming_language)"
+    ],
+    "influenced": [
+      "Pyret",
+      "Rhombus"
     ]
   },
   {
@@ -12494,6 +15639,16 @@
     "sources": [
       "https://en.wikipedia.org/wiki/Raku_(programming_language)",
       "https://blogs.perl.org/users/damian_conway/2015/12/perl-6-lives.html"
+    ],
+    "influencedBy": [
+      "Haskell",
+      "JavaScript",
+      "Perl",
+      "Ruby",
+      "Smalltalk"
+    ],
+    "influenceSources": [
+      "https://en.wikipedia.org/wiki/Raku_(programming_language)"
     ]
   },
   {
@@ -12527,6 +15682,9 @@
     "sources": [
       "https://9p.io/sys/doc/rc.html",
       "https://en.wikipedia.org/wiki/Rc_(Unix_shell)"
+    ],
+    "influenced": [
+      "Zsh"
     ]
   },
   {
@@ -12567,6 +15725,16 @@
     "sources": [
       "https://en.wikipedia.org/wiki/Reason_(programming_language)",
       "https://reasonml.github.io/blog/2017/09/08/messenger-50-reason"
+    ],
+    "influencedBy": [
+      "JavaScript",
+      "OCaml"
+    ],
+    "influenceSources": [
+      "https://en.wikipedia.org/wiki/Reason_(programming_language)"
+    ],
+    "influenced": [
+      "ReScript"
     ]
   },
   {
@@ -12604,6 +15772,18 @@
       "https://en.wikipedia.org/wiki/Rebol",
       "https://bigbookofamigahardware.com/amigareport/www.amigareport.com/ar509/news31.html",
       "https://www.linuxtoday.com/developer/linux-list-rebol-new-computer-language/"
+    ],
+    "influencedBy": [
+      "Forth",
+      "Logo",
+      "Self"
+    ],
+    "influenceSources": [
+      "https://en.wikipedia.org/wiki/Rebol"
+    ],
+    "influenced": [
+      "Arturo",
+      "Red"
     ]
   },
   {
@@ -12639,6 +15819,14 @@
     "releasedEvent": "Announced at the ReBorCon 2011 conference in the Netherlands",
     "sources": [
       "https://www.red-lang.org/2011/",
+      "https://en.wikipedia.org/wiki/Red_(programming_language)"
+    ],
+    "influencedBy": [
+      "Lua",
+      "Rebol",
+      "Scala"
+    ],
+    "influenceSources": [
       "https://en.wikipedia.org/wiki/Red_(programming_language)"
     ]
   },
@@ -12736,6 +15924,12 @@
       "https://github.com/open-policy-agent/opa/releases/tag/v0.1.0",
       "https://startwithidentity.com/experts/tim-hinrichs/",
       "https://www.openpolicyagent.org/docs/cli"
+    ],
+    "influencedBy": [
+      "Datalog"
+    ],
+    "influenceSources": [
+      "https://www.openpolicyagent.org/docs/policy-language"
     ]
   },
   {
@@ -12768,6 +15962,12 @@
     "sources": [
       "https://en.wikipedia.org/wiki/Ren%27Py",
       "https://www.renpy.org/"
+    ],
+    "influencedBy": [
+      "Python"
+    ],
+    "influenceSources": [
+      "https://en.wikipedia.org/wiki/Ren'Py"
     ]
   },
   {
@@ -12802,6 +16002,14 @@
     "sources": [
       "https://rescript-lang.org/blog/bucklescript-is-rebranding",
       "https://en.wikipedia.org/wiki/ReScript"
+    ],
+    "influencedBy": [
+      "JavaScript",
+      "OCaml",
+      "Reason"
+    ],
+    "influenceSources": [
+      "https://en.wikipedia.org/wiki/ReScript"
     ]
   },
   {
@@ -12833,6 +16041,9 @@
     "sources": [
       "https://docutils.sourceforge.io/docs/ref/rst/history.html",
       "https://docutils.sourceforge.io/docs/ref/rst/introduction.html"
+    ],
+    "influenced": [
+      "Markdown"
     ]
   },
   {
@@ -12868,6 +16079,13 @@
     "sources": [
       "https://retroforth.org/r/",
       "https://pldb.io/concepts/retroforth.html"
+    ],
+    "influencedBy": [
+      "Forth",
+      "Joy"
+    ],
+    "influenceSources": [
+      "https://retroforth.org/"
     ]
   },
   {
@@ -12902,6 +16120,15 @@
     "releasedEvent": "First shipped as an IBM product (development began 1979-03-20; first public description at SHARE 56 in 1981)",
     "sources": [
       "https://en.wikipedia.org/wiki/Rexx"
+    ],
+    "influencedBy": [
+      "PL/I"
+    ],
+    "influenceSources": [
+      "https://en.wikipedia.org/wiki/Rexx"
+    ],
+    "influenced": [
+      "NetRexx"
     ]
   },
   {
@@ -12936,6 +16163,16 @@
     "sources": [
       "https://rhai.rs/book/about/index.html",
       "https://github.com/rhaiscript/rhai"
+    ],
+    "influencedBy": [
+      "ChaiScript"
+    ],
+    "influenceSources": [
+      "https://rhai.rs/book/about/index.html",
+      "https://github.com/rhaiscript/rhai"
+    ],
+    "influenced": [
+      "Rune"
     ]
   },
   {
@@ -12969,6 +16206,12 @@
     "sources": [
       "https://blog.racket-lang.org/2026/06/rhombus-v1.0.html",
       "https://docs.racket-lang.org/rhombus-guide/print.html"
+    ],
+    "influencedBy": [
+      "Racket"
+    ],
+    "influenceSources": [
+      "https://rhombus-lang.org/faq.html"
     ]
   },
   {
@@ -13012,6 +16255,18 @@
     "releasedEvent": "Ring 1.0 released",
     "sources": [
       "https://ring-lang.github.io/doc1.18/introduction.html"
+    ],
+    "influencedBy": [
+      "BASIC",
+      "C",
+      "C#",
+      "Lua",
+      "Python",
+      "QML",
+      "Ruby"
+    ],
+    "influenceSources": [
+      "https://ring-lang.github.io/doc1.21/introduction.html"
     ]
   },
   {
@@ -13083,6 +16338,13 @@
       "https://rocq-prover.org/doc/V9.0.0/refman/history.html",
       "https://rocq-prover.org/releases/9.0.0",
       "https://en.wikipedia.org/wiki/Rocq"
+    ],
+    "influenced": [
+      "Agda",
+      "Dafny",
+      "F*",
+      "Idris",
+      "Lean"
     ]
   },
   {
@@ -13146,6 +16408,12 @@
     "sources": [
       "https://en.wikipedia.org/wiki/RPL_(programming_language)",
       "https://www.manualslib.com/manual/277138/Hp-48gii.html?page=75"
+    ],
+    "influencedBy": [
+      "Forth"
+    ],
+    "influenceSources": [
+      "https://en.wikipedia.org/wiki/RPL_(programming_language)"
     ]
   },
   {
@@ -13219,6 +16487,44 @@
     "sources": [
       "https://www.ruby-lang.org/en/about/",
       "https://en.wikipedia.org/wiki/Ruby_(programming_language)"
+    ],
+    "influencedBy": [
+      "Ada",
+      "BASIC",
+      "C++",
+      "CLU",
+      "Dylan",
+      "Eiffel",
+      "Perl",
+      "Python",
+      "Smalltalk"
+    ],
+    "influenceSources": [
+      "https://en.wikipedia.org/wiki/Ruby_(programming_language)",
+      "https://www.ruby-lang.org/en/about/"
+    ],
+    "influenced": [
+      "Civet",
+      "CoffeeScript",
+      "Crystal",
+      "D",
+      "Dart",
+      "Elixir",
+      "Fantom",
+      "GolfScript",
+      "Groovy",
+      "Imba",
+      "Inko",
+      "Ioke",
+      "Julia",
+      "Latitude",
+      "Potion",
+      "Raku",
+      "Ring",
+      "Rust",
+      "Sidef",
+      "Swift",
+      "YSH"
     ]
   },
   {
@@ -13263,6 +16569,44 @@
     "sources": [
       "https://www.ruby-lang.org/en/about/",
       "https://en.wikipedia.org/wiki/Ruby_(programming_language)"
+    ],
+    "influencedBy": [
+      "Ada",
+      "BASIC",
+      "C++",
+      "CLU",
+      "Dylan",
+      "Eiffel",
+      "Perl",
+      "Python",
+      "Smalltalk"
+    ],
+    "influenceSources": [
+      "https://en.wikipedia.org/wiki/Ruby_(programming_language)",
+      "https://www.ruby-lang.org/en/about/"
+    ],
+    "influenced": [
+      "Civet",
+      "CoffeeScript",
+      "Crystal",
+      "D",
+      "Dart",
+      "Elixir",
+      "Fantom",
+      "GolfScript",
+      "Groovy",
+      "Imba",
+      "Inko",
+      "Ioke",
+      "Julia",
+      "Latitude",
+      "Potion",
+      "Raku",
+      "Ring",
+      "Rust",
+      "Sidef",
+      "Swift",
+      "YSH"
     ]
   },
   {
@@ -13296,6 +16640,15 @@
     "releasedEvent": "Initial commit of the rune-rs/rune repository by John-John Tedro (first GitHub release 0.7.0 on 2020-10-19)",
     "sources": [
       "https://github.com/rune-rs/rune",
+      "https://rune-rs.github.io/book/introduction.html"
+    ],
+    "influencedBy": [
+      "Lua",
+      "Python",
+      "Rhai",
+      "Rust"
+    ],
+    "influenceSources": [
       "https://rune-rs.github.io/book/introduction.html"
     ]
   },
@@ -13348,6 +16701,45 @@
     "sources": [
       "https://mail-archive.com/rust-dev@mozilla.org/msg01244.html",
       "https://en.wikipedia.org/wiki/Rust_(programming_language)"
+    ],
+    "influencedBy": [
+      "C#",
+      "C++",
+      "CLU",
+      "Elm",
+      "Erlang",
+      "Haskell",
+      "Limbo",
+      "OCaml",
+      "Ruby",
+      "Sather",
+      "Scheme",
+      "Standard ML"
+    ],
+    "influenceSources": [
+      "https://doc.rust-lang.org/reference/influences.html",
+      "https://en.wikipedia.org/wiki/Rust_(programming_language)"
+    ],
+    "influenced": [
+      "Austral",
+      "Ballerina",
+      "Beef",
+      "Cairo",
+      "Carbon",
+      "Dyon",
+      "Flix",
+      "Gleam",
+      "Hylo",
+      "Inko",
+      "Jakt",
+      "Jule",
+      "Koto",
+      "Mojo",
+      "MoonBit",
+      "Rune",
+      "Swift",
+      "V",
+      "Zig"
     ]
   },
   {
@@ -13385,6 +16777,13 @@
     "sources": [
       "https://en.wikipedia.org/wiki/S-Lang",
       "https://www.jedsoft.org/slang/"
+    ],
+    "influencedBy": [
+      "C",
+      "PostScript"
+    ],
+    "influenceSources": [
+      "https://en.wikipedia.org/wiki/S-Lang"
     ]
   },
   {
@@ -13418,6 +16817,12 @@
     "released": "2005-02-24",
     "releasedEvent": "First version of Sage released under the GPL",
     "sources": [
+      "https://en.wikipedia.org/wiki/SageMath"
+    ],
+    "influencedBy": [
+      "Python"
+    ],
+    "influenceSources": [
       "https://en.wikipedia.org/wiki/SageMath"
     ]
   },
@@ -13485,6 +16890,13 @@
     "sources": [
       "https://sass-lang.com/about/",
       "https://en.wikipedia.org/wiki/Sass_(style_sheet_language)"
+    ],
+    "influencedBy": [
+      "Haml",
+      "YAML"
+    ],
+    "influenceSources": [
+      "https://en.wikipedia.org/wiki/Sass_(style_sheet_language)"
     ]
   },
   {
@@ -13516,6 +16928,18 @@
     "sources": [
       "https://ftp.gwdg.de/pub/gnu/www/software/sather/Doc/tutorial.html/intro202.html",
       "https://en.wikipedia.org/wiki/Sather"
+    ],
+    "influencedBy": [
+      "CLU",
+      "Common Lisp",
+      "Eiffel",
+      "Scheme"
+    ],
+    "influenceSources": [
+      "https://en.wikipedia.org/wiki/Sather"
+    ],
+    "influenced": [
+      "Rust"
     ]
   },
   {
@@ -13564,6 +16988,33 @@
       "https://mail.haskell.org/pipermail/haskell/2004-January/013437.html",
       "https://www.artima.com/weblogs/viewpost.jsp?thread=163733",
       "https://en.wikipedia.org/wiki/Scala_(programming_language)"
+    ],
+    "influencedBy": [
+      "Common Lisp",
+      "Eiffel",
+      "Erlang",
+      "Haskell",
+      "Java",
+      "OCaml",
+      "Oz",
+      "Scheme",
+      "Smalltalk",
+      "Standard ML"
+    ],
+    "influenceSources": [
+      "https://en.wikipedia.org/wiki/Scala_(programming_language)"
+    ],
+    "influenced": [
+      "Ceylon",
+      "Dafny",
+      "Effekt",
+      "Fantom",
+      "Flix",
+      "Fortress",
+      "Hack",
+      "Kotlin",
+      "Red",
+      "Xtend"
     ]
   },
   {
@@ -13600,6 +17051,37 @@
     "sources": [
       "https://dspace.mit.edu/handle/1721.1/5794",
       "https://en.wikipedia.org/wiki/Scheme_(programming_language)"
+    ],
+    "influencedBy": [
+      "MDL"
+    ],
+    "influenceSources": [
+      "https://en.wikipedia.org/wiki/Scheme_(programming_language)"
+    ],
+    "influenced": [
+      "AmbientTalk",
+      "Arc",
+      "Clojure",
+      "Common Lisp",
+      "Curl",
+      "Dylan",
+      "Haskell",
+      "ISLISP",
+      "JavaScript",
+      "Joy",
+      "Julia",
+      "K",
+      "LFE",
+      "LilyPond",
+      "Lua",
+      "newLISP",
+      "Objeck",
+      "Q",
+      "R",
+      "Racket",
+      "Rust",
+      "Sather",
+      "Scala"
     ]
   },
   {
@@ -13637,6 +17119,37 @@
     "sources": [
       "https://dspace.mit.edu/handle/1721.1/5794",
       "https://en.wikipedia.org/wiki/Scheme_(programming_language)"
+    ],
+    "influencedBy": [
+      "MDL"
+    ],
+    "influenceSources": [
+      "https://en.wikipedia.org/wiki/Scheme_(programming_language)"
+    ],
+    "influenced": [
+      "AmbientTalk",
+      "Arc",
+      "Clojure",
+      "Common Lisp",
+      "Curl",
+      "Dylan",
+      "Haskell",
+      "ISLISP",
+      "JavaScript",
+      "Joy",
+      "Julia",
+      "K",
+      "LFE",
+      "LilyPond",
+      "Lua",
+      "newLISP",
+      "Objeck",
+      "Q",
+      "R",
+      "Racket",
+      "Rust",
+      "Sather",
+      "Scala"
     ]
   },
   {
@@ -13675,6 +17188,12 @@
     "sources": [
       "https://www.scilab.org/about/company/history",
       "https://en.wikipedia.org/wiki/Scilab"
+    ],
+    "influencedBy": [
+      "MATLAB"
+    ],
+    "influenceSources": [
+      "https://en.wikipedia.org/wiki/Scilab"
     ]
   },
   {
@@ -13711,6 +17230,19 @@
       "https://sourceforge.net/projects/seed7/files/seed7/",
       "https://sourceforge.net/projects/seed7/",
       "https://en.wikipedia.org/wiki/Seed7"
+    ],
+    "influencedBy": [
+      "Ada",
+      "ALGOL 68",
+      "C",
+      "C++",
+      "Java",
+      "Modula-2",
+      "Pascal"
+    ],
+    "influenceSources": [
+      "https://en.wikipedia.org/wiki/Seed7",
+      "https://seed7.net/faq.htm"
     ]
   },
   {
@@ -13745,6 +17277,21 @@
       "https://selflanguage.org/",
       "https://bibliography.selflanguage.org/self-power.html",
       "https://en.wikipedia.org/wiki/Self_(programming_language)"
+    ],
+    "influencedBy": [
+      "APL",
+      "Smalltalk"
+    ],
+    "influenceSources": [
+      "https://en.wikipedia.org/wiki/Self_(programming_language)"
+    ],
+    "influenced": [
+      "AmbientTalk",
+      "Factor",
+      "Io",
+      "Ioke",
+      "JavaScript",
+      "Rebol"
     ]
   },
   {
@@ -13778,6 +17325,9 @@
     "sources": [
       "https://softwarepreservation.computerhistory.org/SETL/",
       "https://en.wikipedia.org/wiki/SETL"
+    ],
+    "influenced": [
+      "ABC"
     ]
   },
   {
@@ -13845,6 +17395,13 @@
     "sources": [
       "http://blog.fogus.me/2011/10/18/programming-language-development-the-past-5-years/",
       "https://shenlanguage.org/community.html"
+    ],
+    "influencedBy": [
+      "Prolog"
+    ],
+    "influenceSources": [
+      "https://shenlanguage.org/",
+      "https://bluishcoder.co.nz/2016/08/30/kicking-the-tires-of-shen-prolog.html"
     ]
   },
   {
@@ -13878,6 +17435,13 @@
     "releasedEvent": "Initial commit of the public GitHub repository trizen/sidef (first tagged release 0.01 on 2014-05-25)",
     "sources": [
       "https://github.com/trizen/sidef"
+    ],
+    "influencedBy": [
+      "Perl",
+      "Ruby"
+    ],
+    "influenceSources": [
+      "https://github.com/trizen/sidef"
     ]
   },
   {
@@ -13910,6 +17474,16 @@
     "sources": [
       "https://www.mn.uio.no/ifi/english/about/ole-johan-dahl/bibliography/",
       "https://en.wikipedia.org/wiki/Simula"
+    ],
+    "influenced": [
+      "Ada",
+      "C++",
+      "CLU",
+      "Eiffel",
+      "Java",
+      "Pascal",
+      "Smalltalk",
+      "Wolfram Language"
     ]
   },
   {
@@ -13943,6 +17517,13 @@
       "https://registry.npmjs.org/skew",
       "https://github.com/evanw/skew",
       "https://evanw.github.io/skew-lang.org/"
+    ],
+    "influencedBy": [
+      "C#"
+    ],
+    "influenceSources": [
+      "https://evanw.github.io/skew-lang.org/",
+      "https://github.com/evanw/skew"
     ]
   },
   {
@@ -13975,6 +17556,12 @@
       "https://www.github.com/JesusFreke/smali/wiki/Home/e63ff425d6832cacc7420265b69b38bad3cc16ae",
       "https://github.com/JesusFreke/smali/blob/master/NOTICE",
       "https://github.com/JesusFreke/smali/blob/master/examples/HelloWorld/HelloWorld.smali"
+    ],
+    "influencedBy": [
+      "Jasmin"
+    ],
+    "influenceSources": [
+      "https://github.com/JesusFreke/smali"
     ]
   },
   {
@@ -14007,6 +17594,14 @@
     "releasedEvent": "Vijaye Raji's \"Hello World\" post announcing the first Small Basic release (v0.1) on the Small Basic blog",
     "sources": [
       "https://techcommunity.microsoft.com/blog/smallbasic/hello-world/335289",
+      "https://en.wikipedia.org/wiki/Microsoft_Small_Basic"
+    ],
+    "influencedBy": [
+      "BASIC",
+      "Logo",
+      "Visual Basic .NET"
+    ],
+    "influenceSources": [
       "https://en.wikipedia.org/wiki/Microsoft_Small_Basic"
     ]
   },
@@ -14046,6 +17641,41 @@
     "sources": [
       "https://worrydream.com/EarlyHistoryOfSmalltalk/",
       "https://en.wikipedia.org/wiki/Smalltalk"
+    ],
+    "influencedBy": [
+      "Logo",
+      "Simula"
+    ],
+    "influenceSources": [
+      "https://en.wikipedia.org/wiki/Smalltalk"
+    ],
+    "influenced": [
+      "Ada",
+      "AmbientTalk",
+      "Avail",
+      "C++",
+      "Ceylon",
+      "Dart",
+      "Ecstasy",
+      "Erlang",
+      "Go",
+      "Groovy",
+      "Inko",
+      "Io",
+      "Ioke",
+      "Java",
+      "Lasso",
+      "Latitude",
+      "Logtalk",
+      "Objective-C",
+      "Raku",
+      "Ruby",
+      "Scala",
+      "Self",
+      "SuperCollider",
+      "Wolfram Language",
+      "Wren",
+      "Xtend"
     ]
   },
   {
@@ -14081,6 +17711,12 @@
       "https://history.computer.org/griswold.html",
       "https://projects.csail.mit.edu/jacm/jacm64.html",
       "https://en.wikipedia.org/wiki/SNOBOL"
+    ],
+    "influenced": [
+      "Awk",
+      "ECL",
+      "Icon",
+      "Lua"
     ]
   },
   {
@@ -14126,6 +17762,14 @@
       "https://github.com/ethereum/solidity",
       "https://docs.soliditylang.org/en/latest/",
       "https://en.wikipedia.org/wiki/Solidity"
+    ],
+    "influencedBy": [
+      "C++",
+      "JavaScript",
+      "Python"
+    ],
+    "influenceSources": [
+      "https://docs.soliditylang.org/en/latest/language-influences.html"
     ]
   },
   {
@@ -14159,6 +17803,12 @@
       "https://souffle-lang.github.io/open-source",
       "https://en.wikipedia.org/wiki/Souffl%C3%A9_(programming_language)",
       "https://github.com/souffle-lang/souffle"
+    ],
+    "influencedBy": [
+      "Datalog"
+    ],
+    "influenceSources": [
+      "https://souffle-lang.github.io/"
     ]
   },
   {
@@ -14191,6 +17841,12 @@
     "sources": [
       "https://wiki.alliedmods.net/SourceMod",
       "https://wiki.alliedmods.net/Introduction_to_SourceMod_Plugins"
+    ],
+    "influencedBy": [
+      "Pawn"
+    ],
+    "influenceSources": [
+      "https://wiki.alliedmods.net/Introduction_to_SourcePawn"
     ]
   },
   {
@@ -14223,6 +17879,10 @@
     "sources": [
       "https://www.w3.org/TR/rdf-sparql-query/",
       "https://www.w3.org/TR/sparql11-query/"
+    ],
+    "influenced": [
+      "Cypher",
+      "Gremlin"
     ]
   },
   {
@@ -14292,6 +17952,15 @@
       "https://bibtex.github.io/SIGFIDET-1974-ChamberlinB.html",
       "https://www.historyofinformation.com/detail.php?id=910",
       "https://en.wikipedia.org/wiki/SQL"
+    ],
+    "influenced": [
+      "Cypher",
+      "ECL",
+      "Gremlin",
+      "Lil",
+      "PL/pgSQL",
+      "PowerShell",
+      "XQuery"
     ]
   },
   {
@@ -14327,6 +17996,15 @@
     "releasedEvent": "Alberto Demichelis's announcement \"[ANN] Squirrel yet another scripting language\" posted to comp.compilers",
     "sources": [
       "https://compilers.iecc.com/comparch/article/03-09-048",
+      "https://en.wikipedia.org/wiki/Squirrel_(programming_language)"
+    ],
+    "influencedBy": [
+      "C++",
+      "JavaScript",
+      "Lua",
+      "Python"
+    ],
+    "influenceSources": [
       "https://en.wikipedia.org/wiki/Squirrel_(programming_language)"
     ]
   },
@@ -14365,6 +18043,22 @@
       "https://smlfamily.github.io/history/",
       "https://smlfamily.github.io/",
       "https://en.wikipedia.org/wiki/Standard_ML"
+    ],
+    "influencedBy": [
+      "Pascal"
+    ],
+    "influenceSources": [
+      "https://en.wikipedia.org/wiki/Standard_ML"
+    ],
+    "influenced": [
+      "Austral",
+      "Elm",
+      "F*",
+      "Haskell",
+      "OCaml",
+      "Python",
+      "Rust",
+      "Scala"
     ]
   },
   {
@@ -14402,6 +18096,13 @@
       "https://blog.bazel.build/2017/03/21/design-of-skylark.html",
       "https://blog.bazel.build/2018/08/17/starlark.html",
       "https://github.com/bazelbuild/starlark"
+    ],
+    "influencedBy": [
+      "Python"
+    ],
+    "influenceSources": [
+      "https://bazel.build/rules/language",
+      "https://en.wikipedia.org/wiki/Bazel_(software)"
     ]
   },
   {
@@ -14469,6 +18170,12 @@
     "sources": [
       "https://supercollider.github.io/",
       "https://en.wikipedia.org/wiki/SuperCollider"
+    ],
+    "influencedBy": [
+      "Smalltalk"
+    ],
+    "influenceSources": [
+      "https://en.wikipedia.org/wiki/SuperCollider"
     ]
   },
   {
@@ -14500,6 +18207,12 @@
     "releasedEvent": "SVG 1.0 published as a W3C Recommendation",
     "sources": [
       "https://www.w3.org/TR/2001/REC-SVG-20010904/",
+      "https://en.wikipedia.org/wiki/SVG"
+    ],
+    "influencedBy": [
+      "XML"
+    ],
+    "influenceSources": [
       "https://en.wikipedia.org/wiki/SVG"
     ]
   },
@@ -14548,6 +18261,29 @@
       "https://www.apple.com/newsroom/2014/06/02Apple-Releases-iOS-8-SDK-With-Over-4-000-New-APIs/",
       "https://nondot.org/sabre/",
       "https://www.swift.org/about/"
+    ],
+    "influencedBy": [
+      "C#",
+      "CLU",
+      "D",
+      "Haskell",
+      "Objective-C",
+      "Python",
+      "Ruby",
+      "Rust"
+    ],
+    "influenceSources": [
+      "https://nondot.org/sabre/",
+      "https://en.wikipedia.org/wiki/Swift_(programming_language)"
+    ],
+    "influenced": [
+      "Beef",
+      "Carbon",
+      "Gravity",
+      "Hylo",
+      "Mojo",
+      "Motoko",
+      "V"
     ]
   },
   {
@@ -14596,6 +18332,29 @@
       "https://www.apple.com/newsroom/2014/06/02Apple-Releases-iOS-8-SDK-With-Over-4-000-New-APIs/",
       "https://nondot.org/sabre/",
       "https://www.swift.org/about/"
+    ],
+    "influencedBy": [
+      "C#",
+      "CLU",
+      "D",
+      "Haskell",
+      "Objective-C",
+      "Python",
+      "Ruby",
+      "Rust"
+    ],
+    "influenceSources": [
+      "https://nondot.org/sabre/",
+      "https://en.wikipedia.org/wiki/Swift_(programming_language)"
+    ],
+    "influenced": [
+      "Beef",
+      "Carbon",
+      "Gravity",
+      "Hylo",
+      "Mojo",
+      "Motoko",
+      "V"
     ]
   },
   {
@@ -14630,6 +18389,15 @@
     "sources": [
       "https://accellera.org/images/eda/vlog-pp/0678.html",
       "https://en.wikipedia.org/wiki/SystemVerilog"
+    ],
+    "influencedBy": [
+      "C++",
+      "Java",
+      "Verilog",
+      "VHDL"
+    ],
+    "influenceSources": [
+      "https://en.wikipedia.org/wiki/SystemVerilog"
     ]
   },
   {
@@ -14662,6 +18430,15 @@
     "releasedEvent": "First general release, TADS 3 version 3.0.12",
     "sources": [
       "https://www.ifwiki.org/T3",
+      "https://en.wikipedia.org/wiki/TADS"
+    ],
+    "influencedBy": [
+      "C",
+      "C++",
+      "Java"
+    ],
+    "influenceSources": [
+      "https://tads.org/t3_feat.htm",
       "https://en.wikipedia.org/wiki/TADS"
     ]
   },
@@ -14733,6 +18510,18 @@
     "releasedEvent": "Ousterhout's Tcl paper at the Winter USENIX Conference; source made freely available on Berkeley's FTP site around then",
     "sources": [
       "https://www.tcl-lang.org/about/history.html"
+    ],
+    "influencedBy": [
+      "Awk"
+    ],
+    "influenceSources": [
+      "https://en.wikipedia.org/wiki/Tcl_(programming_language)"
+    ],
+    "influenced": [
+      "Expect",
+      "MEL",
+      "PHP",
+      "PowerShell"
     ]
   },
   {
@@ -14767,6 +18556,10 @@
     "sources": [
       "https://www.tuhs.org/Usenet/comp.unix.wizards/1983-October/014995.html",
       "https://en.wikipedia.org/wiki/Tcsh"
+    ],
+    "influenced": [
+      "Bash",
+      "Zsh"
     ]
   },
   {
@@ -14802,6 +18595,12 @@
     "sources": [
       "https://github.com/teal-language/tl",
       "https://archive.fosdem.org/2020/schedule/event/minimalistictypedlua/"
+    ],
+    "influencedBy": [
+      "Lua"
+    ],
+    "influenceSources": [
+      "https://github.com/teal-language/tl"
     ]
   },
   {
@@ -14832,6 +18631,13 @@
     "released": "2019-01-30",
     "releasedEvent": "First GitHub releases (v0.9.x, then v1.0.0 the same day) of d5/tengo",
     "sources": [
+      "https://github.com/d5/tengo"
+    ],
+    "influencedBy": [
+      "Go"
+    ],
+    "influenceSources": [
+      "https://github.com/d5/tengo/blob/master/docs/tutorial.md",
       "https://github.com/d5/tengo"
     ]
   },
@@ -14870,6 +18676,13 @@
     "sources": [
       "https://terralang.org/publications.html",
       "https://github.com/terralang/terra"
+    ],
+    "influencedBy": [
+      "C",
+      "Lua"
+    ],
+    "influenceSources": [
+      "https://terralang.org/"
     ]
   },
   {
@@ -14934,6 +18747,11 @@
     "sources": [
       "https://en.wikipedia.org/wiki/TeX",
       "https://tug.org/whatis.html"
+    ],
+    "influenced": [
+      "Curl",
+      "LaTeX",
+      "Texinfo"
     ]
   },
   {
@@ -14964,6 +18782,12 @@
     "releasedEvent": "Initial release",
     "sources": [
       "https://en.wikipedia.org/wiki/Texinfo"
+    ],
+    "influencedBy": [
+      "TeX"
+    ],
+    "influenceSources": [
+      "https://www.gnu.org/software/texinfo/manual/texinfo/html_node/History.html"
     ]
   },
   {
@@ -14995,6 +18819,9 @@
     "sources": [
       "https://en.wikipedia.org/wiki/Textile_(markup_language)",
       "https://textile-lang.com/doc/headings"
+    ],
+    "influenced": [
+      "Markdown"
     ]
   },
   {
@@ -15053,6 +18880,12 @@
     "releasedEvent": "TI-81, the first TI graphing calculator, introduced",
     "sources": [
       "https://en.wikipedia.org/wiki/TI-81",
+      "https://en.wikipedia.org/wiki/TI-BASIC"
+    ],
+    "influencedBy": [
+      "BASIC"
+    ],
+    "influenceSources": [
       "https://en.wikipedia.org/wiki/TI-BASIC"
     ]
   },
@@ -15149,6 +18982,12 @@
     "releasedEvent": "Turing developed and introduced at the University of Toronto",
     "sources": [
       "https://en.wikipedia.org/wiki/Turing_(programming_language)"
+    ],
+    "influencedBy": [
+      "Pascal"
+    ],
+    "influenceSources": [
+      "https://en.wikipedia.org/wiki/Turing_(programming_language)"
     ]
   },
   {
@@ -15199,6 +19038,21 @@
     "sources": [
       "https://learn.microsoft.com/en-us/archive/blogs/somasegar/typescript-javascript-development-at-application-scale",
       "https://en.wikipedia.org/wiki/TypeScript"
+    ],
+    "influencedBy": [
+      "C#",
+      "F#",
+      "Java",
+      "JavaScript"
+    ],
+    "influenceSources": [
+      "https://en.wikipedia.org/wiki/TypeScript"
+    ],
+    "influenced": [
+      "Civet",
+      "CUE",
+      "Luau",
+      "Nushell"
     ]
   },
   {
@@ -15229,6 +19083,14 @@
     "releasedEvent": "Compiler open-sourced and public beta launched",
     "sources": [
       "https://typst.app/blog/2023/beta-oss-launch",
+      "https://en.wikipedia.org/wiki/Typst"
+    ],
+    "influencedBy": [
+      "LaTeX",
+      "Markdown"
+    ],
+    "influenceSources": [
+      "https://typst.app/docs/guides/guide-for-latex-users/",
       "https://en.wikipedia.org/wiki/Typst"
     ]
   },
@@ -15264,6 +19126,15 @@
       "https://www.uiua.org/",
       "https://github.com/uiua-lang/uiua/blob/main/changelog.md",
       "https://news.ycombinator.com/item?id=37673127"
+    ],
+    "influencedBy": [
+      "APL",
+      "BQN",
+      "J"
+    ],
+    "influenceSources": [
+      "https://www.uiua.org/docs/design",
+      "https://github.com/uiua-lang/uiua/blob/main/site/text/design.md"
     ]
   },
   {
@@ -15302,6 +19173,16 @@
     "sources": [
       "https://github.com/vtereshkov/umka-lang/releases/tag/v.0.1-alpha",
       "https://habr.com/en/articles/501002/"
+    ],
+    "influencedBy": [
+      "Go",
+      "Lua",
+      "Oberon",
+      "Pascal",
+      "Wren"
+    ],
+    "influenceSources": [
+      "https://github.com/vtereshkov/umka-lang"
     ]
   },
   {
@@ -15405,6 +19286,12 @@
       "https://github.com/unisonweb/unison/releases/tag/release%2FM1",
       "https://www.unison-lang.org/blog/heres-whats-been-happening-with-unison/",
       "https://www.unison-lang.org/blog/"
+    ],
+    "influencedBy": [
+      "Haskell"
+    ],
+    "influenceSources": [
+      "https://www.unison-lang.org/docs/usage-topics/general-faqs/"
     ]
   },
   {
@@ -15471,6 +19358,13 @@
     "sources": [
       "https://en.wikipedia.org/wiki/Unreal_Engine",
       "https://web.archive.org/web/2010/http://udn.epicgames.com/Two/MakingACommandlet.html"
+    ],
+    "influencedBy": [
+      "C++",
+      "Java"
+    ],
+    "influenceSources": [
+      "https://web.archive.org/web/2004/http://unreal.epicgames.com/UnrealScript.htm"
     ]
   },
   {
@@ -15503,6 +19397,12 @@
       "http://web.archive.org/web/20081029021705/http://www.impredicative.com:80/ur/",
       "http://www.impredicative.com/ur/",
       "https://github.com/urweb/urweb/blob/master/CHANGELOG"
+    ],
+    "influencedBy": [
+      "Haskell"
+    ],
+    "influenceSources": [
+      "https://en.wikipedia.org/wiki/Ur_(programming_language)"
     ]
   },
   {
@@ -15537,6 +19437,18 @@
     "releasedEvent": "V 0.0.12 open-source release committed to the public GitHub repository",
     "sources": [
       "https://github.com/vlang/v",
+      "https://en.wikipedia.org/wiki/V_(programming_language)"
+    ],
+    "influencedBy": [
+      "Go",
+      "Kotlin",
+      "Oberon",
+      "Python",
+      "Rust",
+      "Swift"
+    ],
+    "influenceSources": [
+      "https://github.com/vlang/v/blob/master/doc/docs.md",
       "https://en.wikipedia.org/wiki/V_(programming_language)"
     ]
   },
@@ -15573,6 +19485,20 @@
       "https://vala.dev",
       "https://gitlab.gnome.org/GNOME/vala/-/raw/main/NEWS",
       "https://en.wikipedia.org/wiki/Vala_(programming_language)"
+    ],
+    "influencedBy": [
+      "Boo",
+      "C",
+      "C#",
+      "C++",
+      "D",
+      "Java"
+    ],
+    "influenceSources": [
+      "https://en.wikipedia.org/wiki/Vala_(programming_language)"
+    ],
+    "influenced": [
+      "Genie"
     ]
   },
   {
@@ -15643,6 +19569,12 @@
     "sources": [
       "https://learn.microsoft.com/office/vba/api/overview/",
       "https://en.wikipedia.org/wiki/Visual_Basic_for_Applications"
+    ],
+    "influencedBy": [
+      "BASIC"
+    ],
+    "influenceSources": [
+      "https://en.wikipedia.org/wiki/Visual_Basic_for_Applications"
     ]
   },
   {
@@ -15677,6 +19609,15 @@
     "sources": [
       "https://learn.microsoft.com/en-us/previous-versions/t0aew7h6(v=vs.85)",
       "https://en.wikipedia.org/wiki/VBScript"
+    ],
+    "influencedBy": [
+      "BASIC"
+    ],
+    "influenceSources": [
+      "https://en.wikipedia.org/wiki/VBScript"
+    ],
+    "influenced": [
+      "Caché Basic"
     ]
   },
   {
@@ -15710,6 +19651,18 @@
     "sources": [
       "https://computerhistory.org/profile/philip-moorby/",
       "https://en.wikipedia.org/wiki/Verilog"
+    ],
+    "influencedBy": [
+      "Ada",
+      "C",
+      "Fortran",
+      "Pascal"
+    ],
+    "influenceSources": [
+      "https://en.wikipedia.org/wiki/Verilog"
+    ],
+    "influenced": [
+      "SystemVerilog"
     ]
   },
   {
@@ -15743,6 +19696,16 @@
     "sources": [
       "https://doulos.com/knowhow/vhdl/a-brief-history-of-vhdl",
       "https://en.wikipedia.org/wiki/VHDL"
+    ],
+    "influencedBy": [
+      "Ada",
+      "Pascal"
+    ],
+    "influenceSources": [
+      "https://en.wikipedia.org/wiki/VHDL"
+    ],
+    "influenced": [
+      "SystemVerilog"
     ]
   },
   {
@@ -15849,6 +19812,15 @@
     "sources": [
       "https://news.microsoft.com/2002/02/13/microsoft-launches-xml-web-services-revolution-with-visual-studio-net-and-net-framework/",
       "https://learn.microsoft.com/dotnet/visual-basic/"
+    ],
+    "influencedBy": [
+      "BASIC"
+    ],
+    "influenceSources": [
+      "https://en.wikipedia.org/wiki/Visual_Basic_(.NET)"
+    ],
+    "influenced": [
+      "Small Basic"
     ]
   },
   {
@@ -15878,6 +19850,12 @@
     "released": "1995-06",
     "releasedEvent": "Visual FoxPro 3.0 released",
     "sources": [
+      "https://en.wikipedia.org/wiki/Visual_FoxPro"
+    ],
+    "influencedBy": [
+      "dBase"
+    ],
+    "influenceSources": [
       "https://en.wikipedia.org/wiki/Visual_FoxPro"
     ]
   },
@@ -15913,6 +19891,12 @@
     "sources": [
       "https://github.com/vyperlang/vyper",
       "https://vyperlang.org/"
+    ],
+    "influencedBy": [
+      "Python"
+    ],
+    "influenceSources": [
+      "https://docs.vyperlang.org/en/stable/"
     ]
   },
   {
@@ -16081,6 +20065,23 @@
       "https://writings.stephenwolfram.com/2008/06/mathematica-turns-20-today/",
       "https://writings.stephenwolfram.com/2013/02/what-should-we-call-the-language-of-mathematica/",
       "https://www.wolfram.com/language/"
+    ],
+    "influencedBy": [
+      "APL",
+      "C",
+      "C++",
+      "Fortran",
+      "Pascal",
+      "Prolog",
+      "Simula",
+      "Smalltalk"
+    ],
+    "influenceSources": [
+      "https://en.wikipedia.org/wiki/Wolfram_Language",
+      "https://www.wolfram.com/language/faq/"
+    ],
+    "influenced": [
+      "Julia"
     ]
   },
   {
@@ -16116,6 +20117,18 @@
     "sources": [
       "https://wren.io",
       "https://github.com/wren-lang/wren"
+    ],
+    "influencedBy": [
+      "Erlang",
+      "Lua",
+      "Smalltalk"
+    ],
+    "influenceSources": [
+      "https://wren.io/"
+    ],
+    "influenced": [
+      "Gravity",
+      "Umka"
     ]
   },
   {
@@ -16149,6 +20162,13 @@
     "sources": [
       "https://en.wikipedia.org/wiki/X10_(programming_language)",
       "https://github.com/x10-lang/x10"
+    ],
+    "influencedBy": [
+      "C++",
+      "Java"
+    ],
+    "influenceSources": [
+      "https://en.wikipedia.org/wiki/X10_(programming_language)"
     ]
   },
   {
@@ -16179,6 +20199,10 @@
     "releasedEvent": "XML 1.0 published as a W3C Recommendation",
     "sources": [
       "https://www.w3.org/TR/1998/REC-xml-19980210"
+    ],
+    "influenced": [
+      "SVG",
+      "YAML"
     ]
   },
   {
@@ -16213,6 +20237,15 @@
     "sources": [
       "https://en.wikipedia.org/wiki/Xojo",
       "https://www.xojo.com/"
+    ],
+    "influencedBy": [
+      "BASIC"
+    ],
+    "influenceSources": [
+      "https://en.wikipedia.org/wiki/Xojo"
+    ],
+    "influenced": [
+      "MiniScript"
     ]
   },
   {
@@ -16245,6 +20278,12 @@
     "releasedEvent": "xonsh 0.1.0 release published on GitHub",
     "sources": [
       "https://github.com/xonsh/xonsh/releases/tag/0.1.0",
+      "https://xon.sh/"
+    ],
+    "influencedBy": [
+      "Python"
+    ],
+    "influenceSources": [
       "https://xon.sh/"
     ]
   },
@@ -16312,6 +20351,13 @@
     "sources": [
       "https://www.w3.org/TR/2007/REC-xquery-20070123/",
       "https://www.w3.org/XML/Query/"
+    ],
+    "influencedBy": [
+      "SQL",
+      "XSLT"
+    ],
+    "influenceSources": [
+      "https://en.wikipedia.org/wiki/XQuery"
     ]
   },
   {
@@ -16353,6 +20399,9 @@
     "sources": [
       "https://www.w3.org/TR/1999/REC-xslt-19991116",
       "https://www.w3.org/TR/xslt-30/"
+    ],
+    "influenced": [
+      "XQuery"
     ]
   },
   {
@@ -16388,6 +20437,15 @@
     "sources": [
       "https://eclipse.dev/Xtext/xtend/",
       "https://en.wikipedia.org/wiki/Xtend"
+    ],
+    "influencedBy": [
+      "Groovy",
+      "Java",
+      "Scala",
+      "Smalltalk"
+    ],
+    "influenceSources": [
+      "https://en.wikipedia.org/wiki/Xtend"
     ]
   },
   {
@@ -16420,6 +20478,12 @@
     "releasedEvent": "Yabasic version 1.0 released (\"around May 1995\")",
     "sources": [
       "https://2484.de/yabasic/content_history.html",
+      "https://en.wikipedia.org/wiki/Yabasic"
+    ],
+    "influencedBy": [
+      "BASIC"
+    ],
+    "influenceSources": [
       "https://en.wikipedia.org/wiki/Yabasic"
     ]
   },
@@ -16488,6 +20552,21 @@
       "https://yaml.org/spec/history/2001-08-01.html",
       "https://en.wikipedia.org/wiki/YAML",
       "https://yaml.org/"
+    ],
+    "influencedBy": [
+      "C",
+      "HTML",
+      "Perl",
+      "Python",
+      "XML"
+    ],
+    "influenceSources": [
+      "https://en.wikipedia.org/wiki/YAML",
+      "https://yaml.org/spec/1.2.2/"
+    ],
+    "influenced": [
+      "CoffeeScript",
+      "Sass"
     ]
   },
   {
@@ -16522,6 +20601,22 @@
       "https://www.oilshell.org/blog/2019/10/04.html",
       "https://www.oilshell.org/blog/2023/03/faq.html",
       "https://oils.pub/"
+    ],
+    "influencedBy": [
+      "Awk",
+      "Bash",
+      "Go",
+      "Haskell",
+      "JavaScript",
+      "Julia",
+      "KornShell",
+      "Perl",
+      "Python",
+      "Ruby"
+    ],
+    "influenceSources": [
+      "https://oils.pub/release/latest/doc/language-influences.html",
+      "https://oils.pub/ysh.html"
     ]
   },
   {
@@ -16559,6 +20654,13 @@
     "sources": [
       "https://github.com/IppClub/YueScript",
       "https://yuescript.org/"
+    ],
+    "influencedBy": [
+      "Lua",
+      "MoonScript"
+    ],
+    "influenceSources": [
+      "https://github.com/IppClub/YueScript"
     ]
   },
   {
@@ -16594,6 +20696,12 @@
     "sources": [
       "https://docs.zeek.org/en/master/about/history.html",
       "https://www.usenix.org/conference/7th-usenix-security-symposium/bro-system-detecting-network-intruders-real-time"
+    ],
+    "influencedBy": [
+      "C"
+    ],
+    "influenceSources": [
+      "https://www.usenix.org/legacy/publications/library/proceedings/sec98/full_papers/paxson/paxson.pdf"
     ]
   },
   {
@@ -16632,6 +20740,20 @@
       "https://andrewkelley.me/post/intro-to-zig.html",
       "https://github.com/ziglang/zig/commit/8e08cf4bec80b87a7a22a18086a3db5c2c0f1772",
       "https://ziglang.org/learn/overview/"
+    ],
+    "influencedBy": [
+      "C",
+      "C++",
+      "Go",
+      "LLVM IR",
+      "Rust"
+    ],
+    "influenceSources": [
+      "https://en.wikipedia.org/wiki/Zig_(programming_language)"
+    ],
+    "influenced": [
+      "Carbon",
+      "Mojo"
     ]
   },
   {
@@ -16668,6 +20790,17 @@
       "https://www.tuhs.org/Usenet/alt.sources/1990-December/002353.html",
       "https://zsh.sourceforge.io/FAQ/zshfaq01.html",
       "https://en.wikipedia.org/wiki/Z_shell"
+    ],
+    "influencedBy": [
+      "KornShell",
+      "rc",
+      "tcsh"
+    ],
+    "influenceSources": [
+      "https://en.wikipedia.org/wiki/Z_shell"
+    ],
+    "influenced": [
+      "Elvish"
     ]
   }
 ]
