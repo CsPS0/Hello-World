@@ -1,0 +1,159 @@
+SKIPPED LANGUAGES
+=================
+
+Languages that were considered for the site but not added, and why.
+Each one could be added later if the missing piece is found.
+
+To add one, follow CONTRIBUTING.md. Every language needs: a sample that
+prints a hello world (any form is fine), the creator, the date of the first
+public release, and 1-3 sources that back those facts up.
+
+
+1. ONE FACT SHORT
+   The language is fine, but a required fact could not be backed by a
+   source. These are the easiest to add: find the missing fact.
+
+   Missing the first public release date:
+   - Agena              first-release year could not be verified
+   - Brat               brat-lang.org no longer resolves; repo dates from 2009-04-20, no releases (Justin Collins)
+   - Clay               the 0.1.0 "first release" post (2012-01-16) mentions earlier versions (KS Sreeram)
+   - Cognate            only nightly builds, no dated release
+   - Dao                the 2006 1.0-beta post says "as before", so earlier releases exist
+   - DCL (OpenVMS)      no source names a first-release date
+   - DM (BYOND)         no dated first public release (Dan Bradley, Tom Hehre)
+   - Draco              only "early 1980s"
+   - BETA               only "implementations since 1986"
+   - Efene, Egel, Bracmat, Kaya, Lisaac, Pict, MUF, Slate, Plain English
+                        no first-release date found
+   - Emerald            no dated first release
+   - Falcon             sources disagree (2001, 2002, 2003); falconpl.org is blank
+   - Hoon               only 2011/2013 claims, creator not confirmed
+   - Klong              PLDB says 2015, not confirmed by the author
+   - KQL                public earlier as Application Insights Analytics (AIQL), that date not found
+   - Murex              earliest GitHub release is v2.2.1200 (2021); the changelog may give an earlier date (Laurence Morgan)
+   - Myrddin            the r0.1.0 tag is on a 2017 commit, but the language is older (Ori Bernstein)
+   - Noir (Aztec)       first public release unclear (earliest tag 2021-03-09, repo from 2020)
+   - Opa                presented 2010, open-sourced June 2011, no exact first release
+   - Papyrus (Skyrim)   Creation Kit release date not confirmed (hello world: Debug.MessageBox in OnActivate)
+   - Phix               first-release year not verified
+   - PL/SQL             first release (Oracle 6, around 1988) not confirmed by a source
+   - Puppet             the 2005 date is unsourced on Wikipedia
+   - Quorum             Wikipedia article is gone; no release source found
+   - Retina             no dated first release (repo 2015-02-12; oldest release v1.1.1 in 2019) (Martin Ender)
+   - Roc                no versioned release yet
+   - Transact-SQL       no creator or first date for T-SQL itself (SQL Server was announced in January 1988)
+   - Visual Prolog      only the Turbo Prolog (1986) lineage is dated
+   - Wing               first public release unclear
+   - Wisp               first release only "early 2013"
+   - X++                only Axapta 1.0 (March 1998) is dated; no source ties X++ itself to it
+   - Zephir             earliest tag 0.3.5a; first public release unclear (repo from 2013-07)
+   - Zimbu              zimbu.org no longer responds (Bram Moolenaar)
+   - 1C:Enterprise      only the 8.0 demo (2002) is dated, not the language
+
+   Missing the creator's real name (only an online handle is known):
+   - Brain-Flak         DJMcMayhem
+   - Cyber              fubark (releases 0.2 on 2023-02-22, 0.3 on 2023-12-10)
+   - Husk               repository owner handles only
+   - Pinecone           wmww (repo from 2016-10-09)
+   - Spice              only "ChilliBits" in the LICENSE (0.1.0 released 2021-07-28)
+   - Stax               tomtheisen
+   - Vyxal              Lyxal
+
+   Missing a creator AND a date:
+   - Cadence            the docs name neither
+   - Kap                site is behind a bot check; no dated releases
+   - langur             the site names no creator or release date
+   - Pointless          the site names no creator and shows no hello world (v0.1.0 on 2020-06-25)
+
+   Missing a confirmed hello world sample:
+   - Alef               no hello world in any source found (Phil Winterbottom, 1992)
+   - Aheui              the Hangul program could not be checked character by character
+   - FriCAS             the output() form was not confirmed
+   - LPC                no sourced example; output depends on the driver (Lars Pensjo, 1989)
+   - NewtonScript       no hello world in any source found (Walter R. Smith, Apple, 1993)
+   - Pip                implicit output not confirmed in its docs
+   - TLA+               unclear whether TLC runs a module that only prints
+   - Uxntal             only a hex-dump hello world; no creation date either
+   - Yorick             output form not confirmed
+   - Zonnon             no sample found; the 2013 date conflicts with its ETH origin
+
+   Not researched yet (still open leads):
+   - Inno Setup Pascal Script   CLOSE: first shipped in Martijn Laan's My Inno Setup Extensions (ISX)
+                                before June 2001 (an archived ISX 2.0.10 page from 2001-06-08 already
+                                "adds advanced Pascal scripting", via Carlo Kok's Innerfuse Pascal Script);
+                                merged into Inno Setup 4.0.0-pre1 on 2003-04-18. Still needed: the first
+                                ISX version with Pascal scripting (Wayback captures of www.wintax.nl/isx/
+                                start 2000-08-31).
+   - Rapira, Bosque, Cat, Elan, A+, Parrot PIR, Hope, ZIL, Verbexx, Ursa, Loglan82,
+     SNUSP, Sisal, KL1, Nyquist, DWScript, Raven, Huginn
+
+
+2. SAMPLE WOULD DUPLICATE AN EXISTING LANGUAGE
+   Every language on the site has a different sample. These would print
+   with exactly the same code as a language already there. They could be
+   added with a different, still idiomatic sample.
+
+   - Alice ML           same as Standard ML
+   - Clipper, Xbase++, KiXtart
+                        ? "Hello, World!" is the same as dBase
+   - Clarity            print "Hello, World!" matches several Lisps
+   - EasyLang, MAXScript, Mythryl, E, SenseTalk, Pharo
+                        same as Yabasic, Magma, Kotlin Script, Turing, Smalltalk
+   - Liquid             same as Jinja
+   - MATL               same as APL
+   - MUMPS              same as Caché MUMPS
+   - Nanoquery          same as Groovy
+   - Newsqueak          same as Neko, Squirrel and others
+   - Nickel             same as Dhall, Jsonnet and Nix
+   - Pluto, Owl Lisp, Codon
+                        same as Lua, Scheme, Python
+   - QBasic, True BASIC, Sinclair BASIC, QB64, GW-BASIC
+                        same as BASIC
+   - Singular           same as REDUCE (a print() form would need a dated release)
+   - Slim               same as Pug
+   - TorqueScript, zkl, Rye, Blade, Suneido, Insitux, DataWeave, LotusScript, Liberty BASIC
+                        same as existing samples
+   - XLISP              same as Scheme
+   Probably duplicates (not checked against the files):
+   - Phix, Unicon, SPITBOL, Fancy, Sonic Pi, Mirah, ArkScript, Eta, Ravi, Kojo,
+     Cerberus X, Oil shell
+                        expected to match Euphoria, Icon, SNOBOL, Io, Ruby, Ruby,
+                        Lisp, Haskell, Lua, Scala, Monkey X, Bash
+
+
+3. TECHNICAL REASONS
+   - ><> (Fish)         its name cannot be turned into a page link
+   - /// (Slashes)      its name cannot be turned into a page link
+   - ALGOL 60, JOVIAL   no standard input/output; hello world depends on the compiler
+   - Assembly (MMIX)    release date ambiguous (designed 1999, stable 2011)
+   - B4X                goes back to the undated Basic4ppc; Log() needs a Sub around it
+   - Bend               being rewritten as "Bend 2"; hello world syntax is still changing
+   - CSS                shows nothing without a host HTML page (CSS1 Recommendation: 1996-12-17)
+   - ACL2               the sample only works in its REPL; only a year (1996) is sourced
+   - Huginn             site certificate expired; no release date; sample same as Pawn
+   - JavaFX Script      no release date, and its hello world opens a window
+   - Lox                no first public release date (from the book "Crafting Interpreters")
+   - MAD, RATFOR, PL/M, TECO, SASL, Isabelle
+                        output or sample could not be verified (printer control
+                        codes, Fortran I/O, CP/M boilerplate, control characters,
+                        unusual quoting, value display)
+   - Modelica           has no documented print-style hello world
+   - Natural            no source could be loaded
+   - Pod (Perl)         no source dates it or names its creator
+   - QuakeC             runs only inside the Quake engine
+   - sed                prints nothing without input
+   - troff              no source dates Ossanna's troff
+   - Whiley, Tailspin   only outdated samples found
+   - YAMLScript         unclear whether the 2022 Perl version is the same language as today's
+
+
+4. DIALECTS LEFT OUT ON PURPOSE
+   Close variants of languages already on the site, with near-identical samples.
+   - COW                Brainfuck with renamed commands
+   - Decker             covered by Lil
+   - Free Pascal        Pascal
+   - LiveCode           HyperTalk
+   - Oberon-2           Oberon
+   - ooRexx             Rexx
+   - Pico-8             Lua
+   - Unicon             Icon
