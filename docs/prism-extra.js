@@ -37,6 +37,14 @@
         operator: /[+\-*\/%!`]/
     };
 
+    L.taxi = {
+        string: dq,
+        keyword: /\b(?:is waiting at|Go to|Pickup a passenger going to|Switch to plan|if no one is waiting)\b/,
+        constant: /\b(?:north|south|east|west|left|right)\b/,
+        number: /\b\d+(?:st|nd|rd|th)?\b/,
+        punctuation: /[.,:]/
+    };
+
     L.chef = {
         title: { pattern: /^[^\n]+\.(?=\n)/, alias: 'keyword' },
         keyword: /^(?:Ingredients|Method|Serves[^\n]*|Cooking time[^\n]*|Pre-heat oven[^\n]*)\.?$/m,

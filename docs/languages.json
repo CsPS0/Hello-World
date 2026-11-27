@@ -355,6 +355,37 @@
     ]
   },
   {
+    "name": "AMPL",
+    "description": "Algebraic modeling language for mathematical optimization",
+    "path": "hello-world/hello.ampl",
+    "tags": [
+      "procedural"
+    ],
+    "slug": "ampl",
+    "prism": "clike",
+    "icon": "icons/ampl.svg",
+    "creator": "Robert Fourer, David Gay and Brian Kernighan (Bell Laboratories)",
+    "year": 1985,
+    "history": "Robert Fourer, David Gay and Brian Kernighan designed and implemented AMPL (A Mathematical Programming Language) at Bell Laboratories in 1985, and a paper describing it appeared in Management Science in 1990. Models are written in algebraic notation close to the mathematics and handed to separate solvers. Besides model declarations, AMPL has script commands such as printf, which uses C-style format strings.",
+    "famousProjects": [],
+    "frameworks": {},
+    "quiz": {
+      "platforms": [
+        "data-science"
+      ],
+      "backend": false,
+      "typing": "static",
+      "speed": "high"
+    },
+    "website": "https://ampl.com/",
+    "released": "1985",
+    "releasedEvent": "AMPL designed and implemented at Bell Laboratories",
+    "sources": [
+      "https://ampl.com/about-us/",
+      "https://en.wikipedia.org/wiki/AMPL"
+    ]
+  },
+  {
     "name": "AngelScript",
     "description": "C++-like embeddable scripting language",
     "path": "hello-world/hello_angelscript.as",
@@ -1441,6 +1472,38 @@
       "https://github.com/berry-lang/berry",
       "https://raw.githubusercontent.com/berry-lang/berry/master/README.md",
       "https://tasmota.github.io/docs/Berry/"
+    ]
+  },
+  {
+    "name": "Bicep",
+    "description": "Microsoft's declarative language for Azure resource deployments",
+    "path": "hello-world/hello.bicep",
+    "tags": [
+      "markup"
+    ],
+    "slug": "bicep",
+    "prism": "bicep",
+    "icon": "icons/bicep.svg",
+    "creator": "Microsoft (Azure)",
+    "year": 2020,
+    "history": "Microsoft published the first alpha of Bicep in August 2020 as a simpler way to write Azure Resource Manager templates, which are otherwise long JSON documents. Bicep files compile to ARM JSON and describe resources, parameters and outputs. Deployed, this file creates no resources and lists an output named greeting with the value Hello, World!",
+    "famousProjects": [],
+    "frameworks": {},
+    "quiz": {
+      "platforms": [
+        "cloud"
+      ],
+      "backend": true,
+      "typing": "static",
+      "speed": "moderate"
+    },
+    "website": "https://github.com/Azure/bicep",
+    "released": "2020-08-28",
+    "releasedEvent": "Bicep v0.1.1-alpha released on GitHub",
+    "sources": [
+      "https://github.com/Azure/bicep/releases/tag/v0.1.1-alpha",
+      "https://github.com/Azure/bicep",
+      "https://learn.microsoft.com/en-us/azure/azure-resource-manager/bicep/outputs"
     ]
   },
   {
@@ -4209,6 +4272,71 @@
     ]
   },
   {
+    "name": "ECL",
+    "description": "Declarative data-flow language of the HPCC Systems big-data platform",
+    "path": "hello-world/hello.ecl",
+    "tags": [
+      "functional"
+    ],
+    "slug": "ecl",
+    "prism": "sql",
+    "icon": "icons/ecl.svg",
+    "creator": "David Bayliss (Seisint, later LexisNexis Risk Solutions)",
+    "year": 2011,
+    "history": "David Bayliss designed ECL (Enterprise Control Language) in 2000 as an in-house tool at Seisint, and it became public in June 2011 when LexisNexis Risk Solutions open-sourced the HPCC Systems platform. ECL is declarative and free of side effects, which lets the platform run programs in parallel across a cluster. OUTPUT writes the string as a result of the workunit.",
+    "famousProjects": [],
+    "frameworks": {},
+    "quiz": {
+      "platforms": [
+        "data-science",
+        "cloud"
+      ],
+      "backend": true,
+      "typing": "static",
+      "speed": "high"
+    },
+    "website": "https://hpccsystems.com/",
+    "released": "2011-06-15",
+    "releasedEvent": "LexisNexis announces HPCC Systems and ECL as open source",
+    "sources": [
+      "https://www.kdnuggets.com/2011/06/lexis-nexis-open-sources-hadoop-killer.html",
+      "https://en.wikipedia.org/wiki/ECL_(data-centric_programming_language)"
+    ]
+  },
+  {
+    "name": "Ecstasy",
+    "description": "Modular, container-based language for cloud applications (XTC)",
+    "path": "hello-world/hello.x",
+    "tags": [
+      "oop"
+    ],
+    "slug": "ecstasy",
+    "prism": "java",
+    "icon": "icons/ecstasy.svg",
+    "creator": "Cameron Purdy and Gene Gleyzer",
+    "year": 2019,
+    "history": "Cameron Purdy and Gene Gleyzer, who earlier co-founded Tangosol, designed Ecstasy (also called XTC) for cloud and serverless applications; the project blog introduced it in April 2019. Code runs inside nested containers, and a module receives resources such as the console only by injection, as @Inject does here. The xtc tool builds and runs the module.",
+    "famousProjects": [],
+    "frameworks": {},
+    "quiz": {
+      "platforms": [
+        "cloud",
+        "web-backend"
+      ],
+      "backend": true,
+      "typing": "static",
+      "speed": "high"
+    },
+    "website": "https://xtclang.org/",
+    "released": "2019-04-01",
+    "releasedEvent": "Ecstasy introduced on the project blog, with its source to be released under the Apache 2.0 license",
+    "sources": [
+      "https://xtclang.blogspot.com/2019/04/signs-of-spring.html",
+      "https://www.infoq.com/articles/xtc-lang/",
+      "https://github.com/xtclang/xvm"
+    ]
+  },
+  {
     "name": "Effekt",
     "description": "Research language with lightweight effect handlers",
     "path": "hello-world/hello.effekt",
@@ -4240,6 +4368,38 @@
       "https://github.com/effekt-lang/effekt",
       "https://effekt-lang.org/",
       "https://ps.informatik.uni-tuebingen.de/publications/brachthaeuser20effects/"
+    ]
+  },
+  {
+    "name": "Egison",
+    "description": "Functional language built around non-linear pattern matching",
+    "path": "hello-world/hello.egi",
+    "tags": [
+      "functional"
+    ],
+    "slug": "egison",
+    "prism": "haskell",
+    "icon": "icons/egison.svg",
+    "creator": "Satoshi Egi",
+    "year": 2011,
+    "history": "Satoshi Egi released Egison on Hackage in May 2011 to express pattern matching against non-free data types such as sets and multisets directly, without spelling out how to search them. Early versions used an S-expression syntax; this sample uses the Haskell-like syntax of Egison 4, released in 2020.",
+    "famousProjects": [],
+    "frameworks": {},
+    "quiz": {
+      "platforms": [
+        "data-science",
+        "cli"
+      ],
+      "backend": false,
+      "typing": "dynamic",
+      "speed": "low"
+    },
+    "website": "https://www.egison.org/",
+    "released": "2011-05-23",
+    "releasedEvent": "Egison 0.1 uploaded to Hackage",
+    "sources": [
+      "https://hackage.haskell.org/package/egison-0.1",
+      "https://egison.readthedocs.io/en/latest/tutorial/io.html"
     ]
   },
   {
@@ -4627,6 +4787,37 @@
     "releasedEvent": "Euphoria 1.0 released for MS-DOS",
     "sources": [
       "https://en.wikipedia.org/wiki/Euphoria_(programming_language)"
+    ]
+  },
+  {
+    "name": "Expect",
+    "description": "Tcl extension for automating interactive programs",
+    "path": "hello-world/hello.exp",
+    "tags": [
+      "scripting"
+    ],
+    "slug": "expect",
+    "prism": "tcl",
+    "icon": "icons/expect.svg",
+    "creator": "Don Libes (NIST)",
+    "year": 1990,
+    "history": "Don Libes wrote Expect at NIST in 1990 and described it at the Summer 1990 USENIX Conference. It extends Tcl with spawn, expect and send, so a script can drive programs that insist on a person typing, such as passwd, telnet or ftp sessions. send_user writes to the user's terminal instead of the spawned process.",
+    "famousProjects": [],
+    "frameworks": {},
+    "quiz": {
+      "platforms": [
+        "cli"
+      ],
+      "backend": false,
+      "typing": "dynamic",
+      "speed": "moderate"
+    },
+    "website": "https://core.tcl-lang.org/expect/",
+    "released": "1990-06",
+    "releasedEvent": "Libes presents \"Expect: Curing Those Uncontrollable Fits of Interaction\" at the Summer 1990 USENIX Conference",
+    "sources": [
+      "https://www.nist.gov/services-resources/software/expect",
+      "https://en.wikipedia.org/wiki/Expect"
     ]
   },
   {
@@ -5839,6 +6030,38 @@
     "sources": [
       "https://github.com/marcobambini/gravity",
       "https://www.lemondeinformatique.fr/actualites/lireamp-gravity-un-langage-de-plus-pour-ios-et-android-67616.html"
+    ]
+  },
+  {
+    "name": "Gremlin",
+    "description": "Apache TinkerPop's graph traversal language",
+    "path": "hello-world/hello.gremlin",
+    "tags": [
+      "functional"
+    ],
+    "slug": "gremlin",
+    "prism": "groovy",
+    "icon": "icons/gremlin.svg",
+    "creator": "Marko A. Rodriguez (TinkerPop)",
+    "year": 2009,
+    "history": "Marko A. Rodriguez started the TinkerPop project in October 2009 and released Gremlin 0.1 on 25 December 2009. Gremlin queries chain steps that walk a graph, and the same traversal can run on many graph databases. This uses current TinkerPop 3 syntax in the Gremlin Console: inject puts the string into an empty traversal, and after echoing the graph and g the console prints ==>Hello, World!",
+    "famousProjects": [],
+    "frameworks": {},
+    "quiz": {
+      "platforms": [
+        "data-science",
+        "web-backend"
+      ],
+      "backend": true,
+      "typing": "dynamic",
+      "speed": "moderate"
+    },
+    "website": "https://tinkerpop.apache.org/gremlin.html",
+    "released": "2009-12-25",
+    "releasedEvent": "Gremlin 0.1 released",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Gremlin_(query_language)",
+      "https://tinkerpop.apache.org/docs/current/reference/"
     ]
   },
   {
@@ -7354,6 +7577,70 @@
     ]
   },
   {
+    "name": "KCL",
+    "description": "Constraint-based configuration language from Ant Group",
+    "path": "hello-world/hello_kcl.k",
+    "tags": [
+      "functional",
+      "markup"
+    ],
+    "slug": "kcl",
+    "prism": "python",
+    "icon": "icons/kcl.svg",
+    "creator": "Ant Group",
+    "year": 2022,
+    "history": "Ant Group open-sourced KCL in May 2022 after using it for platform engineering in production, and it became a CNCF Sandbox project in September 2023. Its Python-like syntax adds schemas and constraints for writing and validating large Kubernetes and cloud configurations. Running kcl hello.k prints the result as YAML: hello: Hello, World!",
+    "famousProjects": [],
+    "frameworks": {},
+    "quiz": {
+      "platforms": [
+        "cloud"
+      ],
+      "backend": false,
+      "typing": "static",
+      "speed": "high"
+    },
+    "website": "https://www.kcl-lang.io/",
+    "released": "2022-05-14",
+    "releasedEvent": "v0.4.2-alpha.1, the first GitHub release after Ant Group open-sourced KCL",
+    "sources": [
+      "https://kcl-lang.io/blog/2023-09-19-kcl-joining-cncf-sandbox/",
+      "https://github.com/kcl-lang/kcl/releases"
+    ]
+  },
+  {
+    "name": "Kitten",
+    "description": "Statically typed concatenative language",
+    "path": "hello-world/hello.ktn",
+    "tags": [
+      "functional"
+    ],
+    "slug": "kitten",
+    "prism": "factor",
+    "icon": "icons/kitten.svg",
+    "creator": "Jon Purdy",
+    "year": 2011,
+    "history": "Jon Purdy started Kitten in December 2011 as a statically typed concatenative language: functions take their arguments from a stack, as in Forth and Factor, but it is statically typed, and its implementation is written in Haskell. The string is pushed onto the stack and say prints it with a newline.",
+    "famousProjects": [],
+    "frameworks": {},
+    "quiz": {
+      "platforms": [
+        "systems",
+        "cli"
+      ],
+      "backend": false,
+      "typing": "static",
+      "speed": "high"
+    },
+    "website": "https://kittenlang.org/",
+    "released": "2011-12-11",
+    "releasedEvent": "Initial commit of the Kitten repository",
+    "sources": [
+      "https://github.com/evincarofautumn/kitten",
+      "https://kittenlang.org/"
+    ]
+  },
+  {
     "name": "Koka",
     "description": "Functional language with algebraic effects",
     "path": "hello-world/hello.kk",
@@ -8479,6 +8766,40 @@
     ]
   },
   {
+    "name": "Maude",
+    "description": "Rewriting-logic specification and programming language",
+    "path": "hello-world/hello.maude",
+    "tags": [
+      "functional",
+      "logic"
+    ],
+    "slug": "maude",
+    "prism": "clike",
+    "icon": "icons/maude.svg",
+    "creator": "José Meseguer, Steven Eker, Manuel Clavel, Francisco Durán, Patrick Lincoln, Narciso Martí-Oliet and José Quesada (SRI International)",
+    "year": 1999,
+    "history": "Maude grew out of José Meseguer's work on rewriting logic at SRI International, and Maude 1.0 was announced in January 1999 as a successor in spirit to Joseph Goguen's OBJ3. Programs are equations and rewrite rules, which also makes Maude a tool for specifying and model checking systems. The red command reduces a term in the STRING module and prints result String: \"Hello, World!\".",
+    "famousProjects": [],
+    "frameworks": {},
+    "quiz": {
+      "platforms": [
+        "logic",
+        "cli"
+      ],
+      "backend": false,
+      "typing": "static",
+      "speed": "moderate"
+    },
+    "website": "https://maude.cs.illinois.edu/",
+    "released": "1999-01-29",
+    "releasedEvent": "José Meseguer announces the Maude 1.0 release",
+    "sources": [
+      "https://www.engineering.upenn.edu/~sweirich/types/archive/1999-2003/msg00081.html",
+      "https://maude.cs.illinois.edu/maude1/manual/maude-manual-html/maude-manual_0.html",
+      "https://maude.cs.illinois.edu/manual/maude-manualch2.html"
+    ]
+  },
+  {
     "name": "Maxima",
     "description": "Computer algebra system descended from Macsyma",
     "path": "hello-world/hello_maxima.mac",
@@ -8779,6 +9100,37 @@
     "sources": [
       "https://www.cs.kent.ac.uk/people/staff/dat/miranda/",
       "https://en.wikipedia.org/wiki/Miranda_(programming_language)"
+    ]
+  },
+  {
+    "name": "mIRC scripting",
+    "description": "Event-driven scripting language of the mIRC IRC client",
+    "path": "hello-world/hello.mrc",
+    "tags": [
+      "scripting"
+    ],
+    "slug": "mirc-scripting",
+    "prism": "clike",
+    "icon": "icons/mirc-scripting.svg",
+    "creator": "Khaled Mardam-Bey",
+    "year": 1995,
+    "history": "Khaled Mardam-Bey released the first public version of the Windows IRC client mIRC on 28 February 1995, and its scripting language, in his words, grew organically rather than being designed. Scripts add aliases, popup menus and handlers for IRC events, and were used to write bots and full client add-ons. Loaded as a remote script, this defines a /hello command that shows Hello, World! in the active window.",
+    "famousProjects": [],
+    "frameworks": {},
+    "quiz": {
+      "platforms": [
+        "desktop"
+      ],
+      "backend": false,
+      "typing": "dynamic",
+      "speed": "low"
+    },
+    "website": "https://www.mirc.com/",
+    "released": "1995",
+    "releasedEvent": "First appeared with the mIRC client, whose first public version was released on 28 February 1995",
+    "sources": [
+      "https://www.mirc.co.uk/pfaq.html",
+      "https://en.wikipedia.org/wiki/MIRC_scripting_language"
     ]
   },
   {
@@ -9785,6 +10137,39 @@
     ]
   },
   {
+    "name": "ooc",
+    "description": "Object-oriented language that compiles to C99",
+    "path": "hello-world/hello.ooc",
+    "tags": [
+      "oop",
+      "procedural"
+    ],
+    "slug": "ooc",
+    "prism": "clike",
+    "icon": "icons/ooc.svg",
+    "creator": "Amos Wenger",
+    "year": 2009,
+    "history": "Amos Wenger wrote the first ooc compiler in 2009 as a student at EPFL, a source-to-source translator from a Java-like language to C, so he would not have to write a class project in C. He then rewrote it, and the self-hosted compiler rock still generates C99. Strings have a println method, so the greeting is the receiver here.",
+    "famousProjects": [],
+    "frameworks": {},
+    "quiz": {
+      "platforms": [
+        "systems",
+        "cli"
+      ],
+      "backend": false,
+      "typing": "static",
+      "speed": "high"
+    },
+    "website": "https://ooc-lang.github.io/",
+    "released": "2009",
+    "releasedEvent": "First ooc compiler written by Amos Wenger at EPFL",
+    "sources": [
+      "https://ooc-lang.github.io/about/",
+      "https://github.com/ooc-lang/rock"
+    ]
+  },
+  {
     "name": "Ook!",
     "description": "Brainfuck for orangutans",
     "path": "hello-world/hello.ook",
@@ -9950,6 +10335,39 @@
     "sources": [
       "https://en.wikipedia.org/wiki/Oz_(programming_language)",
       "https://mozart.github.io/"
+    ]
+  },
+  {
+    "name": "ParaSail",
+    "description": "Tucker Taft's pointer-free language for parallel programming",
+    "path": "hello-world/hello.psl",
+    "tags": [
+      "procedural",
+      "oop"
+    ],
+    "slug": "parasail",
+    "prism": "ada",
+    "icon": "icons/parasail.svg",
+    "creator": "S. Tucker Taft (AdaCore)",
+    "year": 2011,
+    "history": "Tucker Taft, lead designer of Ada 95, began designing ParaSail (Parallel Specification and Implementation Language) in September 2009 and documented the work on a blog, where the first alpha compiler and virtual machine were announced in October 2011. The language has no pointers and no global variables, so the compiler can evaluate expressions in parallel safely. The IO object is passed in as a parameter instead of being global.",
+    "famousProjects": [],
+    "frameworks": {},
+    "quiz": {
+      "platforms": [
+        "systems",
+        "cli"
+      ],
+      "backend": false,
+      "typing": "static",
+      "speed": "high"
+    },
+    "website": "https://parasail-lang.org/",
+    "released": "2011-10-03",
+    "releasedEvent": "Alpha release of the ParaSail compiler and virtual machine announced",
+    "sources": [
+      "https://parasail-programming-language.blogspot.com/2011/10/",
+      "https://en.wikipedia.org/wiki/ParaSail_(programming_language)"
     ]
   },
   {
@@ -10565,6 +10983,38 @@
     "sources": [
       "https://computerhistory.org/blog/postscript-a-digital-printing-press/",
       "https://en.wikipedia.org/wiki/PostScript"
+    ]
+  },
+  {
+    "name": "Potion",
+    "description": "_why the lucky stiff's small JIT-compiled object language",
+    "path": "hello-world/hello.pn",
+    "tags": [
+      "oop",
+      "scripting"
+    ],
+    "slug": "potion",
+    "prism": "io",
+    "icon": "icons/potion.svg",
+    "creator": "why the lucky stiff",
+    "year": 2008,
+    "history": "The Ruby writer why the lucky stiff checked in the first Potion code in December 2008, a small language whose objects and mixins sit on a virtual machine heavily based on Lua's, with a JIT to x86 and x86-64. The perl11 project keeps the official repository going until _why returns. Messages follow the receiver, so the string is sent print.",
+    "famousProjects": [],
+    "frameworks": {},
+    "quiz": {
+      "platforms": [
+        "cli"
+      ],
+      "backend": false,
+      "typing": "dynamic",
+      "speed": "high"
+    },
+    "website": "https://github.com/perl11/potion",
+    "released": "2008-12-20",
+    "releasedEvent": "First check-in of Potion by _why",
+    "sources": [
+      "https://github.com/perl11/potion",
+      "https://github.com/perl11/potion/blob/master/README.md"
     ]
   },
   {
@@ -11456,6 +11906,39 @@
     "sources": [
       "https://en.wikipedia.org/wiki/Refal",
       "https://rosettacode.org/wiki/Hello_world/Text#Refal"
+    ]
+  },
+  {
+    "name": "Rego",
+    "description": "Datalog-inspired policy language of Open Policy Agent",
+    "path": "hello-world/hello.rego",
+    "tags": [
+      "logic"
+    ],
+    "slug": "rego",
+    "prism": "rego",
+    "icon": "icons/rego.svg",
+    "creator": "Tim Hinrichs, Torin Sandall and Teemu Koponen (Styra)",
+    "year": 2016,
+    "history": "Tim Hinrichs, Torin Sandall and Teemu Koponen created Open Policy Agent at Styra, and its policy language Rego shipped in OPA v0.1.0 in July 2016. Rego is inspired by Datalog and extended to query structured documents such as JSON. The := operator in this sample is the current form of rule assignment; opa eval --format raw -d hello.rego data.hello.greeting prints Hello, World!",
+    "famousProjects": [],
+    "frameworks": {},
+    "quiz": {
+      "platforms": [
+        "cloud",
+        "logic"
+      ],
+      "backend": true,
+      "typing": "dynamic",
+      "speed": "moderate"
+    },
+    "website": "https://www.openpolicyagent.org/",
+    "released": "2016-07-14",
+    "releasedEvent": "Open Policy Agent v0.1.0 released with the Rego language",
+    "sources": [
+      "https://github.com/open-policy-agent/opa/releases/tag/v0.1.0",
+      "https://startwithidentity.com/experts/tim-hinrichs/",
+      "https://www.openpolicyagent.org/docs/cli"
     ]
   },
   {
@@ -13134,6 +13617,37 @@
     ]
   },
   {
+    "name": "Taxi",
+    "description": "Esoteric language in which a taxi drives values around a town map",
+    "path": "hello-world/hello.txi",
+    "tags": [
+      "esoteric"
+    ],
+    "slug": "taxi",
+    "prism": "taxi",
+    "icon": "icons/taxi.svg",
+    "creator": "Sean Heber",
+    "year": 2005,
+    "history": "Sean Heber conceived Taxi on 21 June 2005 and released it six days later. Values are passengers that a taxi picks up and drops off at places on a fixed map of Townsburg, driving by turn-by-turn directions, and the taxi needs fuel paid for by fares. Dropping a passenger at the Post Office prints it, and the program ends at the Taxi Garage.",
+    "famousProjects": [],
+    "frameworks": {},
+    "quiz": {
+      "platforms": [
+        "esoteric"
+      ],
+      "backend": false,
+      "typing": "dynamic",
+      "speed": "low"
+    },
+    "website": "https://bigzaphod.github.io/Taxi/",
+    "released": "2005-06-27",
+    "releasedEvent": "First release of Taxi",
+    "sources": [
+      "https://bigzaphod.github.io/Taxi/",
+      "https://esolangs.org/wiki/Taxi"
+    ]
+  },
+  {
     "name": "Tcl",
     "description": "Hello World in Tcl",
     "path": "hello-world/hello.tcl",
@@ -14512,6 +15026,37 @@
     "sources": [
       "https://2484.de/yabasic/content_history.html",
       "https://en.wikipedia.org/wiki/Yabasic"
+    ]
+  },
+  {
+    "name": "Yacas",
+    "description": "Small computer algebra system with its own scripting language",
+    "path": "hello-world/hello.ys",
+    "tags": [
+      "functional"
+    ],
+    "slug": "yacas",
+    "prism": "clike",
+    "icon": "icons/yacas.svg",
+    "creator": "Ayal Pinkus and Serge Winitzki",
+    "year": 1999,
+    "history": "Ayal Pinkus started Yacas (Yet Another Computer Algebra System) in early 1999, and Serge Winitzki became a main co-developer. A small C++ kernel evaluates a rule-based scripting language in which most of the mathematics is written. Echo prints a string without quotation marks and adds a newline; in the interactive shell it then shows Out> True.",
+    "famousProjects": [],
+    "frameworks": {},
+    "quiz": {
+      "platforms": [
+        "data-science"
+      ],
+      "backend": false,
+      "typing": "dynamic",
+      "speed": "moderate"
+    },
+    "website": "https://www.yacas.org/",
+    "released": "1999",
+    "releasedEvent": "Initial release",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Yacas",
+      "https://yacas.readthedocs.io/en/latest/reference_manual/io.html"
     ]
   },
   {

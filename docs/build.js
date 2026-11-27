@@ -399,7 +399,23 @@ const EXTENSION_MAP = {
     ".cue": {"name": "CUE", "tags": ["markup","logic"]},
     ".ly": {"name": "LilyPond", "tags": ["markup"]},
     ".aum": {"name": "Austral", "tags": ["procedural","functional"]},
-    ".rhm": {"name": "Rhombus", "tags": ["functional","oop"]}
+    ".rhm": {"name": "Rhombus", "tags": ["functional","oop"]},
+    ".ampl": {"name": "AMPL", "tags": ["procedural"]},
+    ".psl": {"name": "ParaSail", "tags": ["procedural","oop"]},
+    ".x": {"name": "Ecstasy", "tags": ["oop"]},
+    ".egi": {"name": "Egison", "tags": ["functional"]},
+    ".maude": {"name": "Maude", "tags": ["functional","logic"]},
+    ".mrc": {"name": "mIRC scripting", "tags": ["scripting"]},
+    ".ecl": {"name": "ECL", "tags": ["functional"]},
+    ".gremlin": {"name": "Gremlin", "tags": ["functional"]},
+    ".ktn": {"name": "Kitten", "tags": ["functional"]},
+    ".pn": {"name": "Potion", "tags": ["oop","scripting"]},
+    ".ooc": {"name": "ooc", "tags": ["oop","procedural"]},
+    ".bicep": {"name": "Bicep", "tags": ["markup"]},
+    ".rego": {"name": "Rego", "tags": ["logic"]},
+    ".ys": {"name": "Yacas", "tags": ["functional"]},
+    ".exp": {"name": "Expect", "tags": ["scripting"]},
+    ".txi": {"name": "Taxi", "tags": ["esoteric"]}
 };
 
 const FILENAME_MAP = {
@@ -433,7 +449,8 @@ const FILENAME_MAP = {
     "hello_autolisp.lsp": {"name": "AutoLISP", "description": "Lisp dialect for scripting AutoCAD", "tags": ["functional","scripting"]},
     "hello_amigae.e": {"name": "Amiga E", "description": "Fast-compiling Amiga language influenced by C++, Ada and Lisp", "tags": ["procedural","oop"]},
     "hello_ezhil.n": {"name": "Ezhil", "description": "Programming language with Tamil keywords, for teaching", "tags": ["procedural","scripting"]},
-    "hello_islisp.lsp": {"name": "ISLISP", "description": "ISO-standard Lisp dialect", "tags": ["functional"]}
+    "hello_islisp.lsp": {"name": "ISLISP", "description": "ISO-standard Lisp dialect", "tags": ["functional"]},
+    "hello_kcl.k": {"name": "KCL", "description": "Constraint-based configuration language from Ant Group", "tags": ["functional","markup"]}
 };
 
 // Prism grammar per language (variants fall back to their base name, "Ruby (Script)" -> "Ruby").
@@ -828,7 +845,24 @@ const PRISM_MAP = {
     "CUE": "go",
     "LilyPond": "lilypond",
     "Austral": "ada",
-    "Rhombus": "python"
+    "Rhombus": "python",
+    "AMPL": "clike",
+    "ParaSail": "ada",
+    "Ecstasy": "java",
+    "Egison": "haskell",
+    "Maude": "clike",
+    "mIRC scripting": "clike",
+    "ECL": "sql",
+    "Gremlin": "groovy",
+    "Kitten": "factor",
+    "Potion": "io",
+    "ooc": "clike",
+    "Bicep": "bicep",
+    "Rego": "rego",
+    "Yacas": "clike",
+    "KCL": "python",
+    "Expect": "tcl",
+    "Taxi": "taxi"
 };
 
 const DESCRIPTION_DEFAULTS = {
@@ -1128,7 +1162,24 @@ const DESCRIPTION_DEFAULTS = {
     "CUE": "Configuration and data validation language that unifies types and values",
     "LilyPond": "Text-based music engraving language",
     "Austral": "Systems language with linear types and capability-based security",
-    "Rhombus": "Racket-based language with conventional infix syntax and macros"
+    "Rhombus": "Racket-based language with conventional infix syntax and macros",
+    "AMPL": "Algebraic modeling language for mathematical optimization",
+    "ParaSail": "Tucker Taft's pointer-free language for parallel programming",
+    "Ecstasy": "Modular, container-based language for cloud applications (XTC)",
+    "Egison": "Functional language built around non-linear pattern matching",
+    "Maude": "Rewriting-logic specification and programming language",
+    "mIRC scripting": "Event-driven scripting language of the mIRC IRC client",
+    "ECL": "Declarative data-flow language of the HPCC Systems big-data platform",
+    "Gremlin": "Apache TinkerPop's graph traversal language",
+    "Kitten": "Statically typed concatenative language",
+    "Potion": "_why the lucky stiff's small JIT-compiled object language",
+    "ooc": "Object-oriented language that compiles to C99",
+    "Bicep": "Microsoft's declarative language for Azure resource deployments",
+    "Rego": "Datalog-inspired policy language of Open Policy Agent",
+    "Yacas": "Small computer algebra system with its own scripting language",
+    "KCL": "Constraint-based configuration language from Ant Group",
+    "Expect": "Tcl extension for automating interactive programs",
+    "Taxi": "Esoteric language in which a taxi drives values around a town map"
 };
 
 function getExtension(filename) {

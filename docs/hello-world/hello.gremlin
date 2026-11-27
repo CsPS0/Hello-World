@@ -1,0 +1,3 @@
+graph = TinkerGraph.open()
+g = traversal().with(graph)
+g.inject("Hello, World!")
