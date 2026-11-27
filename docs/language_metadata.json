@@ -9982,5 +9982,401 @@
       "https://esolangs.org/wiki/Charcoal",
       "https://github.com/charcoal-lang/Charcoal"
     ]
+  },
+  "Dafny": {
+    "creator": "K. Rustan M. Leino (Microsoft Research)",
+    "year": 2009,
+    "famousProjects": [],
+    "frameworks": {},
+    "quiz": {
+      "platforms": [
+        "cli"
+      ],
+      "backend": false,
+      "typing": "static",
+      "speed": "high"
+    },
+    "history": "K. Rustan M. Leino designed Dafny at Microsoft Research, where it first appeared in 2009, to make program verification part of ordinary programming. Methods carry preconditions, postconditions and loop invariants that the verifier checks before the code compiles. Verified programs compile to C#, Java, JavaScript, Go and Python.",
+    "website": "https://dafny.org/",
+    "released": "2009",
+    "releasedEvent": "First appearance at Microsoft Research (Leino's lecture notes on Dafny published in 2009)",
+    "sources": [
+      "https://www.microsoft.com/en-us/research/project/dafny-a-language-and-program-verifier-for-functional-correctness/",
+      "https://en.wikipedia.org/wiki/Dafny"
+    ]
+  },
+  "CLIPS": {
+    "creator": "NASA Johnson Space Center",
+    "year": 1985,
+    "famousProjects": [],
+    "frameworks": {},
+    "quiz": {
+      "platforms": [
+        "ai",
+        "cli"
+      ],
+      "backend": false,
+      "typing": "dynamic",
+      "speed": "moderate"
+    },
+    "history": "CLIPS was developed at NASA's Johnson Space Center from 1985 to 1996 as an alternative to ART*Inference for building expert systems, and its syntax and name were inspired by Charles Forgy's OPS5. Programs are facts and if-then rules that an inference engine matches. It has been public domain since 1996; printout t writes to standard output and crlf ends the line.",
+    "website": "https://www.clipsrules.net/",
+    "released": "1985",
+    "releasedEvent": "First versions developed at NASA's Johnson Space Center",
+    "sources": [
+      "https://www.clipsrules.net/AboutCLIPS.html",
+      "https://en.wikipedia.org/wiki/CLIPS"
+    ]
+  },
+  "CLU": {
+    "creator": "Barbara Liskov and her students (MIT)",
+    "year": 1975,
+    "famousProjects": [],
+    "frameworks": {},
+    "quiz": {
+      "platforms": [
+        "cli"
+      ],
+      "backend": false,
+      "typing": "static",
+      "speed": "high"
+    },
+    "history": "Barbara Liskov and her students designed CLU at MIT from 1973 as the first implemented language with direct support for data abstraction; a cluster bundles a type's representation with its operations. It also introduced iterators and an exception mechanism, and its compiler was soon rewritten in CLU itself. stream$primary_output returns the standard output stream and putl writes a line to it.",
+    "released": "1975",
+    "releasedEvent": "First appearance; a preliminary reference manual for CLU .5 was issued at MIT in January 1975",
+    "sources": [
+      "https://www.cs.tufts.edu/~nr/cs257/archive/barbara-liskov/clu-history.pdf",
+      "https://en.wikipedia.org/wiki/CLU_(programming_language)"
+    ]
+  },
+  "PILOT": {
+    "creator": "John Amsden Starkweather (UCSF)",
+    "year": 1968,
+    "famousProjects": [],
+    "frameworks": {},
+    "quiz": {
+      "platforms": [
+        "cli"
+      ],
+      "backend": false,
+      "typing": "dynamic",
+      "speed": "low"
+    },
+    "history": "John Amsden Starkweather, a psychology professor at the University of California, San Francisco, developed PILOT in the 1960s for writing computer-assisted instruction, and it entered the public domain in 1969. Each line starts with a command letter and a colon: T types text, A accepts an answer and M matches it. Later versions ran on the Atari and Apple II home computers, and IEEE published a standard for it in 1991.",
+    "released": "1968",
+    "releasedEvent": "Starkweather releases an almost-complete version of PILOT",
+    "sources": [
+      "https://en.wikipedia.org/wiki/PILOT"
+    ]
+  },
+  "FOCAL": {
+    "creator": "Richard Merrill (Digital Equipment Corporation)",
+    "year": 1968,
+    "famousProjects": [],
+    "frameworks": {},
+    "quiz": {
+      "platforms": [
+        "cli"
+      ],
+      "backend": false,
+      "typing": "dynamic",
+      "speed": "low"
+    },
+    "history": "Richard Merrill wrote FOCAL for Digital Equipment Corporation's PDP-8 minicomputer in 1968, basing it on RAND's JOSS. Program lines are numbered as group and line, such as 01.50, and a command typed without a number runs at once. TYPE prints its items: a string in double quotes, and ! for a new line.",
+    "released": "1968",
+    "releasedEvent": "First released for the PDP-8",
+    "sources": [
+      "https://en.wikipedia.org/wiki/FOCAL_(programming_language)"
+    ]
+  },
+  "Labyrinth": {
+    "creator": "Martin Ender",
+    "year": 2015,
+    "famousProjects": [],
+    "frameworks": {},
+    "quiz": {
+      "platforms": [
+        "esoteric"
+      ],
+      "backend": false,
+      "typing": "dynamic",
+      "speed": "low"
+    },
+    "history": "Martin Ender designed Labyrinth in 2015, a two-dimensional language whose source code is a maze of commands. At junctions the instruction pointer turns according to the sign of the top of the stack, so the shape of the program is its control flow. Each digit appends to the number on top of the stack, : duplicates it, . prints it as a character and @ ends the program.",
+    "website": "https://github.com/m-ender/labyrinth",
+    "released": "2015-08-22",
+    "releasedEvent": "Reference interpreter repository created on GitHub",
+    "sources": [
+      "https://github.com/m-ender/labyrinth",
+      "https://esolangs.org/wiki/Labyrinth"
+    ]
+  },
+  "Hexagony": {
+    "creator": "Martin Ender",
+    "year": 2015,
+    "famousProjects": [],
+    "frameworks": {},
+    "quiz": {
+      "platforms": [
+        "esoteric"
+      ],
+      "backend": false,
+      "typing": "dynamic",
+      "speed": "low"
+    },
+    "history": "Martin Ender created Hexagony in 2015, a two-dimensional language whose source code is folded onto a hexagonal grid. Its memory is a hexagonal grid too, and six instruction pointers start at the corners and wrap around the edges, with mirrors and branches redirecting them. Here letters set the current memory edge to their character code and ; prints it.",
+    "website": "https://github.com/m-ender/hexagony",
+    "released": "2015-09-09",
+    "releasedEvent": "Reference interpreter repository created on GitHub",
+    "sources": [
+      "https://github.com/m-ender/hexagony",
+      "https://esolangs.org/wiki/Hexagony"
+    ]
+  },
+  "Csound": {
+    "creator": "Barry Vercoe (MIT)",
+    "year": 1985,
+    "famousProjects": [],
+    "frameworks": {},
+    "quiz": {
+      "platforms": [
+        "desktop"
+      ],
+      "backend": false,
+      "typing": "dynamic",
+      "speed": "high"
+    },
+    "history": "Barry Vercoe released Csound at MIT in 1985, with roots in Max Mathews's MUSIC-N programs, and it has been developed as free software by a wide community since. A .csd file holds an orchestra of instruments and a score of timed events; here the score starts instrument 1 at time 0 and prints runs when it initialises. Csound writes its own log around the greeting, and -n turns off audio output.",
+    "website": "https://csound.com/",
+    "released": "1985",
+    "releasedEvent": "Released by Barry Vercoe at MIT",
+    "sources": [
+      "https://csound.com/",
+      "https://en.wikipedia.org/wiki/Csound"
+    ]
+  },
+  "Markdown": {
+    "creator": "John Gruber",
+    "year": 2004,
+    "famousProjects": [],
+    "frameworks": {},
+    "quiz": {
+      "platforms": [
+        "markup"
+      ],
+      "backend": false,
+      "typing": "dynamic",
+      "speed": "high"
+    },
+    "history": "John Gruber released Markdown in March 2004 as a plain-text formatting syntax and a Perl script that converts it to HTML. The design goal was text that reads naturally as it is, and the biggest influence was the format of plain-text email. Plain text is a paragraph, so this file converts to a single paragraph containing Hello, World!",
+    "website": "https://daringfireball.net/projects/markdown/",
+    "released": "2004-03-09",
+    "releasedEvent": "Markdown 1.0b1 published on Daring Fireball",
+    "sources": [
+      "https://web.archive.org/web/20040311230924/https://daringfireball.net/projects/markdown/index.text",
+      "https://daringfireball.net/projects/markdown/",
+      "https://en.wikipedia.org/wiki/Markdown"
+    ]
+  },
+  "QML": {
+    "creator": "Qt Software (Nokia)",
+    "year": 2009,
+    "famousProjects": [],
+    "frameworks": {},
+    "quiz": {
+      "platforms": [
+        "desktop",
+        "mobile"
+      ],
+      "backend": false,
+      "typing": "dynamic",
+      "speed": "moderate"
+    },
+    "history": "QML came from Qt Software's development lab in Brisbane, and Matthias Ettrich presented it at LinuxTag in Berlin in June 2009 as a declarative way to build interfaces for mobile devices. A file describes a tree of objects whose properties and handlers are JavaScript expressions. Run with the Qt 6 qml tool, this prints qml: Hello, World! to the log and quits.",
+    "website": "https://doc.qt.io/qt-6/qmlapplications.html",
+    "released": "2009",
+    "releasedEvent": "Qt Software previews QML with binaries and source; Matthias Ettrich presents it at LinuxTag in June 2009",
+    "sources": [
+      "https://www.linux-magazine.com/Online/News/LinuxTag-2009-GUIs-of-the-Future-with-QML",
+      "https://en.wikipedia.org/wiki/QML"
+    ]
+  },
+  "Cypher": {
+    "creator": "Andrés Taylor (Neo Technology)",
+    "year": 2011,
+    "famousProjects": [],
+    "frameworks": {},
+    "quiz": {
+      "platforms": [
+        "web-backend",
+        "data-science"
+      ],
+      "backend": true,
+      "typing": "dynamic",
+      "speed": "moderate"
+    },
+    "history": "Andrés Taylor created Cypher at Neo Technology, and its first iteration shipped in a Neo4j 1.4 milestone in June 2011 so users could query a graph without writing traversal code. Patterns draw the graph in ASCII art, with (nodes) joined by -[relationships]->. It was opened up through the openCypher project in 2015; this query returns a one-row table with the text in a greeting column.",
+    "website": "https://opencypher.org/",
+    "released": "2011-06-10",
+    "releasedEvent": "First iteration released in Neo4j 1.4 Milestone 4",
+    "sources": [
+      "https://neo4j.com/blog/news/kiruna-stol-1-4-milestone-4/",
+      "https://en.wikipedia.org/wiki/Cypher_(query_language)"
+    ]
+  },
+  "Ezhil": {
+    "creator": "Muthiah Annamalai",
+    "year": 2009,
+    "famousProjects": [],
+    "frameworks": {},
+    "quiz": {
+      "platforms": [
+        "cli"
+      ],
+      "backend": false,
+      "typing": "dynamic",
+      "speed": "low"
+    },
+    "history": "Muthiah Annamalai began Ezhil in late 2007 and announced it in July 2009, so that Tamil speakers could learn programming with keywords in their own language. It was influenced by Logo, BASIC and Python and is aimed at school students. பதிப்பி (pathippi, print) writes the string.",
+    "website": "https://github.com/Ezhil-Language-Foundation/Ezhil-Lang",
+    "released": "2009-07",
+    "releasedEvent": "Officially announced (in development since late 2007)",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Ezhil_(programming_language)",
+      "https://github.com/Ezhil-Language-Foundation/Ezhil-Lang"
+    ]
+  },
+  "OPL": {
+    "creator": "Colly Myers (Psion)",
+    "year": 1984,
+    "famousProjects": [],
+    "frameworks": {},
+    "quiz": {
+      "platforms": [
+        "mobile",
+        "embedded"
+      ],
+      "backend": false,
+      "typing": "static",
+      "speed": "moderate"
+    },
+    "history": "Colly Myers designed OPL at Psion, and Richard Harrison and Martin Stamp implemented the first version for the original Psion Organiser in 1984, without graphics. It became built-in software on the Organiser II in 1986 and then on the Series 3 and Series 5 palmtops, and was later released as open source for Symbian. PRINT shows the text and GET waits for a key, so it stays on screen.",
+    "released": "1984",
+    "releasedEvent": "First implementation on the original Psion Organiser",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Open_Programming_Language"
+    ]
+  },
+  "Lingo": {
+    "creator": "John H. Thompson (MacroMind)",
+    "year": 1989,
+    "famousProjects": [],
+    "frameworks": {},
+    "quiz": {
+      "platforms": [
+        "desktop",
+        "web-frontend"
+      ],
+      "backend": false,
+      "typing": "dynamic",
+      "speed": "low"
+    },
+    "history": "John H. Thompson invented Lingo at MacroMind in 1989, and it was first released with Director 2.2 to script interactive multimedia. Its verbose syntax was designed to read like spoken English, and it became the primary language of the Shockwave platform and of many CD-ROMs and kiosks. In a movie script the startMovie handler runs when the movie starts, and put shows the value in Director's Message window.",
+    "released": "1989",
+    "releasedEvent": "First released with MacroMind Director 2.2",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Lingo_(programming_language)"
+    ]
+  },
+  "POP-11": {
+    "creator": "Robin Popplestone, Steve Hardy, Aaron Sloman and others (University of Sussex)",
+    "year": 1975,
+    "famousProjects": [],
+    "frameworks": {},
+    "quiz": {
+      "platforms": [
+        "ai",
+        "cli"
+      ],
+      "backend": false,
+      "typing": "dynamic",
+      "speed": "moderate"
+    },
+    "history": "POP-11, an evolution of Edinburgh University's POP-2, appeared at the University of Sussex in 1975; it became the core language of the Poplog system used to teach and research artificial intelligence. It works on an open stack, and the => operator prints values with a ** prefix. printf writes the string to standard output.",
+    "released": "1975",
+    "releasedEvent": "First appearance at the University of Sussex",
+    "sources": [
+      "https://en.wikipedia.org/wiki/POP-11"
+    ]
+  },
+  "Nial": {
+    "creator": "Mike Jenkins (Queen's University)",
+    "year": 1981,
+    "famousProjects": [],
+    "frameworks": {},
+    "quiz": {
+      "platforms": [
+        "data-science",
+        "cli"
+      ],
+      "backend": false,
+      "typing": "dynamic",
+      "speed": "moderate"
+    },
+    "history": "Mike Jenkins developed Nial, the Nested Interactive Array Language, at Queen's University in Canada from about 1981, building on the array theory of Trenchard More. It belongs to the APL family but uses a more traditional, word-based syntax, and Jenkins founded Nial Systems in 1982 to market the Q'Nial implementation. write displays the picture of an array on the screen, and the picture of a string is its text.",
+    "website": "https://www.nial-array-language.org/",
+    "released": "1981",
+    "releasedEvent": "First appearance (Mike Jenkins, Queen's University)",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Nial",
+      "https://www.nial-array-language.org/"
+    ]
+  },
+  "XPL0": {
+    "creator": "Peter J. R. Boyle",
+    "year": 1976,
+    "famousProjects": [],
+    "frameworks": {},
+    "quiz": {
+      "platforms": [
+        "cli",
+        "embedded"
+      ],
+      "backend": false,
+      "typing": "static",
+      "speed": "high"
+    },
+    "history": "Peter J. R. Boyle created XPL0 in 1976 for the 6502 microprocessor as a small, fast, block-structured alternative to BASIC. It is based on PL/0, the example compiler in Niklaus Wirth's book Algorithms + Data Structures = Programs. Here code Text=12 binds the name Text to built-in routine 12, which outputs a string, and 0 sends it to the display screen.",
+    "website": "https://www.xpl0.org/",
+    "released": "1976",
+    "releasedEvent": "Created for the 6502 microprocessor",
+    "sources": [
+      "https://www.xpl0.org/",
+      "https://en.wikipedia.org/wiki/XPL0"
+    ]
+  },
+  "Monkey X": {
+    "creator": "Mark Sibly (Blitz Research)",
+    "year": 2011,
+    "famousProjects": [],
+    "frameworks": {},
+    "quiz": {
+      "platforms": [
+        "game",
+        "mobile",
+        "desktop"
+      ],
+      "backend": false,
+      "typing": "static",
+      "speed": "high"
+    },
+    "history": "Blitz Research released Monkey on 1 March 2011, a language by Mark Sibly with syntax similar to BlitzMax that translates its source into code for each target, from Windows and Mac OS X to iOS, Android, HTML5 and Flash. Development moved to Monkey2 in 2015, and the community fork Cerberus X carries on the original. Every program's main module has a Main function, where execution begins.",
+    "website": "https://github.com/blitz-research/monkey",
+    "released": "2011-03-01",
+    "releasedEvent": "Blitz Research releases Monkey",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Blitz_BASIC",
+      "https://github.com/blitz-research/monkey"
+    ]
   }
 }

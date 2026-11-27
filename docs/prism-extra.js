@@ -254,6 +254,12 @@
         keyword: /[HQ9+]/i
     };
 
+    // PILOT: a command letter (optional Y/N condition) and colon, then its operand
+    L.pilot = {
+        string: { pattern: /(^[ \t]*\*?[A-Z]{1,2}[YN]?(?:\([^)\n]*\))?:)[^\n]*/m, lookbehind: true },
+        keyword: /^[ \t]*\*?[A-Z]{1,2}[YN]?(?:\([^)\n]*\))?:/m
+    };
+
     L.thue = {
         string: { pattern: /(::=)~.*/, lookbehind: true, greedy: true },
         operator: /::=/

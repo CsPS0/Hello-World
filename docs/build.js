@@ -363,7 +363,24 @@ const EXTENSION_MAP = {
     ".typ": {"name": "Typst", "tags": ["markup"]},
     ".occ": {"name": "occam", "tags": ["procedural"]},
     ".mel": {"name": "MEL", "tags": ["scripting"]},
-    ".charcoal": {"name": "Charcoal", "tags": ["esoteric"]}
+    ".charcoal": {"name": "Charcoal", "tags": ["esoteric"]},
+    ".dfy": {"name": "Dafny", "tags": ["procedural","functional"]},
+    ".clp": {"name": "CLIPS", "tags": ["logic"]},
+    ".clu": {"name": "CLU", "tags": ["procedural","oop"]},
+    ".pilot": {"name": "PILOT", "tags": ["procedural","scripting"]},
+    ".focal": {"name": "FOCAL", "tags": ["procedural"]},
+    ".lab": {"name": "Labyrinth", "tags": ["esoteric"]},
+    ".hxg": {"name": "Hexagony", "tags": ["esoteric"]},
+    ".csd": {"name": "Csound", "tags": ["procedural","scripting"]},
+    ".md": {"name": "Markdown", "tags": ["markup"]},
+    ".qml": {"name": "QML", "tags": ["markup","scripting"]},
+    ".cypher": {"name": "Cypher", "tags": ["procedural"]},
+    ".opl": {"name": "OPL", "tags": ["procedural"]},
+    ".lingo": {"name": "Lingo", "tags": ["scripting","oop"]},
+    ".p": {"name": "POP-11", "tags": ["procedural","functional"]},
+    ".ndf": {"name": "Nial", "tags": ["functional"]},
+    ".xpl": {"name": "XPL0", "tags": ["procedural"]},
+    ".monkey": {"name": "Monkey X", "tags": ["oop","procedural"]}
 };
 
 const FILENAME_MAP = {
@@ -395,7 +412,8 @@ const FILENAME_MAP = {
     "hello_tex.tex": {"name": "TeX", "description": "Donald Knuth's typesetting system and macro language", "tags": ["markup"]},
     "hello_reduce.red": {"name": "REDUCE", "description": "Computer algebra system built on its own Lisp dialect", "tags": ["functional","procedural"]},
     "hello_autolisp.lsp": {"name": "AutoLISP", "description": "Lisp dialect for scripting AutoCAD", "tags": ["functional","scripting"]},
-    "hello_amigae.e": {"name": "Amiga E", "description": "Fast-compiling Amiga language influenced by C++, Ada and Lisp", "tags": ["procedural","oop"]}
+    "hello_amigae.e": {"name": "Amiga E", "description": "Fast-compiling Amiga language influenced by C++, Ada and Lisp", "tags": ["procedural","oop"]},
+    "hello_ezhil.n": {"name": "Ezhil", "description": "Programming language with Tamil keywords, for teaching", "tags": ["procedural","scripting"]}
 };
 
 // Prism grammar per language (variants fall back to their base name, "Ruby (Script)" -> "Ruby").
@@ -752,7 +770,25 @@ const PRISM_MAP = {
     "Typst": "markdown",
     "occam": "clike",
     "MEL": "mel",
-    "Charcoal": "golf"
+    "Charcoal": "golf",
+    "Dafny": "clike",
+    "CLIPS": "lisp",
+    "CLU": "pascal",
+    "PILOT": "pilot",
+    "FOCAL": "basic",
+    "Labyrinth": "golf",
+    "Hexagony": "golf",
+    "Csound": "markup",
+    "Markdown": "markdown",
+    "QML": "qml",
+    "Cypher": "cypher",
+    "Ezhil": "python",
+    "OPL": "basic",
+    "Lingo": "basic",
+    "POP-11": "clike",
+    "Nial": "apl",
+    "XPL0": "pascal",
+    "Monkey X": "vbnet"
 };
 
 const DESCRIPTION_DEFAULTS = {
@@ -1014,7 +1050,25 @@ const DESCRIPTION_DEFAULTS = {
     "Typst": "Markup-based typesetting system designed as a modern LaTeX alternative",
     "occam": "Concurrent language based on CSP, made for the Inmos transputer",
     "MEL": "Maya Embedded Language for scripting Autodesk Maya",
-    "Charcoal": "Golfing language for drawing ASCII art"
+    "Charcoal": "Golfing language for drawing ASCII art",
+    "Dafny": "Verification-aware language whose compiler proves programs correct",
+    "CLIPS": "Rule-based expert system language from NASA",
+    "CLU": "Barbara Liskov's MIT language built around abstract data types",
+    "PILOT": "Command-letter language for computer-assisted instruction",
+    "FOCAL": "DEC's interactive language for the PDP-8, derived from JOSS",
+    "Labyrinth": "Two-dimensional stack language whose layout is a maze",
+    "Hexagony": "Two-dimensional language laid out on a hexagonal grid",
+    "Csound": "Sound and music computing language descended from MUSIC-N",
+    "Markdown": "Plain-text formatting syntax that converts to HTML",
+    "QML": "Qt's declarative user interface language with JavaScript expressions",
+    "Cypher": "Declarative query language for property graphs, from Neo4j",
+    "Ezhil": "Programming language with Tamil keywords, for teaching",
+    "OPL": "BASIC-like language of the Psion Organiser and palmtops",
+    "Lingo": "Scripting language of Macromedia Director",
+    "POP-11": "Stack-based AI teaching language at the core of Poplog",
+    "Nial": "Nested Interactive Array Language, an APL relative with words for operators",
+    "XPL0": "Small block-structured language created for the 6502",
+    "Monkey X": "Blitz Research language that translates to many target platforms"
 };
 
 function getExtension(filename) {
