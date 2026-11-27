@@ -1,2 +1,1 @@
-# Crystal
 puts "Hello, World!"

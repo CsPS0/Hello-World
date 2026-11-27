@@ -4,6 +4,19 @@ const path = require('path');
 const SOURCE_DIR = path.join(__dirname, 'hello-world');
 const OUTPUT_PATH = path.join(__dirname, 'languages.json');
 const METADATA_PATH = path.join(__dirname, 'language_metadata.json');
+const ICONS_DIR = path.join(__dirname, 'icons');
+
+// URL-safe id used for deep links (#csharp) and icon files (icons/csharp.svg).
+// "C#" -> "csharp", "C++" -> "cplusplus", "C--" -> "cminusminus", "F*" -> "fstar"
+function langSlug(name) {
+    return name.toLowerCase()
+        .replace(/#/g, 'sharp')
+        .replace(/\+/g, 'plus')
+        .replace(/\*/g, 'star')
+        .replace(/--/g, 'minusminus')
+        .replace(/[^a-z0-9]+/g, '-')
+        .replace(/^-|-$/g, '');
+}
 
 const EXTENSION_MAP = {
     ".adb":          {"name": "Ada",                            "tags": ["procedural", "oop"]},
@@ -211,7 +224,58 @@ const EXTENSION_MAP = {
     ".cairo": {"name": "Cairo", "tags": ["procedural"]},
     ".dockerfile": {"name": "Dockerfile", "tags": ["scripting", "markup"]},
     ".mk": {"name": "Makefile", "tags": ["scripting"]},
-    ".joy": {"name": "Joy", "tags": ["functional"]}
+    ".joy": {"name": "Joy", "tags": ["functional"]},
+    ".abap": {"name": "ABAP", "tags": ["procedural","oop"]},
+    ".dats": {"name": "ATS", "tags": ["functional"]},
+    ".bc": {"name": "bc", "tags": ["procedural","scripting"]},
+    ".c3": {"name": "C3", "tags": ["procedural"]},
+    ".carp": {"name": "Carp", "tags": ["functional"]},
+    ".ck": {"name": "ChucK", "tags": ["procedural","oop"]},
+    ".civet": {"name": "Civet", "tags": ["scripting","functional"]},
+    ".coco": {"name": "Coconut", "tags": ["functional","scripting"]},
+    ".dc": {"name": "dc", "tags": ["esoteric","scripting"]},
+    ".effekt": {"name": "Effekt", "tags": ["functional"]},
+    ".emojic": {"name": "Emojicode", "tags": ["oop","esoteric"]},
+    ".ex": {"name": "Euphoria", "tags": ["procedural","scripting"]},
+    ".fst": {"name": "F*", "tags": ["functional"]},
+    ".fan": {"name": "Fantom", "tags": ["oop","functional"]},
+    ".gr": {"name": "Grain", "tags": ["functional"]},
+    ".imba": {"name": "Imba", "tags": ["oop","scripting"]},
+    ".inko": {"name": "Inko", "tags": ["oop","functional"]},
+    ".i": {"name": "INTERCAL", "tags": ["esoteric"]},
+    ".jakt": {"name": "Jakt", "tags": ["oop","procedural"]},
+    ".j": {"name": "Jasmin", "tags": ["hardware"]},
+    ".lfe": {"name": "LFE", "tags": ["functional"]},
+    ".ll": {"name": "LLVM IR", "tags": ["hardware"]},
+    ".lobster": {"name": "Lobster", "tags": ["procedural","functional"]},
+    ".luau": {"name": "Luau", "tags": ["scripting"]},
+    ".m4": {"name": "M4", "tags": ["markup","scripting"]},
+    ".mo": {"name": "Motoko", "tags": ["oop","functional"]},
+    ".nrx": {"name": "NetRexx", "tags": ["oop","scripting"]},
+    ".gp": {"name": "PARI/GP", "tags": ["procedural","scripting"]},
+    ".arr": {"name": "Pyret", "tags": ["functional","scripting"]},
+    ".q": {"name": "Q", "tags": ["functional","scripting"]},
+    ".re": {"name": "Reason", "tags": ["functional"]},
+    ".ring": {"name": "Ring", "tags": ["procedural","oop","scripting"]},
+    ".sd7": {"name": "Seed7", "tags": ["procedural","oop"]},
+    ".tl": {"name": "Teal", "tags": ["scripting"]},
+    ".ul": {"name": "Underload", "tags": ["esoteric","functional"]},
+    ".u": {"name": "Unison", "tags": ["functional"]},
+    ".unl": {"name": "Unlambda", "tags": ["esoteric","functional"]},
+    ".vim": {"name": "Vim script", "tags": ["scripting"]},
+    ".xsl": {"name": "XSLT", "tags": ["functional","markup"]},
+    ".yue": {"name": "YueScript", "tags": ["scripting"]},
+    ".be": {"name": "Berry", "tags": ["scripting"]},
+    ".um": {"name": "Umka", "tags": ["procedural"]},
+    ".sce": {"name": "Scilab", "tags": ["procedural"]},
+    ".ksh": {"name": "KornShell", "tags": ["scripting"]},
+    ".rc": {"name": "rc", "tags": ["scripting"]},
+    ".gravity": {"name": "Gravity", "tags": ["oop","scripting"]},
+    ".prg": {"name": "Harbour", "tags": ["procedural","oop"]},
+    ".pb": {"name": "PureBasic", "tags": ["procedural"]},
+    ".pyth": {"name": "Pyth", "tags": ["esoteric","functional"]},
+    ".jelly": {"name": "Jelly", "tags": ["esoteric","functional"]},
+    ".05ab1e": {"name": "05AB1E", "tags": ["esoteric"]}
 };
 
 const FILENAME_MAP = {
@@ -222,7 +286,257 @@ const FILENAME_MAP = {
     "hello_script.scm":     {"name": "Scheme (Script)",     "description": "Scheme for scripting purposes",                             "tags": ["functional", "scripting"]},
     "hello_script.swift":   {"name": "Swift (Script)",      "description": "Swift for scripting purposes",                              "tags": ["oop", "scripting"]},
     "hello_v.v": {"name": "V", "description": "Simple, fast compiled language", "tags": ["procedural"]},
-    "hello_golfscript.gs": {"name": "GolfScript", "description": "Stack-based language for code golf", "tags": ["esoteric", "scripting"]}
+    "hello_golfscript.gs": {"name": "GolfScript", "description": "Stack-based language for code golf", "tags": ["esoteric", "scripting"]},
+    "hello_modula2.mod": {"name": "Modula-2", "description": "Wirth's modular successor to Pascal", "tags": ["procedural"]}
+};
+
+// Prism grammar per language (variants fall back to their base name, "Ruby (Script)" -> "Ruby").
+// Grammars Prism ships load on demand; the rest are defined in docs/prism-extra.js.
+const PRISM_MAP = {
+    "05AB1E":             "golf",
+    "ABAP":               "abap",
+    "ActionScript":       "actionscript",
+    "Ada":                "ada",
+    "Agda":               "agda",
+    "ALGOL 68":           "algol68",
+    "APL":                "apl",
+    "AppleScript":        "applescript",
+    "Arc":                "lisp",
+    "Arduino":            "arduino",
+    "ArnoldC":            "arnoldc",
+    "Assembly":           "nasm",
+    "Assembly (ARM)":     "armasm",
+    "ATS":                "ocaml",
+    "AutoHotkey":         "autohotkey",
+    "AutoIt":             "autoit",
+    "Awk":                "awk",
+    "Ballerina":          "java",
+    "Bash":               "bash",
+    "BASIC":              "basic",
+    "Batch":              "batch",
+    "bc":                 "c",
+    "BCPL":               "c",
+    "BeanShell":          "java",
+    "Befunge":            "befunge",
+    "Berry":              "lua",
+    "Boo":                "python",
+    "BQN":                "bqn",
+    "Brainfuck":          "brainfuck",
+    "C":                  "c",
+    "C--":                "c",
+    "C#":                 "csharp",
+    "C# Script":          "csharp",
+    "C++":                "cpp",
+    "C3":                 "c",
+    "Caché Basic":        "visual-basic",
+    "Caché MUMPS":        "mumps",
+    "Caché ObjectScript": "mumps",
+    "Cairo":              "rust",
+    "Carbon":             "rust",
+    "Carp":               "clojure",
+    "Ceylon":             "java",
+    "Chapel":             "c",
+    "Chef":               "chef",
+    "ChucK":              "c",
+    "CIL":                "cil",
+    "Civet":              "coffeescript",
+    "Clean":              "haskell",
+    "Clojure":            "clojure",
+    "ClojureScript":      "clojure",
+    "CMake":              "cmake",
+    "COBOL":              "cobol",
+    "Cobra":              "python",
+    "Coconut":            "python",
+    "CoffeeScript":       "coffeescript",
+    "ColdFusion Markup":  "markup",
+    "ColdFusion Script":  "cfscript",
+    "Common Lisp":        "lisp",
+    "Component Pascal":   "pascal",
+    "Crystal":            "crystal",
+    "CUDA":               "cpp",
+    "Curl":               "lisp",
+    "Curry":              "haskell",
+    "Cython":             "python",
+    "D":                  "d",
+    "Dart":               "dart",
+    "Datalog":            "prolog",
+    "dc":                 "dc",
+    "Delphi":             "pascal",
+    "Dhall":              "dhall",
+    "Dockerfile":         "docker",
+    "Dylan":              "clike",
+    "Effekt":             "scala",
+    "Eiffel":             "eiffel",
+    "Elixir":             "elixir",
+    "Elm":                "elm",
+    "Elvish":             "bash",
+    "Emacs Lisp":         "lisp",
+    "Emojicode":          "emojicode",
+    "Erlang":             "erlang",
+    "Euphoria":           "lua",
+    "F*":                 "fsharp",
+    "F#":                 "fsharp",
+    "Factor":             "factor",
+    "Fantom":             "java",
+    "Fennel":             "clojure",
+    "Fish":               "bash",
+    "Flix":               "scala",
+    "Forth":              "forth",
+    "Fortran":            "fortran",
+    "Gambas":             "visual-basic",
+    "GDScript":           "gdscript",
+    "Genie":              "python",
+    "Gleam":              "rust",
+    "Go":                 "go",
+    "GolfScript":         "golf",
+    "Gosu":               "java",
+    "Grain":              "reason",
+    "Gravity":            "swift",
+    "Groovy":             "groovy",
+    "Hack":               "php",
+    "Harbour":            "harbour",
+    "Hare":               "rust",
+    "Haskell":            "haskell",
+    "Haxe":               "haxe",
+    "Holy C":             "c",
+    "HTML":               "markup",
+    "Hy":                 "clojure",
+    "Icon":               "icon",
+    "Idris":              "idris",
+    "Imba":               "coffeescript",
+    "Inform 7":           "inform7",
+    "Inko":               "rust",
+    "INTERCAL":           "intercal",
+    "Io":                 "io",
+    "J":                  "j",
+    "Jakt":               "rust",
+    "Janet":              "clojure",
+    "Jasmin":             "smali",
+    "Java":               "java",
+    "JavaScript":         "javascript",
+    "Jelly":              "golf",
+    "Joy":                "joy",
+    "Jsonnet":            "javascript",
+    "Julia":              "julia",
+    "K":                  "q",
+    "Koka":               "rust",
+    "KornShell":          "bash",
+    "Kotlin":             "kotlin",
+    "Lasso":              "javascript",
+    "LaTeX":              "latex",
+    "Lean":               "haskell",
+    "LFE":                "lisp",
+    "Limbo":              "go",
+    "LiveScript":         "livescript",
+    "LLVM IR":            "llvm",
+    "Lobster":            "python",
+    "Logo":               "logo",
+    "Logtalk":            "prolog",
+    "LOLCODE":            "lolcode",
+    "Lua":                "lua",
+    "Luau":               "lua",
+    "M4":                 "m4",
+    "Makefile":           "makefile",
+    "Maple":              "matlab",
+    "MATLAB":             "matlab",
+    "Mercury":            "prolog",
+    "Modula-2":           "pascal",
+    "Modula-3":           "pascal",
+    "Mojo":               "python",
+    "MoonScript":         "moonscript",
+    "Motoko":             "swift",
+    "Nelua":              "lua",
+    "Nemerle":            "csharp",
+    "NetRexx":            "rexx",
+    "newLISP":            "lisp",
+    "Nim":                "nim",
+    "Nix":                "nix",
+    "Nushell":            "bash",
+    "Oberon":             "pascal",
+    "Objective-C":        "objectivec",
+    "Objective-C++":      "objectivec",
+    "OCaml":              "ocaml",
+    "Octave":             "matlab",
+    "Odin":               "odin",
+    "Ook!":               "ook",
+    "Oz":                 "oz",
+    "PARI/GP":            "parigp",
+    "Pascal":             "pascal",
+    "Pawn":               "c",
+    "Perl":               "perl",
+    "Perl 5":             "perl",
+    "PHP":                "php",
+    "PicoLisp":           "lisp",
+    "Pike":               "c",
+    "PL/I":               "pli",
+    "Pony":               "scala",
+    "PostScript":         "postscript",
+    "PowerShell":         "powershell",
+    "Processing":         "processing",
+    "Prolog":             "prolog",
+    "PureBasic":          "purebasic",
+    "PureScript":         "purescript",
+    "Pyret":              "python",
+    "Pyth":               "golf",
+    "Python":             "python",
+    "Q":                  "q",
+    "Q#":                 "qsharp",
+    "R":                  "r",
+    "Racket":             "racket",
+    "Raku":               "perl",
+    "rc":                 "bash",
+    "Reason":             "reason",
+    "Red":                "rebol",
+    "ReScript":           "rescript",
+    "Rexx":               "rexx",
+    "Ring":               "basic",
+    "Rockstar":           "rockstar",
+    "Ruby":               "ruby",
+    "Rust":               "rust",
+    "SAS":                "sas",
+    "Scala":              "scala",
+    "Scheme":             "scheme",
+    "Scilab":             "matlab",
+    "Seed7":              "pascal",
+    "Shakespeare":        "shakespeare",
+    "Simula":             "pascal",
+    "Smalltalk":          "smalltalk",
+    "SNOBOL":             "snobol",
+    "Solidity":           "solidity",
+    "SQL":                "sql",
+    "Squirrel":           "squirrel",
+    "Standard ML":        "sml",
+    "Starlark":           "python",
+    "Stata":              "stata",
+    "Swift":              "swift",
+    "SystemVerilog":      "verilog",
+    "Tcl":                "tcl",
+    "Teal":               "lua",
+    "TypeScript":         "typescript",
+    "Uiua":               "uiua",
+    "Umka":               "go",
+    "Underload":          "underload",
+    "Unison":             "haskell",
+    "Unlambda":           "unlambda",
+    "V":                  "v",
+    "Vala":               "vala",
+    "VBA":                "visual-basic",
+    "VBScript":           "visual-basic",
+    "Verilog":            "verilog",
+    "VHDL":               "vhdl",
+    "Vim script":         "vim",
+    "Visual Basic .NET":  "vbnet",
+    "Vyper":              "python",
+    "WebAssembly Text":   "wasm",
+    "Whitespace":         "whitespace",
+    "Wolfram Language":   "wolfram",
+    "Wren":               "wren",
+    "XQuery":             "xquery",
+    "XSLT":               "markup",
+    "YAML":               "yaml",
+    "YueScript":          "moonscript",
+    "Zig":                "zig",
+    "Zsh":                "bash"
 };
 
 const DESCRIPTION_DEFAULTS = {
@@ -324,7 +638,59 @@ const DESCRIPTION_DEFAULTS = {
     "Dockerfile": "Container image build instructions",
     "Makefile": "Build rules for GNU Make",
     "Joy": "Concatenative functional language",
-    "GolfScript": "Stack-based language for code golf"
+    "GolfScript": "Stack-based language for code golf",
+    "ABAP": "SAP's business application language",
+    "ATS": "Dependently typed language with linear types",
+    "bc": "Arbitrary-precision calculator language",
+    "C3": "C evolution with modules and contracts",
+    "Carp": "Statically typed Lisp without a garbage collector",
+    "ChucK": "Strongly timed audio programming language",
+    "Civet": "Modern CoffeeScript-style syntax for TypeScript",
+    "Coconut": "Functional superset of Python",
+    "dc": "Reverse-Polish desk calculator",
+    "Effekt": "Research language with lightweight effect handlers",
+    "Emojicode": "Object-oriented language written in emoji",
+    "Euphoria": "Simple interpreted language with sequences",
+    "F*": "Proof-oriented language for verified programs",
+    "Fantom": "Portable language for the JVM, .NET and JavaScript",
+    "Grain": "Functional language that compiles to WebAssembly",
+    "Imba": "Full-stack web language with built-in tags",
+    "Inko": "Safe concurrent language with single ownership",
+    "INTERCAL": "Parody language designed to be unlike any other",
+    "Jakt": "Memory-safe systems language from SerenityOS",
+    "Jasmin": "Assembler for Java Virtual Machine bytecode",
+    "LFE": "Lisp Flavoured Erlang",
+    "LLVM IR": "Intermediate representation of the LLVM compiler",
+    "Lobster": "Statically typed game programming language",
+    "Luau": "Gradually typed Lua derivative from Roblox",
+    "M4": "General-purpose macro processor",
+    "Motoko": "Actor-based language for the Internet Computer",
+    "NetRexx": "Rexx-like language for the Java Virtual Machine",
+    "PARI/GP": "Computer algebra system for number theory",
+    "Pyret": "Teaching language with built-in testing",
+    "Q": "Query language for the kdb+ time-series database",
+    "Reason": "JavaScript-like syntax for OCaml",
+    "Ring": "Multi-paradigm language for apps and games",
+    "Seed7": "Extensible language with user-defined statements",
+    "Teal": "Statically typed dialect of Lua",
+    "Underload": "Stack-based esoteric language with no numbers",
+    "Unison": "Language where code is identified by content hash",
+    "Unlambda": "Minimal functional language based on combinators",
+    "Vim script": "Scripting language of the Vim editor",
+    "XSLT": "Language for transforming XML documents",
+    "YueScript": "MoonScript dialect that compiles to Lua",
+    "Berry": "Ultra-lightweight embedded scripting language",
+    "Umka": "Statically typed embeddable scripting language",
+    "Scilab": "Open-source numerical computation environment",
+    "KornShell": "Unix shell from Bell Labs",
+    "rc": "Plan 9 shell with a cleaner syntax",
+    "Gravity": "Embeddable class-based scripting language",
+    "Harbour": "Open-source xBase/Clipper compiler",
+    "PureBasic": "Commercial BASIC compiler for native apps",
+    "Modula-2": "Wirth's modular successor to Pascal",
+    "Pyth": "Python-based golfing language",
+    "Jelly": "Tacit golfing language inspired by J",
+    "05AB1E": "Stack-based golfing language"
 };
 
 function getExtension(filename) {
@@ -396,6 +762,18 @@ function main() {
     // Merge metadata
     langs.forEach(lang => {
         const name = lang.name;
+        lang.slug = langSlug(name);
+        lang.prism = PRISM_MAP[name] || PRISM_MAP[name.replace(/\s*\(.*\)$/, "")];
+        if (!lang.prism) {
+            console.error(`No syntax highlighting grammar for "${name}": add it to PRISM_MAP`);
+            process.exit(1);
+        }
+
+        // Icon: docs/icons/<slug of base name>.svg, e.g. "Ruby (Script)" -> ruby.svg
+        const iconFile = `${langSlug(name.replace(/\s*\(.*\)$/, ''))}.svg`;
+        if (fs.existsSync(path.join(ICONS_DIR, iconFile))) {
+            lang.icon = `icons/${iconFile}`;
+        }
         // Fallbacks
         lang.creator = "Unknown";
         lang.year = "N/A";
@@ -423,6 +801,27 @@ function main() {
                 speed: "moderate"
             };
         }
+
+        // Official website; variants ("Ruby (Script)") fall back to the base language's site
+        const baseMeta = metadata[name.replace(/\s*\(.*\)$/, "")];
+        const website = (metadata[name] && metadata[name].website) || (baseMeta && baseMeta.website);
+        if (website) {
+            if (!/^https?:\/\//.test(website)) {
+                console.error(`Website for "${name}" must start with http:// or https://`);
+                process.exit(1);
+            }
+            lang.website = website;
+        }
+    });
+
+    // Slugs are deep-link ids, so two languages must never share one
+    const seen = new Map();
+    langs.forEach(lang => {
+        if (seen.has(lang.slug)) {
+            console.error(`Duplicate slug "${lang.slug}": ${seen.get(lang.slug)} and ${lang.name}`);
+            process.exit(1);
+        }
+        seen.set(lang.slug, lang.name);
     });
 
     // Sort by name case-insensitive

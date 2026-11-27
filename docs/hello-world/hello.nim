@@ -1,2 +1,1 @@
-# Nim
 echo "Hello, World!"

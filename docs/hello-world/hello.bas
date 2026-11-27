@@ -1,2 +1,1 @@
-' BASIC
 PRINT "Hello, World!"

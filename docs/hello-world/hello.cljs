@@ -1,2 +1,1 @@
-; ClojureScript
 (println "Hello, World!")

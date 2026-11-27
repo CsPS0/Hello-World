@@ -1,2 +1,1 @@
-# Maple
 print("Hello, World!");

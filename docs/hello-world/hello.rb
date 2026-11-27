@@ -1,2 +1,1 @@
-# Ruby
 puts "Hello, World!"

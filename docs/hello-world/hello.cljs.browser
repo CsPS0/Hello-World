@@ -1,2 +1,1 @@
-; ClojureScript (Browser)
 (println "Hello, World!")

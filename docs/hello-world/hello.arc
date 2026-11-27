@@ -1,2 +1,1 @@
-; Arc
 (pr "Hello, World!")

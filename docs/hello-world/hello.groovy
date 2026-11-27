@@ -1,2 +1,1 @@
-// Groovy
 println "Hello, World!"

@@ -1,2 +1,1 @@
-// Boo
 print("Hello, World!")

@@ -1,2 +1,1 @@
-' VBScript
 MsgBox "Hello, World!"

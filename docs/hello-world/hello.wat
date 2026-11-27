@@ -1,4 +1,3 @@
-;; WebAssembly Text
 (module
   (func (export "_start")
     (call $print_hello_world)

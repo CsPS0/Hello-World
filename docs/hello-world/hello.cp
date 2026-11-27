@@ -1,4 +1,3 @@
-(* Component Pascal *)
 MODULE Hello;
 IMPORT Out;
 BEGIN

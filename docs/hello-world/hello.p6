@@ -1,2 +1,1 @@
-# Raku
 say "Hello, World!";

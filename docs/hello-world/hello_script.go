@@ -1,4 +1,3 @@
-// Go (Script)
 package main
 
 import "fmt"

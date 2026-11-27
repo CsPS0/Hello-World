@@ -1,2 +1,1 @@
-// Chapel
 writeln("Hello, World!");

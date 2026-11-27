@@ -1,4 +1,3 @@
-// F#
 open System
 
 [<EntryPoint>]

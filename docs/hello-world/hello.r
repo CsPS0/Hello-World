@@ -1,2 +1,1 @@
-# R
 print("Hello, World!")

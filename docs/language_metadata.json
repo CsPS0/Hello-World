@@ -46,7 +46,8 @@
       "typing": "static",
       "speed": "high"
     },
-    "history": "Ada was commissioned by the US Department of Defense in the late 1970s to unify their hundreds of specialized programming languages. Named after Ada Lovelace, it was designed by Jean Ichbiah with a heavy focus on safety, concurrency, and reliability, making it a standard for aviation, defense, and space flight systems."
+    "history": "Ada was commissioned by the US Department of Defense in the late 1970s to unify their hundreds of specialized programming languages. Named after Ada Lovelace, it was designed by Jean Ichbiah with a heavy focus on safety, concurrency, and reliability, making it a standard for aviation, defense, and space flight systems.",
+    "website": "https://adaic.org"
   },
   "ALGOL 68": {
     "creator": "Adriaan van Wijngaarden",
@@ -100,7 +101,8 @@
       "typing": "dynamic",
       "speed": "low"
     },
-    "history": "AppleScript was released by Apple in 1993 as part of System 7 to allow users to automate macOS tasks. It uses an English-like syntax designed to make scripting accessible to non-programmers, enabling inter-process communication between applications."
+    "history": "AppleScript was released by Apple in 1993 as part of System 7 to allow users to automate macOS tasks. It uses an English-like syntax designed to make scripting accessible to non-programmers, enabling inter-process communication between applications.",
+    "website": "https://developer.apple.com/library/archive/documentation/AppleScript/Conceptual/AppleScriptLangGuide"
   },
   "Arc": {
     "creator": "Paul Graham, Robert Morris",
@@ -122,7 +124,8 @@
       "typing": "dynamic",
       "speed": "moderate"
     },
-    "history": "Arc is a dialect of Lisp designed by Paul Graham and Robert Morris. First released in 2008, it was created with a focus on conciseness, developer velocity, and suitability for exploratory programming and web application development."
+    "history": "Arc is a dialect of Lisp designed by Paul Graham and Robert Morris. First released in 2008, it was created with a focus on conciseness, developer velocity, and suitability for exploratory programming and web application development.",
+    "website": "http://arclanguage.org"
   },
   "Assembly": {
     "creator": "Kathleen Booth",
@@ -159,7 +162,8 @@
       "typing": "dynamic",
       "speed": "moderate"
     },
-    "history": "AutoHotkey was created by Chris Mallett in 2003 as a fork of AutoIt, adding keyboard shortcut and hotkey support. It is a popular scripting language for Windows, widely used for quick macro creation, keystroke automation, and UI scripting."
+    "history": "AutoHotkey was created by Chris Mallett in 2003 as a fork of AutoIt, adding keyboard shortcut and hotkey support. It is a popular scripting language for Windows, widely used for quick macro creation, keystroke automation, and UI scripting.",
+    "website": "https://www.autohotkey.com/"
   },
   "AutoIt": {
     "creator": "Jonathan Bennett",
@@ -177,7 +181,8 @@
       "typing": "dynamic",
       "speed": "moderate"
     },
-    "history": "AutoIt was created by Jonathan Bennett in 1999 to automate repetitive Windows GUI tasks. Originally written in C++, it evolved from a simple automation tool into a full-featured scripting language with support for complex expressions, functions, and loops."
+    "history": "AutoIt was created by Jonathan Bennett in 1999 to automate repetitive Windows GUI tasks. Originally written in C++, it evolved from a simple automation tool into a full-featured scripting language with support for complex expressions, functions, and loops.",
+    "website": "https://www.autoitscript.com"
   },
   "Awk": {
     "creator": "Alfred Aho, Peter Weinberger, Brian Kernighan",
@@ -195,7 +200,8 @@
       "typing": "dynamic",
       "speed": "moderate"
     },
-    "history": "Awk was created in 1977 at Bell Labs by Alfred Aho, Peter Weinberger, and Brian Kernighan (its name is an acronym of their surnames). It was designed for text processing, data extraction, and report generation, laying the groundwork for scripting languages like Perl."
+    "history": "Awk was created in 1977 at Bell Labs by Alfred Aho, Peter Weinberger, and Brian Kernighan (its name is an acronym of their surnames). It was designed for text processing, data extraction, and report generation, laying the groundwork for scripting languages like Perl.",
+    "website": "https://www.gnu.org/software/gawk/"
   },
   "Ballerina": {
     "creator": "WSO2",
@@ -218,7 +224,8 @@
       "typing": "static",
       "speed": "moderate"
     },
-    "history": "Ballerina was launched by WSO2 in 2017 to simplify cloud-native and microservices development. It bridges the gap between graphical workflow design and textual programming, treating services, endpoints, and data transformations as first-class language constructs."
+    "history": "Ballerina was launched by WSO2 in 2017 to simplify cloud-native and microservices development. It bridges the gap between graphical workflow design and textual programming, treating services, endpoints, and data transformations as first-class language constructs.",
+    "website": "https://ballerina.io/"
   },
   "Bash": {
     "creator": "Brian Fox",
@@ -237,7 +244,8 @@
       "typing": "dynamic",
       "speed": "moderate"
     },
-    "history": "Bash (Bourne-Again Shell) was written by Brian Fox in 1989 for the GNU Project as a free software replacement for the Bourne shell (sh). It has since become the default command-line interface and scripting language for most Unix-like systems, including Linux and macOS."
+    "history": "Bash (Bourne-Again Shell) was written by Brian Fox in 1989 for the GNU Project as a free software replacement for the Bourne shell (sh). It has since become the default command-line interface and scripting language for most Unix-like systems, including Linux and macOS.",
+    "website": "https://www.gnu.org/software/bash/"
   },
   "BASIC": {
     "creator": "John G. Kemeny, Thomas E. Kurtz",
@@ -274,7 +282,8 @@
       "typing": "dynamic",
       "speed": "low"
     },
-    "history": "Batch scripting originated in the MS-DOS era in the 1980s to execute sequences of commands automatically. It remains a key tool for system administration and shell scripting in Windows environments."
+    "history": "Batch scripting originated in the MS-DOS era in the 1980s to execute sequences of commands automatically. It remains a key tool for system administration and shell scripting in Windows environments.",
+    "website": "https://learn.microsoft.com/windows-server/administration/windows-commands/windows-commands"
   },
   "BeanShell": {
     "creator": "Pat Niemeyer",
@@ -292,7 +301,8 @@
       "typing": "dynamic",
       "speed": "moderate"
     },
-    "history": "BeanShell is a lightweight, Java-like scripting language written in Java by Pat Niemeyer. Launched in the late 1990s, it allows developers to execute Java code dynamically, serving as a scripting extension for testing, build scripts, and embedded consoles."
+    "history": "BeanShell is a lightweight, Java-like scripting language written in Java by Pat Niemeyer. Launched in the late 1990s, it allows developers to execute Java code dynamically, serving as a scripting extension for testing, build scripts, and embedded consoles.",
+    "website": "https://beanshell.org/"
   },
   "Boo": {
     "creator": "Rodrigo B. de Oliveira",
@@ -311,7 +321,8 @@
       "typing": "static",
       "speed": "moderate"
     },
-    "history": "Boo is an object-oriented, statically-typed programming language created by Rodrigo B. de Oliveira in 2003. It was designed to leverage the CLI (Common Language Infrastructure) with a clean, Python-like syntax while maintaining performance similar to C#."
+    "history": "Boo is an object-oriented, statically-typed programming language created by Rodrigo B. de Oliveira in 2003. It was designed to leverage the CLI (Common Language Infrastructure) with a clean, Python-like syntax while maintaining performance similar to C#.",
+    "website": "https://github.com/boo-lang/boo"
   },
   "Brainfuck": {
     "creator": "Wouter van Oortmerssen",
@@ -329,7 +340,8 @@
       "typing": "dynamic",
       "speed": "low"
     },
-    "history": "Brainfuck is an esoteric programming language created by Urban Müller in 1993. Designed to build the smallest possible compiler (under 200 bytes), it features only eight simple commands, making it a famous puzzle and challenge for compiler developers."
+    "history": "Brainfuck is an esoteric programming language created by Urban Müller in 1993. Designed to build the smallest possible compiler (under 200 bytes), it features only eight simple commands, making it a famous puzzle and challenge for compiler developers.",
+    "website": "https://brainfuck.org/"
   },
   "C": {
     "creator": "Dennis Ritchie",
@@ -360,7 +372,8 @@
       "typing": "static",
       "speed": "high"
     },
-    "history": "C was developed by Dennis Ritchie at Bell Labs between 1969 and 1973 to rewrite the Unix operating system. It combined high-level structure with low-level memory control, becoming one of the most widely used and influential programming languages of all time."
+    "history": "C was developed by Dennis Ritchie at Bell Labs between 1969 and 1973 to rewrite the Unix operating system. It combined high-level structure with low-level memory control, becoming one of the most widely used and influential programming languages of all time.",
+    "website": "https://www.open-std.org/jtc1/sc22/wg14/"
   },
   "C#": {
     "creator": "Anders Hejlsberg (Microsoft)",
@@ -397,7 +410,8 @@
       "typing": "static",
       "speed": "high"
     },
-    "history": "C# was created by Anders Hejlsberg at Microsoft and released in 2000 as part of the .NET initiative. Designed as a modern, type-safe, object-oriented successor to C++, it has evolved to support asynchronous programming, pattern matching, and multi-paradigm development."
+    "history": "C# was created by Anders Hejlsberg at Microsoft and released in 2000 as part of the .NET initiative. Designed as a modern, type-safe, object-oriented successor to C++, it has evolved to support asynchronous programming, pattern matching, and multi-paradigm development.",
+    "website": "https://learn.microsoft.com/en-us/dotnet/csharp/"
   },
   "C++": {
     "creator": "Bjarne Stroustrup",
@@ -432,7 +446,8 @@
       "typing": "static",
       "speed": "high"
     },
-    "history": "C++ was designed by Bjarne Stroustrup at Bell Labs starting in 1979 as an extension of C ('C with Classes'). It added object-oriented programming, templates, and exception handling while retaining C's close-to-hardware efficiency, dominating game and systems development."
+    "history": "C++ was designed by Bjarne Stroustrup at Bell Labs starting in 1979 as an extension of C ('C with Classes'). It added object-oriented programming, templates, and exception handling while retaining C's close-to-hardware efficiency, dominating game and systems development.",
+    "website": "https://isocpp.org/"
   },
   "C--": {
     "creator": "Simon Peyton Jones, Norman Ramsey",
@@ -450,7 +465,8 @@
       "typing": "static",
       "speed": "high"
     },
-    "history": "C-- is a C-like systems programming language designed by Simon Peyton Jones and Norman Ramsey. It was created in the late 1990s to serve as an intermediate representation inside compilers, shielding frontends from hardware-specific code generation details."
+    "history": "C-- is a C-like systems programming language designed by Simon Peyton Jones and Norman Ramsey. It was created in the late 1990s to serve as an intermediate representation inside compilers, shielding frontends from hardware-specific code generation details.",
+    "website": "https://www.cs.tufts.edu/~nr/c--/"
   },
   "Caché Basic": {
     "creator": "InterSystems",
@@ -488,7 +504,8 @@
       "typing": "static",
       "speed": "moderate"
     },
-    "history": "Ceylon was created by Gavin King at Red Hat and launched in 2011. Designed to address Java's perceived limitations, it focused on modularity, static type-safety, and a highly readable syntax for enterprise and cloud computing."
+    "history": "Ceylon was created by Gavin King at Red Hat and launched in 2011. Designed to address Java's perceived limitations, it focused on modularity, static type-safety, and a highly readable syntax for enterprise and cloud computing.",
+    "website": "https://projects.eclipse.org/projects/technology.ceylon"
   },
   "Chapel": {
     "creator": "Cray Inc.",
@@ -507,7 +524,8 @@
       "typing": "static",
       "speed": "high"
     },
-    "history": "Chapel was developed by Cray Inc. under the DARPA High Productivity Computing Systems program, beginning in the early 2000s. It was designed for parallel computing, aiming to make large-scale supercomputer programming as expressive and portable as standard scripting."
+    "history": "Chapel was developed by Cray Inc. under the DARPA High Productivity Computing Systems program, beginning in the early 2000s. It was designed for parallel computing, aiming to make large-scale supercomputer programming as expressive and portable as standard scripting.",
+    "website": "https://chapel-lang.org"
   },
   "CIL": {
     "creator": "Microsoft",
@@ -525,7 +543,8 @@
       "typing": "static",
       "speed": "high"
     },
-    "history": "CIL (Common Intermediate Language) is the bytecode instruction set defined by the Common Language Infrastructure (CLI) specification. Created by Microsoft in the late 1990s, it serves as the compile target for .NET languages, which is then JIT-compiled into native machine code."
+    "history": "CIL (Common Intermediate Language) is the bytecode instruction set defined by the Common Language Infrastructure (CLI) specification. Created by Microsoft in the late 1990s, it serves as the compile target for .NET languages, which is then JIT-compiled into native machine code.",
+    "website": "https://learn.microsoft.com/en-us/dotnet/welcome"
   },
   "Clean": {
     "creator": "Rinus Plasmeijer (Radboud University)",
@@ -543,7 +562,8 @@
       "typing": "static",
       "speed": "high"
     },
-    "history": "Clean is a pure functional programming language designed by Rinus Plasmeijer at Radboud University Nijmegen in 1987. It uses uniqueness typing to handle state and I/O efficiently, sharing many theoretical concepts and syntactical styles with Haskell."
+    "history": "Clean is a pure functional programming language designed by Rinus Plasmeijer at Radboud University Nijmegen in 1987. It uses uniqueness typing to handle state and I/O efficiently, sharing many theoretical concepts and syntactical styles with Haskell.",
+    "website": "https://clean.cs.ru.nl/Clean"
   },
   "Clojure": {
     "creator": "Rich Hickey",
@@ -569,7 +589,8 @@
       "typing": "dynamic",
       "speed": "high"
     },
-    "history": "Clojure is a modern dialect of Lisp created by Rich Hickey and released in 2007. Built on the Java Virtual Machine (JVM), it focuses on immutability, functional programming, and concurrent data management, providing a robust environment for concurrent applications."
+    "history": "Clojure is a modern dialect of Lisp created by Rich Hickey and released in 2007. Built on the Java Virtual Machine (JVM), it focuses on immutability, functional programming, and concurrent data management, providing a robust environment for concurrent applications.",
+    "website": "https://clojure.org/"
   },
   "COBOL": {
     "creator": "Grace Hopper & CODASYL Committee",
@@ -606,7 +627,8 @@
       "typing": "static",
       "speed": "moderate"
     },
-    "history": "Cobra is an object-oriented language designed by Charles Esterbrook in 2006. It runs on .NET and Mono, combining the clean syntax of Python with static typing, design-by-contract, and built-in unit test capabilities."
+    "history": "Cobra is an object-oriented language designed by Charles Esterbrook in 2006. It runs on .NET and Mono, combining the clean syntax of Python with static typing, design-by-contract, and built-in unit test capabilities.",
+    "website": "http://cobra-language.com/"
   },
   "CoffeeScript": {
     "creator": "Jeremy Ashkenas",
@@ -625,7 +647,8 @@
       "typing": "dynamic",
       "speed": "moderate"
     },
-    "history": "CoffeeScript was created by Jeremy Ashkenas and released in 2009. It compiles into JavaScript, introducing syntactic sugar inspired by Ruby, Python, and Haskell, significantly influencing the development of modern JavaScript features (ES6)."
+    "history": "CoffeeScript was created by Jeremy Ashkenas and released in 2009. It compiles into JavaScript, introducing syntactic sugar inspired by Ruby, Python, and Haskell, significantly influencing the development of modern JavaScript features (ES6).",
+    "website": "https://coffeescript.org/"
   },
   "ColdFusion Markup": {
     "creator": "Jeremy Allaire, JJ Allaire",
@@ -648,7 +671,8 @@
       "typing": "dynamic",
       "speed": "moderate"
     },
-    "history": "ColdFusion Markup Language (CFML) was created by Jeremy and JJ Allaire in 1995 to simplify database-backed web page generation. It uses a tag-based syntax similar to HTML, making web application development highly accessible to designers."
+    "history": "ColdFusion Markup Language (CFML) was created by Jeremy and JJ Allaire in 1995 to simplify database-backed web page generation. It uses a tag-based syntax similar to HTML, making web application development highly accessible to designers.",
+    "website": "https://www.adobe.com/products/coldfusion-family.html"
   },
   "Common Lisp": {
     "creator": "John McCarthy, Guy L. Steele Jr.",
@@ -674,7 +698,8 @@
       "typing": "dynamic",
       "speed": "moderate"
     },
-    "history": "Common Lisp was developed in the early 1980s to unify the fragmented Lisp dialects of the era. It standardizes a powerful, multi-paradigm language with first-class macros, dynamic typing, and the Common Lisp Object System (CLOS)."
+    "history": "Common Lisp was developed in the early 1980s to unify the fragmented Lisp dialects of the era. It standardizes a powerful, multi-paradigm language with first-class macros, dynamic typing, and the Common Lisp Object System (CLOS).",
+    "website": "https://common-lisp.net"
   },
   "Component Pascal": {
     "creator": "Oberon microsystems",
@@ -693,7 +718,8 @@
       "typing": "static",
       "speed": "high"
     },
-    "history": "Component Pascal is a refined descendant of Niklaus Wirth's Oberon-2 programming language, optimized for component-oriented software construction. It was developed by Oberon Microsystems in the late 1990s."
+    "history": "Component Pascal is a refined descendant of Niklaus Wirth's Oberon-2 programming language, optimized for component-oriented software construction. It was developed by Oberon Microsystems in the late 1990s.",
+    "website": "https://www.oberon.ch/"
   },
   "Crystal": {
     "creator": "Ary Borensztein, Juan Wajnerman",
@@ -718,7 +744,8 @@
       "typing": "static",
       "speed": "high"
     },
-    "history": "Crystal is a compiled programming language created by Ary Borensztein and Juan Wajnerman, first released in 2014. It was designed to combine the elegant, human-friendly syntax of Ruby with the performance and type-safety of a compiled language like C."
+    "history": "Crystal is a compiled programming language created by Ary Borensztein and Juan Wajnerman, first released in 2014. It was designed to combine the elegant, human-friendly syntax of Ruby with the performance and type-safety of a compiled language like C.",
+    "website": "https://crystal-lang.org/"
   },
   "Curl": {
     "creator": "Steve Ward (MIT)",
@@ -737,7 +764,8 @@
       "typing": "static",
       "speed": "moderate"
     },
-    "history": "Curl is a web programming language designed at MIT by Steve Ward and colleagues in 1995. It was created to act as a unified markup, scripting, and layout language, serving as an early pioneer in rich internet applications."
+    "history": "Curl is a web programming language designed at MIT by Steve Ward and colleagues in 1995. It was created to act as a unified markup, scripting, and layout language, serving as an early pioneer in rich internet applications.",
+    "website": "https://www.curl.com/"
   },
   "Cython": {
     "creator": "Robert Bradshaw, Stefan Behnel",
@@ -756,7 +784,8 @@
       "typing": "static",
       "speed": "high"
     },
-    "history": "Cython is a superset of Python designed by Robert Bradshaw and Stefan Behnel to write C extensions for Python. By compiling Python-like code with optional static type declarations directly to C, it delivers massive speed boosts for scientific computing."
+    "history": "Cython is a superset of Python designed by Robert Bradshaw and Stefan Behnel to write C extensions for Python. By compiling Python-like code with optional static type declarations directly to C, it delivers massive speed boosts for scientific computing.",
+    "website": "https://cython.org"
   },
   "D": {
     "creator": "Walter Bright, Andrei Alexandrescu",
@@ -781,7 +810,8 @@
       "typing": "static",
       "speed": "high"
     },
-    "history": "D was created by Walter Bright in 2001 as a modern successor to C++. It re-engineered C++ features with a focus on modern convenience, introducing garbage collection, unit testing, and design-by-contract while preserving high performance."
+    "history": "D was created by Walter Bright in 2001 as a modern successor to C++. It re-engineered C++ features with a focus on modern convenience, introducing garbage collection, unit testing, and design-by-contract while preserving high performance.",
+    "website": "https://dlang.org/"
   },
   "Dart": {
     "creator": "Lars Bak, Kasper Lund (Google)",
@@ -812,7 +842,8 @@
       "typing": "static",
       "speed": "moderate"
     },
-    "history": "Dart was developed by Lars Bak and Kasper Lund at Google and released in 2011. Designed as a scalable language for web and mobile clients, it gained massive popularity as the host language for the Flutter framework, enabling unified cross-platform apps."
+    "history": "Dart was developed by Lars Bak and Kasper Lund at Google and released in 2011. Designed as a scalable language for web and mobile clients, it gained massive popularity as the host language for the Flutter framework, enabling unified cross-platform apps.",
+    "website": "https://dart.dev"
   },
   "Datalog": {
     "creator": "David Maier",
@@ -849,7 +880,8 @@
       "typing": "static",
       "speed": "moderate"
     },
-    "history": "Dylan was created by Apple Computer in the early 1990s as a language for the Newton PDA. It combines the rapid-prototyping advantages of Lisp and Scheme with the robust object-oriented system of Common Lisp, wrapped in an algebraic syntax."
+    "history": "Dylan was created by Apple Computer in the early 1990s as a language for the Newton PDA. It combines the rapid-prototyping advantages of Lisp and Scheme with the robust object-oriented system of Common Lisp, wrapped in an algebraic syntax.",
+    "website": "https://opendylan.org/"
   },
   "Eiffel": {
     "creator": "Bertrand Meyer",
@@ -868,7 +900,8 @@
       "typing": "static",
       "speed": "high"
     },
-    "history": "Eiffel is an object-oriented language designed by Bertrand Meyer in 1985. It introduced the 'Design by Contract' paradigm, where software components define precise preconditions, postconditions, and invariants to ensure correctness."
+    "history": "Eiffel is an object-oriented language designed by Bertrand Meyer in 1985. It introduced the 'Design by Contract' paradigm, where software components define precise preconditions, postconditions, and invariants to ensure correctness.",
+    "website": "https://www.eiffel.org/"
   },
   "Elixir": {
     "creator": "José Valim",
@@ -896,7 +929,8 @@
       "typing": "dynamic",
       "speed": "high"
     },
-    "history": "Elixir was created by José Valim and released in 2012. Built on the Erlang VM (BEAM), it combines Ruby's elegant syntax with Erlang's battle-tested actor model for building fault-tolerant, concurrent, and distributed web systems."
+    "history": "Elixir was created by José Valim and released in 2012. Built on the Erlang VM (BEAM), it combines Ruby's elegant syntax with Erlang's battle-tested actor model for building fault-tolerant, concurrent, and distributed web systems.",
+    "website": "https://elixir-lang.org/"
   },
   "Elm": {
     "creator": "Evan Czaplicki",
@@ -918,7 +952,8 @@
       "typing": "static",
       "speed": "moderate"
     },
-    "history": "Elm is a pure functional programming language designed by Evan Czaplicki in 2012 for web frontends. It compiles to JavaScript and uses the 'Elm Architecture' (model-view-update) which guarantees zero runtime exceptions in practice."
+    "history": "Elm is a pure functional programming language designed by Evan Czaplicki in 2012 for web frontends. It compiles to JavaScript and uses the 'Elm Architecture' (model-view-update) which guarantees zero runtime exceptions in practice.",
+    "website": "https://elm-lang.org/"
   },
   "Erlang": {
     "creator": "Joe Armstrong, Robert Virding, Mike Williams (Ericsson)",
@@ -946,7 +981,8 @@
       "typing": "dynamic",
       "speed": "high"
     },
-    "history": "Erlang was developed at the Ericsson Computer Science Laboratory by Joe Armstrong, Robert Virding, and Mike Williams in 1986. Originally built to handle telecommunication switches, it was designed from the ground up for high concurrency, fault-tolerance, and hot code loading."
+    "history": "Erlang was developed at the Ericsson Computer Science Laboratory by Joe Armstrong, Robert Virding, and Mike Williams in 1986. Originally built to handle telecommunication switches, it was designed from the ground up for high concurrency, fault-tolerance, and hot code loading.",
+    "website": "https://www.erlang.org/"
   },
   "F#": {
     "creator": "Don Syme (Microsoft Research)",
@@ -973,7 +1009,8 @@
       "typing": "static",
       "speed": "high"
     },
-    "history": "F# was created by Don Syme at Microsoft Research and released in 2005. It is a functional-first language for .NET, bringing the type safety, pattern matching, and algebraic data types of OCaml to the Microsoft ecosystem."
+    "history": "F# was created by Don Syme at Microsoft Research and released in 2005. It is a functional-first language for .NET, bringing the type safety, pattern matching, and algebraic data types of OCaml to the Microsoft ecosystem.",
+    "website": "https://fsharp.org/"
   },
   "Factor": {
     "creator": "Slava Pestov",
@@ -991,7 +1028,8 @@
       "typing": "dynamic",
       "speed": "moderate"
     },
-    "history": "Factor is a concatenative programming language created by Slava Pestov in 2003. It is stack-based and features a robust macro system, dynamic typing, and a built-in interactive development environment."
+    "history": "Factor is a concatenative programming language created by Slava Pestov in 2003. It is stack-based and features a robust macro system, dynamic typing, and a built-in interactive development environment.",
+    "website": "https://factorcode.org"
   },
   "Forth": {
     "creator": "Charles H. Moore",
@@ -1010,7 +1048,8 @@
       "typing": "static",
       "speed": "high"
     },
-    "history": "Forth was designed by Charles H. Moore in 1970 for controlling radio telescopes. It is a stack-based, concatenative programming language characterized by its extreme simplicity, extensibility, and tiny memory footprint."
+    "history": "Forth was designed by Charles H. Moore in 1970 for controlling radio telescopes. It is a stack-based, concatenative programming language characterized by its extreme simplicity, extensibility, and tiny memory footprint.",
+    "website": "https://forth-standard.org/"
   },
   "Fortran": {
     "creator": "John Backus (IBM)",
@@ -1029,7 +1068,8 @@
       "typing": "static",
       "speed": "high"
     },
-    "history": "Fortran (Formula Translation) was created by John Backus at IBM in 1957. As the first widely used high-level programming language, it revolutionized software development and remains a cornerstone of high-performance scientific and numerical computing."
+    "history": "Fortran (Formula Translation) was created by John Backus at IBM in 1957. As the first widely used high-level programming language, it revolutionized software development and remains a cornerstone of high-performance scientific and numerical computing.",
+    "website": "https://fortran-lang.org"
   },
   "Gambas": {
     "creator": "Benoît Minisini",
@@ -1047,7 +1087,8 @@
       "typing": "dynamic",
       "speed": "moderate"
     },
-    "history": "Gambas is a free development environment based on a BASIC interpreter with object-oriented extensions, created by Benoît Minisini in 1999. It was designed to provide a Delphi/Visual Basic-like RAD experience on Unix systems."
+    "history": "Gambas is a free development environment based on a BASIC interpreter with object-oriented extensions, created by Benoît Minisini in 1999. It was designed to provide a Delphi/Visual Basic-like RAD experience on Unix systems.",
+    "website": "https://gambaswiki.org/website"
   },
   "Genie": {
     "creator": "Jamie McCracken",
@@ -1064,7 +1105,8 @@
       "typing": "static",
       "speed": "high"
     },
-    "history": "Genie was designed by Jamie McCracken in 2008 to provide a Python-like syntax for the Vala compiler. It compiles directly into C, targeting the GObject system to build high-performance GNOME applications with a clean indentation-based style."
+    "history": "Genie was designed by Jamie McCracken in 2008 to provide a Python-like syntax for the Vala compiler. It compiles directly into C, targeting the GObject system to build high-performance GNOME applications with a clean indentation-based style.",
+    "website": "https://wiki.gnome.org/Projects/Genie"
   },
   "Go": {
     "creator": "Robert Griesemer, Rob Pike, Ken Thompson (Google)",
@@ -1094,7 +1136,8 @@
       "typing": "static",
       "speed": "high"
     },
-    "history": "Go (Golang) was designed at Google by Robert Griesemer, Rob Pike, and Ken Thompson in 2007. Created to tackle software complexity at Google scale, it features a minimalist syntax, fast compilation, and native concurrency support through goroutines."
+    "history": "Go (Golang) was designed at Google by Robert Griesemer, Rob Pike, and Ken Thompson in 2007. Created to tackle software complexity at Google scale, it features a minimalist syntax, fast compilation, and native concurrency support through goroutines.",
+    "website": "https://go.dev"
   },
   "Gosu": {
     "creator": "Guidewire Software",
@@ -1113,7 +1156,8 @@
       "typing": "static",
       "speed": "high"
     },
-    "history": "Gosu is an object-oriented programming language designed for the Java Virtual Machine. Developed by Guidewire Software in the early 2000s, it introduces features like structural typing, extension methods, and closures to the JVM platform."
+    "history": "Gosu is an object-oriented programming language designed for the Java Virtual Machine. Developed by Guidewire Software in the early 2000s, it introduces features like structural typing, extension methods, and closures to the JVM platform.",
+    "website": "https://gosu-lang.github.io/"
   },
   "Groovy": {
     "creator": "James Strachan",
@@ -1136,7 +1180,8 @@
       "typing": "static",
       "speed": "moderate"
     },
-    "history": "Groovy is a Java-syntax-compatible scripting language created by James Strachan in 2003. It runs on the JVM, combining the power of dynamic features inspired by Python and Ruby with a seamless interface to existing Java libraries."
+    "history": "Groovy is a Java-syntax-compatible scripting language created by James Strachan in 2003. It runs on the JVM, combining the power of dynamic features inspired by Python and Ruby with a seamless interface to existing Java libraries.",
+    "website": "https://groovy-lang.org/"
   },
   "Hack": {
     "creator": "Facebook",
@@ -1154,7 +1199,8 @@
       "typing": "static",
       "speed": "high"
     },
-    "history": "Hack is a dialect of PHP designed by Facebook and released in 2014. It introduces static typing and gradual typing to PHP, allowing developers to catch type errors early while preserving rapid feedback loops."
+    "history": "Hack is a dialect of PHP designed by Facebook and released in 2014. It introduces static typing and gradual typing to PHP, allowing developers to catch type errors early while preserving rapid feedback loops.",
+    "website": "https://hacklang.org"
   },
   "Haskell": {
     "creator": "Lennart Augustsson, Dave Barton, et al.",
@@ -1181,7 +1227,8 @@
       "typing": "static",
       "speed": "moderate"
     },
-    "history": "Haskell was standardized in 1990 by an international committee to establish a common academic language for pure functional programming research. Named after logician Haskell Curry, it features lazy evaluation, static typing, and advanced type classes."
+    "history": "Haskell was standardized in 1990 by an international committee to establish a common academic language for pure functional programming research. Named after logician Haskell Curry, it features lazy evaluation, static typing, and advanced type classes.",
+    "website": "https://www.haskell.org"
   },
   "Haxe": {
     "creator": "Nicolas Cannasse",
@@ -1207,7 +1254,8 @@
       "typing": "static",
       "speed": "high"
     },
-    "history": "Haxe is a high-level multi-target programming language created by Nicolas Cannasse in 2005. It compiles into JavaScript, C++, C#, Java, Python, and PHP, allowing game and web developers to write code once and deploy across diverse environments."
+    "history": "Haxe is a high-level multi-target programming language created by Nicolas Cannasse in 2005. It compiles into JavaScript, C++, C#, Java, Python, and PHP, allowing game and web developers to write code once and deploy across diverse environments.",
+    "website": "https://haxe.org"
   },
   "Holy C": {
     "creator": "Terry A. Davis",
@@ -1226,7 +1274,8 @@
       "typing": "static",
       "speed": "high"
     },
-    "history": "Holy C is a C-like programming language designed by Terry A. Davis in 2005 as the primary systems language for TempleOS. It features built-in JIT compilation, dynamic types, and shell-like execution characteristics, tailored specifically for the OS's ring-0 architecture."
+    "history": "Holy C is a C-like programming language designed by Terry A. Davis in 2005 as the primary systems language for TempleOS. It features built-in JIT compilation, dynamic types, and shell-like execution characteristics, tailored specifically for the OS's ring-0 architecture.",
+    "website": "https://templeos.org/"
   },
   "HTML": {
     "creator": "Tim Berners-Lee",
@@ -1244,7 +1293,8 @@
       "typing": "static",
       "speed": "low"
     },
-    "history": "HTML (HyperText Markup Language) was created by Tim Berners-Lee in 1991 to share scientific documents. It has evolved from a simple tag-based text format into the structural foundation of the World Wide Web, rendering layouts globally."
+    "history": "HTML (HyperText Markup Language) was created by Tim Berners-Lee in 1991 to share scientific documents. It has evolved from a simple tag-based text format into the structural foundation of the World Wide Web, rendering layouts globally.",
+    "website": "https://html.spec.whatwg.org/"
   },
   "Icon": {
     "creator": "Ralph Griswold",
@@ -1262,7 +1312,8 @@
       "typing": "dynamic",
       "speed": "moderate"
     },
-    "history": "Icon is a high-level language designed by Ralph Griswold in the late 1970s. It is famous for its goal-directed execution model, where expressions can return multiple results via generators, simplifying complex string parsing operations."
+    "history": "Icon is a high-level language designed by Ralph Griswold in the late 1970s. It is famous for its goal-directed execution model, where expressions can return multiple results via generators, simplifying complex string parsing operations.",
+    "website": "https://www2.cs.arizona.edu/icon/"
   },
   "Inform 7": {
     "creator": "Graham Nelson",
@@ -1280,7 +1331,8 @@
       "typing": "dynamic",
       "speed": "low"
     },
-    "history": "Inform 7 is a design system and natural language programming dialect created by Graham Nelson in 2006. It is designed specifically for writing interactive fiction, using sentences that read like standard English to construct virtual game worlds."
+    "history": "Inform 7 is a design system and natural language programming dialect created by Graham Nelson in 2006. It is designed specifically for writing interactive fiction, using sentences that read like standard English to construct virtual game worlds.",
+    "website": "https://ganelson.github.io/inform-website/"
   },
   "Io": {
     "creator": "Steve Dekorte",
@@ -1298,7 +1350,8 @@
       "typing": "dynamic",
       "speed": "moderate"
     },
-    "history": "Io is a pure prototype-based scripting language designed by Steve Dekorte in 2002. Inspired by Smalltalk, Self, and Lisp, it features an extremely simple syntax where everything is a message, making it a highly dynamic and flexible language."
+    "history": "Io is a pure prototype-based scripting language designed by Steve Dekorte in 2002. Inspired by Smalltalk, Self, and Lisp, it features an extremely simple syntax where everything is a message, making it a highly dynamic and flexible language.",
+    "website": "https://iolanguage.org/"
   },
   "J": {
     "creator": "Kenneth E. Iverson, Roger Hui",
@@ -1316,7 +1369,8 @@
       "typing": "dynamic",
       "speed": "moderate"
     },
-    "history": "J is a high-level array programming language designed by Kenneth E. Iverson and Roger Hui in 1990. It is a successor to APL, utilizing standard ASCII characters instead of custom math symbols to perform array transformations."
+    "history": "J is a high-level array programming language designed by Kenneth E. Iverson and Roger Hui in 1990. It is a successor to APL, utilizing standard ASCII characters instead of custom math symbols to perform array transformations.",
+    "website": "https://www.jsoftware.com/"
   },
   "Java": {
     "creator": "James Gosling (Sun Microsystems)",
@@ -1349,7 +1403,8 @@
       "typing": "static",
       "speed": "high"
     },
-    "history": "Java was developed by James Gosling at Sun Microsystems and released in 1995. Built around the 'Write Once, Run Anywhere' (WORA) philosophy, it uses virtual machine bytecode execution (JVM) to power enterprise web, desktop, and mobile software."
+    "history": "Java was developed by James Gosling at Sun Microsystems and released in 1995. Built around the 'Write Once, Run Anywhere' (WORA) philosophy, it uses virtual machine bytecode execution (JVM) to power enterprise web, desktop, and mobile software.",
+    "website": "https://dev.java/"
   },
   "JavaScript": {
     "creator": "Brendan Eich",
@@ -1389,7 +1444,8 @@
       "typing": "dynamic",
       "speed": "moderate"
     },
-    "history": "JavaScript was written in 10 days by Brendan Eich at Netscape in 1995 to add interactivity to web pages. It has evolved from a simple browser scripting tool into the world's most ubiquitous language, powering frontends (browsers) and backends (Node.js)."
+    "history": "JavaScript was written in 10 days by Brendan Eich at Netscape in 1995 to add interactivity to web pages. It has evolved from a simple browser scripting tool into the world's most ubiquitous language, powering frontends (browsers) and backends (Node.js).",
+    "website": "https://www.ecma-international.org/publications-and-standards/standards/ecma-262/"
   },
   "Julia": {
     "creator": "Viral B. Shah, Alan Edelman, Stefan Karpinski, Jeff Bezanson",
@@ -1415,7 +1471,8 @@
       "typing": "dynamic",
       "speed": "high"
     },
-    "history": "Julia was designed by Viral B. Shah, Alan Edelman, Stefan Karpinski, and Jeff Bezanson, launched in 2012. It was created to solve the 'two-language problem'—combining the numerical ease of Python/R with the execution speed of C/Fortran."
+    "history": "Julia was designed by Viral B. Shah, Alan Edelman, Stefan Karpinski, and Jeff Bezanson, launched in 2012. It was created to solve the 'two-language problem'—combining the numerical ease of Python/R with the execution speed of C/Fortran.",
+    "website": "https://julialang.org/"
   },
   "K": {
     "creator": "Arthur Whitney",
@@ -1433,7 +1490,8 @@
       "typing": "dynamic",
       "speed": "high"
     },
-    "history": "K is a proprietary array programming language designed by Arthur Whitney in 1993. It is renowned for its speed, conciseness, and database capabilities, heavily used in quantitative finance and high-frequency trading."
+    "history": "K is a proprietary array programming language designed by Arthur Whitney in 1993. It is renowned for its speed, conciseness, and database capabilities, heavily used in quantitative finance and high-frequency trading.",
+    "website": "https://kx.com/"
   },
   "Kotlin": {
     "creator": "JetBrains",
@@ -1462,7 +1520,8 @@
       "typing": "static",
       "speed": "high"
     },
-    "history": "Kotlin was developed by JetBrains and released in 2011. Designed as a concise, safe, and fully interoperable alternative to Java, it was declared the preferred language for Android development by Google in 2017."
+    "history": "Kotlin was developed by JetBrains and released in 2011. Designed as a concise, safe, and fully interoperable alternative to Java, it was declared the preferred language for Android development by Google in 2017.",
+    "website": "https://kotlinlang.org/"
   },
   "Lasso": {
     "creator": "Kyle Jessup",
@@ -1498,7 +1557,8 @@
       "typing": "static",
       "speed": "high"
     },
-    "history": "Limbo was designed by Sean Dorward, Phil Winterbottom, and Rob Pike at Bell Labs for the Inferno operating system. It features safe memory management, channel-based concurrency, and compiles into portable bytecode for VM execution."
+    "history": "Limbo was designed by Sean Dorward, Phil Winterbottom, and Rob Pike at Bell Labs for the Inferno operating system. It features safe memory management, channel-based concurrency, and compiles into portable bytecode for VM execution.",
+    "website": "https://www.vitanuova.com/inferno/limbo.html"
   },
   "LiveScript": {
     "creator": "Jeremy Ashkenas",
@@ -1517,7 +1577,8 @@
       "typing": "dynamic",
       "speed": "moderate"
     },
-    "history": "LiveScript is a functional-first scripting language that compiles to JavaScript. Created as a spiritual successor to CoffeeScript, it introduces features like currying, pipelining, and pattern matching."
+    "history": "LiveScript is a functional-first scripting language that compiles to JavaScript. Created as a spiritual successor to CoffeeScript, it introduces features like currying, pipelining, and pattern matching.",
+    "website": "https://livescript.net"
   },
   "Logo": {
     "creator": "Wally Feurzeig, Seymour Papert, Cynthia Solomon",
@@ -1554,7 +1615,8 @@
       "typing": "static",
       "speed": "moderate"
     },
-    "history": "Logtalk is an open-source object-oriented logic programming language created by Paulo Moura in 1998. It extends Prolog with support for modern software engineering paradigms like encapsulation, protocols, and category reuse."
+    "history": "Logtalk is an open-source object-oriented logic programming language created by Paulo Moura in 1998. It extends Prolog with support for modern software engineering paradigms like encapsulation, protocols, and category reuse.",
+    "website": "https://logtalk.org/"
   },
   "LOLCODE": {
     "creator": "Adam Lindsay",
@@ -1572,7 +1634,8 @@
       "typing": "dynamic",
       "speed": "low"
     },
-    "history": "LOLCODE is an esoteric programming language created by Adam Lindsay in 2007. It uses the syntax and structures of the popular Internet 'lolspeak' memes, serving as a humorous demonstration of language parsing paradigms."
+    "history": "LOLCODE is an esoteric programming language created by Adam Lindsay in 2007. It uses the syntax and structures of the popular Internet 'lolspeak' memes, serving as a humorous demonstration of language parsing paradigms.",
+    "website": "http://www.lolcode.org"
   },
   "Lua": {
     "creator": "Roberto Ierusalimschy, Waldemar Celes, Luiz Henrique de Figueiredo",
@@ -1600,7 +1663,8 @@
       "typing": "dynamic",
       "speed": "high"
     },
-    "history": "Lua was created in 1993 by Roberto Ierusalimschy, Waldemar Celes, and Luiz Henrique de Figueiredo in Brazil to bypass hardware import trade barriers. It is a lightweight, embeddable scripting language widely used as a game scripting engine."
+    "history": "Lua was created in 1993 by Roberto Ierusalimschy, Waldemar Celes, and Luiz Henrique de Figueiredo in Brazil to bypass hardware import trade barriers. It is a lightweight, embeddable scripting language widely used as a game scripting engine.",
+    "website": "https://www.lua.org/"
   },
   "Maple": {
     "creator": "Char, Geddes, Gonnet, et al. (University of Waterloo)",
@@ -1618,7 +1682,8 @@
       "typing": "dynamic",
       "speed": "moderate"
     },
-    "history": "Maple is a symbolic and numeric computing language developed by the Symbolic Computation Group at the University of Waterloo in 1980. It is designed for advanced mathematical modeling, algebra, and calculus."
+    "history": "Maple is a symbolic and numeric computing language developed by the Symbolic Computation Group at the University of Waterloo in 1980. It is designed for advanced mathematical modeling, algebra, and calculus.",
+    "website": "https://www.maplesoft.com/products/maple/"
   },
   "MATLAB": {
     "creator": "Cleve Moler",
@@ -1637,7 +1702,8 @@
       "typing": "dynamic",
       "speed": "moderate"
     },
-    "history": "MATLAB (Matrix Laboratory) was written by Cleve Moler in the late 1970s to give students access to LINPACK without writing Fortran. It is a proprietary programming language designed for matrix manipulations, data plotting, and numerical analysis."
+    "history": "MATLAB (Matrix Laboratory) was written by Cleve Moler in the late 1970s to give students access to LINPACK without writing Fortran. It is a proprietary programming language designed for matrix manipulations, data plotting, and numerical analysis.",
+    "website": "https://www.mathworks.com/products/matlab.html"
   },
   "Mercury": {
     "creator": "Ralph Becket, Fergus Henderson, Thomas Conway, et al.",
@@ -1656,7 +1722,8 @@
       "typing": "static",
       "speed": "high"
     },
-    "history": "Mercury is a pure logic/functional programming language developed at the University of Melbourne in 1995. It was designed to apply modern software engineering discipline to logic programming, adding strict type, mode, and determinism systems."
+    "history": "Mercury is a pure logic/functional programming language developed at the University of Melbourne in 1995. It was designed to apply modern software engineering discipline to logic programming, adding strict type, mode, and determinism systems.",
+    "website": "https://mercurylang.org/"
   },
   "Nim": {
     "creator": "Andreas Rumpf",
@@ -1686,7 +1753,8 @@
       "typing": "static",
       "speed": "high"
     },
-    "history": "Nim is a statically typed systems programming language designed by Andreas Rumpf and released in 2008. It compiles into C, C++, and JavaScript, offering python-like syntax combined with metal-level performance and a powerful macro system."
+    "history": "Nim is a statically typed systems programming language designed by Andreas Rumpf and released in 2008. It compiles into C, C++, and JavaScript, offering python-like syntax combined with metal-level performance and a powerful macro system.",
+    "website": "https://nim-lang.org/"
   },
   "Objective-C": {
     "creator": "Brad Cox, Tom Love",
@@ -1715,7 +1783,8 @@
       "typing": "static",
       "speed": "high"
     },
-    "history": "Objective-C was created by Brad Cox and Tom Love in the early 1980s. It added Smalltalk-style messaging to C, becoming the standard programming language for NeXTSTEP and Apple's macOS and iOS operating systems."
+    "history": "Objective-C was created by Brad Cox and Tom Love in the early 1980s. It added Smalltalk-style messaging to C, becoming the standard programming language for NeXTSTEP and Apple's macOS and iOS operating systems.",
+    "website": "https://developer.apple.com/library/archive/documentation/Cocoa/Conceptual/ProgrammingWithObjectiveC/Introduction/Introduction.html"
   },
   "OCaml": {
     "creator": "Xavier Leroy, et al. (INRIA)",
@@ -1741,7 +1810,8 @@
       "typing": "static",
       "speed": "high"
     },
-    "history": "OCaml was developed in 1996 by Xavier Leroy and colleagues at INRIA. It extends the Caml dialect of ML with object-oriented paradigms, establishing a highly respected functional language famous for compiler design."
+    "history": "OCaml was developed in 1996 by Xavier Leroy and colleagues at INRIA. It extends the Caml dialect of ML with object-oriented paradigms, establishing a highly respected functional language famous for compiler design.",
+    "website": "https://ocaml.org/"
   },
   "Octave": {
     "creator": "John W. Eaton",
@@ -1759,7 +1829,8 @@
       "typing": "dynamic",
       "speed": "moderate"
     },
-    "history": "GNU Octave was created by John W. Eaton in 1992 as a free software alternative to MATLAB. It features a highly compatible syntax, allowing scientific code, signal processing, and numerical simulations to run on open-source platforms."
+    "history": "GNU Octave was created by John W. Eaton in 1992 as a free software alternative to MATLAB. It features a highly compatible syntax, allowing scientific code, signal processing, and numerical simulations to run on open-source platforms.",
+    "website": "https://octave.org"
   },
   "Pascal": {
     "creator": "Niklaus Wirth",
@@ -1785,7 +1856,8 @@
       "typing": "static",
       "speed": "high"
     },
-    "history": "Pascal was designed by Niklaus Wirth in 1968 and published in 1970. Named after mathematician Blaise Pascal, it was created as a structured language to teach systematic programming practices, inspiring Turbo Pascal and Delphi."
+    "history": "Pascal was designed by Niklaus Wirth in 1968 and published in 1970. Named after mathematician Blaise Pascal, it was created as a structured language to teach systematic programming practices, inspiring Turbo Pascal and Delphi.",
+    "website": "https://www.freepascal.org/"
   },
   "Perl": {
     "creator": "Larry Wall",
@@ -1812,7 +1884,8 @@
       "typing": "dynamic",
       "speed": "moderate"
     },
-    "history": "Perl was written by Larry Wall in 1987 as a general-purpose Unix scripting language to make report processing easier. Renowned for its text processing and regex power, it became the 'glue language' of the early World Wide Web."
+    "history": "Perl was written by Larry Wall in 1987 as a general-purpose Unix scripting language to make report processing easier. Renowned for its text processing and regex power, it became the 'glue language' of the early World Wide Web.",
+    "website": "https://perl.org"
   },
   "PHP": {
     "creator": "Rasmus Lerdorf",
@@ -1839,7 +1912,8 @@
       "typing": "dynamic",
       "speed": "moderate"
     },
-    "history": "PHP (Hypertext Preprocessor) was written by Rasmus Lerdorf in 1994 as a set of Common Gateway Interface (CGI) binaries to track visitors on his homepage. It evolved into a server-side web scripting language powering a massive portion of the web."
+    "history": "PHP (Hypertext Preprocessor) was written by Rasmus Lerdorf in 1994 as a set of Common Gateway Interface (CGI) binaries to track visitors on his homepage. It evolved into a server-side web scripting language powering a massive portion of the web.",
+    "website": "https://www.php.net"
   },
   "PowerShell": {
     "creator": "Jeffrey Snover (Microsoft)",
@@ -1858,7 +1932,8 @@
       "typing": "dynamic",
       "speed": "moderate"
     },
-    "history": "PowerShell was created by Jeffrey Snover at Microsoft and released in 2006. It is an object-oriented shell and scripting language designed for Windows administration, passing full structured objects rather than raw text streams between commands."
+    "history": "PowerShell was created by Jeffrey Snover at Microsoft and released in 2006. It is an object-oriented shell and scripting language designed for Windows administration, passing full structured objects rather than raw text streams between commands.",
+    "website": "https://learn.microsoft.com/en-us/powershell/"
   },
   "Prolog": {
     "creator": "Alain Colmerauer, Philippe Roussel",
@@ -1878,7 +1953,8 @@
       "typing": "static",
       "speed": "moderate"
     },
-    "history": "Prolog (Programmation en Logique) was created in 1972 by Alain Colmerauer and Philippe Roussel. It is the premier logic programming language, based on formal logic where programs are defined by relations and queries are solved via backtracking."
+    "history": "Prolog (Programmation en Logique) was created in 1972 by Alain Colmerauer and Philippe Roussel. It is the premier logic programming language, based on formal logic where programs are defined by relations and queries are solved via backtracking.",
+    "website": "https://www.swi-prolog.org/"
   },
   "Python": {
     "creator": "Guido van Rossum",
@@ -1912,7 +1988,8 @@
       "typing": "dynamic",
       "speed": "moderate"
     },
-    "history": "Python was created by Guido van Rossum and released in 1991. Designed to emphasize readability and clean indentation, it has grown into one of the most popular programming languages in the world, dominating AI, data science, and scripting."
+    "history": "Python was created by Guido van Rossum and released in 1991. Designed to emphasize readability and clean indentation, it has grown into one of the most popular programming languages in the world, dominating AI, data science, and scripting.",
+    "website": "https://www.python.org/"
   },
   "R": {
     "creator": "Ross Ihaka, Robert Gentleman",
@@ -1936,7 +2013,8 @@
       "typing": "dynamic",
       "speed": "moderate"
     },
-    "history": "R was developed by Ross Ihaka and Robert Gentleman at the University of Auckland, New Zealand, in 1993. Based on the S programming language, it has become the standard environment for statistical computing, data analysis, and scientific plotting."
+    "history": "R was developed by Ross Ihaka and Robert Gentleman at the University of Auckland, New Zealand, in 1993. Based on the S programming language, it has become the standard environment for statistical computing, data analysis, and scientific plotting.",
+    "website": "https://www.r-project.org"
   },
   "Racket": {
     "creator": "Matthew Flatt",
@@ -1956,7 +2034,8 @@
       "typing": "dynamic",
       "speed": "moderate"
     },
-    "history": "Racket was founded by Matthew Flatt in 1995. Originally named PLT Scheme, it is a multi-paradigm language in the Lisp family, designed to serve as a platform for language creation, experimentation, and educational computer science."
+    "history": "Racket was founded by Matthew Flatt in 1995. Originally named PLT Scheme, it is a multi-paradigm language in the Lisp family, designed to serve as a platform for language creation, experimentation, and educational computer science.",
+    "website": "https://racket-lang.org/"
   },
   "Raku": {
     "creator": "Larry Wall",
@@ -1974,7 +2053,8 @@
       "typing": "dynamic",
       "speed": "moderate"
     },
-    "history": "Raku (formerly known as Perl 6) was initiated in 2000 by Larry Wall. Following an extensive redesign of the Perl language, it was officially renamed in 2019 to establish itself as a distinct, modern multi-paradigm language."
+    "history": "Raku (formerly known as Perl 6) was initiated in 2000 by Larry Wall. Following an extensive redesign of the Perl language, it was officially renamed in 2019 to establish itself as a distinct, modern multi-paradigm language.",
+    "website": "https://raku.org/"
   },
   "Rexx": {
     "creator": "Michael Cowlishaw (IBM)",
@@ -1992,7 +2072,8 @@
       "typing": "dynamic",
       "speed": "moderate"
     },
-    "history": "Rexx (Restructured Extended Executor) was designed by Michael Cowlishaw at IBM in 1979. It was created to be a highly readable scripting language for mainframes, simplifying systems administration and batch automation."
+    "history": "Rexx (Restructured Extended Executor) was designed by Michael Cowlishaw at IBM in 1979. It was created to be a highly readable scripting language for mainframes, simplifying systems administration and batch automation.",
+    "website": "https://www.rexxla.org/"
   },
   "Ruby": {
     "creator": "Yukihiro Matsumoto",
@@ -2019,7 +2100,8 @@
       "typing": "dynamic",
       "speed": "moderate"
     },
-    "history": "Ruby was created by Yukihiro Matsumoto in Japan and released in 1995. Designed to make programmers happy, it combines concepts from Perl, Smalltalk, and Lisp to form a pure object-oriented scripting language that powered the Web 2.0 boom via Ruby on Rails."
+    "history": "Ruby was created by Yukihiro Matsumoto in Japan and released in 1995. Designed to make programmers happy, it combines concepts from Perl, Smalltalk, and Lisp to form a pure object-oriented scripting language that powered the Web 2.0 boom via Ruby on Rails.",
+    "website": "https://www.ruby-lang.org/"
   },
   "Rust": {
     "creator": "Graydon Hoare (Mozilla)",
@@ -2054,7 +2136,8 @@
       "typing": "static",
       "speed": "high"
     },
-    "history": "Rust was created by Graydon Hoare at Mozilla in 2006. Designed as a safe alternative to C/C++, it guarantees memory safety without a garbage collector through a unique borrow checker, becoming a favorite for systems and infrastructure software."
+    "history": "Rust was created by Graydon Hoare at Mozilla in 2006. Designed as a safe alternative to C/C++, it guarantees memory safety without a garbage collector through a unique borrow checker, becoming a favorite for systems and infrastructure software.",
+    "website": "https://rust-lang.org/"
   },
   "Scala": {
     "creator": "Martin Odersky",
@@ -2084,7 +2167,8 @@
       "typing": "static",
       "speed": "high"
     },
-    "history": "Scala was designed by Martin Odersky and released in 2004. It runs on the JVM, combining functional programming and object-oriented programming in a statically typed language designed to scale from small scripts to large systems."
+    "history": "Scala was designed by Martin Odersky and released in 2004. It runs on the JVM, combining functional programming and object-oriented programming in a statically typed language designed to scale from small scripts to large systems.",
+    "website": "https://scala-lang.org"
   },
   "Scheme": {
     "creator": "Guy L. Steele, Gerald Jay Sussman",
@@ -2104,7 +2188,8 @@
       "typing": "dynamic",
       "speed": "moderate"
     },
-    "history": "Scheme was designed by Guy L. Steele and Gerald Jay Sussman at the MIT AI Lab in 1975. As a minimalist Lisp dialect, it pioneered lexical scoping, block structure, and first-class continuations, influencing compiler theory."
+    "history": "Scheme was designed by Guy L. Steele and Gerald Jay Sussman at the MIT AI Lab in 1975. As a minimalist Lisp dialect, it pioneered lexical scoping, block structure, and first-class continuations, influencing compiler theory.",
+    "website": "https://www.scheme.org/"
   },
   "Shakespeare": {
     "creator": "Karl Wiberg, Jon Åslund",
@@ -2165,7 +2250,8 @@
       "typing": "static",
       "speed": "high"
     },
-    "history": "SQL (Structured Query Language) was developed at IBM by Donald D. Chamberlin and Raymond F. Boyce in the early 1970s. It was designed to retrieve and manipulate data stored in relational database management systems."
+    "history": "SQL (Structured Query Language) was developed at IBM by Donald D. Chamberlin and Raymond F. Boyce in the early 1970s. It was designed to retrieve and manipulate data stored in relational database management systems.",
+    "website": "https://www.iso.org/standard/76583.html"
   },
   "Swift": {
     "creator": "Chris Lattner (Apple)",
@@ -2195,7 +2281,8 @@
       "typing": "static",
       "speed": "high"
     },
-    "history": "Swift was created by Chris Lattner at Apple and released in 2014. Designed to replace Objective-C, it is a modern, fast, statically typed systems language focused on safety, performance, and developer velocity for Apple ecosystem development."
+    "history": "Swift was created by Chris Lattner at Apple and released in 2014. Designed to replace Objective-C, it is a modern, fast, statically typed systems language focused on safety, performance, and developer velocity for Apple ecosystem development.",
+    "website": "https://www.swift.org/"
   },
   "Tcl": {
     "creator": "John Ousterhout",
@@ -2219,7 +2306,8 @@
       "typing": "dynamic",
       "speed": "moderate"
     },
-    "history": "Tcl (Tool Command Language) was designed by John Ousterhout in 1988. Created to serve as a reusable command script language for engineering tools, it features a simple syntax where everything is a string, widely paired with the Tk GUI toolkit."
+    "history": "Tcl (Tool Command Language) was designed by John Ousterhout in 1988. Created to serve as a reusable command script language for engineering tools, it features a simple syntax where everything is a string, widely paired with the Tk GUI toolkit.",
+    "website": "https://www.tcl-lang.org"
   },
   "TypeScript": {
     "creator": "Anders Hejlsberg (Microsoft)",
@@ -2252,7 +2340,8 @@
       "typing": "static",
       "speed": "moderate"
     },
-    "history": "TypeScript was created by Anders Hejlsberg at Microsoft and released in 2012. It is a typed superset of JavaScript that compiles to plain JavaScript, enabling robust static type checking and auto-completion for large-scale web applications."
+    "history": "TypeScript was created by Anders Hejlsberg at Microsoft and released in 2012. It is a typed superset of JavaScript that compiles to plain JavaScript, enabling robust static type checking and auto-completion for large-scale web applications.",
+    "website": "https://www.typescriptlang.org/"
   },
   "VBA": {
     "creator": "Microsoft",
@@ -2270,7 +2359,8 @@
       "typing": "dynamic",
       "speed": "low"
     },
-    "history": "VBA (Visual Basic for Applications) was released by Microsoft in 1993. It is an implementation of Visual Basic embedded within Microsoft Office applications, enabling automation, custom macros, and spreadsheet scripting."
+    "history": "VBA (Visual Basic for Applications) was released by Microsoft in 1993. It is an implementation of Visual Basic embedded within Microsoft Office applications, enabling automation, custom macros, and spreadsheet scripting.",
+    "website": "https://learn.microsoft.com/office/vba/api/overview/"
   },
   "VBScript": {
     "creator": "Microsoft",
@@ -2288,7 +2378,8 @@
       "typing": "dynamic",
       "speed": "low"
     },
-    "history": "VBScript (Visual Basic Scripting Edition) was released by Microsoft in 1996. It is an active scripting language modeled on Visual Basic, historically used for Windows administration and client-side scripting in Internet Explorer."
+    "history": "VBScript (Visual Basic Scripting Edition) was released by Microsoft in 1996. It is an active scripting language modeled on Visual Basic, historically used for Windows administration and client-side scripting in Internet Explorer.",
+    "website": "https://learn.microsoft.com/en-us/previous-versions/t0aew7h6(v=vs.85)"
   },
   "Verilog": {
     "creator": "Philip Moorby",
@@ -2342,7 +2433,8 @@
       "typing": "static",
       "speed": "moderate"
     },
-    "history": "Visual Basic .NET was released by Microsoft in 2002 to transition the classic Visual Basic language to the .NET framework. It is a fully object-oriented language that shares the common language runtime (CLR) with C#."
+    "history": "Visual Basic .NET was released by Microsoft in 2002 to transition the classic Visual Basic language to the .NET framework. It is a fully object-oriented language that shares the common language runtime (CLR) with C#.",
+    "website": "https://learn.microsoft.com/dotnet/visual-basic/"
   },
   "WebAssembly Text": {
     "creator": "W3C WebAssembly Working Group",
@@ -2362,7 +2454,8 @@
       "typing": "static",
       "speed": "high"
     },
-    "history": "WebAssembly Text format (WAT) is the human-readable s-expression representation of the WebAssembly binary format. Standardized by the W3C, it allows low-level assembly-like instructions to run at near-native speeds in web browsers."
+    "history": "WebAssembly Text format (WAT) is the human-readable s-expression representation of the WebAssembly binary format. Standardized by the W3C, it allows low-level assembly-like instructions to run at near-native speeds in web browsers.",
+    "website": "https://webassembly.org/"
   },
   "Whitespace": {
     "creator": "Edwin Brady, Chris Morris",
@@ -2398,7 +2491,8 @@
       "typing": "dynamic",
       "speed": "moderate"
     },
-    "history": "Wolfram Language was designed by Stephen Wolfram and launched in 2014 as the underlying language of Mathematica. It features built-in computational data, symbolic representation, and advanced mathematical functions."
+    "history": "Wolfram Language was designed by Stephen Wolfram and launched in 2014 as the underlying language of Mathematica. It features built-in computational data, symbolic representation, and advanced mathematical functions.",
+    "website": "https://www.wolfram.com/language/"
   },
   "XQuery": {
     "creator": "W3C XML Query Working Group",
@@ -2416,7 +2510,8 @@
       "typing": "static",
       "speed": "moderate"
     },
-    "history": "XQuery was standardized by the W3C in 2007. It is a declarative query language designed to search, extract, and transform structured XML data, acting as 'SQL for XML'."
+    "history": "XQuery was standardized by the W3C in 2007. It is a declarative query language designed to search, extract, and transform structured XML data, acting as 'SQL for XML'.",
+    "website": "https://www.w3.org/XML/Query/"
   },
   "YAML": {
     "creator": "Clark Evans, Ingy döt Net, Oren Ben-Kiki",
@@ -2435,7 +2530,8 @@
       "typing": "static",
       "speed": "low"
     },
-    "history": "YAML (YAML Ain't Markup Language) was designed by Clark Evans, Ingy döt Net, and Oren Ben-Kiki in 2001. It is a human-readable data serialization standard widely used for configuration files, data exchange, and deployment scripting."
+    "history": "YAML (YAML Ain't Markup Language) was designed by Clark Evans, Ingy döt Net, and Oren Ben-Kiki in 2001. It is a human-readable data serialization standard widely used for configuration files, data exchange, and deployment scripting.",
+    "website": "https://yaml.org/"
   },
   "Zig": {
     "creator": "Andrew Kelley",
@@ -2456,7 +2552,8 @@
       "typing": "static",
       "speed": "high"
     },
-    "history": "Zig is a statically typed systems programming language designed by Andrew Kelley and released in 2016. Created as a robust alternative to C, it eliminates hidden control flows, macros, and runtime allocations, offering seamless C-interoperability."
+    "history": "Zig is a statically typed systems programming language designed by Andrew Kelley and released in 2016. Created as a robust alternative to C, it eliminates hidden control flows, macros, and runtime allocations, offering seamless C-interoperability.",
+    "website": "https://ziglang.org/"
   },
   "Ada (Script)": {
     "creator": "Jean Ichbiah (CII Honeywell Bull)",
@@ -2586,7 +2683,8 @@
       "typing": "static",
       "speed": "high"
     },
-    "history": "This is a variant or script execution mode of C#. C# was created by Anders Hejlsberg at Microsoft and released in 2000 as part of the .NET initiative. Designed as a modern, type-safe, object-oriented successor to C++, it has evolved to support asynchronous programming, pattern matching, and multi-paradigm development."
+    "history": "This is a variant or script execution mode of C#. C# was created by Anders Hejlsberg at Microsoft and released in 2000 as part of the .NET initiative. Designed as a modern, type-safe, object-oriented successor to C++, it has evolved to support asynchronous programming, pattern matching, and multi-paradigm development.",
+    "website": "https://learn.microsoft.com/dotnet/csharp/"
   },
   "C++ (Script)": {
     "creator": "Bjarne Stroustrup",
@@ -2704,7 +2802,8 @@
       "typing": "dynamic",
       "speed": "high"
     },
-    "history": "ClojureScript is a specialized development paradigm. Created by Rich Hickey in 2007, it supports web-backend and data-science operations and has contributed to modern software engineering."
+    "history": "ClojureScript is a specialized development paradigm. Created by Rich Hickey in 2007, it supports web-backend and data-science operations and has contributed to modern software engineering.",
+    "website": "https://clojurescript.org/"
   },
   "ClojureScript (Browser)": {
     "creator": "Rich Hickey",
@@ -2817,7 +2916,8 @@
       "typing": "dynamic",
       "speed": "moderate"
     },
-    "history": "ColdFusion Script is a specialized development paradigm. Created by Jeremy Allaire, JJ Allaire in 1995, it supports web-backend operations and has contributed to modern software engineering."
+    "history": "ColdFusion Script is a specialized development paradigm. Created by Jeremy Allaire, JJ Allaire in 1995, it supports web-backend operations and has contributed to modern software engineering.",
+    "website": "https://www.adobe.com/products/coldfusion-family.html"
   },
   "Common Lisp (CLISP)": {
     "creator": "John McCarthy, Guy L. Steele Jr.",
@@ -3075,7 +3175,8 @@
       "typing": "dynamic",
       "speed": "moderate"
     },
-    "history": "This is a variant or script execution mode of Perl. Perl was written by Larry Wall in 1987 as a general-purpose Unix scripting language to make report processing easier. Renowned for its text processing and regex power, it became the 'glue language' of the early World Wide Web."
+    "history": "This is a variant or script execution mode of Perl. Perl was written by Larry Wall in 1987 as a general-purpose Unix scripting language to make report processing easier. Renowned for its text processing and regex power, it became the 'glue language' of the early World Wide Web.",
+    "website": "https://www.perl.org/"
   },
   "PHP (Script)": {
     "creator": "Rasmus Lerdorf",
@@ -3234,7 +3335,8 @@
       "typing": "static",
       "speed": "high"
     },
-    "history": "Gleam is a type-safe functional programming language designed by Louis Pilfold and released in 2020. It targets the Erlang VM (BEAM) and JavaScript runtimes, providing clean, immutable concurrency with compiler-guaranteed safety."
+    "history": "Gleam is a type-safe functional programming language designed by Louis Pilfold and released in 2020. It targets the Erlang VM (BEAM) and JavaScript runtimes, providing clean, immutable concurrency with compiler-guaranteed safety.",
+    "website": "https://gleam.run/"
   },
   "Mojo": {
     "creator": "Chris Lattner (Modular)",
@@ -3258,7 +3360,8 @@
       "typing": "static",
       "speed": "maximum"
     },
-    "history": "Mojo was created by Chris Lattner at Modular and launched in 2023. Designed as a compiled superset of Python, it combines Python's easy syntax with C-level execution speeds and direct hardware access for AI and machine learning engineering."
+    "history": "Mojo was created by Chris Lattner at Modular and launched in 2023. Designed as a compiled superset of Python, it combines Python's easy syntax with C-level execution speeds and direct hardware access for AI and machine learning engineering.",
+    "website": "https://mojolang.org/"
   },
   "Solidity": {
     "creator": "Gavin Wood, Christian Reitwiessner",
@@ -3285,7 +3388,8 @@
       "typing": "static",
       "speed": "moderate"
     },
-    "history": "Solidity was proposed by Gavin Wood in 2014 and developed by the Ethereum team. It is a statically typed contract-oriented language designed for writing smart contracts that execute on the Ethereum Virtual Machine (EVM)."
+    "history": "Solidity was proposed by Gavin Wood in 2014 and developed by the Ethereum team. It is a statically typed contract-oriented language designed for writing smart contracts that execute on the Ethereum Virtual Machine (EVM).",
+    "website": "https://soliditylang.org/"
   },
   "Q#": {
     "creator": "Microsoft",
@@ -3308,7 +3412,8 @@
       "typing": "static",
       "speed": "high"
     },
-    "history": "Q# is a domain-specific programming language developed by Microsoft and released in 2017. It is designed to express quantum algorithms, integrating quantum operations with classical execution routines."
+    "history": "Q# is a domain-specific programming language developed by Microsoft and released in 2017. It is designed to express quantum algorithms, integrating quantum operations with classical execution routines.",
+    "website": "https://learn.microsoft.com/en-us/quantum/quantum-qr-intro"
   },
   "Befunge": {
     "creator": "Chris Pressey",
@@ -3326,7 +3431,8 @@
       "typing": "dynamic",
       "speed": "moderate"
     },
-    "history": "Befunge is a two-dimensional esoteric programming language created by Chris Pressey in 1993. The execution pointer moves in four directions (up, down, left, right) over a playfield of commands, designed to be exceptionally difficult to compile."
+    "history": "Befunge is a two-dimensional esoteric programming language created by Chris Pressey in 1993. The execution pointer moves in four directions (up, down, left, right) over a playfield of commands, designed to be exceptionally difficult to compile.",
+    "website": "https://catseye.tc/article/Languages#befunge-93"
   },
   "Rockstar": {
     "creator": "Dylan Beattie",
@@ -3344,7 +3450,8 @@
       "typing": "dynamic",
       "speed": "moderate"
     },
-    "history": "Rockstar is an esoteric programming language created by Dylan Beattie in 2018. It is designed to make computer programs look like lyrics from 1980s hard rock power ballads, using poetic variable declarations."
+    "history": "Rockstar is an esoteric programming language created by Dylan Beattie in 2018. It is designed to make computer programs look like lyrics from 1980s hard rock power ballads, using poetic variable declarations.",
+    "website": "https://codewithrockstar.com/"
   },
   "Chef": {
     "creator": "David Morgan-Mar",
@@ -3362,7 +3469,8 @@
       "typing": "dynamic",
       "speed": "moderate"
     },
-    "history": "Chef is a humorous esoteric programming language created by David Morgan-Mar in 2002. Programs are written to look like recipes, where variables are ingredients, stacks are mixing bowls, and output commands are serving instructions."
+    "history": "Chef is a humorous esoteric programming language created by David Morgan-Mar in 2002. Programs are written to look like recipes, where variables are ingredients, stacks are mixing bowls, and output commands are serving instructions.",
+    "website": "https://dangermouse.net/esoteric/chef.html"
   },
   "ArnoldC": {
     "creator": "Lauri Hartikka",
@@ -3380,7 +3488,8 @@
       "typing": "dynamic",
       "speed": "moderate"
     },
-    "history": "ArnoldC is an esoteric programming language created by Lauri Hartikka in 2014. It uses the famous quotes and catchphrases of Arnold Schwarzenegger movies as its keyword commands, including IT'S SHOWTIME and HASTA LA VISTA, BABY."
+    "history": "ArnoldC is an esoteric programming language created by Lauri Hartikka in 2014. It uses the famous quotes and catchphrases of Arnold Schwarzenegger movies as its keyword commands, including IT'S SHOWTIME and HASTA LA VISTA, BABY.",
+    "website": "https://github.com/lhartikk/ArnoldC"
   },
   "Odin": {
     "creator": "Ginger Bill",
@@ -3399,7 +3508,8 @@
       "typing": "static",
       "speed": "high"
     },
-    "history": "Odin is a data-oriented systems language created by Ginger Bill. It focuses on simple, explicit code, manual memory management and fast compilation, and is used in commercial graphics software."
+    "history": "Odin is a data-oriented systems language created by Ginger Bill. It focuses on simple, explicit code, manual memory management and fast compilation, and is used in commercial graphics software.",
+    "website": "https://odin-lang.org/"
   },
   "Nix": {
     "creator": "Eelco Dolstra",
@@ -3419,7 +3529,8 @@
       "typing": "dynamic",
       "speed": "moderate"
     },
-    "history": "Nix is a purely functional, lazily evaluated configuration language that came out of Eelco Dolstra's PhD research. It drives the Nix package manager and the NixOS operating system."
+    "history": "Nix is a purely functional, lazily evaluated configuration language that came out of Eelco Dolstra's PhD research. It drives the Nix package manager and the NixOS operating system.",
+    "website": "https://nixos.org/"
   },
   "Fish": {
     "creator": "Axel Liljencrantz",
@@ -3437,7 +3548,8 @@
       "typing": "dynamic",
       "speed": "moderate"
     },
-    "history": "The friendly interactive shell (fish) was started by Axel Liljencrantz in 2005. It favors sane defaults, autosuggestions and syntax highlighting over POSIX compatibility."
+    "history": "The friendly interactive shell (fish) was started by Axel Liljencrantz in 2005. It favors sane defaults, autosuggestions and syntax highlighting over POSIX compatibility.",
+    "website": "https://fishshell.com/"
   },
   "Zsh": {
     "creator": "Paul Falstad",
@@ -3456,7 +3568,8 @@
       "typing": "dynamic",
       "speed": "moderate"
     },
-    "history": "Zsh was written by Paul Falstad in 1990. It extends the Bourne shell with programmable completion, globbing and themes, and became the default macOS shell in 2019."
+    "history": "Zsh was written by Paul Falstad in 1990. It extends the Bourne shell with programmable completion, globbing and themes, and became the default macOS shell in 2019.",
+    "website": "https://www.zsh.org/"
   },
   "Emacs Lisp": {
     "creator": "Richard Stallman",
@@ -3476,7 +3589,8 @@
       "typing": "dynamic",
       "speed": "moderate"
     },
-    "history": "Emacs Lisp is the Lisp dialect built into GNU Emacs. It grew out of the Mocklisp era in the mid-1980s and lets users rewrite almost every part of the editor at runtime."
+    "history": "Emacs Lisp is the Lisp dialect built into GNU Emacs. It grew out of the Mocklisp era in the mid-1980s and lets users rewrite almost every part of the editor at runtime.",
+    "website": "http://www.gnu.org/software/emacs"
   },
   "GDScript": {
     "creator": "Juan Linietsky",
@@ -3494,7 +3608,8 @@
       "typing": "dynamic",
       "speed": "moderate"
     },
-    "history": "GDScript was built by Juan Linietsky and Ariel Manzur for the Godot engine, first released publicly in 2014. Its indentation-based syntax is tuned for scene and node scripting."
+    "history": "GDScript was built by Juan Linietsky and Ariel Manzur for the Godot engine, first released publicly in 2014. Its indentation-based syntax is tuned for scene and node scripting.",
+    "website": "https://docs.godotengine.org/en/stable/tutorials/scripting/gdscript/index.html"
   },
   "PureScript": {
     "creator": "Phil Freeman",
@@ -3514,7 +3629,8 @@
       "typing": "static",
       "speed": "moderate"
     },
-    "history": "PureScript is a Haskell-inspired language that compiles to readable JavaScript. Phil Freeman started it in 2013 to get strong static typing on the web with a small runtime."
+    "history": "PureScript is a Haskell-inspired language that compiles to readable JavaScript. Phil Freeman started it in 2013 to get strong static typing on the web with a small runtime.",
+    "website": "https://www.purescript.org/"
   },
   "Idris": {
     "creator": "Edwin Brady",
@@ -3532,7 +3648,8 @@
       "typing": "static",
       "speed": "moderate"
     },
-    "history": "Idris is a general-purpose language with dependent types, designed by Edwin Brady at the University of St Andrews. It treats types as first-class values to verify programs at compile time."
+    "history": "Idris is a general-purpose language with dependent types, designed by Edwin Brady at the University of St Andrews. It treats types as first-class values to verify programs at compile time.",
+    "website": "https://www.idris-lang.org"
   },
   "Lean": {
     "creator": "Leonardo de Moura",
@@ -3550,7 +3667,8 @@
       "typing": "static",
       "speed": "high"
     },
-    "history": "Lean is a theorem prover and programming language started by Leonardo de Moura at Microsoft Research in 2013. Lean 4, released in 2021, is implemented mostly in itself."
+    "history": "Lean is a theorem prover and programming language started by Leonardo de Moura at Microsoft Research in 2013. Lean 4, released in 2021, is implemented mostly in itself.",
+    "website": "https://lean-lang.org"
   },
   "Agda": {
     "creator": "Ulf Norell",
@@ -3568,7 +3686,8 @@
       "typing": "static",
       "speed": "moderate"
     },
-    "history": "Agda is a dependently typed language and proof assistant developed at Chalmers University, with the current version written by Ulf Norell around 2007."
+    "history": "Agda is a dependently typed language and proof assistant developed at Chalmers University, with the current version written by Ulf Norell around 2007.",
+    "website": "https://agda.readthedocs.io/"
   },
   "Pony": {
     "creator": "Sylvan Clebsch",
@@ -3587,7 +3706,8 @@
       "typing": "static",
       "speed": "high"
     },
-    "history": "Pony is an actor-model language created by Sylvan Clebsch. Its reference capabilities type system gives data-race freedom without locks and a garbage collector per actor."
+    "history": "Pony is an actor-model language created by Sylvan Clebsch. Its reference capabilities type system gives data-race freedom without locks and a garbage collector per actor.",
+    "website": "https://www.ponylang.io/"
   },
   "Red": {
     "creator": "Nenad Rakocevic",
@@ -3606,7 +3726,8 @@
       "typing": "dynamic",
       "speed": "moderate"
     },
-    "history": "Red is a Rebol-inspired language by Nenad Rakocevic. It ships a small compiler toolchain and a low-level Red/System dialect used to implement itself."
+    "history": "Red is a Rebol-inspired language by Nenad Rakocevic. It ships a small compiler toolchain and a low-level Red/System dialect used to implement itself.",
+    "website": "https://www.red-lang.org/"
   },
   "Hy": {
     "creator": "Paul Tagliamonte",
@@ -3625,7 +3746,8 @@
       "typing": "dynamic",
       "speed": "moderate"
     },
-    "history": "Hy is a Lisp dialect that compiles to Python AST, started by Paul Tagliamonte in 2013. It gives full access to the Python ecosystem with s-expression syntax."
+    "history": "Hy is a Lisp dialect that compiles to Python AST, started by Paul Tagliamonte in 2013. It gives full access to the Python ecosystem with s-expression syntax.",
+    "website": "http://hylang.org/"
   },
   "Fennel": {
     "creator": "Calvin Rose",
@@ -3645,7 +3767,8 @@
       "typing": "dynamic",
       "speed": "moderate"
     },
-    "history": "Fennel is a Lisp that compiles to Lua, created by Calvin Rose. It adds macros and pattern matching with zero runtime overhead on top of Lua."
+    "history": "Fennel is a Lisp that compiles to Lua, created by Calvin Rose. It adds macros and pattern matching with zero runtime overhead on top of Lua.",
+    "website": "https://fennel-lang.org/"
   },
   "Janet": {
     "creator": "Calvin Rose",
@@ -3663,7 +3786,8 @@
       "typing": "dynamic",
       "speed": "moderate"
     },
-    "history": "Janet is a small embeddable Lisp-like language by Calvin Rose, released in 2017. It ships as a single binary with a PEG library and a built-in bytecode VM."
+    "history": "Janet is a small embeddable Lisp-like language by Calvin Rose, released in 2017. It ships as a single binary with a PEG library and a built-in bytecode VM.",
+    "website": "https://janet-lang.org/"
   },
   "Vala": {
     "creator": "Jürg Billeter",
@@ -3681,7 +3805,8 @@
       "typing": "static",
       "speed": "high"
     },
-    "history": "Vala is an object-oriented language for the GObject type system, created by Jürg Billeter and Raffaele Sandrini in 2006. It compiles to C and is used for GNOME and elementary OS applications."
+    "history": "Vala is an object-oriented language for the GObject type system, created by Jürg Billeter and Raffaele Sandrini in 2006. It compiles to C and is used for GNOME and elementary OS applications.",
+    "website": "https://vala.dev"
   },
   "ReScript": {
     "creator": "Hongbo Zhang",
@@ -3699,7 +3824,8 @@
       "typing": "static",
       "speed": "moderate"
     },
-    "history": "ReScript grew from ReasonML and the BuckleScript compiler, rebranded in 2020. It offers an OCaml-style type system and fast compilation to readable JavaScript."
+    "history": "ReScript grew from ReasonML and the BuckleScript compiler, rebranded in 2020. It offers an OCaml-style type system and fast compilation to readable JavaScript.",
+    "website": "https://rescript-lang.org/"
   },
   "Nushell": {
     "creator": "Jonathan Turner",
@@ -3717,7 +3843,8 @@
       "typing": "dynamic",
       "speed": "moderate"
     },
-    "history": "Nushell was announced by Jonathan Turner and Yehuda Katz in 2019. Commands return tables instead of text, so pipelines work like a dataframe."
+    "history": "Nushell was announced by Jonathan Turner and Yehuda Katz in 2019. Commands return tables instead of text, so pipelines work like a dataframe.",
+    "website": "https://www.nushell.sh/"
   },
   "Wren": {
     "creator": "Bob Nystrom",
@@ -3735,7 +3862,8 @@
       "typing": "dynamic",
       "speed": "high"
     },
-    "history": "Wren is a small class-based scripting language by Bob Nystrom, made to be embedded in applications. It is about four thousand lines of C and uses fibers for concurrency."
+    "history": "Wren is a small class-based scripting language by Bob Nystrom, made to be embedded in applications. It is about four thousand lines of C and uses fibers for concurrency.",
+    "website": "https://wren.io"
   },
   "Squirrel": {
     "creator": "Alberto Demichelis",
@@ -3754,7 +3882,8 @@
       "typing": "dynamic",
       "speed": "high"
     },
-    "history": "Squirrel is a lightweight scripting language by Alberto Demichelis, released in 2003. Valve uses it for VScripts in Left 4 Dead 2 and Portal 2, and OpenTTD embeds it."
+    "history": "Squirrel is a lightweight scripting language by Alberto Demichelis, released in 2003. Valve uses it for VScripts in Left 4 Dead 2 and Portal 2, and OpenTTD embeds it.",
+    "website": "http://squirrel-lang.org/"
   },
   "MoonScript": {
     "creator": "Leaf Corcoran",
@@ -3773,7 +3902,8 @@
       "typing": "dynamic",
       "speed": "moderate"
     },
-    "history": "MoonScript is a Lua-targeting language by Leaf Corcoran, who also built the itch.io platform. It adds indentation syntax, classes and comprehensions."
+    "history": "MoonScript is a Lua-targeting language by Leaf Corcoran, who also built the itch.io platform. It adds indentation syntax, classes and comprehensions.",
+    "website": "http://moonscript.org/"
   },
   "BQN": {
     "creator": "Marshall Lochbaum",
@@ -3791,7 +3921,8 @@
       "typing": "dynamic",
       "speed": "high"
     },
-    "history": "BQN is an array language designed by Marshall Lochbaum and released in 2020. It refines APL and J ideas with a cleaner syntax and a formal specification."
+    "history": "BQN is an array language designed by Marshall Lochbaum and released in 2020. It refines APL and J ideas with a cleaner syntax and a formal specification.",
+    "website": "https://mlochbaum.github.io/BQN/index.html"
   },
   "Jsonnet": {
     "creator": "Dave Cunningham",
@@ -3810,7 +3941,8 @@
       "typing": "dynamic",
       "speed": "moderate"
     },
-    "history": "Jsonnet is a data templating language created by Dave Cunningham at Google in 2014. It adds variables, functions and imports to JSON for generating large configuration trees."
+    "history": "Jsonnet is a data templating language created by Dave Cunningham at Google in 2014. It adds variables, functions and imports to JSON for generating large configuration trees.",
+    "website": "https://jsonnet.org/"
   },
   "Pike": {
     "creator": "Fredrik Hübinette",
@@ -3828,7 +3960,8 @@
       "typing": "dynamic",
       "speed": "high"
     },
-    "history": "Pike is a dynamic, C-like language that started as LPC at Lysator in 1994. It powered the Roxen WebServer and several Swedish web services."
+    "history": "Pike is a dynamic, C-like language that started as LPC at Lysator in 1994. It powered the Roxen WebServer and several Swedish web services.",
+    "website": "https://pike.lysator.liu.se/"
   },
   "Hare": {
     "creator": "Drew DeVault",
@@ -3846,7 +3979,8 @@
       "typing": "static",
       "speed": "high"
     },
-    "history": "Hare is a small systems language by Drew DeVault, first released in 2022. It keeps the language simple with manual memory management and no macros or generics."
+    "history": "Hare is a small systems language by Drew DeVault, first released in 2022. It keeps the language simple with manual memory management and no macros or generics.",
+    "website": "https://harelang.org"
   },
   "Carbon": {
     "creator": "Chandler Carruth",
@@ -3863,7 +3997,8 @@
       "typing": "static",
       "speed": "high"
     },
-    "history": "Carbon is an experimental C++ successor announced by Chandler Carruth at Google in 2022. It aims at bidirectional interop with C++ and a smoother migration path."
+    "history": "Carbon is an experimental C++ successor announced by Chandler Carruth at Google in 2022. It aims at bidirectional interop with C++ and a smoother migration path.",
+    "website": "https://github.com/carbon-language/carbon-lang"
   },
   "Uiua": {
     "creator": "Kai Schmidt",
@@ -3880,7 +4015,8 @@
       "typing": "dynamic",
       "speed": "high"
     },
-    "history": "Uiua is a stack-based array language by Kai Schmidt, released in 2023. It combines APL-style array ops with Forth-like stack manipulation and uses Unicode glyphs."
+    "history": "Uiua is a stack-based array language by Kai Schmidt, released in 2023. It combines APL-style array ops with Forth-like stack manipulation and uses Unicode glyphs.",
+    "website": "https://www.uiua.org/"
   },
   "V": {
     "creator": "Alexander Medvednikov",
@@ -3899,7 +4035,8 @@
       "typing": "static",
       "speed": "high"
     },
-    "history": "V (Vlang) is a statically typed compiled language by Alexander Medvednikov, open-sourced in 2019. It emphasizes fast compilation, no global state and C interop."
+    "history": "V (Vlang) is a statically typed compiled language by Alexander Medvednikov, open-sourced in 2019. It emphasizes fast compilation, no global state and C interop.",
+    "website": "https://vlang.io/"
   },
   "Ook!": {
     "creator": "David Morgan-Mar",
@@ -3916,7 +4053,8 @@
       "typing": "dynamic",
       "speed": "low"
     },
-    "history": "Ook! was created by David Morgan-Mar in 2001 as a language for orangutans. It is a one-to-one encoding of Brainfuck using only the words Ook., Ook! and Ook?."
+    "history": "Ook! was created by David Morgan-Mar in 2001 as a language for orangutans. It is a one-to-one encoding of Brainfuck using only the words Ook., Ook! and Ook?.",
+    "website": "https://www.dangermouse.net/esoteric/ook.html"
   },
   "Standard ML": {
     "creator": "Robin Milner",
@@ -3936,7 +4074,8 @@
       "typing": "static",
       "speed": "high"
     },
-    "history": "Standard ML grew out of the ML metalanguage that Robin Milner built for the LCF prover in the 1970s. It was standardized in 1990 and revised in 1997 with a formally specified type system."
+    "history": "Standard ML grew out of the ML metalanguage that Robin Milner built for the LCF prover in the 1970s. It was standardized in 1990 and revised in 1997 with a formally specified type system.",
+    "website": "https://smlfamily.github.io/"
   },
   "Modula-3": {
     "creator": "DEC SRC and Olivetti",
@@ -3954,7 +4093,8 @@
       "typing": "static",
       "speed": "high"
     },
-    "history": "Modula-3 was designed at DEC Systems Research Center and Olivetti in 1988 as a safer successor to Modula-2, adding objects, threads and garbage collection."
+    "history": "Modula-3 was designed at DEC Systems Research Center and Olivetti in 1988 as a safer successor to Modula-2, adding objects, threads and garbage collection.",
+    "website": "https://modula3.github.io/cm3/"
   },
   "Oberon": {
     "creator": "Niklaus Wirth",
@@ -3973,7 +4113,8 @@
       "typing": "static",
       "speed": "high"
     },
-    "history": "Oberon is a small systems language designed by Niklaus Wirth and Jürg Gutknecht in 1987 to write the Oberon operating system. The language and OS fit in a few thousand lines."
+    "history": "Oberon is a small systems language designed by Niklaus Wirth and Jürg Gutknecht in 1987 to write the Oberon operating system. The language and OS fit in a few thousand lines.",
+    "website": "https://projectoberon.net"
   },
   "PL/I": {
     "creator": "IBM and SHARE",
@@ -3992,7 +4133,8 @@
       "typing": "static",
       "speed": "high"
     },
-    "history": "PL/I was developed by IBM and the SHARE user group from 1964 to combine FORTRAN, COBOL and ALGOL ideas. Much of Multics was written in it."
+    "history": "PL/I was developed by IBM and the SHARE user group from 1964 to combine FORTRAN, COBOL and ALGOL ideas. Much of Multics was written in it.",
+    "website": "https://www.ibm.com/products/pli-compiler-zos"
   },
   "SNOBOL": {
     "creator": "David Farber, Ralph Griswold and Ivan Polonsky",
@@ -4010,7 +4152,8 @@
       "typing": "dynamic",
       "speed": "moderate"
     },
-    "history": "SNOBOL was created at Bell Labs in 1962 by David Farber, Ralph Griswold and Ivan Polonsky. Its pattern matching on strings inspired later text tools and the Icon language."
+    "history": "SNOBOL was created at Bell Labs in 1962 by David Farber, Ralph Griswold and Ivan Polonsky. Its pattern matching on strings inspired later text tools and the Icon language.",
+    "website": "http://www.snobol4.org"
   },
   "Dhall": {
     "creator": "Gabriella Gonzalez",
@@ -4028,7 +4171,8 @@
       "typing": "static",
       "speed": "moderate"
     },
-    "history": "Dhall is a non-Turing-complete, strongly typed configuration language created by Gabriella Gonzalez. It adds functions and imports to JSON while guaranteeing evaluation terminates."
+    "history": "Dhall is a non-Turing-complete, strongly typed configuration language created by Gabriella Gonzalez. It adds functions and imports to JSON while guaranteeing evaluation terminates.",
+    "website": "https://dhall-lang.org/"
   },
   "CUDA": {
     "creator": "NVIDIA",
@@ -4049,7 +4193,8 @@
       "typing": "static",
       "speed": "maximum"
     },
-    "history": "CUDA was released by NVIDIA in 2007 to run general-purpose code on GPUs. It extends C++ with kernels that run across thousands of threads and underpins most deep learning frameworks."
+    "history": "CUDA was released by NVIDIA in 2007 to run general-purpose code on GPUs. It extends C++ with kernels that run across thousands of threads and underpins most deep learning frameworks.",
+    "website": "https://developer.nvidia.com/cuda-toolkit"
   },
   "Vyper": {
     "creator": "Vitalik Buterin",
@@ -4067,7 +4212,8 @@
       "typing": "static",
       "speed": "moderate"
     },
-    "history": "Vyper is a Python-like language for Ethereum smart contracts, started by Vitalik Buterin in 2017. It deliberately leaves out features such as inheritance to make audits easier."
+    "history": "Vyper is a Python-like language for Ethereum smart contracts, started by Vitalik Buterin in 2017. It deliberately leaves out features such as inheritance to make audits easier.",
+    "website": "https://vyperlang.org/"
   },
   "LaTeX": {
     "creator": "Leslie Lamport",
@@ -4086,7 +4232,8 @@
       "typing": "dynamic",
       "speed": "moderate"
     },
-    "history": "LaTeX was written by Leslie Lamport in 1984 as a macro package on top of Donald Knuth's TeX. It is the standard format for scientific and mathematical publishing."
+    "history": "LaTeX was written by Leslie Lamport in 1984 as a macro package on top of Donald Knuth's TeX. It is the standard format for scientific and mathematical publishing.",
+    "website": "https://www.latex-project.org/"
   },
   "PostScript": {
     "creator": "John Warnock and Chuck Geschke",
@@ -4104,7 +4251,8 @@
       "typing": "dynamic",
       "speed": "moderate"
     },
-    "history": "PostScript was created at Adobe by John Warnock and Chuck Geschke in 1982. It is a Forth-like stack language that drives laser printers and formed the basis of desktop publishing."
+    "history": "PostScript was created at Adobe by John Warnock and Chuck Geschke in 1982. It is a Forth-like stack language that drives laser printers and formed the basis of desktop publishing.",
+    "website": "https://www.adobe.com/products/postscript.html"
   },
   "CMake": {
     "creator": "Bill Hoffman and Kitware",
@@ -4124,7 +4272,8 @@
       "typing": "dynamic",
       "speed": "moderate"
     },
-    "history": "CMake was started by Kitware around 2000 for the Insight Segmentation and Registration Toolkit. Its scripting language describes cross-platform builds and generates native project files."
+    "history": "CMake was started by Kitware around 2000 for the Insight Segmentation and Registration Toolkit. Its scripting language describes cross-platform builds and generates native project files.",
+    "website": "https://cmake.org/"
   },
   "SystemVerilog": {
     "creator": "Accellera",
@@ -4160,7 +4309,8 @@
       "typing": "dynamic",
       "speed": "moderate"
     },
-    "history": "Elvish is a shell with a real programming language behind it, written in Go by Qi Xiao from 2013. It passes structured values through pipelines instead of plain text."
+    "history": "Elvish is a shell with a real programming language behind it, written in Go by Qi Xiao from 2013. It passes structured values through pipelines instead of plain text.",
+    "website": "https://elv.sh/"
   },
   "Starlark": {
     "creator": "Google",
@@ -4180,7 +4330,8 @@
       "typing": "dynamic",
       "speed": "moderate"
     },
-    "history": "Starlark is a deterministic Python-like language that came out of Bazel at Google. It is used to describe builds because evaluation is hermetic and parallel-safe."
+    "history": "Starlark is a deterministic Python-like language that came out of Bazel at Google. It is used to describe builds because evaluation is hermetic and parallel-safe.",
+    "website": "https://docs.bazel.build/versions/master/skylark/language.html"
   },
   "Nelua": {
     "creator": "Eduardo Bart",
@@ -4198,7 +4349,8 @@
       "typing": "static",
       "speed": "high"
     },
-    "history": "Nelua is a statically typed language with Lua syntax that compiles to C, created by Eduardo Bart in 2019 for game and systems work."
+    "history": "Nelua is a statically typed language with Lua syntax that compiles to C, created by Eduardo Bart in 2019 for game and systems work.",
+    "website": "https://nelua.io/"
   },
   "Koka": {
     "creator": "Daan Leijen",
@@ -4217,7 +4369,8 @@
       "typing": "static",
       "speed": "high"
     },
-    "history": "Koka is a research language by Daan Leijen at Microsoft Research. Its type system tracks side effects as algebraic effects, and it introduced the Perceus reference counting scheme."
+    "history": "Koka is a research language by Daan Leijen at Microsoft Research. Its type system tracks side effects as algebraic effects, and it introduced the Perceus reference counting scheme.",
+    "website": "https://koka-lang.github.io/"
   },
   "Flix": {
     "creator": "Magnus Madsen",
@@ -4234,7 +4387,8 @@
       "typing": "static",
       "speed": "high"
     },
-    "history": "Flix is a functional language for the JVM with first-class Datalog constraints and an effect system, led by Magnus Madsen at Aarhus University."
+    "history": "Flix is a functional language for the JVM with first-class Datalog constraints and an effect system, led by Magnus Madsen at Aarhus University.",
+    "website": "https://flix.dev/"
   },
   "Oz": {
     "creator": "Gert Smolka",
@@ -4251,7 +4405,8 @@
       "typing": "dynamic",
       "speed": "moderate"
     },
-    "history": "Oz is a multiparadigm language designed by Gert Smolka's group in 1991. It is the language taught in the book Concepts, Techniques, and Models of Computer Programming."
+    "history": "Oz is a multiparadigm language designed by Gert Smolka's group in 1991. It is the language taught in the book Concepts, Techniques, and Models of Computer Programming.",
+    "website": "https://mozart.github.io/"
   },
   "Nemerle": {
     "creator": "Michał Moskal and Kamil Skalski",
@@ -4268,7 +4423,8 @@
       "typing": "static",
       "speed": "high"
     },
-    "history": "Nemerle is a .NET language blending object-oriented and functional styles with a hygienic macro system, created at the University of Wrocław in 2003."
+    "history": "Nemerle is a .NET language blending object-oriented and functional styles with a hygienic macro system, created at the University of Wrocław in 2003.",
+    "website": "http://nemerle.org"
   },
   "Delphi": {
     "creator": "Anders Hejlsberg",
@@ -4287,7 +4443,8 @@
       "typing": "static",
       "speed": "high"
     },
-    "history": "Delphi was released by Borland in 1995 with Anders Hejlsberg as chief architect. It pairs Object Pascal with a visual component library for fast Windows application development."
+    "history": "Delphi was released by Borland in 1995 with Anders Hejlsberg as chief architect. It pairs Object Pascal with a visual component library for fast Windows application development.",
+    "website": "https://www.embarcadero.com/products/delphi"
   },
   "Curry": {
     "creator": "Michael Hanus",
@@ -4305,7 +4462,8 @@
       "typing": "static",
       "speed": "moderate"
     },
-    "history": "Curry unifies functional and logic programming with Haskell-style syntax and non-deterministic search. It was designed by an international group led by Michael Hanus from 1995."
+    "history": "Curry unifies functional and logic programming with Haskell-style syntax and non-deterministic search. It was designed by an international group led by Michael Hanus from 1995.",
+    "website": "https://www.curry-lang.org/"
   },
   "Pawn": {
     "creator": "Thiadmer Riemersma",
@@ -4324,7 +4482,8 @@
       "typing": "static",
       "speed": "high"
     },
-    "history": "Pawn, formerly Small, was created by Thiadmer Riemersma around 1998 as an embeddable scripting language. It is best known for SA-MP and AMX Mod X game modding."
+    "history": "Pawn, formerly Small, was created by Thiadmer Riemersma around 1998 as an embeddable scripting language. It is best known for SA-MP and AMX Mod X game modding.",
+    "website": "https://www.compuphase.com/pawn/pawn.htm"
   },
   "Simula": {
     "creator": "Ole-Johan Dahl and Kristen Nygaard",
@@ -4359,7 +4518,8 @@
       "typing": "static",
       "speed": "high"
     },
-    "history": "BCPL was designed by Martin Richards at Cambridge in 1967. Its typeless design led to B and then C, and its original Hello World example is where the tradition began."
+    "history": "BCPL was designed by Martin Richards at Cambridge in 1967. Its typeless design led to B and then C, and its original Hello World example is where the tradition began.",
+    "website": "https://www.cl.cam.ac.uk/~mr10/BCPL.html"
   },
   "PicoLisp": {
     "creator": "Alexander Burger",
@@ -4377,7 +4537,8 @@
       "typing": "dynamic",
       "speed": "moderate"
     },
-    "history": "PicoLisp is a minimalist Lisp by Alexander Burger with an integrated database and GUI framework. Its interpreter is tiny and exposes very few primitives."
+    "history": "PicoLisp is a minimalist Lisp by Alexander Burger with an integrated database and GUI framework. Its interpreter is tiny and exposes very few primitives.",
+    "website": "https://picolisp.com/"
   },
   "newLISP": {
     "creator": "Lutz Mueller",
@@ -4412,7 +4573,8 @@
       "typing": "dynamic",
       "speed": "moderate"
     },
-    "history": "Stata is a statistics package created by William Gould at StataCorp, first released in 1985. Scripts are saved as do-files and are common in economics and epidemiology."
+    "history": "Stata is a statistics package created by William Gould at StataCorp, first released in 1985. Scripts are saved as do-files and are common in economics and epidemiology.",
+    "website": "https://www.stata.com/"
   },
   "SAS": {
     "creator": "Anthony Barr and James Goodnight",
@@ -4430,7 +4592,8 @@
       "typing": "dynamic",
       "speed": "moderate"
     },
-    "history": "SAS began in 1966 at North Carolina State University as the Statistical Analysis System and became a company in 1976. Its data step language processes large tables."
+    "history": "SAS began in 1966 at North Carolina State University as the Statistical Analysis System and became a company in 1976. Its data step language processes large tables.",
+    "website": "https://www.sas.com/"
   },
   "Processing": {
     "creator": "Ben Fry and Casey Reas",
@@ -4449,7 +4612,8 @@
       "typing": "static",
       "speed": "moderate"
     },
-    "history": "Processing was created by Ben Fry and Casey Reas at the MIT Media Lab in 2001. It wraps Java in a simple sketchbook to teach programming through visual output."
+    "history": "Processing was created by Ben Fry and Casey Reas at the MIT Media Lab in 2001. It wraps Java in a simple sketchbook to teach programming through visual output.",
+    "website": "https://processing.org/"
   },
   "Arduino": {
     "creator": "Massimo Banzi and David Cuartielles",
@@ -4467,7 +4631,8 @@
       "typing": "static",
       "speed": "high"
     },
-    "history": "Arduino sketches are C++ programs wrapped by a simple framework, from the Interaction Design Institute Ivrea project started in 2005 by Massimo Banzi and colleagues."
+    "history": "Arduino sketches are C++ programs wrapped by a simple framework, from the Interaction Design Institute Ivrea project started in 2005 by Massimo Banzi and colleagues.",
+    "website": "https://www.arduino.cc"
   },
   "Cairo": {
     "creator": "StarkWare",
@@ -4485,7 +4650,8 @@
       "typing": "static",
       "speed": "high"
     },
-    "history": "Cairo was developed by StarkWare to write provable programs for STARK proofs. Cairo 1, released in 2023, uses Rust-inspired syntax."
+    "history": "Cairo was developed by StarkWare to write provable programs for STARK proofs. Cairo 1, released in 2023, uses Rust-inspired syntax.",
+    "website": "https://www.cairo-lang.org/"
   },
   "Dockerfile": {
     "creator": "Solomon Hykes",
@@ -4504,7 +4670,8 @@
       "typing": "dynamic",
       "speed": "moderate"
     },
-    "history": "The Dockerfile format was introduced with Docker in 2013 by Solomon Hykes and dotCloud. Each instruction adds a layer to a container image."
+    "history": "The Dockerfile format was introduced with Docker in 2013 by Solomon Hykes and dotCloud. Each instruction adds a layer to a container image.",
+    "website": "https://docs.docker.com/reference/dockerfile/"
   },
   "Makefile": {
     "creator": "Stuart Feldman",
@@ -4523,7 +4690,8 @@
       "typing": "dynamic",
       "speed": "moderate"
     },
-    "history": "Make was written by Stuart Feldman at Bell Labs in 1976. Makefiles declare targets and dependencies, and GNU Make is still the default build tool for many C projects."
+    "history": "Make was written by Stuart Feldman at Bell Labs in 1976. Makefiles declare targets and dependencies, and GNU Make is still the default build tool for many C projects.",
+    "website": "https://www.gnu.org/software/make/"
   },
   "Joy": {
     "creator": "Manfred von Thun",
@@ -4557,6 +4725,1087 @@
       "typing": "dynamic",
       "speed": "moderate"
     },
-    "history": "GolfScript was written by Darren Smith in 2007 for code golf. Programs are short stack scripts that print the stack on exit."
+    "history": "GolfScript was written by Darren Smith in 2007 for code golf. Programs are short stack scripts that print the stack on exit.",
+    "website": "http://golfscript.com"
+  },
+  "ABAP": {
+    "creator": "SAP SE",
+    "year": 1983,
+    "famousProjects": [
+      "SAP ERP",
+      "SAP S/4HANA"
+    ],
+    "frameworks": {
+      "web": [
+        "ABAP RESTful Application Programming Model"
+      ]
+    },
+    "quiz": {
+      "platforms": [
+        "web-backend",
+        "desktop"
+      ],
+      "backend": true,
+      "typing": "static",
+      "speed": "moderate"
+    },
+    "history": "ABAP (Advanced Business Application Programming) was created by SAP in 1983 as a report language for its R/2 mainframe system. It grew object-oriented extensions in the late 1990s and still runs most custom business logic inside SAP ERP installations.",
+    "website": "https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/index.htm"
+  },
+  "ATS": {
+    "creator": "Hongwei Xi",
+    "year": 2006,
+    "famousProjects": [
+      "ATS compiler (ATS2/Postiats)"
+    ],
+    "frameworks": {},
+    "quiz": {
+      "platforms": [
+        "systems"
+      ],
+      "backend": false,
+      "typing": "static",
+      "speed": "high"
+    },
+    "history": "ATS (Applied Type System) was developed by Hongwei Xi at Boston University. It combines dependent and linear types with C-level performance, letting programmers prove memory safety and other properties of low-level code at compile time.",
+    "website": "https://www.cs.bu.edu/~hwxi/atslangweb/"
+  },
+  "bc": {
+    "creator": "Lorinda Cherry & Robert Morris",
+    "year": 1975,
+    "famousProjects": [
+      "POSIX standard utility"
+    ],
+    "frameworks": {},
+    "quiz": {
+      "platforms": [
+        "cli"
+      ],
+      "backend": false,
+      "typing": "dynamic",
+      "speed": "moderate"
+    },
+    "history": "bc (basic calculator) was written by Lorinda Cherry and Robert Morris at Bell Labs and appeared in Version 6 Unix. It started as a C-like front end that compiled to dc, and its arbitrary-precision arithmetic made it a POSIX standard tool.",
+    "website": "https://www.gnu.org/software/bc/"
+  },
+  "C3": {
+    "creator": "Christoffer Lernö",
+    "year": 2019,
+    "famousProjects": [
+      "C3 standard library"
+    ],
+    "frameworks": {},
+    "quiz": {
+      "platforms": [
+        "systems",
+        "game"
+      ],
+      "backend": false,
+      "typing": "static",
+      "speed": "maximum"
+    },
+    "history": "C3 was started by Christoffer Lernö as an evolution of C2. It keeps C's syntax and ABI compatibility while adding modules, generics, contracts and error handling with optional results.",
+    "website": "https://c3-lang.org/"
+  },
+  "Carp": {
+    "creator": "Erik Svedäng",
+    "year": 2016,
+    "famousProjects": [
+      "Carp game examples (SDL)"
+    ],
+    "frameworks": {
+      "game": [
+        "SDL bindings"
+      ]
+    },
+    "quiz": {
+      "platforms": [
+        "game",
+        "systems"
+      ],
+      "backend": false,
+      "typing": "static",
+      "speed": "high"
+    },
+    "history": "Carp is a Lisp by Erik Svedäng aimed at real-time applications such as games. It uses type inference and an ownership system instead of a garbage collector, and compiles to C.",
+    "website": "https://github.com/carp-lang/Carp"
+  },
+  "ChucK": {
+    "creator": "Ge Wang & Perry Cook",
+    "year": 2003,
+    "famousProjects": [
+      "Princeton Laptop Orchestra",
+      "Smule Ocarina"
+    ],
+    "frameworks": {},
+    "quiz": {
+      "platforms": [
+        "desktop"
+      ],
+      "backend": false,
+      "typing": "static",
+      "speed": "moderate"
+    },
+    "history": "ChucK was created by Ge Wang and Perry Cook at Princeton University for real-time sound synthesis. Its 'strongly timed' model makes time a first-class value, and it powered laptop orchestras and early Smule music apps.",
+    "website": "https://chuck.cs.princeton.edu/"
+  },
+  "Civet": {
+    "creator": "Daniel X. Moore",
+    "year": 2022,
+    "famousProjects": [
+      "Civet compiler"
+    ],
+    "frameworks": {
+      "web": [
+        "Vite plugin"
+      ]
+    },
+    "quiz": {
+      "platforms": [
+        "web-frontend",
+        "web-backend"
+      ],
+      "backend": true,
+      "typing": "static",
+      "speed": "moderate"
+    },
+    "history": "Civet was started by Daniel X. Moore as a CoffeeScript-inspired syntax that compiles to TypeScript. It adds pipelines, pattern matching and indentation-based blocks while keeping full TypeScript type checking.",
+    "website": "https://civet.dev/"
+  },
+  "Coconut": {
+    "creator": "Evan Hubinger",
+    "year": 2016,
+    "famousProjects": [
+      "Coconut compiler"
+    ],
+    "frameworks": {},
+    "quiz": {
+      "platforms": [
+        "data-science",
+        "cli"
+      ],
+      "backend": false,
+      "typing": "dynamic",
+      "speed": "moderate"
+    },
+    "history": "Coconut was created by Evan Hubinger as a functional superset of Python. Every valid Python 3 program is valid Coconut, which adds pipelines, pattern matching, algebraic data types and tail call optimisation, compiling down to plain Python.",
+    "website": "https://coconut-lang.org/"
+  },
+  "dc": {
+    "creator": "Lorinda Cherry & Robert Morris",
+    "year": 1971,
+    "famousProjects": [
+      "Unix Version 1"
+    ],
+    "frameworks": {},
+    "quiz": {
+      "platforms": [
+        "cli"
+      ],
+      "backend": false,
+      "typing": "dynamic",
+      "speed": "moderate"
+    },
+    "history": "dc (desk calculator) is one of the oldest Unix programs, predating the C language. It uses reverse Polish notation with arbitrary precision, and its stack-and-register design makes it Turing complete.",
+    "website": "https://www.gnu.org/software/bc/"
+  },
+  "Effekt": {
+    "creator": "Jonathan Brachthäuser et al. (University of Tübingen)",
+    "year": 2020,
+    "famousProjects": [
+      "Effekt compiler"
+    ],
+    "frameworks": {},
+    "quiz": {
+      "platforms": [
+        "cli"
+      ],
+      "backend": false,
+      "typing": "static",
+      "speed": "moderate"
+    },
+    "history": "Effekt was developed at the University of Tübingen to make effect handlers practical. It uses capability passing and second-class functions so that effects are tracked lightly, and compiles to JavaScript, LLVM and other back ends.",
+    "website": "https://effekt-lang.org/"
+  },
+  "Emojicode": {
+    "creator": "Theo Weidmann",
+    "year": 2016,
+    "famousProjects": [
+      "Emojicode compiler"
+    ],
+    "frameworks": {},
+    "quiz": {
+      "platforms": [
+        "esoteric"
+      ],
+      "backend": false,
+      "typing": "static",
+      "speed": "moderate"
+    },
+    "history": "Emojicode was created by Theo Weidmann as a full object-oriented, statically typed language whose keywords and operators are emoji. Despite the joke surface it has generics, protocols, closures and an LLVM-based compiler.",
+    "website": "https://www.emojicode.org/"
+  },
+  "Euphoria": {
+    "creator": "Robert Craig (Rapid Deployment Software)",
+    "year": 1993,
+    "famousProjects": [
+      "OpenEuphoria",
+      "Win32Lib"
+    ],
+    "frameworks": {
+      "desktop": [
+        "Win32Lib",
+        "wxEuphoria"
+      ]
+    },
+    "quiz": {
+      "platforms": [
+        "cli",
+        "desktop"
+      ],
+      "backend": false,
+      "typing": "dynamic",
+      "speed": "moderate"
+    },
+    "history": "Euphoria was released by Robert Craig for the Atari ST and then DOS. Built around a single flexible 'sequence' data type, it was known for being simple and fast for an interpreter, and continues as the open-source OpenEuphoria.",
+    "website": "https://openeuphoria.org/"
+  },
+  "F*": {
+    "creator": "Microsoft Research & Inria",
+    "year": 2011,
+    "famousProjects": [
+      "Project Everest",
+      "HACL* cryptography"
+    ],
+    "frameworks": {},
+    "quiz": {
+      "platforms": [
+        "systems"
+      ],
+      "backend": false,
+      "typing": "static",
+      "speed": "high"
+    },
+    "history": "F* (F star) is a dependently typed functional language from Microsoft Research and Inria for writing programs together with proofs. Project Everest used it to build verified TLS and cryptography code that now ships in Firefox and the Linux kernel.",
+    "website": "https://www.fstar-lang.org/"
+  },
+  "Fantom": {
+    "creator": "Brian Frank & Andy Frank",
+    "year": 2005,
+    "famousProjects": [
+      "SkySpark",
+      "Project Haystack tools"
+    ],
+    "frameworks": {
+      "web": [
+        "Tales",
+        "afBedSheet"
+      ]
+    },
+    "quiz": {
+      "platforms": [
+        "web-backend",
+        "desktop"
+      ],
+      "backend": true,
+      "typing": "static",
+      "speed": "moderate"
+    },
+    "history": "Fantom (originally Fan) was designed by brothers Brian and Andy Frank to run the same code on the JVM, .NET and in browsers. It mixes static and dynamic typing and became the basis of the SkySpark building-analytics platform.",
+    "website": "https://www.fantom.org/"
+  },
+  "Grain": {
+    "creator": "Oscar Spencer & Philip Blair",
+    "year": 2017,
+    "famousProjects": [
+      "Grain compiler"
+    ],
+    "frameworks": {},
+    "quiz": {
+      "platforms": [
+        "web-frontend",
+        "cli"
+      ],
+      "backend": false,
+      "typing": "static",
+      "speed": "moderate"
+    },
+    "history": "Grain was started by Oscar Spencer and Philip Blair as an ML-family language built from the ground up for WebAssembly. It offers type inference, pattern matching and a friendly standard library, all compiled to Wasm.",
+    "website": "https://grain-lang.org/"
+  },
+  "Imba": {
+    "creator": "Sindre Aarsaether",
+    "year": 2015,
+    "famousProjects": [
+      "Scrimba"
+    ],
+    "frameworks": {
+      "web": [
+        "Imba"
+      ]
+    },
+    "quiz": {
+      "platforms": [
+        "web-frontend",
+        "web-backend"
+      ],
+      "backend": true,
+      "typing": "dynamic",
+      "speed": "moderate"
+    },
+    "history": "Imba was created by Sindre Aarsaether as a language that compiles to JavaScript with HTML-like tags and styles built into the syntax. It powered the interactive coding platform Scrimba.",
+    "website": "https://imba.io/home"
+  },
+  "Inko": {
+    "creator": "Yorick Peterse",
+    "year": 2015,
+    "famousProjects": [
+      "Inko compiler"
+    ],
+    "frameworks": {},
+    "quiz": {
+      "platforms": [
+        "web-backend",
+        "cli"
+      ],
+      "backend": true,
+      "typing": "static",
+      "speed": "high"
+    },
+    "history": "Inko was created by Yorick Peterse to make concurrent software easy to write safely. It uses single ownership with move semantics and lightweight processes that share no memory, and compiles to native code through LLVM.",
+    "website": "https://inko-lang.org/"
+  },
+  "INTERCAL": {
+    "creator": "Don Woods & James M. Lyon",
+    "year": 1972,
+    "famousProjects": [
+      "C-INTERCAL",
+      "CLC-INTERCAL"
+    ],
+    "frameworks": {},
+    "quiz": {
+      "platforms": [
+        "esoteric"
+      ],
+      "backend": false,
+      "typing": "static",
+      "speed": "moderate"
+    },
+    "history": "INTERCAL (Compiler Language With No Pronounceable Acronym) was invented by Don Woods and James Lyon at Princeton as a parody of programming languages. It is the original esoteric language, famous for requiring programs to say PLEASE often enough, but not too often.",
+    "website": "http://www.catb.org/~esr/intercal/"
+  },
+  "Jakt": {
+    "creator": "Andreas Kling & SerenityOS contributors",
+    "year": 2022,
+    "famousProjects": [
+      "SerenityOS"
+    ],
+    "frameworks": {},
+    "quiz": {
+      "platforms": [
+        "systems",
+        "desktop"
+      ],
+      "backend": false,
+      "typing": "static",
+      "speed": "high"
+    },
+    "history": "Jakt was started by Andreas Kling and the SerenityOS community as a memory-safe language for the SerenityOS operating system. It uses automatic reference counting and transpiles to C++.",
+    "website": "https://github.com/SerenityOS/jakt"
+  },
+  "Jasmin": {
+    "creator": "Jonathan Meyer & Troy Downing",
+    "year": 1996,
+    "famousProjects": [
+      "Java Virtual Machine (book)"
+    ],
+    "frameworks": {},
+    "quiz": {
+      "platforms": [
+        "systems"
+      ],
+      "backend": false,
+      "typing": "static",
+      "speed": "high"
+    },
+    "history": "Jasmin was written by Jonathan Meyer and Troy Downing for their book 'Java Virtual Machine'. With no official JVM assembly language from Sun, it became the de facto way to write class files by hand and to target the JVM from teaching compilers.",
+    "website": "https://jasmin.sourceforge.net/"
+  },
+  "LFE": {
+    "creator": "Robert Virding",
+    "year": 2008,
+    "famousProjects": [
+      "LFE on the BEAM"
+    ],
+    "frameworks": {
+      "web": [
+        "lfest"
+      ]
+    },
+    "quiz": {
+      "platforms": [
+        "web-backend",
+        "cloud"
+      ],
+      "backend": true,
+      "typing": "dynamic",
+      "speed": "moderate"
+    },
+    "history": "LFE (Lisp Flavoured Erlang) was created by Robert Virding, one of the co-creators of Erlang. It is a Lisp with macros that compiles to the Erlang VM and interoperates fully with Erlang and OTP.",
+    "website": "https://lfe.io"
+  },
+  "LLVM IR": {
+    "creator": "Chris Lattner & Vikram Adve",
+    "year": 2003,
+    "famousProjects": [
+      "Clang",
+      "Rust compiler",
+      "Swift compiler"
+    ],
+    "frameworks": {
+      "systems": [
+        "LLVM"
+      ]
+    },
+    "quiz": {
+      "platforms": [
+        "systems"
+      ],
+      "backend": false,
+      "typing": "static",
+      "speed": "maximum"
+    },
+    "history": "LLVM began as Chris Lattner's research project under Vikram Adve at the University of Illinois. Its typed SSA intermediate representation became the shared back end of Clang, Rust, Swift, Julia and many other compilers.",
+    "website": "https://llvm.org/docs/LangRef.html"
+  },
+  "Lobster": {
+    "creator": "Wouter van Oortmerssen",
+    "year": 2013,
+    "famousProjects": [
+      "Lobster engine samples"
+    ],
+    "frameworks": {
+      "game": [
+        "Lobster engine (OpenGL)"
+      ]
+    },
+    "quiz": {
+      "platforms": [
+        "game"
+      ],
+      "backend": false,
+      "typing": "static",
+      "speed": "high"
+    },
+    "history": "Lobster was created by Wouter van Oortmerssen, also known for FlatBuffers and the Cube engine. It is a Python-like language with static type inference and compile-time reference counting, built for game programming.",
+    "website": "https://strlen.com/lobster/"
+  },
+  "Luau": {
+    "creator": "Roblox",
+    "year": 2019,
+    "famousProjects": [
+      "Roblox",
+      "Roblox Studio"
+    ],
+    "frameworks": {
+      "game": [
+        "Roblox Engine"
+      ]
+    },
+    "quiz": {
+      "platforms": [
+        "game"
+      ],
+      "backend": false,
+      "typing": "dynamic",
+      "speed": "moderate"
+    },
+    "history": "Luau was developed by Roblox from Lua 5.1 to script games on its platform. It adds gradual typing, a faster interpreter and sandboxing, and was open-sourced in 2021.",
+    "website": "https://luau.org/"
+  },
+  "M4": {
+    "creator": "Brian Kernighan & Dennis Ritchie",
+    "year": 1977,
+    "famousProjects": [
+      "GNU Autoconf",
+      "Sendmail configuration"
+    ],
+    "frameworks": {},
+    "quiz": {
+      "platforms": [
+        "cli"
+      ],
+      "backend": false,
+      "typing": "dynamic",
+      "speed": "moderate"
+    },
+    "history": "M4 was written by Brian Kernighan and Dennis Ritchie at Bell Labs as a macro processor for Unix. Text without macros passes straight through, which is why a plain line prints itself. GNU Autoconf and sendmail.cf generation still depend on it.",
+    "website": "https://www.gnu.org/software/m4/"
+  },
+  "Motoko": {
+    "creator": "DFINITY Foundation (Andreas Rossberg)",
+    "year": 2019,
+    "famousProjects": [
+      "Internet Computer canisters"
+    ],
+    "frameworks": {
+      "blockchain": [
+        "Internet Computer SDK"
+      ]
+    },
+    "quiz": {
+      "platforms": [
+        "web-backend",
+        "cloud"
+      ],
+      "backend": true,
+      "typing": "static",
+      "speed": "moderate"
+    },
+    "history": "Motoko was designed at the DFINITY Foundation, led by Andreas Rossberg (co-designer of WebAssembly), for writing smart contracts on the Internet Computer. Programs are actors with orthogonal persistence and compile to WebAssembly.",
+    "website": "https://docs.internetcomputer.org/"
+  },
+  "NetRexx": {
+    "creator": "Mike Cowlishaw (IBM)",
+    "year": 1996,
+    "famousProjects": [
+      "IBM Java tooling"
+    ],
+    "frameworks": {},
+    "quiz": {
+      "platforms": [
+        "desktop",
+        "cli"
+      ],
+      "backend": false,
+      "typing": "static",
+      "speed": "moderate"
+    },
+    "history": "NetRexx was created by Mike Cowlishaw at IBM, who also designed Rexx. It brings Rexx's readable syntax to the JVM with full Java class interoperability, and was the first alternative language for the Java platform.",
+    "website": "https://www.netrexx.org/"
+  },
+  "PARI/GP": {
+    "creator": "Henri Cohen et al. (Université de Bordeaux)",
+    "year": 1985,
+    "famousProjects": [
+      "L-functions and Modular Forms Database"
+    ],
+    "frameworks": {},
+    "quiz": {
+      "platforms": [
+        "data-science"
+      ],
+      "backend": false,
+      "typing": "dynamic",
+      "speed": "moderate"
+    },
+    "history": "PARI/GP was started by Henri Cohen's team at the Université de Bordeaux. PARI is a fast C library for number theory, and GP is its interactive scripting language, widely used for computations in algebraic number theory and elliptic curves.",
+    "website": "https://pari.math.u-bordeaux.fr/"
+  },
+  "Pyret": {
+    "creator": "Brown PLT (Shriram Krishnamurthi et al.)",
+    "year": 2012,
+    "famousProjects": [
+      "Bootstrap curriculum",
+      "code.pyret.org"
+    ],
+    "frameworks": {},
+    "quiz": {
+      "platforms": [
+        "web-frontend"
+      ],
+      "backend": false,
+      "typing": "dynamic",
+      "speed": "moderate"
+    },
+    "history": "Pyret was developed by the Brown University PLT group as a language for teaching programming. It mixes Python-like syntax with ideas from Racket and ML, and puts test blocks and optional annotations directly into the language.",
+    "website": "https://www.pyret.org/"
+  },
+  "Q": {
+    "creator": "Arthur Whitney (Kx Systems)",
+    "year": 2003,
+    "famousProjects": [
+      "kdb+ in high-frequency trading"
+    ],
+    "frameworks": {
+      "data": [
+        "kdb+"
+      ]
+    },
+    "quiz": {
+      "platforms": [
+        "data-science",
+        "web-backend"
+      ],
+      "backend": true,
+      "typing": "dynamic",
+      "speed": "maximum"
+    },
+    "history": "Q was written by Arthur Whitney at Kx Systems as a more readable layer over the K language, to query the kdb+ column-store database. It is a staple for storing and analysing tick data in investment banks and trading firms.",
+    "website": "https://code.kx.com/q/"
+  },
+  "Reason": {
+    "creator": "Jordan Walke (Facebook)",
+    "year": 2016,
+    "famousProjects": [
+      "Facebook Messenger web",
+      "ReasonReact"
+    ],
+    "frameworks": {
+      "web": [
+        "ReasonReact",
+        "Revery"
+      ]
+    },
+    "quiz": {
+      "platforms": [
+        "web-frontend",
+        "desktop"
+      ],
+      "backend": false,
+      "typing": "static",
+      "speed": "high"
+    },
+    "history": "Reason was created at Facebook by Jordan Walke, who also created React. It gives OCaml a syntax familiar to JavaScript developers and was used to rewrite large parts of the Messenger web client.",
+    "website": "https://reasonml.github.io/"
+  },
+  "Ring": {
+    "creator": "Mahmoud Fayed",
+    "year": 2016,
+    "famousProjects": [
+      "Ring IDE",
+      "PWCT 2.0"
+    ],
+    "frameworks": {
+      "desktop": [
+        "RingQt"
+      ],
+      "game": [
+        "RingAllegro"
+      ]
+    },
+    "quiz": {
+      "platforms": [
+        "desktop",
+        "game"
+      ],
+      "backend": false,
+      "typing": "dynamic",
+      "speed": "moderate"
+    },
+    "history": "Ring was designed by Mahmoud Fayed, author of the visual programming tool PWCT. It is a small dynamic language with natural-language and declarative programming features, and ships with Qt and game library bindings.",
+    "website": "https://ring-lang.github.io/"
+  },
+  "Seed7": {
+    "creator": "Thomas Mertes",
+    "year": 2005,
+    "famousProjects": [
+      "Seed7 standard library"
+    ],
+    "frameworks": {},
+    "quiz": {
+      "platforms": [
+        "cli",
+        "desktop"
+      ],
+      "backend": false,
+      "typing": "static",
+      "speed": "high"
+    },
+    "history": "Seed7 was created by Thomas Mertes, building on his 1989 dissertation language MASTER. Its syntax and statements are defined in libraries, so programmers can add new statements and operators to the language.",
+    "website": "https://seed7.net/"
+  },
+  "Teal": {
+    "creator": "Hisham Muhammad",
+    "year": 2020,
+    "famousProjects": [
+      "LuaRocks tooling",
+      "Kong plugins"
+    ],
+    "frameworks": {},
+    "quiz": {
+      "platforms": [
+        "game",
+        "cli"
+      ],
+      "backend": false,
+      "typing": "static",
+      "speed": "moderate"
+    },
+    "history": "Teal was created by Hisham Muhammad, author of LuaRocks and htop. It adds static types to Lua and compiles to plain Lua, so it runs anywhere Lua does.",
+    "website": "https://github.com/teal-language/tl"
+  },
+  "Underload": {
+    "creator": "Alex Smith (ais523)",
+    "year": 2007,
+    "famousProjects": [
+      "Esolang wiki"
+    ],
+    "frameworks": {},
+    "quiz": {
+      "platforms": [
+        "esoteric"
+      ],
+      "backend": false,
+      "typing": "dynamic",
+      "speed": "moderate"
+    },
+    "history": "Underload was created by Alex Smith (ais523) as a minimal stack-based language that works only on strings of commands. With just eight instructions it is Turing complete and a classic example of a concatenative esolang."
+  },
+  "Unison": {
+    "creator": "Paul Chiusano, Rúnar Bjarnason & Arya Irani",
+    "year": 2019,
+    "famousProjects": [
+      "Unison Cloud",
+      "Unison Share"
+    ],
+    "frameworks": {
+      "cloud": [
+        "Unison Cloud"
+      ]
+    },
+    "quiz": {
+      "platforms": [
+        "cloud",
+        "web-backend"
+      ],
+      "backend": true,
+      "typing": "static",
+      "speed": "moderate"
+    },
+    "history": "Unison was developed by Paul Chiusano, Rúnar Bjarnason and Arya Irani. Definitions are stored by the hash of their syntax tree rather than as text files, which removes builds and dependency conflicts and makes distributed computing easier.",
+    "website": "https://www.unison-lang.org/"
+  },
+  "Unlambda": {
+    "creator": "David Madore",
+    "year": 1999,
+    "famousProjects": [
+      "Unlambda interpreters"
+    ],
+    "frameworks": {},
+    "quiz": {
+      "platforms": [
+        "esoteric"
+      ],
+      "backend": false,
+      "typing": "dynamic",
+      "speed": "moderate"
+    },
+    "history": "Unlambda was created by David Madore as an obfuscated functional language built on the S and K combinators with no variables. Every program is a chain of applications written with backquotes.",
+    "website": "http://www.madore.org/~david/programs/unlambda/"
+  },
+  "Vim script": {
+    "creator": "Bram Moolenaar",
+    "year": 1998,
+    "famousProjects": [
+      "vim-plug",
+      "fugitive.vim",
+      "NERDTree"
+    ],
+    "frameworks": {
+      "desktop": [
+        "Vim plugins"
+      ]
+    },
+    "quiz": {
+      "platforms": [
+        "desktop",
+        "cli"
+      ],
+      "backend": false,
+      "typing": "dynamic",
+      "speed": "moderate"
+    },
+    "history": "Vim script grew out of Vim's Ex command language and became a full scripting language with Vim 5.0. Thousands of editor plugins are written in it, and Vim 9 introduced the faster, typed Vim9 script.",
+    "website": "https://www.vim.org/"
+  },
+  "XSLT": {
+    "creator": "W3C (James Clark, editor)",
+    "year": 1999,
+    "famousProjects": [
+      "DocBook XSL",
+      "DITA Open Toolkit"
+    ],
+    "frameworks": {
+      "web": [
+        "Saxon",
+        "libxslt"
+      ]
+    },
+    "quiz": {
+      "platforms": [
+        "markup",
+        "web-backend"
+      ],
+      "backend": true,
+      "typing": "dynamic",
+      "speed": "moderate"
+    },
+    "history": "XSLT was published by the W3C in 1999 with James Clark as editor. It is a declarative, functional language written in XML for transforming XML documents, and it drives publishing toolchains such as DocBook and DITA.",
+    "website": "https://www.w3.org/TR/xslt-30/"
+  },
+  "YueScript": {
+    "creator": "Li Jin",
+    "year": 2020,
+    "famousProjects": [
+      "Dora SSR game engine"
+    ],
+    "frameworks": {
+      "game": [
+        "Dora SSR"
+      ]
+    },
+    "quiz": {
+      "platforms": [
+        "game"
+      ],
+      "backend": false,
+      "typing": "dynamic",
+      "speed": "moderate"
+    },
+    "history": "YueScript was created by Li Jin as a fork of MoonScript, adding pipes, destructuring and macros while still compiling to Lua. It is the main scripting language of the Dora SSR game engine.",
+    "website": "https://yuescript.org/"
+  },
+  "Berry": {
+    "creator": "Guan Wenliang",
+    "year": 2018,
+    "famousProjects": [
+      "Tasmota firmware"
+    ],
+    "frameworks": {},
+    "quiz": {
+      "platforms": [
+        "embedded"
+      ],
+      "backend": false,
+      "typing": "dynamic",
+      "speed": "moderate"
+    },
+    "history": "Berry was created by Guan Wenliang as a very small scripting language for microcontrollers. It runs in a few dozen kilobytes of RAM and is the scripting language of the Tasmota firmware for ESP32 smart-home devices.",
+    "website": "https://berry-lang.github.io/"
+  },
+  "Umka": {
+    "creator": "Vasiliy Tereshkov",
+    "year": 2020,
+    "famousProjects": [
+      "Tophat game framework"
+    ],
+    "frameworks": {
+      "game": [
+        "Tophat"
+      ]
+    },
+    "quiz": {
+      "platforms": [
+        "game",
+        "embedded"
+      ],
+      "backend": false,
+      "typing": "static",
+      "speed": "moderate"
+    },
+    "history": "Umka was created by Vasiliy Tereshkov as an embeddable scripting language with Go-like syntax and static typing, aimed at catching errors before scripts run. It powers the Tophat 2D game framework.",
+    "website": "https://github.com/vtereshkov/umka-lang"
+  },
+  "Scilab": {
+    "creator": "INRIA & ENPC",
+    "year": 1994,
+    "famousProjects": [
+      "Xcos",
+      "ScicosLab"
+    ],
+    "frameworks": {
+      "data-science": [
+        "Xcos"
+      ]
+    },
+    "quiz": {
+      "platforms": [
+        "data-science"
+      ],
+      "backend": false,
+      "typing": "dynamic",
+      "speed": "moderate"
+    },
+    "history": "Scilab was developed at INRIA and ENPC in France and released as free software in 1994. It is a MATLAB-like environment for numerical computing, with the Xcos block-diagram simulator for modelling dynamic systems.",
+    "website": "https://www.scilab.org"
+  },
+  "KornShell": {
+    "creator": "David Korn",
+    "year": 1983,
+    "famousProjects": [
+      "AIX default shell",
+      "POSIX shell standard"
+    ],
+    "frameworks": {},
+    "quiz": {
+      "platforms": [
+        "cli"
+      ],
+      "backend": false,
+      "typing": "dynamic",
+      "speed": "moderate"
+    },
+    "history": "The KornShell was written by David Korn at Bell Labs. It combined Bourne shell compatibility with C shell interactive features and became the basis of the POSIX shell standard; it is still the default shell on AIX.",
+    "website": "https://kornshell.com/"
+  },
+  "rc": {
+    "creator": "Tom Duff",
+    "year": 1989,
+    "famousProjects": [
+      "Plan 9 from Bell Labs"
+    ],
+    "frameworks": {},
+    "quiz": {
+      "platforms": [
+        "cli"
+      ],
+      "backend": false,
+      "typing": "dynamic",
+      "speed": "moderate"
+    },
+    "history": "rc was written by Tom Duff at Bell Labs for Tenth Edition Unix and Plan 9. It replaced the Bourne shell's quoting rules with a simpler single-quote scheme and C-like control structures.",
+    "website": "http://doc.cat-v.org/plan_9/4th_edition/papers/rc"
+  },
+  "Gravity": {
+    "creator": "Marco Bambini (Creo)",
+    "year": 2017,
+    "famousProjects": [
+      "Creo app builder"
+    ],
+    "frameworks": {},
+    "quiz": {
+      "platforms": [
+        "mobile",
+        "desktop"
+      ],
+      "backend": false,
+      "typing": "dynamic",
+      "speed": "moderate"
+    },
+    "history": "Gravity was created by Marco Bambini as the scripting engine of the Creo app builder. It is a small class-based language with Swift-like syntax, written in C99 with no dependencies.",
+    "website": "https://github.com/marcobambini/gravity"
+  },
+  "Harbour": {
+    "creator": "Antonio Linares et al.",
+    "year": 1999,
+    "famousProjects": [
+      "Clipper application migrations"
+    ],
+    "frameworks": {
+      "desktop": [
+        "HMG",
+        "FiveWin"
+      ]
+    },
+    "quiz": {
+      "platforms": [
+        "desktop",
+        "web-backend"
+      ],
+      "backend": true,
+      "typing": "dynamic",
+      "speed": "high"
+    },
+    "history": "Harbour was started as a free, cross-platform compiler for the Clipper/xBase language used in countless DOS business applications. It keeps old Clipper code running on modern systems and adds objects and multithreading.",
+    "website": "https://harbour.github.io/"
+  },
+  "PureBasic": {
+    "creator": "Frédéric Laboureur (Fantaisie Software)",
+    "year": 1998,
+    "famousProjects": [
+      "SpiderBasic"
+    ],
+    "frameworks": {
+      "desktop": [
+        "PureBasic GUI library"
+      ]
+    },
+    "quiz": {
+      "platforms": [
+        "desktop",
+        "game"
+      ],
+      "backend": false,
+      "typing": "static",
+      "speed": "high"
+    },
+    "history": "PureBasic was created by Frédéric Laboureur, first for the Amiga and then for Windows, Linux and macOS. It compiles a BASIC dialect to small native executables without runtime dependencies.",
+    "website": "https://www.purebasic.com/"
+  },
+  "Modula-2": {
+    "creator": "Niklaus Wirth",
+    "year": 1978,
+    "famousProjects": [
+      "Lilith workstation OS",
+      "GNU Modula-2 (GCC)"
+    ],
+    "frameworks": {},
+    "quiz": {
+      "platforms": [
+        "systems",
+        "embedded"
+      ],
+      "backend": false,
+      "typing": "static",
+      "speed": "high"
+    },
+    "history": "Modula-2 was designed by Niklaus Wirth at ETH Zurich as Pascal's successor, adding modules with separate interfaces and low-level facilities. It was used to write the operating system of the Lilith workstation and is now part of GCC.",
+    "website": "https://www.nongnu.org/gm2/"
+  },
+  "Pyth": {
+    "creator": "isaacg (Isaac Grosof)",
+    "year": 2014,
+    "famousProjects": [
+      "Code Golf Stack Exchange"
+    ],
+    "frameworks": {},
+    "quiz": {
+      "platforms": [
+        "esoteric"
+      ],
+      "backend": false,
+      "typing": "dynamic",
+      "speed": "moderate"
+    },
+    "history": "Pyth was created by Isaac Grosof for code golf. Its single-character commands map onto Python features, and an unterminated string at the end of a program is printed automatically.",
+    "website": "https://github.com/isaacg1/pyth"
+  },
+  "Jelly": {
+    "creator": "Dennis Mitchell",
+    "year": 2015,
+    "famousProjects": [
+      "Code Golf Stack Exchange",
+      "Try It Online"
+    ],
+    "frameworks": {},
+    "quiz": {
+      "platforms": [
+        "esoteric"
+      ],
+      "backend": false,
+      "typing": "dynamic",
+      "speed": "moderate"
+    },
+    "history": "Jelly was created by Dennis Mitchell, who also built the Try It Online service. It is a tacit language inspired by J, with a custom 256-character code page so that each symbol fits in a single byte.",
+    "website": "https://github.com/DennisMitchell/jellylanguage"
+  },
+  "05AB1E": {
+    "creator": "Adnan (Adriandmen)",
+    "year": 2015,
+    "famousProjects": [
+      "Code Golf Stack Exchange"
+    ],
+    "frameworks": {},
+    "quiz": {
+      "platforms": [
+        "esoteric"
+      ],
+      "backend": false,
+      "typing": "dynamic",
+      "speed": "moderate"
+    },
+    "history": "05AB1E was created by Adnan for code golf. Its name is the hexadecimal reading of the word 'OSABIE', and it is a stack-based language with a large set of one-byte built-ins and implicit output.",
+    "website": "https://github.com/Adriandmen/05AB1E"
   }
 }

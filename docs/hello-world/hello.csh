@@ -1,4 +1,3 @@
-// C (Script)
 #include <stdio.h>
 
 int main() {

@@ -1,2 +1,1 @@
-# Tcl
 puts "Hello, World!"

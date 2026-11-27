@@ -1,4 +1,3 @@
-% Prolog
 :- initialization(main).
 
 main :-

@@ -1,4 +1,3 @@
-% Mercury
 :- module hello.
 :- interface.
 :- import_module io.

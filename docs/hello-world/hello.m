@@ -1,5 +1,3 @@
-// Objective-C
-
 #import <stdio.h>
 
 int main() {

@@ -1,2 +1,1 @@
-// Swift
 print("Hello, World!")

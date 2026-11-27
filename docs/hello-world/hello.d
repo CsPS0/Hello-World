@@ -1,4 +1,3 @@
-// D
 import std.stdio;
 
 void main()

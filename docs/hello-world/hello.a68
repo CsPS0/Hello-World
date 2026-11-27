@@ -1,2 +1,1 @@
-PR ALGOL 68
-PR print(("Hello, World!"))
+print(("Hello, World!", new line))

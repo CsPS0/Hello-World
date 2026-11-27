@@ -1,2 +1,1 @@
-\ Forth
 ." Hello, World!" CR

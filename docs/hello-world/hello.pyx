@@ -1,2 +1,1 @@
-# Cython
 print("Hello, World!")

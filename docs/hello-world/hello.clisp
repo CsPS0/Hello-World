@@ -1,2 +1,1 @@
-; Common Lisp (CLISP)
 (print "Hello, World!")

@@ -1,2 +1,1 @@
-; AutoHotkey
 MsgBox, Hello, World!

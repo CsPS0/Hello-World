@@ -1,4 +1,3 @@
-(* Component Pascal (BlackBox) *)
 MODULE Hello;
 IMPORT Out;
 BEGIN

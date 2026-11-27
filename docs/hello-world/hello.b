@@ -1,4 +1,3 @@
-# Limbo
 implement Hello;
 
 include "sys.m";

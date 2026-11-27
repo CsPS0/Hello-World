@@ -1,2 +1,1 @@
-// Io
 "Hello, World!" print

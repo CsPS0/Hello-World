@@ -1,4 +1,3 @@
--- Ada (Script)
 with Ada.Text_IO;
 
 procedure Hello_Script is

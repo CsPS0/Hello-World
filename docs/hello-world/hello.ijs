@@ -1,2 +1,1 @@
-NB. J
 Hello, World!

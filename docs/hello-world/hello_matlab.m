@@ -1,2 +1,1 @@
-% MATLAB
 disp('Hello, World!');

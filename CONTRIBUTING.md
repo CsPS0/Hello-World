@@ -31,7 +31,9 @@ After adding your file, update the build script's extension mapping:
 1. Open `docs/build.js`.
 2. Add your extension to `EXTENSION_MAP` with the language name and paradigm tags.
 3. If your file uses a disambiguated name, add it to `FILENAME_MAP` instead.
-4. Run `bun run build` to regenerate `languages.json`.
+4. Add the language to `PRISM_MAP` with the Prism grammar that highlights it (see the [Prism language list](https://prismjs.com/#supported-languages)). If Prism has none, use the closest relative or add a small grammar to `docs/prism-extra.js`. The build fails if a language has no grammar.
+5. Add an icon at `docs/icons/<slug>.svg`, where the slug is the base name in lowercase with `#` → `sharp`, `+` → `plus`, `*` → `star` and other punctuation as `-` (e.g. `csharp.svg`, `pl-i.svg`). Use a single-colour SVG: the site draws it as a mask in the theme colour, so colours are ignored and filled background shapes turn into solid blocks. Variants like "Ruby (Script)" reuse the base icon. Without a file, the site shows a two-letter placeholder.
+6. Run `bun run build` to regenerate `languages.json`.
 
 ### Paradigm Tags
 

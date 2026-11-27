@@ -1,2 +1,1 @@
--- SQL
 SELECT 'Hello, World!';

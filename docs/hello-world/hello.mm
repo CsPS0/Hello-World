@@ -1,4 +1,3 @@
-// Objective-C++
 #import <iostream>
 
 int main() {

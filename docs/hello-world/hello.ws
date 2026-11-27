@@ -1,4 +1,3 @@
- # Hello World in the Whitespace programming language (https://www.dcode.fr/whitespace-language)
    	  	   
 	
      		  	 	
