@@ -698,6 +698,36 @@
     ]
   },
   {
+    "name": "AsciiDoc",
+    "description": "Plain-text markup for documentation, articles and books",
+    "path": "hello-world/hello.adoc",
+    "tags": [
+      "markup"
+    ],
+    "slug": "asciidoc",
+    "prism": "asciidoc",
+    "icon": "icons/asciidoc.svg",
+    "creator": "Stuart Rackham",
+    "year": 2002,
+    "history": "Stuart Rackham created AsciiDoc in 2002 and released his Python processor for it in November 2002. A line starting with = is the document title, so this file renders the title Hello, World!",
+    "famousProjects": [],
+    "frameworks": {},
+    "quiz": {
+      "platforms": [
+        "markup"
+      ],
+      "backend": false,
+      "typing": "dynamic",
+      "speed": "moderate"
+    },
+    "website": "https://asciidoc.org/",
+    "released": "2002-11-25",
+    "releasedEvent": "First release of Stuart Rackham's AsciiDoc Python processor",
+    "sources": [
+      "https://en.wikipedia.org/wiki/AsciiDoc"
+    ]
+  },
+  {
     "name": "Assembly",
     "description": "Low-level language for direct hardware control",
     "path": "hello-world/hello.asm",
@@ -7625,6 +7655,36 @@
     ]
   },
   {
+    "name": "JSON",
+    "description": "JavaScript Object Notation, a lightweight data interchange format",
+    "path": "hello-world/hello.json",
+    "tags": [
+      "markup"
+    ],
+    "slug": "json",
+    "prism": "json",
+    "icon": "icons/json.svg",
+    "creator": "Douglas Crockford",
+    "year": 2001,
+    "history": "Douglas Crockford specified JSON in the early 2000s, and he and Chip Morningstar sent the first JSON message in April 2001; the JSON.org website launched the same year. It was first standardized in 2013 as ECMA-404. The file is an object whose message member holds Hello, World!",
+    "famousProjects": [],
+    "frameworks": {},
+    "quiz": {
+      "platforms": [
+        "markup"
+      ],
+      "backend": false,
+      "typing": "dynamic",
+      "speed": "high"
+    },
+    "website": "https://www.json.org/",
+    "released": "2001",
+    "releasedEvent": "JSON.org website launched; the first JSON message was sent in April 2001",
+    "sources": [
+      "https://en.wikipedia.org/wiki/JSON"
+    ]
+  },
+  {
     "name": "Jsonnet",
     "description": "Data templating language that extends JSON",
     "path": "hello-world/hello.jsonnet",
@@ -10495,6 +10555,36 @@
     ]
   },
   {
+    "name": "Org",
+    "description": "Outline markup of Org mode for GNU Emacs",
+    "path": "hello-world/hello.org",
+    "tags": [
+      "markup"
+    ],
+    "slug": "org",
+    "prism": "org",
+    "icon": "icons/org.svg",
+    "creator": "Carsten Dominik",
+    "year": 2003,
+    "history": "Carsten Dominik started Org mode for GNU Emacs in 2003, originally to organize his own life and work. Its plain-text format is built around outlines of headlines. A line starting with an asterisk is a top-level headline, so this file is an outline with the single heading Hello, World!",
+    "famousProjects": [],
+    "frameworks": {},
+    "quiz": {
+      "platforms": [
+        "markup"
+      ],
+      "backend": false,
+      "typing": "dynamic",
+      "speed": "moderate"
+    },
+    "website": "https://orgmode.org/",
+    "released": "2003",
+    "releasedEvent": "Initial release (year given in Wikipedia's infobox)",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Org-mode"
+    ]
+  },
+  {
     "name": "Oxygene",
     "description": "Modern Object Pascal for .NET, Java and native platforms",
     "path": "hello-world/hello_oxygene.pas",
@@ -12264,6 +12354,37 @@
     ]
   },
   {
+    "name": "reStructuredText",
+    "description": "Plain-text markup of the Python Docutils project",
+    "path": "hello-world/hello.rst",
+    "tags": [
+      "markup"
+    ],
+    "slug": "restructuredtext",
+    "prism": "rest",
+    "icon": "icons/restructuredtext.svg",
+    "creator": "David Goodger",
+    "year": 2001,
+    "history": "David Goodger found Zope's StructuredText in late 1999 while looking for a way to document Python modules, and reworked it into reStructuredText; the first draft of the specification went to the Python Doc-SIG in November 2000 and the first release followed in June 2001. In 2002 the project merged into Docutils. An underlined line becomes a title, so this file renders the heading Hello, World!",
+    "famousProjects": [],
+    "frameworks": {},
+    "quiz": {
+      "platforms": [
+        "markup"
+      ],
+      "backend": false,
+      "typing": "dynamic",
+      "speed": "moderate"
+    },
+    "website": "https://docutils.sourceforge.io/rst.html",
+    "released": "2001-06",
+    "releasedEvent": "Project website and first project release rolled out",
+    "sources": [
+      "https://docutils.sourceforge.io/docs/ref/rst/history.html",
+      "https://docutils.sourceforge.io/docs/ref/rst/introduction.html"
+    ]
+  },
+  {
     "name": "Retro",
     "description": "Minimalist modern Forth dialect",
     "path": "hello-world/hello.retro",
@@ -12574,6 +12695,35 @@
     "sources": [
       "https://en.wikipedia.org/wiki/RPL_(programming_language)",
       "https://www.manualslib.com/manual/277138/Hp-48gii.html?page=75"
+    ]
+  },
+  {
+    "name": "RTF",
+    "description": "Rich Text Format, Microsoft's document interchange format",
+    "path": "hello-world/hello.rtf",
+    "tags": [
+      "markup"
+    ],
+    "slug": "rtf",
+    "prism": "latex",
+    "icon": "icons/rtf.svg",
+    "creator": "Richard Brodie, Charles Simonyi and David Luebbert (Microsoft)",
+    "year": 1987,
+    "history": "Richard Brodie, Charles Simonyi and David Luebbert of the Microsoft Word team created the Rich Text Format, and the first reader and writer shipped in 1987 with Word 3.0 for Macintosh. Microsoft developed the format until 2008. A document is a group in braces that starts with \\rtf1, and word processors open this file as one paragraph reading Hello, World!",
+    "famousProjects": [],
+    "frameworks": {},
+    "quiz": {
+      "platforms": [
+        "markup"
+      ],
+      "backend": false,
+      "typing": "dynamic",
+      "speed": "moderate"
+    },
+    "released": "1987",
+    "releasedEvent": "First RTF reader and writer shipped with Microsoft Word 3.0 for Macintosh",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Rich_Text_Format"
     ]
   },
   {
@@ -13560,6 +13710,37 @@
     ]
   },
   {
+    "name": "SPSS",
+    "description": "Command syntax of the SPSS statistics package",
+    "path": "hello-world/hello.sps",
+    "tags": [
+      "scripting"
+    ],
+    "slug": "spss",
+    "prism": "sas",
+    "icon": "icons/spss.svg",
+    "creator": "Norman H. Nie, Dale H. Bent and C. Hadlai Hull",
+    "year": 1968,
+    "history": "Norman H. Nie, Dale H. Bent and C. Hadlai Hull released the first version of SPSS, the Statistical Package for the Social Sciences, in 1968; IBM now sells it as IBM SPSS Statistics. Analyses are written as commands that each end with a period. ECHO writes its quoted text to the output log, which shows Hello, World!",
+    "famousProjects": [],
+    "frameworks": {},
+    "quiz": {
+      "platforms": [
+        "data-science"
+      ],
+      "backend": false,
+      "typing": "dynamic",
+      "speed": "moderate"
+    },
+    "website": "https://www.ibm.com/products/spss-statistics",
+    "released": "1968",
+    "releasedEvent": "First version of SPSS released",
+    "sources": [
+      "https://en.wikipedia.org/wiki/SPSS",
+      "https://www.ibm.com/docs/en/spss-statistics/26.0.0?topic=reference-echo"
+    ]
+  },
+  {
     "name": "SQL",
     "description": "Hello World in SQL",
     "path": "hello-world/hello.sql",
@@ -14240,6 +14421,67 @@
     ]
   },
   {
+    "name": "Texinfo",
+    "description": "GNU documentation format for printed manuals and Info files",
+    "path": "hello-world/hello.texi",
+    "tags": [
+      "markup"
+    ],
+    "slug": "texinfo",
+    "prism": "texinfo",
+    "icon": "icons/texinfo.svg",
+    "creator": "Richard Stallman and Robert Chassell",
+    "year": 1986,
+    "history": "Richard Stallman created Texinfo, the documentation format of the GNU Project, first released in February 1986, and Robert Chassell helped him write the first translator to Info files in Emacs Lisp. makeinfo --plaintext turns this file into the top heading Hello, World! underlined with asterisks.",
+    "famousProjects": [],
+    "frameworks": {},
+    "quiz": {
+      "platforms": [
+        "markup"
+      ],
+      "backend": false,
+      "typing": "dynamic",
+      "speed": "moderate"
+    },
+    "website": "https://www.gnu.org/software/texinfo/",
+    "released": "1986-02",
+    "releasedEvent": "Initial release",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Texinfo"
+    ]
+  },
+  {
+    "name": "Textile",
+    "description": "Lightweight markup that converts to HTML",
+    "path": "hello-world/hello.textile",
+    "tags": [
+      "markup"
+    ],
+    "slug": "textile",
+    "prism": "textile",
+    "icon": "icons/textile.svg",
+    "creator": "Dean Allen",
+    "year": 2002,
+    "history": "Dean Allen developed Textile in 2002 and described it as a humane web text generator. A block signature such as h1. at the start of a paragraph chooses the HTML element. This file converts to an h1 heading reading Hello, World!",
+    "famousProjects": [],
+    "frameworks": {},
+    "quiz": {
+      "platforms": [
+        "markup"
+      ],
+      "backend": false,
+      "typing": "dynamic",
+      "speed": "moderate"
+    },
+    "website": "https://textile-lang.com/",
+    "released": "2002-12-26",
+    "releasedEvent": "Initial release",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Textile_(markup_language)",
+      "https://textile-lang.com/doc/headings"
+    ]
+  },
+  {
     "name": "Thue",
     "description": "Esoteric language built on nondeterministic string rewriting",
     "path": "hello-world/hello.thue",
@@ -14296,6 +14538,37 @@
     "sources": [
       "https://en.wikipedia.org/wiki/TI-81",
       "https://en.wikipedia.org/wiki/TI-BASIC"
+    ]
+  },
+  {
+    "name": "TOML",
+    "description": "Tom's Obvious Minimal Language for configuration files",
+    "path": "hello-world/hello.toml",
+    "tags": [
+      "markup"
+    ],
+    "slug": "toml",
+    "prism": "toml",
+    "icon": "icons/toml.svg",
+    "creator": "Tom Preston-Werner",
+    "year": 2013,
+    "history": "Tom Preston-Werner created TOML, whose name stands for Tom's Obvious Minimal Language, as a configuration format that maps unambiguously to a hash table. Version 0.1.0 came out on 17 March 2013. The file sets the key message to the string Hello, World!",
+    "famousProjects": [],
+    "frameworks": {},
+    "quiz": {
+      "platforms": [
+        "markup"
+      ],
+      "backend": false,
+      "typing": "static",
+      "speed": "high"
+    },
+    "website": "https://toml.io/",
+    "released": "2013-03-17",
+    "releasedEvent": "TOML 0.1.0 released",
+    "sources": [
+      "https://github.com/toml-lang/toml/blob/main/CHANGELOG.md",
+      "https://toml.io/en/"
     ]
   },
   {
@@ -15233,6 +15506,36 @@
     "sources": [
       "https://wren.io",
       "https://github.com/wren-lang/wren"
+    ]
+  },
+  {
+    "name": "XML",
+    "description": "Extensible Markup Language for structured documents and data",
+    "path": "hello-world/hello.xml",
+    "tags": [
+      "markup"
+    ],
+    "slug": "xml",
+    "prism": "markup",
+    "icon": "icons/xml.svg",
+    "creator": "W3C XML Working Group (editors Tim Bray, Jean Paoli and C. M. Sperberg-McQueen)",
+    "year": 1998,
+    "history": "XML 1.0 became a W3C Recommendation on 10 February 1998, edited by Tim Bray, Jean Paoli and C. M. Sperberg-McQueen as a subset of SGML for use on the web. A document has a single root element and any tag names the author chooses; this one is a greeting element containing Hello, World!",
+    "famousProjects": [],
+    "frameworks": {},
+    "quiz": {
+      "platforms": [
+        "markup"
+      ],
+      "backend": false,
+      "typing": "dynamic",
+      "speed": "moderate"
+    },
+    "website": "https://www.w3.org/XML/",
+    "released": "1998-02-10",
+    "releasedEvent": "XML 1.0 published as a W3C Recommendation",
+    "sources": [
+      "https://www.w3.org/TR/1998/REC-xml-19980210"
     ]
   },
   {

@@ -428,7 +428,17 @@ const EXTENSION_MAP = {
     ".xojo_code": {"name": "Xojo", "tags": ["oop","procedural"]},
     ".rpl": {"name": "RPL", "tags": ["procedural","functional"]},
     ".at": {"name": "AmbientTalk", "tags": ["oop","scripting"]},
-    ".avail": {"name": "Avail", "tags": ["oop","functional"]}
+    ".avail": {"name": "Avail", "tags": ["oop","functional"]},
+    ".xml": {"name": "XML", "tags": ["markup"]},
+    ".json": {"name": "JSON", "tags": ["markup"]},
+    ".toml": {"name": "TOML", "tags": ["markup"]},
+    ".rst": {"name": "reStructuredText", "tags": ["markup"]},
+    ".adoc": {"name": "AsciiDoc", "tags": ["markup"]},
+    ".org": {"name": "Org", "tags": ["markup"]},
+    ".textile": {"name": "Textile", "tags": ["markup"]},
+    ".rtf": {"name": "RTF", "tags": ["markup"]},
+    ".sps": {"name": "SPSS", "tags": ["scripting"]},
+    ".texi": {"name": "Texinfo", "tags": ["markup"]}
 };
 
 const FILENAME_MAP = {
@@ -890,7 +900,17 @@ const PRISM_MAP = {
     "RPL": "factor",
     "AmbientTalk": "javascript",
     "Avail": "clike",
-    "PowerBASIC": "basic"
+    "PowerBASIC": "basic",
+    "XML": "markup",
+    "JSON": "json",
+    "TOML": "toml",
+    "reStructuredText": "rest",
+    "AsciiDoc": "asciidoc",
+    "Org": "org",
+    "Textile": "textile",
+    "RTF": "latex",
+    "SPSS": "sas",
+    "Texinfo": "texinfo"
 };
 
 const DESCRIPTION_DEFAULTS = {
@@ -1221,7 +1241,17 @@ const DESCRIPTION_DEFAULTS = {
     "RPL": "Stack language of HP graphing calculators",
     "AmbientTalk": "Actor-based language for mobile devices in ad hoc networks",
     "Avail": "Multi-paradigm language whose syntax comes from its library",
-    "PowerBASIC": "Bob Zale's compiled BASIC, successor of Turbo Basic"
+    "PowerBASIC": "Bob Zale's compiled BASIC, successor of Turbo Basic",
+    "XML": "Extensible Markup Language for structured documents and data",
+    "JSON": "JavaScript Object Notation, a lightweight data interchange format",
+    "TOML": "Tom's Obvious Minimal Language for configuration files",
+    "reStructuredText": "Plain-text markup of the Python Docutils project",
+    "AsciiDoc": "Plain-text markup for documentation, articles and books",
+    "Org": "Outline markup of Org mode for GNU Emacs",
+    "Textile": "Lightweight markup that converts to HTML",
+    "RTF": "Rich Text Format, Microsoft's document interchange format",
+    "SPSS": "Command syntax of the SPSS statistics package",
+    "Texinfo": "GNU documentation format for printed manuals and Info files"
 };
 
 function getExtension(filename) {

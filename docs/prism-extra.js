@@ -302,6 +302,20 @@
         punctuation: /[。、]/
     };
 
+    L.org = {
+        comment: /^#(?!\+).*/m,
+        keyword: /^#\+\w+:?/m,
+        title: { pattern: /^\*+ .*/m, alias: 'important' },
+        bold: /\*[^*\s][^*\n]*\*/,
+        punctuation: /^[ \t]*[-+](?= )/m
+    };
+
+    L.texinfo = {
+        comment: /@c(?:omment)?\b.*/,
+        keyword: /\\input\b|@[A-Za-z]+/,
+        punctuation: /[{}]/
+    };
+
     // Whitespace: the program is the spaces and tabs, so make them visible
     L.whitespace = {
         comment: /[^ \t\n]+/,

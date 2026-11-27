@@ -1,0 +1,7 @@
+\input texinfo
+@settitle Hello, World!
+
+@node Top
+@top Hello, World!
+
+@bye
