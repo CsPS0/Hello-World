@@ -4192,6 +4192,37 @@
     ]
   },
   {
+    "name": "dBase",
+    "description": "Early microcomputer database management system whose command language founded the xBase family",
+    "path": "hello-world/hello_dbase.prg",
+    "tags": [
+      "procedural",
+      "scripting"
+    ],
+    "slug": "dbase",
+    "prism": "basic",
+    "icon": "icons/dbase.svg",
+    "creator": "C. Wayne Ratliff",
+    "year": 1978,
+    "history": "C. Wayne Ratliff, a contractor at JPL, ported the JPLDIS database program to PTDOS on his kit-built IMSAI 8080 and called it Vulcan. Ashton-Tate licensed the CP/M port and sold it as dBASE II, and other companies built their own variations of its language, the xBase products such as Clipper and FoxPro. The ? command starts a new line and displays Hello, World!. Wikipedia gives 1978 in its text and 1979 in its infobox.",
+    "famousProjects": [],
+    "frameworks": {},
+    "quiz": {
+      "platforms": [
+        "desktop"
+      ],
+      "backend": true,
+      "typing": "dynamic",
+      "speed": "moderate"
+    },
+    "released": "1978",
+    "releasedEvent": "Released as Vulcan for PTDOS",
+    "sources": [
+      "https://en.wikipedia.org/wiki/DBase",
+      "https://pic.hallikainen.org/techref/language/dbase/commands.htm"
+    ]
+  },
+  {
     "name": "dc",
     "description": "Reverse-Polish desk calculator",
     "path": "hello-world/hello.dc",
@@ -14963,6 +14994,40 @@
     ]
   },
   {
+    "name": "Toit",
+    "description": "Object-oriented, garbage-collected language for programming ESP32 microcontrollers and other connected devices",
+    "path": "hello-world/hello.toit",
+    "tags": [
+      "oop",
+      "scripting"
+    ],
+    "slug": "toit",
+    "prism": "python",
+    "icon": "icons/toit.svg",
+    "creator": "Toitware ApS",
+    "year": 2021,
+    "history": "Toit was built at the Danish company Toitware by a team of former Google employees whose earlier work included the V8 and Dart virtual machines; its compiler sources carry a 2018 Toitware copyright. In November 2021 the compiler, virtual machine and standard libraries were released on GitHub under LGPL-2.1. Programs start at a main: block and are run with toit run.",
+    "famousProjects": [],
+    "frameworks": {},
+    "quiz": {
+      "platforms": [
+        "embedded",
+        "cli"
+      ],
+      "backend": false,
+      "typing": "static",
+      "speed": "high"
+    },
+    "website": "https://toitlang.org/",
+    "released": "2021-11",
+    "releasedEvent": "Compiler, virtual machine and standard libraries open-sourced on GitHub",
+    "sources": [
+      "https://www.cnx-software.com/2021/11/28/toit-open-source-language-claims-to-be-30x-faster-than-micropython-on-esp32/",
+      "https://toit.io/company/about",
+      "https://github.com/toitlang/toit"
+    ]
+  },
+  {
     "name": "TOML",
     "description": "Tom's Obvious Minimal Language for configuration files",
     "path": "hello-world/hello.toml",
@@ -15691,6 +15756,36 @@
     "sources": [
       "https://news.microsoft.com/2002/02/13/microsoft-launches-xml-web-services-revolution-with-visual-studio-net-and-net-framework/",
       "https://learn.microsoft.com/dotnet/visual-basic/"
+    ]
+  },
+  {
+    "name": "Visual FoxPro",
+    "description": "Microsoft's object-oriented xBase language and database development environment for Windows",
+    "path": "hello-world/hello_foxpro.prg",
+    "tags": [
+      "oop",
+      "procedural"
+    ],
+    "slug": "visual-foxpro",
+    "prism": "basic",
+    "icon": "icons/visual-foxpro.svg",
+    "creator": "Microsoft",
+    "year": 1995,
+    "history": "Visual FoxPro descends from FoxPro, an xBase dialect that came to Microsoft when Fox Technologies merged with it in 1992, and version 3.0 in 1995 was the first Visual release. Version 9.0, released in December 2004, was the last, and its extended support ended in January 2015. MESSAGEBOX shows Hello, World! in a standard Windows message box.",
+    "famousProjects": [],
+    "frameworks": {},
+    "quiz": {
+      "platforms": [
+        "desktop"
+      ],
+      "backend": true,
+      "typing": "dynamic",
+      "speed": "moderate"
+    },
+    "released": "1995-06",
+    "releasedEvent": "Visual FoxPro 3.0 released",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Visual_FoxPro"
     ]
   },
   {

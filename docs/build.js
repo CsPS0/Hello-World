@@ -449,7 +449,8 @@ const EXTENSION_MAP = {
     ".fss": {"name": "Fortress", "tags": ["functional","oop"]},
     ".4dm": {"name": "4D", "tags": ["procedural","scripting"]},
     ".sra": {"name": "PowerBuilder", "tags": ["oop","procedural"]},
-    ".lil": {"name": "Lil", "tags": ["scripting","functional"]}
+    ".lil": {"name": "Lil", "tags": ["scripting","functional"]},
+    ".toit": {"name": "Toit", "tags": ["oop","scripting"]}
 };
 
 const FILENAME_MAP = {
@@ -488,7 +489,9 @@ const FILENAME_MAP = {
     "hello_powerbasic.bas": {"name": "PowerBASIC", "description": "Bob Zale's compiled BASIC, successor of Turbo Basic", "tags": ["procedural"]},
     "hello_souffle.dl": {"name": "Soufflé", "description": "Datalog variant that compiles logic programs to parallel C++ for program analysis", "tags": ["logic"]},
     "hello_openedge.p": {"name": "OpenEdge ABL", "description": "Progress Software's business application language with an integrated database (formerly Progress 4GL)", "tags": ["procedural","scripting"]},
-    "hello_jscript.js": {"name": "JScript", "description": "Microsoft's ECMAScript dialect for Internet Explorer and the Windows Script Host", "tags": ["scripting","oop"]}
+    "hello_jscript.js": {"name": "JScript", "description": "Microsoft's ECMAScript dialect for Internet Explorer and the Windows Script Host", "tags": ["scripting","oop"]},
+    "hello_dbase.prg": {"name": "dBase", "description": "Early microcomputer database management system whose command language founded the xBase family", "tags": ["procedural","scripting"]},
+    "hello_foxpro.prg": {"name": "Visual FoxPro", "description": "Microsoft's object-oriented xBase language and database development environment for Windows", "tags": ["oop","procedural"]}
 };
 
 // Prism grammar per language (variants fall back to their base name, "Ruby (Script)" -> "Ruby").
@@ -938,7 +941,10 @@ const PRISM_MAP = {
     "OpenEdge ABL": "basic",
     "PowerBuilder": "basic",
     "Lil": "clike",
-    "JScript": "javascript"
+    "JScript": "javascript",
+    "Toit": "python",
+    "dBase": "basic",
+    "Visual FoxPro": "basic"
 };
 
 const DESCRIPTION_DEFAULTS = {
@@ -1293,7 +1299,10 @@ const DESCRIPTION_DEFAULTS = {
     "OpenEdge ABL": "Progress Software's business application language with an integrated database (formerly Progress 4GL)",
     "PowerBuilder": "Rapid application development tool whose PowerScript language drives database client applications",
     "Lil": "Scripting language of the Decker multimedia sketchpad, with query and array features",
-    "JScript": "Microsoft's ECMAScript dialect for Internet Explorer and the Windows Script Host"
+    "JScript": "Microsoft's ECMAScript dialect for Internet Explorer and the Windows Script Host",
+    "Toit": "Object-oriented, garbage-collected language for programming ESP32 microcontrollers and other connected devices",
+    "dBase": "Early microcomputer database management system whose command language founded the xBase family",
+    "Visual FoxPro": "Microsoft's object-oriented xBase language and database development environment for Windows"
 };
 
 function getExtension(filename) {

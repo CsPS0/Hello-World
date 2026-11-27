@@ -12059,5 +12059,70 @@
       "https://en.wikipedia.org/wiki/JScript",
       "https://learn.microsoft.com/en-us/previous-versions/windows/internet-explorer/ie-developer/windows-scripting/h8f603s7(v=vs.84)"
     ]
+  },
+  "Toit": {
+    "creator": "Toitware ApS",
+    "year": 2021,
+    "famousProjects": [],
+    "frameworks": {},
+    "quiz": {
+      "platforms": [
+        "embedded",
+        "cli"
+      ],
+      "backend": false,
+      "typing": "static",
+      "speed": "high"
+    },
+    "history": "Toit was built at the Danish company Toitware by a team of former Google employees whose earlier work included the V8 and Dart virtual machines; its compiler sources carry a 2018 Toitware copyright. In November 2021 the compiler, virtual machine and standard libraries were released on GitHub under LGPL-2.1. Programs start at a main: block and are run with toit run.",
+    "website": "https://toitlang.org/",
+    "released": "2021-11",
+    "releasedEvent": "Compiler, virtual machine and standard libraries open-sourced on GitHub",
+    "sources": [
+      "https://www.cnx-software.com/2021/11/28/toit-open-source-language-claims-to-be-30x-faster-than-micropython-on-esp32/",
+      "https://toit.io/company/about",
+      "https://github.com/toitlang/toit"
+    ]
+  },
+  "dBase": {
+    "creator": "C. Wayne Ratliff",
+    "year": 1978,
+    "famousProjects": [],
+    "frameworks": {},
+    "quiz": {
+      "platforms": [
+        "desktop"
+      ],
+      "backend": true,
+      "typing": "dynamic",
+      "speed": "moderate"
+    },
+    "history": "C. Wayne Ratliff, a contractor at JPL, ported the JPLDIS database program to PTDOS on his kit-built IMSAI 8080 and called it Vulcan. Ashton-Tate licensed the CP/M port and sold it as dBASE II, and other companies built their own variations of its language, the xBase products such as Clipper and FoxPro. The ? command starts a new line and displays Hello, World!. Wikipedia gives 1978 in its text and 1979 in its infobox.",
+    "released": "1978",
+    "releasedEvent": "Released as Vulcan for PTDOS",
+    "sources": [
+      "https://en.wikipedia.org/wiki/DBase",
+      "https://pic.hallikainen.org/techref/language/dbase/commands.htm"
+    ]
+  },
+  "Visual FoxPro": {
+    "creator": "Microsoft",
+    "year": 1995,
+    "famousProjects": [],
+    "frameworks": {},
+    "quiz": {
+      "platforms": [
+        "desktop"
+      ],
+      "backend": true,
+      "typing": "dynamic",
+      "speed": "moderate"
+    },
+    "history": "Visual FoxPro descends from FoxPro, an xBase dialect that came to Microsoft when Fox Technologies merged with it in 1992, and version 3.0 in 1995 was the first Visual release. Version 9.0, released in December 2004, was the last, and its extended support ended in January 2015. MESSAGEBOX shows Hello, World! in a standard Windows message box.",
+    "released": "1995-06",
+    "releasedEvent": "Visual FoxPro 3.0 released",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Visual_FoxPro"
+    ]
   }
 }
