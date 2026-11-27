@@ -71,6 +71,15 @@
         number: /-?\b\d+\b/
     };
 
+    // Retro: 'word is a string (underscores are spaces), namespaced words like s:put
+    L.retro = {
+        comment: /\(\s[^)]*\)/,
+        string: { pattern: /(^|\s)'\S*/, lookbehind: true, greedy: true },
+        function: /\b[a-z]+:[\w'-]+/,
+        keyword: { pattern: /(^|\s)(?:[:;\[\]]|nl|if|-if|choose|repeat|again|times|dup|drop|swap)(?=\s|$)/m, lookbehind: true },
+        number: /(^|\s)#?-?\d+(?=\s|$)/m
+    };
+
     // 05AB1E, GolfScript, Jelly, Pyth: strings may be left open at end of program
     L.golf = {
         string: { pattern: /["“][^"”]*(?:["”]|$)/, greedy: true },
@@ -239,6 +248,44 @@
         string: /\.[\s\S]/,
         punctuation: /`/,
         keyword: /\?[\s\S]|[skivdcer@|]/
+    };
+
+    L.hq9 = {
+        keyword: /[HQ9+]/i
+    };
+
+    L.thue = {
+        string: { pattern: /(::=)~.*/, lookbehind: true, greedy: true },
+        operator: /::=/
+    };
+
+    L.turing = {
+        comment: [/%.*/, /\/\*[\s\S]*?\*\//],
+        string: dq,
+        keyword: words(['put', 'get', 'var', 'const', 'if', 'then', 'elsif', 'else', 'end', 'loop', 'exit', 'when', 'for',
+            'procedure', 'function', 'proc', 'fcn', 'result', 'return', 'type', 'record', 'array', 'of', 'int', 'real',
+            'string', 'boolean', 'case', 'label', 'begin', 'module', 'class', 'import', 'export']),
+        number,
+        operator: /:=|\.\.|[-+*\/=<>~]/
+    };
+
+    L.rpg = {
+        comment: /\/\/.*/,
+        directive: { pattern: /^\*\*free\b/im, alias: 'keyword' },
+        string: sq,
+        keyword: words(['dsply', 'return', 'dcl-s', 'dcl-c', 'dcl-ds', 'dcl-proc', 'end-proc', 'dcl-pi', 'end-pi', 'if',
+            'elseif', 'else', 'endif', 'dow', 'dou', 'enddo', 'for', 'endfor', 'select', 'when', 'other', 'endsl', 'eval'], 'i'),
+        constant: /\*\w+/,
+        number,
+        punctuation: /[();]/
+    };
+
+    L.wenyan = {
+        string: { pattern: /「「[\s\S]*?」」/, greedy: true },
+        variable: /「[^「」]*」/,
+        keyword: /吾有|今有|曰|名之|書之|為是|遍|云云|若|者|也|乃得|是謂/,
+        builtin: /[一言數爻列物術]/,
+        punctuation: /[。、]/
     };
 
     // Whitespace: the program is the spaces and tabs, so make them visible

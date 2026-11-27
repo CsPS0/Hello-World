@@ -1,0 +1,3 @@
+module Hello where
+
+main = println "Hello, World!"

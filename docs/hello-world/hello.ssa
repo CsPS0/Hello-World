@@ -1,0 +1,7 @@
+data $str = { b "Hello, World!", b 0 }
+
+export function w $main() {
+@start
+	%r =w call $puts(l $str)
+	ret 0
+}

@@ -1296,7 +1296,13 @@ document.addEventListener('DOMContentLoaded', () => {
 
         let html = `<div class="terminal-header-line">SYSTEM_DUMP: ${escapeHTML(lang.name.toUpperCase())} ECOSYSTEM MANIFEST</div>`;
         html += `CREATOR       : ${escapeHTML(String(lang.creator))}\n`;
-        html += `LAUNCH YEAR   : ${escapeHTML(String(lang.year || 'N/A'))}\n`;
+        if (lang.released) {
+            // Precision is whatever the sources state: YYYY-MM-DD, YYYY-MM or YYYY
+            const event = lang.releasedEvent ? ` (${escapeHTML(lang.releasedEvent)})` : '';
+            html += `RELEASED      : ${escapeHTML(String(lang.released))}${event}\n`;
+        } else {
+            html += `LAUNCH YEAR   : ${escapeHTML(String(lang.year || 'N/A'))}\n`;
+        }
         html += `FILE PARADIGM : ${lang.tags.map(t => escapeHTML(t.toUpperCase())).join(', ')}\n\n`;
 
         if (lang.history) {
@@ -1316,6 +1322,14 @@ document.addEventListener('DOMContentLoaded', () => {
             for (const [key, list] of Object.entries(lang.frameworks)) {
                 html += `[${escapeHTML(key.toUpperCase())}] : ${escapeHTML(list.join(', '))}\n`;
             }
+        }
+
+        const sources = (lang.sources || []).filter(u => /^https?:\/\//.test(u));
+        if (sources.length > 0) {
+            html += `\n<div class="terminal-section-title">SOURCES:</div>`;
+            sources.forEach(u => {
+                html += `- <a href="${escapeHTML(u)}" target="_blank" rel="noopener noreferrer">${escapeHTML(u)}</a>\n`;
+            });
         }
 
         hContent.innerHTML = html;
